@@ -45,6 +45,7 @@ a {
 
     &.primary {
         background: #FF4758 url("/static/assets/background/background.svg") repeat center center;
+        background-size: cover;
         padding: .3rem;
 
         & > span {
@@ -131,7 +132,8 @@ body {
         margin: 2.4rem 5rem;
         padding: .8rem 5.6rem 1.4rem 5.6rem;
         border-radius: 2rem;
-        background: #19009E url("../assets/background/bg-shade-blue.jpg") no-repeat;
+        background: #19009E url("../assets/background/bg-shade-blue.jpg") no-repeat bottom left;
+        z-index: 10;
 
         & > menu {
             flex-grow: 1;
