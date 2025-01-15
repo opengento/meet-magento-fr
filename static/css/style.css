@@ -1,0 +1,263 @@
+:root {
+    --text-color: #000;
+    --text-color-invert: #fff;
+}
+
+details > summary {
+    list-style: none;
+}
+details > summary::-webkit-details-marker {
+    display: none;
+}
+
+ul, menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+address {
+    font-style: normal;
+}
+
+/** CTA */
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+
+    &:visited {
+        color: var(--text-color);
+    }
+}
+
+.button {
+    display: inline-flex;
+    position: relative;
+    flex-flow: row nowrap;
+    align-items: center;
+    border-radius: 2.2rem;
+    padding: .8rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: #fff;
+    overflow: hidden;
+
+    &.primary {
+        background: #FF4758 url("/static/assets/background/background.svg") repeat center center;
+        padding: .3rem;
+
+        & > span {
+            display: flex;
+            align-items: center;
+            padding: .8rem 2rem;
+            border-radius: 2.7rem;
+            background-color: #fff;
+            line-height: 2.5rem;
+        }
+        img {
+            margin: 0 .5rem 0 0;
+        }
+    }
+
+    &.link {
+        border: .1rem solid #0066FA;
+        padding: .6rem .8rem .6rem 1.6rem;
+        color: #0066FA;
+        z-index: 1;
+
+        &::before {
+            content: "";
+            position: absolute;
+            background-color: #0066FA;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 100%;
+            transition: left .3s ease-in;
+        }
+        &:hover {
+            color: var(--text-color-invert);
+            transition: .3s ease-in;
+
+            &::before {
+                left: 0;
+            }
+        }
+
+        span {
+            z-index: 1;
+        }
+    }
+
+    .icon {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        padding: .4rem;
+        margin-left: .8rem;
+        border-radius: 50%;
+        background-color: #0066FA;
+        color: var(--text-color-invert);
+
+        img {
+            width: auto;
+            height: 2.4rem;
+        }
+    }
+}
+
+html {
+    font-size: 62.5%;
+    font-smooth: always;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--text-color);
+
+    & > nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        margin: 2.4rem 5rem;
+        padding: .8rem 5.6rem 1.4rem 5.6rem;
+        border-radius: 2rem;
+        background: #19009E url("../assets/background/bg-shade-blue.jpg") no-repeat;
+
+        & > menu {
+            flex-grow: 1;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-around;
+            align-items: center;
+
+            li {
+                a {
+                    color: var(--text-color-invert);
+                    font-weight: 600;
+                    &:visited {
+                        color: var(--text-color-invert);
+                    }
+                }
+            }
+        }
+    }
+
+    & > header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rebeccapurple;
+        min-height: 712px;
+        width: 100%;
+        color: var(--text-color-invert);
+
+        & > section {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+            max-width: 1060px;
+
+            h1, h2 {
+                font-style: normal;
+                font-weight: 600;
+                margin: 0;
+            }
+            h1 {
+                font-family: "Montserrat", sans-serif;
+                font-size: 4.8rem;
+                line-height: 5.8rem;
+            }
+
+            h2 {
+                display: inline-block;
+                position: relative;
+                font-size: 3rem;
+                line-height: 4rem;
+                z-index: 0;
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: -.7rem;
+                    width: calc(100% + 1.4rem);
+                    height: 1.7rem;
+                    background-color: #0066FA;
+                    z-index: -1;
+                }
+            }
+
+            article {
+                max-width: 620px;
+
+                p {
+                    font-family: "Montserrat", sans-serif;
+                    font-size: 2rem;
+                    font-weight: 400;
+                    line-height: 3rem;
+                    margin: 2.4rem 0 3.2rem;
+                }
+
+                ul {
+                    font-size: 0;
+
+                    li {
+                        display: inline-flex;
+                        align-items: center;
+                        margin-left: 1.2rem;
+                        padding: .8rem 2.5rem;
+                        border-radius: 2.5rem;
+                        background-color: rgba(222, 222, 222, .2);
+                        backdrop-filter: blur(8px);
+                        font-size: 1.6rem;
+
+                        img {
+                            margin-right: .8rem;
+                        }
+
+                        &:first-child {
+                            margin-left: 0;
+                        }
+                    }
+                }
+            }
+
+            aside {
+                display: flex;
+                flex-flow: column nowrap;
+                justify-content: center;
+                align-items: center;
+
+                .countdown {
+                    .time {
+                        display: block;
+                        font-size: 6.4rem;
+                        font-weight: 700;
+                        line-height: 7.2rem;
+                    }
+                    .timebar {
+                        display: flex;
+                        flex-flow: row nowrap;
+                        justify-content: space-between;
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        line-height: 2.1rem;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}
