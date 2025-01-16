@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
     <head>
         <meta charset="utf-8">
         <title>Meet Magento FR 2025</title>
@@ -12,7 +12,10 @@
     </head>
     <body>
         <nav>
-            <img src="/static/media/logo/mmfr2025-title.svg" alt="Meet Magento France 2025" width="197" height="61"/>
+            <picture class="logo">
+                <source srcset="/static/media/logo/mmfr25-full.svg" media="(max-width: 767px)" width="50" height="58"/>
+                <img src="/static/media/logo/mmfr2025-title.svg" alt="Meet Magento France 2025" width="197" height="61"/>
+            </picture>
             <menu>
                 <li><a href="#programme">Programme</a></li>
                 <li><a href="#speakers">Speakers</a></li>
@@ -26,6 +29,9 @@
                     <span>J'achète mon billet</span>
                 </span>
             </a>
+            <button type="button" class="burger-menu">
+                <img src="/static/assets/icons/burger.svg" alt="Menu" width="24" height="25"/>
+            </button>
         </nav>
         <header>
             <section>
@@ -301,38 +307,42 @@
             </section>
         </main>
         <footer>
-            <img src="/static/media/logo/mmfr25.svg" alt="Meet Magento France 2025" width="212" height="246"/>
             <section>
-                <h4>À propos de Meet Magento Paris 2025</h4>
-                <p>
-                    Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento.
-                    Elle rassemble des professionnels de Magento, des développeurs, des commerçants et des leaders du
-                    secteur de tout le pays pour discuter des dernières tendances, innovations et meilleures pratiques
-                    en matière de e-commerce.
-                </p>
-                <ul>
-                    <li><a href="#faq">FAQ & Contact</a></li>
-                    <li><a href="" target="_blank" rel="noreferrer noopener">Billetterie</a></li>
-                    <li><a href="#sponsors">Sponsors</a></li>
-                    <li>Politique de confidentialité</li>
-                    <li>Mentions légales</li>
-                    <li>Code de conduite</li>
-                    <li>Les organisateurs</li>
-                </ul>
-                <p>Avec le soutien de <a href="https://www.magentoassociation.org/" target="_blank" rel="noreferrer noopener"><img src="/static/media/logo/magento-assocation.png" alt="Magento Association" width="454" height="62"/></a></p>
-                <p class="copyright">&copy; Meet Magento Paris. Tous droits réservés. Réalisé par Dn'D et Opengento</p>
-                <ul class="social">
-                    <li>
-                        <a href="" target="_blank" rel="noreferrer noopener">
-                            <img src="/static/media/logo/linkedin.svg" alt="linkedin"/>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" target="_blank" rel="noreferrer noopener">
-                            <img src="/static/media/logo/youtube.svg" alt="linkedin"/>
-                        </a>
-                    </li>
-                </ul>
+                <article>
+                    <img src="/static/media/logo/mmfr25.svg" class="logo" alt="Meet Magento France 2025" width="212" height="246"/>
+                </article>
+                <article>
+                    <h4>À propos de Meet Magento Paris 2025</h4>
+                    <p>
+                        Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento.
+                        Elle rassemble des professionnels de Magento, des développeurs, des commerçants et des leaders du
+                        secteur de tout le pays pour discuter des dernières tendances, innovations et meilleures pratiques
+                        en matière de e-commerce.
+                    </p>
+                    <ul class="links">
+                        <li><a href="#faq">FAQ & Contact</a></li>
+                        <li><a href="" target="_blank" rel="noreferrer noopener">Billetterie</a></li>
+                        <li><a href="#sponsors">Sponsors</a></li>
+                        <li>Politique de confidentialité</li>
+                        <li>Mentions légales</li>
+                        <li>Code de conduite</li>
+                        <li>Les organisateurs</li>
+                    </ul>
+                    <p class="ma-support">Avec le soutien de <a href="https://www.magentoassociation.org/" target="_blank" rel="noreferrer noopener"><img src="/static/media/logo/magento-assocation.png" alt="Magento Association" width="454" height="62"/></a></p>
+                    <p class="copyright"><span>&copy; Meet Magento Paris.</span> Tous droits réservés. Réalisé par Dn'D et Opengento.</p>
+                    <ul class="socials">
+                        <li>
+                            <a href="https://www.linkedin.com/company/meet-magento-france" target="_blank" rel="noreferrer noopener">
+                                <img src="/static/media/logo/linkedin.svg" alt="linkedin" width="32" height="33"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/@opengento1877" target="_blank" rel="noreferrer noopener">
+                                <img src="/static/media/logo/youtube.svg" alt="linkedin" width="32" height="33"/>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
             </section>
         </footer>
         <script>
