@@ -1,0 +1,48 @@
+import { ReactNode } from "react";
+import Image from "next/image";
+
+interface BackgroundImageProps {
+  children: ReactNode;
+  imagePath: string;
+  className?: string;
+  overlayColor?: string;
+  blurAmount?: "none" | "sm" | "md" | "lg";
+  priority?: boolean;
+}
+
+const BackgroundImage = ({
+  children,
+  imagePath,
+  className = "",
+  overlayColor = "",
+  blurAmount = "none",
+  priority = false,
+}: BackgroundImageProps) => {
+  const blurValues = {
+    none: "",
+    sm: "backdrop-blur-sm",
+    md: "backdrop-blur-md",
+    lg: "backdrop-blur-lg",
+  };
+
+  return (
+    <div className={`relative ${className}`}>
+      <div className="absolute inset-0 overflow-hidden rounded-xl">
+        <Image
+          src={imagePath}
+          alt=""
+          fill
+          className="object-cover object-center"
+          priority={priority}
+          quality={90}
+        />
+      </div>
+      <div
+        className={`absolute inset-0 rounded-xl ${overlayColor} ${blurValues[blurAmount]}`}
+      />
+      <div className="relative">{children}</div>
+    </div>
+  );
+};
+
+export default BackgroundImage;
