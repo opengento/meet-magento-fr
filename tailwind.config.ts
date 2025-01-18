@@ -16,6 +16,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        royalBlue: "#19009E",
       },
     },
   },
