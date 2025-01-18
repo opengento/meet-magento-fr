@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-ibm-plex-sans-condensed)'],
+        alt: ['var(--font-montserrat)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
