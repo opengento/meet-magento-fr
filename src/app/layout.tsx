@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Condensed, Montserrat } from "next/font/google";
-import "./globals.css";
+import "/public/styles.css";
 import Footer from "@/layouts/Footer/Footer";
 
 const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr">
+    <html className="font-sans" lang="fr">
       <body
         className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased`}
       >
