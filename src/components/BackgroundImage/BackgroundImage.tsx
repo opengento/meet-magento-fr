@@ -1,13 +1,6 @@
-import { ReactNode } from "react";
 import Image from "next/image";
-interface BackgroundImageProps {
-    children: ReactNode;
-    imagePath: string;
-    className?: string;
-    overlayColor?: string;
-    blurAmount?: "none" | "sm" | "md" | "lg";
-    priority?: boolean;
-}
+import { BackgroundImageProps } from "./BackgroundImage.types";
+
 const BackgroundImage = ({
                              children,
                              imagePath,
