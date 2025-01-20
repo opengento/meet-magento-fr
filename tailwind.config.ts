@@ -17,6 +17,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         royalBlue: "#19009E",
+        orange: "#EE6524",
       },
     },
   },
