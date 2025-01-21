@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#phpstorm
+.idea
+
+# tailwind generated styles.css
+public/styles.css
