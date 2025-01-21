@@ -8,10 +8,10 @@ interface ContainerProps {
 }
 
 const Container = ({
-                       children,
-                       className,
-                       size = "default",
-                   }: ContainerProps) => {
+   children,
+   className,
+   size = "default",
+}: ContainerProps) => {
     return (
         <div
             className={classNames(

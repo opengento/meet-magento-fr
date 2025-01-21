@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { IBM_Plex_Sans_Condensed, Montserrat } from "next/font/google";
 import "/public/styles.css";
+import Container from "@/layouts/Container";
+import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
 
 const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
@@ -34,8 +36,11 @@ export default function RootLayout({
       <body
         className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased`}
       >
-        {children}
-        <Footer />
+        <Container size="large">
+          <Header />
+          <main>{children}</main>
+            <Footer />
+        </Container>
       </body>
     </html>
   );
