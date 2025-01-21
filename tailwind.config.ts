@@ -18,6 +18,10 @@ export default {
         foreground: "var(--foreground)",
         royalBlue: "#19009E",
         orange: "#EE6524",
+        primary: {
+          900: "#25035F",
+          DEFAULT: "#0066FA",
+        },
       },
     },
   },

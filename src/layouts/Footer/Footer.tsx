@@ -99,7 +99,7 @@ const Footer  = () => {
     return(
         <footer className="relative bg-royalBlue rounded-t-3xl overflow-hidden pl-7">
             <FooterPattern className="absolute top-0 left-0 h-full" />
-            <BackgroundImage imagePath="/images/background_header.jpg" priority>
+            <BackgroundImage imagePath="/images/bg-gradiant-blue.jpg" priority>
                 <Container size="large">
                     <div className="flex gap-24 py-14 w-full justify-between">
                         <FooterLogo className="hidden md:block shrink-0 ml-12" />
