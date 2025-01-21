@@ -14,7 +14,7 @@ interface LinkContent {
 interface ComponentContent {
     type: 'component';
     component: ElementType;
-    props: Record<string, any>;
+    props: Record<string, string>;
 }
 
 export type Content = ReactNode | LinkContent | ComponentContent;

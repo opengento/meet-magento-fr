@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import Image from "next/image";
 import { BackgroundImageProps } from "./BackgroundImage.types";
 
