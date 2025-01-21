@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Link from "next/link";
-import { ListItemProps, ListProps, ListItem, Content } from "@/components/List/List.types";
+import { ListItemProps, ListProps, ListItem, Content, ListLink, ListComponent } from "@/components/List/List.types";
 
 const ListItemComponent = ({ children, className = '' }: ListItemProps) => (
     <li className={`marker:text-orange ${className}`}>
@@ -40,27 +40,30 @@ export const List = ({
         className,
     ].join(' ');
 
-    const renderContent = (content: Content): ReactNode => {
-        if (content === null || content === undefined) {
-            return null;
-        }
+    const isLink = (content: Content): content is ListLink => {
+        return content !== null && typeof content === 'object' && 'type' in content && content.type === 'link';
+    }
 
-        if (typeof content === 'object' && 'type' in content) {
-            if (content.type === 'link') {
-                return (
-                    <Link
-                        href={content.href}
-                        target={content.target}
-                        className="text-white hover:text-orange"
-                    >
-                        {content.text}
-                    </Link>
-                );
-            }
-            if (content.type === 'component') {
-                const Component = content.component;
-                return <Component {...content.props} />;
-            }
+    const isComponent = (content: Content): content is ListComponent => {
+        return content !== null && typeof content === 'object' && 'type' in content && content.type === 'component';
+    }
+
+    const renderContent = (content: Content): ReactNode => {
+        if (isLink(content)) {
+            return (
+                <Link
+                    href={content.href}
+                    target={content.target}
+                    className="text-white hover:text-orange"
+                >
+                    {content.text}
+                </Link>
+            );
+        }
+        if (isComponent(content)) {
+            const Component = content.component;
+
+            return <Component {...content.props} />;
         }
 
         return content;

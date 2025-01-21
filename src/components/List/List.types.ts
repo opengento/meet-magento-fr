@@ -17,6 +17,8 @@ interface ComponentContent {
     props: Record<string, string>;
 }
 
+export type ListLink = LinkContent;
+export type ListComponent = ComponentContent;
 export type Content = ReactNode | LinkContent | ComponentContent;
 
 export type ListItem = {
