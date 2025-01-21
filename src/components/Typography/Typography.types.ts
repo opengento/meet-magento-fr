@@ -5,6 +5,10 @@ type Color = 'primary' | 'secondary' | 'success' | 'error' | 'warning' | 'info' 
 type Weight = 'thin' | 'light' | 'normal' | 'medium' | 'semibold' | 'bold' | 'extrabold';
 type Align = 'left' | 'center' | 'right' | 'justify';
 
+export type TypographyVariant = Variant;
+export type TypographyColor = Color;
+export type TypographyWeight = Weight;
+export type TypographyAlign = Align;
 export type TypographyProps = {
     variant?: Variant;
     color?: Color;

@@ -1,4 +1,5 @@
-import { TypographyProps } from "@/components/Typography/Typography.types";
+import { TypographyProps, TypographyVariant, TypographyColor, TypographyWeight, TypographyAlign } from "@/components/Typography/Typography.types";
+import React from "react";
 
 const Typography = ({
                         variant = 'body1',
@@ -8,7 +9,7 @@ const Typography = ({
                         className = '',
                         children,
                     }: TypographyProps) => {
-    const variants = {
+    const variants: Record<TypographyVariant, string> = {
         h1: 'text-4xl md:text-5xl lg:text-6xl',
         h2: 'text-3xl md:text-4xl lg:text-5xl',
         h3: 'text-2xl md:text-3xl lg:text-4xl',
@@ -24,7 +25,7 @@ const Typography = ({
         overline: 'text-xs uppercase tracking-wider',
     };
 
-    const colors = {
+    const colors: Record<TypographyColor, string> = {
         primary: 'text-blue-600 dark:text-blue-400',
         secondary: 'text-purple-600 dark:text-purple-400',
         success: 'text-green-600 dark:text-green-400',
@@ -35,7 +36,7 @@ const Typography = ({
         dark: 'text-gray-900 dark:text-white',
     };
 
-    const weights = {
+    const weights: Record<TypographyWeight, string> = {
         thin: 'font-thin',
         light: 'font-light',
         normal: 'font-normal',
@@ -45,14 +46,12 @@ const Typography = ({
         extrabold: 'font-extrabold',
     };
 
-    const alignments = {
+    const alignments: Record<TypographyAlign, string> = {
         left: 'text-left',
         center: 'text-center',
         right: 'text-right',
         justify: 'text-justify',
     };
-
-    const Element = variant.startsWith('h') ? variant : 'p';
 
     const classes = [
         variants[variant],
@@ -62,10 +61,10 @@ const Typography = ({
         className,
     ].join(' ');
 
-    return (
-        <Element className={classes}>
-            {children}
-        </Element>
+    return React.createElement(
+        variant.startsWith('h') ? variant : 'p',
+        {className: classes},
+        children
     );
 };
 
