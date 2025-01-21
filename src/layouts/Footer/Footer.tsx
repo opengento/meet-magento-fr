@@ -5,12 +5,13 @@ import { List as FooterMenu } from "@/components/List/List";
 import Container from "@/layouts/Container";
 import FooterLogo from "/public/images/logo_macaron.svg";
 import FooterPattern from "/public/images/footer_pattern.svg";
+import {Content, ListItem} from "@/components/List/List.types";
 
 const footerMenuItemLinkStyles = "font-semibold hover:text-orange w-1/2 mb-2";
 const footerMenuItemStyles = "-m-4 list-none mb-2";
 
 const Footer  = () => {
-    const footerMenuItems = [
+    const footerMenuItems: (ListItem | Content)[] = [
         {
             content: {
                 type: 'link',
@@ -61,7 +62,7 @@ const Footer  = () => {
         }
     ];
 
-    const footerMenuItemsLastCol = [
+    const footerMenuItemsLastCol: (ListItem | Content)[] = [
         {
             content: {
                 type: 'link',

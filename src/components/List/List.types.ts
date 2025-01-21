@@ -2,7 +2,7 @@ import { ReactNode, ElementType } from 'react';
 
 type ListType = 'unordered' | 'ordered';
 type BulletStyle = 'disc' | 'circle' | 'square' | 'decimal' | 'none';
-type ListSpacing = 'tight' | 'normal' | 'relaxed';
+type ListSpacing = 'none' | 'tight' | 'normal' | 'relaxed';
 
 interface LinkContent {
     type: 'link';
