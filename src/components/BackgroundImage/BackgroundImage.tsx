@@ -28,7 +28,7 @@ const BackgroundImage = ({
 
   return (
     <div className={`relative ${className}`}>
-      <div className="absolute inset-0 overflow-hidden rounded-xl">
+      <div className="absolute inset-0 overflow-hidden">
         <Image
           src={imagePath}
           alt=""
@@ -39,7 +39,7 @@ const BackgroundImage = ({
         />
       </div>
       <div
-        className={`absolute inset-0 rounded-xl ${overlayColor} ${blurValues[blurAmount]}`}
+        className={`absolute inset-0 ${overlayColor} ${blurValues[blurAmount]}`}
       />
       <div className="relative">{children}</div>
     </div>
