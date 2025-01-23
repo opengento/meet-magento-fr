@@ -39,8 +39,8 @@ export default function RootLayout({
         <Container size="large">
           <Header />
           <main>{children}</main>
-          <Footer />
         </Container>
+        <Footer />
       </body>
     </html>
   );
