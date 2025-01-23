@@ -38,8 +38,8 @@ export default function RootLayout({
       >
         <Container size="large">
           <Header />
-          <main>{children}</main>
         </Container>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
