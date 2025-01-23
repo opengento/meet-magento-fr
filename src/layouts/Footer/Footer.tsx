@@ -4,7 +4,7 @@ import Typography from "@/components/Typography/Typography";
 import { List as FooterMenu } from "@/components/List/List";
 import Container from "@/layouts/Container";
 import FooterLogo from "/public/images/logo_macaron.svg";
-import HashtagMM25 from "/public/images/mmfr2025-footer.svg";
+import HashtagMMFR from "/public/images/mmfr2025-footer.svg";
 import FooterPatternLeft from "/public/images/footer_pattern_left.svg";
 import FooterPatternRight from "/public/images/footer_pattern_right.svg";
 import {Content, ListItem} from "@/components/List/List.types";
@@ -43,7 +43,7 @@ const Footer  = () => {
         {
             content: {
                 type: 'link',
-                href: '#legals',
+                href: '/legal-terms',
                 text: 'Mentions Légales'
             },
             className: footerMenuItemLinkStyles
@@ -59,7 +59,7 @@ const Footer  = () => {
         {
             content: {
                 type: 'link',
-                href: '#code',
+                href: '/code-of-conduct',
                 text: 'Code de conduite'
             },
             className: footerMenuItemLinkStyles
@@ -127,7 +127,7 @@ const Footer  = () => {
                 </Container>
                 <div className="px-10">
                     <div className="flex justify-center ">
-                        <HashtagMM25 className="relative z-20 w-full max-w-[100%] h-auto" />
+                        <HashtagMMFR className="relative z-20 w-full max-w-[100%] h-auto" />
                         <FooterPatternRight className="absolute hidden md:block z-10 bottom-8 right-0" />
                     </div>
                 </div>
