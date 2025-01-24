@@ -33,6 +33,6 @@ Raise a new [request](https://github.com/opengento/meet-magento-fr/issues) to th
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) details.
+This project is licensed under the proprietor License.
 
 ***That's all folks!***
