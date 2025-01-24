@@ -15,6 +15,9 @@ const footerMenuItemLinkStyles = "font-semibold hover:text-orange w-1/2 mb-2";
 const footerMenuItemStyles = "-m-4 list-none mb-2";
 
 const Footer  = () => {
+    const linkedinUrl: string = 'https://www.linkedin.com/company/meet-magento-france';
+    const youtubeUrl: string = 'https://www.youtube.com/@opengento1877';
+
     const footerMenuItems: (ListItem | Content)[] = [
         {
             content: {
@@ -117,10 +120,10 @@ const Footer  = () => {
                         </div>
                     </div>
                     <div className="flex relative z-20 gap-3 justify-end mb-6">
-                        <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#linkedin">
+                        <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full" href={linkedinUrl} target="_blank" rel="noopener">
                             <FaLinkedinIn color="royalBlue" size={16} />
                         </Link>
-                        <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full" href="#youtube">
+                        <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full" href={youtubeUrl} target="_blank" rel="noopener">
                             <FaYoutube color="royalBlue" size={16}/>
                         </Link>
                     </div>
