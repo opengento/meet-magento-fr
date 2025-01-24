@@ -10,7 +10,7 @@ const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
   display: "swap",
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
-  style: ["normal", "italic"]
+  style: ["normal", "italic"],
 });
 
 const montserrat = Montserrat({
@@ -18,12 +18,13 @@ const montserrat = Montserrat({
   display: "swap",
   weight: ["300", "600", "700"],
   subsets: ["latin"],
-  style: ["normal"]
+  style: ["normal"],
 });
 
 export const metadata: Metadata = {
   title: "Meet Magento France 2025",
-  description: "Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento. Elle rassemble des professionnels de Magento, des développeurs, des commerçants et des leaders du secteur de tout le pays pour discuter des dernières tendances, innovations et meilleures pratiques en matière de e-commerce.",
+  description:
+    "Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento. Elle rassemble des professionnels de Magento, des développeurs, des commerçants et des leaders du secteur de tout le pays pour discuter des dernières tendances, innovations et meilleures pratiques en matière de e-commerce.",
 };
 
 export default function RootLayout({
@@ -34,7 +35,7 @@ export default function RootLayout({
   return (
     <html className="font-sans" lang="fr">
       <body
-        className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased`}
+        className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased bg-camel`}
       >
         <Container size="large">
           <Header />
