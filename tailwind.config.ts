@@ -10,16 +10,23 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['var(--font-ibm-plex-sans-condensed)'],
-        alt: ['var(--font-montserrat)'],
+        sans: ["var(--font-ibm-plex-sans-condensed)"],
+        alt: ["var(--font-montserrat)"],
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         royalBlue: "#19009E",
+        royalPink: "#FF7DD1",
         orange: "#EE6524",
+        camel: "rgba(255, 212, 181, 0.15)",
+        purple: {
+          DEFAULT: "#6629B0",
+          100: "rgba(102, 41, 176, 0.05)",
+        },
         primary: {
           900: "#25035F",
+          100: "rgba(0, 102, 250, 0.1)",
           DEFAULT: "#0066FA",
         },
       },
