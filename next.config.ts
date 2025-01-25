@@ -9,6 +9,5 @@ const nextConfig: NextConfig = {
         return config;
     }
 };
-nextConfig.output = 'export';
 
 export default nextConfig;
