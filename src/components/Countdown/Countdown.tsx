@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, {useEffect, useState} from 'react';
 
-const CountdownTimer = ({ targetDate }) => {
+const CountdownTimer = ({targetDate}) => {
     const [timeLeft, setTimeLeft] = useState({
-        days: 0,
-        hours: 0,
-        minutes: 0
+        days: '00',
+        hours: '00',
+        minutes: '00'
     });
 
     useEffect(() => {
@@ -12,11 +12,11 @@ const CountdownTimer = ({ targetDate }) => {
             const difference = new Date(targetDate).getTime() - new Date().getTime();
 
             if (difference > 0) {
-                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
-                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const days = String(Math.floor(difference / (1000 * 60 * 60 * 24))).padStart(2, '0');
+                const hours = String(Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60))).padStart(2, '0');
+                const minutes = String(Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60))).padStart(2, '0');
 
-                setTimeLeft({ days, hours, minutes });
+                setTimeLeft({days, hours, minutes});
             }
         };
 
