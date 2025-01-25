@@ -1,7 +1,7 @@
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
-import Sponsor from "@/layouts/SponsorList/Sponsor/Sponsor";
-import {SponsorProps, SponsorTypeProps} from "@/layouts/SponsorList/Sponsor/Sponsor.types";
-import {SponsorListProps} from "@/layouts/SponsorList/SponsorListProps";
+import Sponsor from "@/components/SponsorList/Sponsor/Sponsor";
+import {SponsorProps, SponsorTypeProps} from "@/components/SponsorList/Sponsor/Sponsor.types";
+import {SponsorListProps} from "@/components/SponsorList/SponsorListProps";
 import Container from "@/layouts/Container";
 
 const SponsorList = ({
@@ -24,14 +24,13 @@ const SponsorList = ({
             bronze: []
         }
     );
-    const sortedSponsors: SponsorProps[] = [].concat(...Object.values(sponsorListByType));
+    const sortedSponsors: SponsorProps[] = [];
+    sortedSponsors.concat(...Object.values(sponsorListByType));
 
     return (
-        <Container size="large">
-            <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg"
-                             className={'px-8 py-5'}
-            >
-                <ul className={'clear-both overflow-hidden -p-1 mx-auto m-t-5 m-b-8 md:mb-9 w-fit md:max-w-[1350px]'}>
+        <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className=''>
+            <Container size="large" className={'overflow-hidden'}>
+                <ul className={'clear-both overflow-hidden -p-1 mx-auto mt-5 mb-8 md:mb-9 w-fit md:max-w-[1350px]'}>
                     {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
                         <Sponsor type={sponsor.type}
                                  name={sponsor.name}
@@ -40,8 +39,8 @@ const SponsorList = ({
                         />
                     ))}
                 </ul>
-            </BackgroundImage>
-        </Container>
+            </Container>
+        </BackgroundImage>
     );
 };
 

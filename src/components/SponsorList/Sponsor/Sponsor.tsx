@@ -1,4 +1,4 @@
-import {SponsorProps, SponsorTypeProps} from "@/layouts/SponsorList/Sponsor/Sponsor.types";
+import {SponsorProps, SponsorTypeProps} from "@/components/SponsorList/Sponsor/Sponsor.types";
 import Image from "next/image";
 import classNames from "classnames";
 
