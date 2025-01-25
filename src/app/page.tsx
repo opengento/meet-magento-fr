@@ -4,6 +4,7 @@ import Faq from "@/components/Faq/Faq";
 import {SponsorProps} from "@/components/SponsorList/Sponsor/Sponsor.types";
 import SponsorList from "@/components/SponsorList/SponsorList";
 import Container from "@/layouts/Container";
+import Hero from '@/components/Hero/Hero';
 
 export default function Home() {
     const sponsors: SponsorProps[] = [
@@ -91,6 +92,7 @@ export default function Home() {
 
     return (
         <div className="">
+            <Hero/>
             <SponsorList items={sponsors}/>
             <Container size="large">
                 <div className="content-media-sections flex flex-col gap-12 py-12">
