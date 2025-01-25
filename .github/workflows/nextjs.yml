@@ -76,7 +76,7 @@ jobs:
       - name: Build with Tailwind.css
         run: ${{ steps.detect-package-manager.outputs.manager }} run tailwind:build
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} run build
+        run: ${{ steps.detect-package-manager.outputs.runner }} run build --yes
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
