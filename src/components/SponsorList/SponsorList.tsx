@@ -5,8 +5,8 @@ import {SponsorListProps} from "@/components/SponsorList/SponsorListProps";
 import Container from "@/layouts/Container";
 
 const SponsorList = ({
-     items
-}: SponsorListProps) => {
+                         items
+                     }: SponsorListProps) => {
 
     const sponsorListByType: Record<SponsorTypeProps, SponsorProps[]> = items.reduce(
         (

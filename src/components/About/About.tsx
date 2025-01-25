@@ -7,7 +7,10 @@ const About = () => {
                 À propos de Meet Magento Paris 2025
             </Typography>
             <Typography className="text-white">
-                Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento. Elle rassemble des professionnels de Magento, des développeurs, des commerçants et des leaders du secteur de tout le pays pour discuter des dernières tendances, innovations et meilleures pratiques en matière de e-commerce.
+                Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento. Elle rassemble
+                des professionnels de Magento, des développeurs, des commerçants et des leaders du secteur de tout le
+                pays pour discuter des dernières tendances, innovations et meilleures pratiques en matière de
+                e-commerce.
             </Typography>
         </>
     );

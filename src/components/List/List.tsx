@@ -1,21 +1,21 @@
-import { ReactNode } from "react";
+import {ReactNode} from "react";
 import Link from "next/link";
-import { ListItemProps, ListProps, ListItem, Content, ListLink, ListComponent } from "@/components/List/List.types";
+import {Content, ListComponent, ListItem, ListItemProps, ListLink, ListProps} from "@/components/List/List.types";
 
-const ListItemComponent = ({ children, className = '' }: ListItemProps) => (
+const ListItemComponent = ({children, className = ''}: ListItemProps) => (
     <li className={`marker:text-orange ${className}`}>
         {children}
     </li>
 );
 
 export const List = ({
-                  items,
-                  type = 'unordered',
-                  bulletStyle = 'disc',
-                  spacing = 'normal',
-                  className = '',
-                  nested = false,
-              }: ListProps) => {
+                         items,
+                         type = 'unordered',
+                         bulletStyle = 'disc',
+                         spacing = 'normal',
+                         className = '',
+                         nested = false,
+                     }: ListProps) => {
     const Element = type === 'unordered' ? 'ul' : 'ol';
 
     const bulletStyles = {

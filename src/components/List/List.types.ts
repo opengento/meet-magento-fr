@@ -1,4 +1,4 @@
-import { ReactNode, ElementType } from 'react';
+import {ElementType, ReactNode} from 'react';
 
 type ListType = 'unordered' | 'ordered';
 type BulletStyle = 'disc' | 'circle' | 'square' | 'decimal' | 'none';
