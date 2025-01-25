@@ -16,12 +16,12 @@ const Hero = () => {
                             <Typography variant="h2">Save the date !</Typography>
                             <Typography variant="h3">Meet Magento arrive en France</Typography>
                             <Typography>
-                                Rejoignez la communauté Magento et Adobe Commerce pour une journée
-                                d'innovations, d'échanges et d'expertise, à ne pas manquer !</Typography>
+                                Rejoignez la communauté Magento et Adobe Commerce pour une journée d&apos;innovations, d&apos;échanges et d&apos;expertise, à ne pas manquer !
+                            </Typography>
                         </div>
                         <div className="hidden md:flex flex-wrap justify-center gap-8">
                             <MM25Full/>
-                            <CountdownTimer targetDate="2025-03-25T08:00:00"/>
+                            <CountdownTimer targetDate={new Date("2025-03-25T08:00:00")}/>
                         </div>
                     </div>
                 </Container>

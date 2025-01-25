@@ -24,7 +24,12 @@ const SponsorList = ({
             bronze: []
         }
     );
-    const sortedSponsors: SponsorProps[] = [].concat(...Object.values(sponsorListByType));
+    const sortedSponsors: SponsorProps[] = [
+        ...sponsorListByType.platinum,
+        ...sponsorListByType.gold,
+        ...sponsorListByType.silver,
+        ...sponsorListByType.bronze
+    ];
 
     return (
         <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className=''>

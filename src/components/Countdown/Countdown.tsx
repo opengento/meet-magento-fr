@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
+import {CountdownProps} from "@/components/Countdown/CountdownProps";
 
-const CountdownTimer = ({targetDate}) => {
+const CountdownTimer = ({targetDate}: CountdownProps) => {
     const [timeLeft, setTimeLeft] = useState({
         days: '00',
         hours: '00',
@@ -9,7 +10,7 @@ const CountdownTimer = ({targetDate}) => {
 
     useEffect(() => {
         const calculateTimeLeft = () => {
-            const difference = new Date(targetDate).getTime() - new Date().getTime();
+            const difference = targetDate.getTime() - new Date().getTime();
 
             if (difference > 0) {
                 const days = String(Math.floor(difference / (1000 * 60 * 60 * 24))).padStart(2, '0');
