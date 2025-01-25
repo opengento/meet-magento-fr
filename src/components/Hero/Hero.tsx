@@ -3,7 +3,7 @@ import Typography from "@/components/Typography/Typography";
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import CountdownTimer from "@/components/Countdown/Countdown"
 import Container from "@/layouts/Container";
-//import MMFRFull from "/public/images/mmfr25-full.svg";
+import MMFRFull from "/public/images/mmfr25-full.svg";
 
 const Hero = () => {
     return (
@@ -20,6 +20,7 @@ const Hero = () => {
                             </Typography>
                         </div>
                         <div className="hidden md:flex flex-wrap justify-center gap-8">
+                            <MMFRFull/>
                             <CountdownTimer targetDate={new Date("2025-03-25T08:00:00")}/>
                         </div>
                     </div>
