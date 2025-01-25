@@ -24,13 +24,12 @@ const SponsorList = ({
             bronze: []
         }
     );
-    const sortedSponsors: SponsorProps[] = [];
-    sortedSponsors.concat(...Object.values(sponsorListByType));
+    const sortedSponsors: SponsorProps[] = [].concat(...Object.values(sponsorListByType));
 
     return (
         <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className=''>
             <Container size="large" className={'overflow-hidden'}>
-                <ul className={'clear-both overflow-hidden -p-1 mx-auto mt-5 mb-8 md:mb-9 w-fit md:max-w-[1350px]'}>
+                <ul className={'clear-both overflow-hidden -mx-1 mt-5 mb-8 md:mb-9 md:max-w-[1350px]'}>
                     {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
                         <Sponsor type={sponsor.type}
                                  name={sponsor.name}
