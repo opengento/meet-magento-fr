@@ -28,7 +28,7 @@ Raise a new [request](https://github.com/opengento/meet-magento-fr/issues) to th
 
 ## Authors
 
-- **Opengento Community** - *Lead* - [![Linkedin Follow](https://img.shields.io/linkedin/follow/opengento.svg?style=social)](https://www.linkedin.com/company/opengento/)
+- **Opengento Community** - *Lead* - [Linkedin Follow](https://www.linkedin.com/company/opengento/)
 - **Contributors** - *Contributor* - [![GitHub contributors](https://img.shields.io/github/contributors/opengento/meet-magento-fr.svg?style=flat-square)](https://github.com/opengento/meet-magento-fr/graphs/contributors)
 
 ## License
