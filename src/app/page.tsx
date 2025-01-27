@@ -94,26 +94,34 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
-      <Speakers />
-      <SponsorList items={sponsors} />
+      <div id="speakers">
+        <Speakers />
+      </div>
+      <div id="sponsors">
+        <SponsorList items={sponsors} />
+      </div>
       <Container size="large">
         <div className="content-media-sections flex flex-col gap-12 py-12">
-          <ContentMedia
-            imageUrl="/images/faq.png"
-            imagePosition="right"
-            imageWidth="40%"
-            title="Besoin d'aide ?"
-            titleUnderlineColor="purple-100"
-          >
-            <Faq />
-          </ContentMedia>
-          <ContentMedia
-            imageUrl="/images/etoile_business_center.jpeg"
-            imagePosition="left"
-            imageWidth="40%"
-          >
-            <Place />
-          </ContentMedia>
+          <div id="faq">
+            <ContentMedia
+              imageUrl="/images/faq.png"
+              imagePosition="right"
+              imageWidth="40%"
+              title="Besoin d'aide ?"
+              titleUnderlineColor="purple-100"
+            >
+              <Faq />
+            </ContentMedia>
+          </div>
+          <div id="place">
+            <ContentMedia
+              imageUrl="/images/etoile_business_center.jpeg"
+              imagePosition="left"
+              imageWidth="40%"
+            >
+              <Place />
+            </ContentMedia>
+          </div>
         </div>
       </Container>
     </div>

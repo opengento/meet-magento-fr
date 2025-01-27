@@ -38,7 +38,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '#tickets',
+        href: '',
         text: 'Billetterie'
       },
       className: footerMenuItemLinkStyles
@@ -73,7 +73,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '#staff',
+        href: '/staff',
         text: 'Les organisateurs'
       },
       className: "w-full font-semibold hover:text-orange mb-2"
@@ -95,7 +95,7 @@ const Footer = () => {
         component: Typography,
         props: {
           className: "mb-2",
-          children: "© 2025 Meet Magento Paris. Tous droits réservés. Réalisé par Dn'D et Opengento"
+          children: "© 2025 Meet Magento Paris. Meet Magento is a brand of the Magento Association."
         }
       },
       className: footerMenuItemStyles
