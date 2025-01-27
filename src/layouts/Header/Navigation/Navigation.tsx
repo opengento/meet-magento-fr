@@ -6,11 +6,11 @@ const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    {label: "Programme", href: "#programs"},
-    {label: "Speakers", href: "#speakers"},
-    {label: "Sponsors", href: "#sponsors"},
-    {label: "Préparer ma venue", href: "#place"},
-    {label: "FAQ & Contact", href: "#faq"},
+    {label: "Programme", href: "/#programs"},
+    {label: "Speakers", href: "/#speakers"},
+    {label: "Sponsors", href: "/#sponsors"},
+    {label: "Préparer ma venue", href: "/#place"},
+    {label: "FAQ & Contact", href: "/#faq"},
   ];
 
   return (
