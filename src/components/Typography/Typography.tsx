@@ -9,14 +9,14 @@ import {
 import React from "react";
 
 const Typography = ({
-                      variant = "body1",
-                      color = "dark",
-                      weight = "normal",
-                      align = "left",
-                      className = "",
-                      children,
-                      underlineColor,
-                    }: TypographyProps) => {
+  variant = "body1",
+  color = "dark",
+  weight = "normal",
+  align = "left",
+  className = "",
+  children,
+  underlineColor,
+}: TypographyProps) => {
   const variants: Record<TypographyVariant, string> = {
     h1: "text-4xl md:text-5xl lg:text-6xl",
     h2: "text-3xl md:text-4xl lg:text-5xl",
@@ -62,18 +62,19 @@ const Typography = ({
     justify: "text-justify",
   };
 
-  const underlineColors: Record<TypographyUnderlineColor, string> = {
-    primary: "bg-primary",
-    "primary-100": "bg-primary-100",
-    "purple-100": "bg-purple-100",
-    secondary: "bg-secondary",
-    success: "bg-success",
-    error: "bg-error",
-    warning: "bg-warning",
-    info: "bg-info",
-    light: "bg-light",
-    dark: "bg-dark",
-  };
+    const underlineColors: Record<TypographyUnderlineColor, string> = {
+      primary: "bg-primary",
+      "primary-100": "bg-primary-100",
+      "purple-100": "bg-purple-100",
+      secondary: "bg-secondary",
+      "secondary-100": "bg-secondary-100",
+      success: "bg-success",
+      error: "bg-error",
+      warning: "bg-warning",
+      info: "bg-info",
+      light: "bg-light",
+      dark: "bg-dark",
+    };
 
   const classes = [
     variants[variant],

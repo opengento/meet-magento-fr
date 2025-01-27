@@ -1,10 +1,11 @@
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Place from "@/components/Place/Place";
 import Faq from "@/components/Faq/Faq";
-import {SponsorProps} from "@/components/SponsorList/Sponsor/Sponsor.types";
+import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
 import SponsorList from "@/components/SponsorList/SponsorList";
 import Container from "@/layouts/Container";
-import Hero from '@/components/Hero/Hero';
+import Hero from "@/components/Hero/Hero";
+import Speakers from "@/components/Speakers/Speakers";
 
 export default function Home() {
   const sponsors: SponsorProps[] = [
@@ -71,7 +72,7 @@ export default function Home() {
     {
       type: "silver",
       name: "Sutunam",
-      logoSrc: "sutunam.svg",
+      logoSrc: "Sutunam.svg",
     },
     {
       type: "bronze",
@@ -92,8 +93,9 @@ export default function Home() {
 
   return (
     <div className="">
-      <Hero/>
-      <SponsorList items={sponsors}/>
+      <Hero />
+      <Speakers />
+      <SponsorList items={sponsors} />
       <Container size="large">
         <div className="content-media-sections flex flex-col gap-12 py-12">
           <ContentMedia
@@ -103,14 +105,14 @@ export default function Home() {
             title="Besoin d'aide ?"
             titleUnderlineColor="purple-100"
           >
-            <Faq/>
+            <Faq />
           </ContentMedia>
           <ContentMedia
             imageUrl="/images/etoile_business_center.jpeg"
             imagePosition="left"
             imageWidth="40%"
           >
-            <Place/>
+            <Place />
           </ContentMedia>
         </div>
       </Container>
