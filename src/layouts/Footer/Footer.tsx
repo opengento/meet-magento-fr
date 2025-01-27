@@ -10,6 +10,7 @@ import FooterPatternRight from "/public/images/footer_pattern_right.svg";
 import {Content, ListItem} from "@/components/List/List.types";
 import {FaLinkedinIn, FaYoutube} from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 
 const footerMenuItemLinkStyles = "font-semibold hover:text-orange w-1/2 mb-2";
 const footerMenuItemStyles = "-m-4 list-none mb-2";
@@ -79,15 +80,10 @@ const Footer = () => {
       className: "w-full font-semibold hover:text-orange mb-2"
     },
     {
-      content: {
-        type: 'component',
-        component: Typography,
-        props: {
-          className: "mb-2",
-          color: "light",
-          children: "Avec le soutien de Magento Association"
-        }
-      },
+      content: <>
+        <Typography className="mb-2" color="light">Avec le soutien de</Typography>
+        <Image src="/images/logo/ma.Png" alt="Magento Association" width="158" height="21"/>
+      </>,
       className: footerMenuItemStyles
     },
     {
