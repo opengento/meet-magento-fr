@@ -29,6 +29,10 @@ export default {
           100: "rgba(0, 102, 250, 0.1)",
           DEFAULT: "#0066FA",
         },
+        secondary: {
+          DEFAULT: "#FF4758",
+          100: "rgba(255, 71, 88, 0.15)",
+        },
       },
     },
   },

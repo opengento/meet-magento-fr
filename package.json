@@ -15,7 +15,8 @@
     "next": "^15.1",
     "react": "^19.0",
     "react-dom": "^19.0",
-    "react-icons": "^5.4"
+    "react-icons": "^5.4",
+    "swiper": "^11.2.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
