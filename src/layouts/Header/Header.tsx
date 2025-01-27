@@ -2,6 +2,9 @@ import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import Logo from "@/components/Logo/Logo";
 import Navigation from "./Navigation/Navigation";
 import Container from "../Container";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import {FaTicketAlt} from "react-icons/fa";
+import React from "react";
 
 const Header = () => {
   const HeaderContent = () => (
@@ -9,9 +12,12 @@ const Header = () => {
       <BackgroundImage imagePath="/images/bg-gradiant-blue.jpg" priority>
         <div className="flex justify-between items-center">
           <div
-            className="flex w-full justify-between md:justify-start gap-12 items-center h-20 px-4 md:px-14">
+            className="flex w-full justify-between gap-12 items-center h-20 px-4 md:px-14">
             <Logo/>
             <Navigation/>
+            <ButtonLink variant="primary" href="" target="_blank" rel="noopener" iconPosition="left" icon={<FaTicketAlt />}>
+              J’achète mon billet
+            </ButtonLink>
           </div>
         </div>
       </BackgroundImage>

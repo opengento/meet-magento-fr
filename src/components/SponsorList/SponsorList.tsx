@@ -6,6 +6,9 @@ import {SponsorProps, SponsorTypeProps} from "@/components/SponsorList/Sponsor/S
 import {SponsorListProps} from "@/components/SponsorList/SponsorListProps";
 import Container from "@/layouts/Container";
 import TopBanner from "@/components/TopBanner/TopBanner";
+import React from "react";
+import Link from "next/link";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 const SponsorList = ({
                        items
@@ -38,10 +41,10 @@ const SponsorList = ({
     <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className=''>
       <Container size="large" className={'overflow-hidden'}>
         <div className="mt-12">
-          <TopBanner
-            title="Merci à nos sponsors"
-            backgroundImage="/images/pattern_top-banner_speakers.svg"
-          />
+          <TopBanner title="Merci à nos sponsors" backgroundImage="/images/pattern_top-banner_speakers.svg">
+            <ButtonLink variant="secondary" href="#sponsors">Devenir sponsor</ButtonLink>
+            <ButtonLink variant="soft-pink" href="#sponsors">Voir tous les sponsors</ButtonLink>
+          </TopBanner>
         </div>
         <ul className={'clear-both overflow-hidden -mx-1 mt-6 mb-9 md:mb-10 md:max-w-[1350px]'}>
           {sortedSponsors.map((sponsor: SponsorProps, key: number) => (

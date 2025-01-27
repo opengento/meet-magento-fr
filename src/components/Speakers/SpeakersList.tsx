@@ -10,6 +10,7 @@ import ClientOnly from "@/helpers/ClientOnly";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import Speaker from "./Speaker/Speaker";
 import SpeakerPopIn from "./Speaker/SpeakerPopIn";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 const speakers: Speaker[] = [
   {
@@ -103,10 +104,11 @@ const SpeakersList = () => {
         <TopBanner
           title="Appel à speakers"
           backgroundImage="/images/pattern_top-banner_speakers.svg"
-          canSlide={true}
           onPrevClick={handlePrev}
           onNextClick={handleNext}
-        />
+        >
+          <ButtonLink variant="secondary" href="#speakers">Découvrir les speakers</ButtonLink>
+        </TopBanner>
       </div>
       <ClientOnly>
         <Swiper
