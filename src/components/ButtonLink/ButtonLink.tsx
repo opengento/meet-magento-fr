@@ -14,7 +14,7 @@ const ButtonLink = ({
 }: ButtonLinkProps) => {
 
   const variantClass = {
-    primary: "bg-white text-black",
+    primary: "bg-[url(/images/background.svg)] bg-cover bg-center text-black",
     secondary: "bg-white text-primary hover:bg-primary hover:text-white",
     "secondary-invert": "bg-primary text-white hover:bg-white hover:text-primary",
     "soft-pink": "bg-purple-500 text-white hover:bg-white hover:text-purple-500",
@@ -27,9 +27,13 @@ const ButtonLink = ({
     "soft-pink": "bg-purple-500 text-white group-hover:bg-white group-hover:text-purple-500",
   };
 
-  const extraClass = iconPosition !== undefined
-    ? "pl-5 pr-3"
-    : "px-5";
+  const paddingClass = iconPosition !== undefined
+    ? classNames("py-2.5", iconPosition === "left" ? "pr-5 pl-3" : "pl-5 pr-3")
+    : "py-2.5 px-5";
+
+  const primaryClass: string = variant === "primary"
+    ? "rounded-3xl bg-white py-2 px-5"
+    : "";
 
   const renderContent = (content: ReactNode) => {
     const iconClassName: string = "inline-block p-1 rounded-full";
@@ -75,11 +79,16 @@ const ButtonLink = ({
           target={target}
           rel={rel}
           className={classNames(
-            "inline-flex group gap-3 items-center justify-between py-2.5 rounded-3xl font-medium duration-300",
-            extraClass,
+            "inline-block group rounded-3xl font-medium duration-300",
+            variant === "primary" ? "p-[3px]" : paddingClass,
             variantClass[variant]
           )}>
-      {renderContent(children)}
+      <div className={classNames(
+        "flex gap-3 items-center justify-between",
+        primaryClass
+      )}>
+        {renderContent(children)}
+      </div>
     </Link>
   );
 };
