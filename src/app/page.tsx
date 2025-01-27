@@ -72,7 +72,7 @@ export default function Home() {
     {
       type: "silver",
       name: "Sutunam",
-      logoSrc: "Sutunam.svg",
+      logoSrc: "sutunam.svg",
     },
     {
       type: "bronze",

@@ -81,7 +81,7 @@ const Footer = () => {
     },
     {
       content: <>
-        <Typography className="mb-2" color="light">Avec le soutien de</Typography>
+        <Typography className="mb-2 text-xs" color="light">Avec le soutien de</Typography>
         <Image src="/images/logo/ma.Png" alt="Magento Association" width="158" height="21"/>
       </>,
       className: footerMenuItemStyles
@@ -91,7 +91,7 @@ const Footer = () => {
         type: 'component',
         component: Typography,
         props: {
-          className: "mb-2",
+          className: "mb-2 text-xs",
           color: "light",
           children: "© 2025 Meet Magento Paris. Meet Magento is a brand of the Magento Association."
         }
