@@ -23,7 +23,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '#faq',
+        href: '/#faq',
         text: 'FAQ & Contact'
       },
       className: footerMenuItemLinkStyles
@@ -55,7 +55,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '#sponsors',
+        href: '/#sponsors',
         text: 'Sponsors'
       },
       className: footerMenuItemLinkStyles
