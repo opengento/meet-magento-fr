@@ -68,7 +68,7 @@ const Faq = () => {
               </Typography>
             </div>
             <svg
-              className={`w-6 h-6 transform transition-transform ${
+              className={`text-black bg-white p-1 rounded-full w-6 h-6 transform transition-transform ${
                 openIndex === index ? "rotate-180" : ""
               }`}
               fill="none"

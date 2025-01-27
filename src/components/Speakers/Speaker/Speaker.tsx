@@ -13,7 +13,7 @@ interface Speaker {
 }
 
 const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
-  <div className="text-dark flex flex-col justify-center cursor-pointer">
+  <div className="text-black flex flex-col justify-center cursor-pointer">
     <div className="flex gap-2 mb-2">
       {/* <img
           src={`/${speaker.company.toLowerCase()}-logo.svg`}
