@@ -28,7 +28,7 @@ const CountdownTimer = ({targetDate}: CountdownProps) => {
   }, [targetDate]);
 
   return (
-    <div className="flex items-start justify-center space-x-4 p-4 rounded-lg">
+    <div className="flex items-start justify-center space-x-4 p-4 rounded-lg text-white">
       <div className="text-center">
         <div className="text-6xl font-bold">{timeLeft.days}</div>
         <div className="text-sm uppercase">Jours</div>
