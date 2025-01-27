@@ -11,13 +11,18 @@ const Header = () => {
     <div className="w-full overflow-hidden rounded-b-xl md:rounded-xl">
       <BackgroundImage imagePath="/images/bg-gradiant-blue.jpg" priority>
         <div className="flex justify-between items-center">
-          <div
-            className="flex w-full justify-between gap-12 items-center h-20 px-4 md:px-14">
-            <Logo/>
-            <Navigation/>
-            <ButtonLink variant="primary" href="" target="_blank" rel="noopener" iconPosition="left" icon={<FaTicketAlt />}>
-              J’achète mon billet
-            </ButtonLink>
+          <div className="flex w-full justify-between gap-12 items-center h-20 px-4 md:px-14">
+            <div className="order-1">
+              <Logo/>
+            </div>
+            <div className="order-3 md:order-2">
+              <Navigation/>
+            </div>
+            <div className="order-2 md:order-3">
+              <ButtonLink variant="primary" href="" target="_blank" rel="noopener" iconPosition="left" icon={<FaTicketAlt />}>
+                J’achète mon billet
+              </ButtonLink>
+            </div>
           </div>
         </div>
       </BackgroundImage>

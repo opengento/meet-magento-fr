@@ -7,7 +7,6 @@ import {SponsorListProps} from "@/components/SponsorList/SponsorListProps";
 import Container from "@/layouts/Container";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import React from "react";
-import Link from "next/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 const SponsorList = ({

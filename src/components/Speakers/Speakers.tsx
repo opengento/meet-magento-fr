@@ -1,7 +1,6 @@
 import Container from "@/layouts/Container";
 import React from "react";
 import Typography from "../Typography/Typography";
-import BackgroundImage from "../BackgroundImage/BackgroundImage";
 import SpeakersList from "./SpeakersList";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { IoIosArrowForward } from "react-icons/io";
@@ -32,23 +31,18 @@ const Speakers = () => {
                 </Typography>
               </div>
             </div>
-            <BackgroundImage
-              imagePath="/images/pattern_speakers.svg"
-              className="w-full md:w-1/2"
-            >
-              <div className="">
-                <ButtonLink
-                  variant="secondary"
-                  href="https://forms.gle/M6Y8V2xP7PGw5VD8A"
-                  target="_blank"
-                  rel="noopener"
-                  iconPosition="right"
-                  icon={<IoIosArrowForward />}
-                >
-                  Rejoignez les conférenciers de MM25FR
-                </ButtonLink>
-              </div>
-            </BackgroundImage>
+            <div className="bg-[url(/images/pattern_speakers.svg)] bg-cover flex items-center justify-center w-full md:w-1/2">
+              <ButtonLink
+                variant="secondary"
+                href="https://forms.gle/M6Y8V2xP7PGw5VD8A"
+                target="_blank"
+                rel="noopener"
+                iconPosition="right"
+                icon={<IoIosArrowForward />}
+              >
+                Rejoignez les conférenciers de MM25FR
+              </ButtonLink>
+            </div>
           </div>
         </div>
       </div>
