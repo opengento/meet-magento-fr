@@ -13,9 +13,9 @@ const Hero = () => {
         <Container size="small" className="pt-[104px]">
           <div className="flex py-16">
             <div>
-              <Typography variant="h2">Save the date !</Typography>
-              <Typography variant="h3">Meet Magento arrive en France</Typography>
-              <Typography>
+              <Typography variant="h2" color="light">Save the date !</Typography>
+              <Typography variant="h3" color="light">Meet Magento arrive en France</Typography>
+              <Typography color="light">
                 Rejoignez la communauté Magento et Adobe Commerce pour une journée d&apos;innovations, d&apos;échanges
                 et d&apos;expertise, à ne pas manquer !
               </Typography>

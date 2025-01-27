@@ -84,6 +84,7 @@ const Footer = () => {
         component: Typography,
         props: {
           className: "mb-2",
+          color: "light",
           children: "Avec le soutien de Magento Association"
         }
       },
@@ -95,6 +96,7 @@ const Footer = () => {
         component: Typography,
         props: {
           className: "mb-2",
+          color: "light",
           children: "© 2025 Meet Magento Paris. Meet Magento is a brand of the Magento Association."
         }
       },

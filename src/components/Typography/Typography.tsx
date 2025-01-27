@@ -41,7 +41,7 @@ const Typography = ({
     error: "text-red-600 dark:text-red-400",
     warning: "text-yellow-600 dark:text-yellow-400",
     info: "text-cyan-600 dark:text-cyan-400",
-    light: "text-gray-600 dark:text-gray-300",
+    light: "text-white dark:text-gray-600",
     dark: "text-gray-900 dark:text-white",
   };
 
