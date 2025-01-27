@@ -1,8 +1,11 @@
+"use client";
+
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import Sponsor from "@/components/SponsorList/Sponsor/Sponsor";
 import {SponsorProps, SponsorTypeProps} from "@/components/SponsorList/Sponsor/Sponsor.types";
 import {SponsorListProps} from "@/components/SponsorList/SponsorListProps";
 import Container from "@/layouts/Container";
+import TopBanner from "@/components/TopBanner/TopBanner";
 
 const SponsorList = ({
                        items
@@ -34,7 +37,13 @@ const SponsorList = ({
   return (
     <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className=''>
       <Container size="large" className={'overflow-hidden'}>
-        <ul className={'clear-both overflow-hidden -mx-1 mt-5 mb-8 md:mb-9 md:max-w-[1350px]'}>
+        <div className="mt-12">
+          <TopBanner
+            title="Merci à nos sponsors"
+            backgroundImage="/images/pattern_top-banner_speakers.svg"
+          />
+        </div>
+        <ul className={'clear-both overflow-hidden -mx-1 mt-6 mb-9 md:mb-10 md:max-w-[1350px]'}>
           {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
             <Sponsor type={sponsor.type}
                      name={sponsor.name}

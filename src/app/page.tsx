@@ -92,7 +92,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="">
+    <div className="relative -top-[104px] left-0">
       <Hero />
       <div id="speakers">
         <Speakers />

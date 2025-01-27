@@ -33,11 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html className="font-sans" lang="fr">
-    <body className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased bg-camel`}>
-    <Header/>
-    <main className={'relative -top-[104px] left-0'}>{children}</main>
-    <Footer/>
-    </body>
+      <body className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased bg-camel`}>
+        <Header/>
+        <main>{children}</main>
+        <Footer/>
+      </body>
     </html>
   );
 }

@@ -3,6 +3,7 @@ import React from "react";
 import Typography from "../Typography/Typography";
 import BackgroundImage from "../BackgroundImage/BackgroundImage";
 import SpeakersList from "./SpeakersList";
+
 const Speakers = () => {
   return (
     <Container size="large">
