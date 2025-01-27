@@ -9,7 +9,7 @@ const Navigation = () => {
     {label: "Programme", href: "#programs"},
     {label: "Speakers", href: "#speakers"},
     {label: "Sponsors", href: "#sponsors"},
-    {label: "Préparer ma venue", href: "/preparer-ma-venue"},
+    {label: "Préparer ma venue", href: "#place"},
     {label: "FAQ & Contact", href: "#faq"},
   ];
 
