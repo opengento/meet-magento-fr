@@ -82,7 +82,7 @@ const Footer = () => {
     {
       content: <>
         <Typography className="mb-2 text-xs" color="light">Avec le soutien de</Typography>
-        <Image src="/images/logo/ma.Png" alt="Magento Association" width="158" height="21"/>
+        <Image className="text-white" src="/images/logo/ma.png" alt="Magento Association" width="158" height="21"/>
       </>,
       className: footerMenuItemStyles
     },
