@@ -1,3 +1,3 @@
 export type CountdownProps = {
-    targetDate: Date
+  targetDate: Date
 }
