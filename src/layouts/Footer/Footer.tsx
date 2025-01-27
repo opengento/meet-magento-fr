@@ -81,8 +81,10 @@ const Footer = () => {
     },
     {
       content: <>
-        <Typography variant="small" className="inline mb-2" color="light">Avec le soutien de</Typography>
-        <Image className="inline text-white ml-2" src="/images/logo/ma.png" alt="Magento Association" width="158" height="21"/>
+        <Typography variant="small" className="inline-block mb-2" color="light">Avec le soutien de</Typography>
+        <Link href="https://www.magentoassociation.org/" className="inline-block align-middle ml-2 text-white" target="_blank" rel="noopener">
+          <Image src="/images/logo/ma.png" alt="Magento Association" width="158" height="21"/>
+        </Link>
       </>,
       className: footerMenuItemStyles
     },
