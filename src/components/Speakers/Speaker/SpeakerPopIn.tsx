@@ -11,7 +11,7 @@ interface SpeakerPopInProps {
 const SpeakerPopIn = ({
   isOpen,
   onClose,
-  selectedSpeaker,
+  //selectedSpeaker,
 }: SpeakerPopInProps) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
