@@ -24,7 +24,6 @@ export default function Page() {
           Nous attendons la coopération de chacun‧e pour assurer un environnement sain pour tou‧te‧s.
         </Typography>
       </ContentMedia>
-
       <ContentMedia
         title="La version courte"
         titleUnderlineColor="primary-100"
@@ -43,7 +42,6 @@ export default function Page() {
           et le recours légal.
         </Typography>
       </ContentMedia>
-
       <ContentMedia
         title="La version longue"
         titleUnderlineColor="primary-100"
@@ -57,12 +55,12 @@ export default function Page() {
           d’interruptions des conférences et des autres événements, un contact
           physique inapproprié et des avances sexuelles non désirées.
         </Typography>
-
+        <br/>
         <Typography color="dark">
           Les participant‧e‧s à qui il sera demandé d’arrêter tout comportement de
           harcèlement doivent arrêter immédiatement.
         </Typography>
-
+        <br/>
         <Typography color="dark">
           Les sponsors sont aussi sujet à la politique anti-harcèlement. En
           particulier, les sponsors ne doivent pas utiliser d’images ou de supports
@@ -71,13 +69,13 @@ export default function Page() {
           doit pas utiliser de vêtements, uniformes ou costumes à connotation
           sexuelle. Ils ne doivent pas non plus créer un environnement sexualisé.
         </Typography>
-
+        <br/>
         <Typography color="dark">
           Face à un comportement de harcèlement, l’équipe d’organisation de la conférence
           peut prendre toute action qui lui semble adéquate.
           Cela va d’un simple avertissement à l’exclusion sans remboursement de la conférence.
         </Typography>
-
+        <br/>
         <Typography color="dark">
           Si vous vous sentez harcelé‧e, si vous pensez que quelqu’un se fait
           harceler, et plus généralement en cas de problème, merci de contacter
@@ -85,7 +83,7 @@ export default function Page() {
           que ses membres sont facilement identifiables (badge, brassard, tour de cou,
           t-shirt…) présentés au début de la conférence.
         </Typography>
-
+        <br/>
         <Typography color="dark">
           Les membres de l’organisation seront ravi‧e‧s d’aider les participants à
           contacter la sécurité de l’hôtel ou du bâtiment où se déroule l’événement,
@@ -94,14 +92,13 @@ export default function Page() {
           sécurité pendant la durée de l’événement. Nous apprécions votre
           participation à l’événement.
         </Typography>
-
+        <br/>
         <Typography color="dark">
           Nous attendons de chacun‧e le respect de ces règles dans le bâtiment
           des conférences et des ateliers, ainsi que pendant les événements sociaux
           relatifs à la conférence.
         </Typography>
       </ContentMedia>
-
       <footer>
         <Typography variant="small">
           <em>
