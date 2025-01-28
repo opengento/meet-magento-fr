@@ -4,6 +4,9 @@ import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import CountdownTimer from "@/components/Countdown/Countdown"
 import Container from "@/layouts/Container";
 import MMFRFull from "/public/images/mmfr25-full.svg";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import React from "react";
+import {IoIosArrowForward} from "react-icons/io";
 
 const Hero = () => {
   return (
@@ -23,6 +26,14 @@ const Hero = () => {
             <div className="hidden md:flex flex-wrap justify-center gap-8">
               <MMFRFull/>
               <CountdownTimer targetDate={new Date("2025-03-25T08:00:00")}/>
+              <ButtonLink
+                variant="secondary"
+                href=""
+                iconPosition="right"
+                icon={<IoIosArrowForward />}
+              >
+                Je prend mon billet
+              </ButtonLink>
             </div>
           </div>
         </Container>
