@@ -5,4 +5,14 @@ export type SpeakerProps = {
   company: string;
   role: string;
   image: string;
+  biography: string;
+  sessions: SessionProps[];
+};
+
+type SessionProps = {
+  title: string;
+  room: string;
+  start: string;
+  end: string;
+  tags: string[];
 };

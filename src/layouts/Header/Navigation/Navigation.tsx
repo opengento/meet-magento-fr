@@ -1,21 +1,21 @@
 "use client";
-import {useState} from "react";
+import { useState } from "react";
 import Link from "next/link";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    {label: "Programme", href: "/#programs"},
-    {label: "Speakers", href: "/#speakers"},
-    {label: "Sponsors", href: "/#sponsors"},
-    {label: "Préparer ma venue", href: "/#place"},
-    {label: "FAQ & Contact", href: "/#faq"},
+    { label: "Programme", href: "/#programs" },
+    { label: "Speakers", href: "/#speakers" },
+    { label: "Sponsors", href: "/#sponsors" },
+    { label: "Préparer ma venue", href: "/#place" },
+    { label: "FAQ & Contact", href: "/#faq" },
   ];
 
   return (
     <div className="navigation">
-      <nav className="hidden md:flex items-center gap-8">
+      <nav className="hidden lg:flex items-center gap-8">
         {menuItems.map((item) => (
           <Link
             key={item.href}
@@ -23,14 +23,13 @@ const Navigation = () => {
             className="text-white font-semibold relative hover:text-white transition-colors group"
           >
             <span className="relative z-10">{item.label}</span>
-            <span
-              className="absolute inset-x-0 bottom-0 h-[50%] opacity-0 bg-primary transition-opacity duration-200 ease-in-out group-hover:opacity-100"/>
+            <span className="absolute inset-x-0 bottom-0 h-[50%] opacity-0 bg-primary transition-opacity duration-200 ease-in-out group-hover:opacity-100" />
           </Link>
         ))}
       </nav>
 
       <button
-        className="md:hidden text-white"
+        className="lg:hidden text-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <svg
@@ -42,12 +41,12 @@ const Navigation = () => {
           viewBox="0 0 24 24"
           stroke="currentColor"
         >
-          <path d="M4 6h16M4 12h16M4 18h16"/>
+          <path d="M4 6h16M4 12h16M4 18h16" />
         </svg>
       </button>
 
       <div
-        className={`md:hidden fixed inset-0 z-50 transition-[visibility] duration-300 ${
+        className={`lg:hidden fixed inset-0 z-50 transition-[visibility] duration-300 ${
           isMenuOpen ? "visible" : "invisible delay-300"
         }`}
       >
@@ -76,7 +75,7 @@ const Navigation = () => {
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                 >
-                  <path d="M6 18L18 6M6 6l12 12"/>
+                  <path d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
             </div>
@@ -89,8 +88,7 @@ const Navigation = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   <span className="relative z-10">{item.label}</span>
-                  <span
-                    className="absolute inset-x-0 bottom-0 h-[50%] opacity-0 bg-primary transition-opacity duration-200 ease-in-out group-hover:opacity-100"/>
+                  <span className="absolute inset-x-0 bottom-0 h-[50%] opacity-0 bg-primary transition-opacity duration-200 ease-in-out group-hover:opacity-100" />
                 </Link>
               ))}
             </nav>

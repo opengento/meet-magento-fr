@@ -43,18 +43,19 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
       />
       <div className="flex items-start justify-end h-full">
         <div
-          className={`w-full max-w-2xl h-full bg-white transform transition-transform duration-300 ease-in-out ${
+          className={`md:rounded-l-xl overflow-hidden w-full md:max-w-2xl h-full bg-white transform transition-transform duration-300 ease-in-out ${
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="relative h-full overflow-y-auto">
+          <div className="relative h-full overflow-y-auto px-6 py-10 md:p-8 bg-camel ">
             <button
               onClick={onClose}
               className="absolute top-4 right-4 p-2 rounded bg-purple"
             >
               <IoClose className="text-white" size={24} />
             </button>
-            <div className="p-6">{children}</div>
+            <div className="pb-6 md:pb-8">{children}</div>
+            <div className="fixed z-20 bottom-0 left-0 w-full h-9 bg-[url('/images/pattern_popin.svg')]"></div>
           </div>
         </div>
       </div>

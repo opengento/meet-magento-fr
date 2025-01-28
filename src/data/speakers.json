@@ -11,7 +11,24 @@
       "title": "lorem ipsum",
       "company": "Adobe",
       "role": "Head of Commerce for Western Europe",
-      "image": "/images/speakers/speaker.png"
+      "image": "/images/speakers/speaker.png",
+      "biography": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+      "sessions": [
+        {
+          "title": "Utilisation de l'IA dans le parcours d'achat du client",
+          "room": "Salle Orion",
+          "start": "9h00",
+          "end": "10h30",
+          "tags": ["Ouverture", "technique", "Expertise"]
+        },
+        {
+          "title": "Utilisation de l'IA dans le parcours d'achat du client",
+          "room": "Salle Orion",
+          "start": "9h00",
+          "end": "10h30",
+          "tags": ["Ouverture", "technique", "Expertise"]
+        }
+      ]
     },
     {
       "id": 2,
