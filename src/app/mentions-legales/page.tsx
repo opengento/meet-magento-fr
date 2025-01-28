@@ -3,7 +3,6 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import Link from "next/link";
 import Opengento from "/public/images/logo/opengento.svg";
-import {Content} from "next/dist/compiled/@next/font/dist/google";
 
 export default function Page() {
   return (
