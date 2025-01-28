@@ -54,7 +54,7 @@ const Faq = () => {
       question: "What if I don't speak French?",
       icon: <FaLanguage color="#FF7DD1" size={16}/>,
       answer:
-        "You are still welcome! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
+        "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
     },
   ];
 
