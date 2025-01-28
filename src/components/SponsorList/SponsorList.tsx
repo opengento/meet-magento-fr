@@ -38,7 +38,7 @@ const SponsorList = ({ items }: SponsorListProps) => {
   ];
 
   return (
-    <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className="">
+    <BackgroundImage imagePath="/images/background/sponsors.png">
       <Container size="large" className={"overflow-hidden"}>
         <div className="mt-12">
           <TopBanner

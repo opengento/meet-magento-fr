@@ -1,6 +1,6 @@
 "use client";
 import React, {useState} from "react";
-import {FaCompass, FaHeart, FaShoppingBag, FaStar, FaTicketAlt, FaUser,} from "react-icons/fa";
+import {FaCompass, FaHeart, FaLanguage, FaShoppingBag, FaStar, FaTicketAlt, FaUser,} from "react-icons/fa";
 import Typography from "../Typography/Typography";
 import Link from "next/link";
 
@@ -48,7 +48,13 @@ const Faq = () => {
       question: "Que contient un billet pour Meet Magento France 2025 ?",
       icon: <FaShoppingBag color="#FF7DD1" size={16}/>,
       answer:
-        "Lorsque vous achetez un billet pour Meet Magento France 2025 vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking. ",
+        "Lorsque vous achetez un billet pour Meet Magento France 2025 vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
+    },
+    {
+      question: "What if I don't speak French?",
+      icon: <FaLanguage color="#FF7DD1" size={16}/>,
+      answer:
+        "You are still welcome! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
     },
   ];
 
