@@ -63,7 +63,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '/code-of-conduct',
+        href: '/code-de-conduite',
         text: 'Code de conduite'
       },
       className: footerMenuItemLinkStyles
