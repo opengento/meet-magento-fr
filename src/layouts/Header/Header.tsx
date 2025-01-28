@@ -19,7 +19,14 @@ const Header = () => {
               <Navigation/>
             </div>
             <div className="order-2 md:order-3">
-              <ButtonLink variant="primary" href="https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649" target="_blank" rel="noopener" iconPosition="left" icon={<FaTicketAlt />}>
+              <ButtonLink
+                variant="primary"
+                href="https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649"
+                target="_blank"
+                rel="noopener"
+                iconPosition="left"
+                icon={<FaTicketAlt />}
+              >
                 J’achète mon billet
               </ButtonLink>
             </div>

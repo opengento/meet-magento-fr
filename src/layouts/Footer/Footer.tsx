@@ -40,6 +40,7 @@ const Footer = () => {
       content: {
         type: 'link',
         href: 'https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649',
+        target: '_blank',
         text: 'Billetterie'
       },
       className: footerMenuItemLinkStyles
