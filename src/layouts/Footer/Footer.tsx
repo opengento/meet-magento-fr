@@ -31,7 +31,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '#privacy-policy',
+        href: '/mentions-legales#data-protection',
         text: 'Politique de confidentialité'
       },
       className: footerMenuItemLinkStyles
@@ -74,7 +74,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '/staff',
+        href: '/mentions-legales#staff',
         text: 'Les organisateurs'
       },
       className: "w-full font-semibold hover:text-orange mb-2"

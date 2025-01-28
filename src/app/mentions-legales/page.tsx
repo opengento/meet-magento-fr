@@ -3,6 +3,7 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import Link from "next/link";
 import Opengento from "/public/images/logo/opengento.svg";
+import {Content} from "next/dist/compiled/@next/font/dist/google";
 
 export default function Page() {
   return (
@@ -36,6 +37,11 @@ export default function Page() {
         </Typography>
       </ContentMedia>
       <ContentMedia
+        title="Les organisateurs"
+        titleUnderlineColor="primary-100">
+        <Link href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link>
+      </ContentMedia>
+      <ContentMedia
         title="Crédits"
         titleUnderlineColor="primary-100"
       >
@@ -57,20 +63,22 @@ export default function Page() {
           Ce site n’utilise pas de cookies.
         </Typography>
       </ContentMedia>
-      <ContentMedia
-        title="Protection des données"
-        titleUnderlineColor="primary-100"
-      >
-        <Typography color="dark">
-          L’utilisateur est informé des réglementations concernant la communication marketing, la loi du 21 Juin
-          2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du
-          Règlement Général sur la Protection des Données (RGPD : n° 2016-679).
-        </Typography>
-        <Typography color="dark">
-          L’utilisateur est informé que le site ne gère, ni ne stock quelques données personnelles que ce soit.
-          Nous n’utilisons, ni tracker, ni cookies, ni tag d’analyse du traffic.
-        </Typography>
-      </ContentMedia>
+      <div id="data-protection">
+        <ContentMedia
+          title="Protection des données"
+          titleUnderlineColor="primary-100"
+        >
+          <Typography color="dark">
+            L’utilisateur est informé des réglementations concernant la communication marketing, la loi du 21 Juin
+            2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du
+            Règlement Général sur la Protection des Données (RGPD : n° 2016-679).
+          </Typography>
+          <Typography color="dark">
+            L’utilisateur est informé que le site ne gère, ni ne stock quelques données personnelles que ce soit.
+            Nous n’utilisons, ni tracker, ni cookies, ni tag d’analyse du traffic.
+          </Typography>
+        </ContentMedia>
+      </div>
     </Container>
   );
 }
