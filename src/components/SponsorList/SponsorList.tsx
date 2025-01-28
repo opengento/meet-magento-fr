@@ -37,7 +37,7 @@ const SponsorList = ({
   ];
 
   return (
-    <BackgroundImage imagePath="/images/bg-gradiant-purple.jpg" className=''>
+    <BackgroundImage imagePath="/images/background/sponsors.png">
       <Container size="large" className={'overflow-hidden'}>
         <div className="mt-12">
           <TopBanner title="Merci à nos sponsors" backgroundImage="/images/pattern_top-banner_speakers.svg">

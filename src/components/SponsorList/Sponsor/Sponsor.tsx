@@ -7,10 +7,10 @@ const Sponsor = (sponsor: SponsorProps) => {
   const badgeHeight: number = 80;
 
   const boxClasses: Record<SponsorTypeProps, string> = {
-    platinum: "p-[57px] max-w-[325px] w-full h-[160px] lg:p-[57px] lg:w-[440px] lg:h-[560px]",
-    gold: "p-[24px] w-[157px] h-[98px] h-[160px] lg:p-[24px] lg:w-[290px] lg:h-[181.4px]",
-    silver: "p-[22px] w-[101px] h-[59px] h-[160px] lg:p-[22px] lg:w-[260px] lg:h-[150px]",
-    bronze: "p-[40px] w-[101px] h-[48px] lg:p-[20px] lg:w-[182px] lg:h-[85px]",
+    platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] p-[57px] max-w-[325px] w-full h-[160px] lg:p-[57px] lg:w-[440px] lg:h-[560px]",
+    gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] p-[24px] w-[157px] h-[98px] h-[160px] lg:p-[24px] lg:w-[290px] lg:h-[181.4px]",
+    silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] p-[22px] w-[101px] h-[59px] h-[160px] lg:p-[22px] lg:w-[260px] lg:h-[150px]",
+    bronze: "bg-[url(/images/background/sponsor-bronze.png)] hover:bg-[url(/images/background/sponsor-bronze.png)] p-[40px] w-[101px] h-[48px] lg:p-[20px] lg:w-[182px] lg:h-[85px]",
   };
   const badgeClasses: Record<SponsorTypeProps, string> = {
     platinum: "top-[30px] right-[30px] h-[55px] w-auto lg:top-[24px] lg:right-[24px] lg:h-[80px]",
@@ -27,9 +27,8 @@ const Sponsor = (sponsor: SponsorProps) => {
 
   return (
     <div className={classNames(
-      'duration-150 lg:bg-none lg:bg-black/70 lg:backdrop-blur-md',
-      'hover:bg-transparent hover:backdrop-blur-none hover:bg-cover hover:bg-blend-luminosity hover:bg-no-repeat hover:bg-[url(/images/bg-gradiant-blue.jpg),_url(/images/bg-gradiant-purple.jpg)]',
-      'bg-cover bg-blend-luminosity bg-no-repeat bg-[url(/images/bg-gradiant-blue.jpg),_url(/images/bg-gradiant-purple.jpg)]',
+      'duration-150 lg:bg-none lg:bg-black/70 lg:backdrop-blur-md bg-cover',
+      'hover:bg-transparent hover:backdrop-blur-none hover:bg-cover',
       'group m-1 rounded-xl relative float-left inline-flex justify-center items-center overflow-hidden',
       boxClasses[sponsor.type]
     )}>
