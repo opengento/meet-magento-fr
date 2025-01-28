@@ -31,7 +31,7 @@ const Speakers = () => {
                 </Typography>
               </div>
             </div>
-            <div className="bg-[url(/images/pattern_speakers.svg)] bg-cover flex items-center justify-center w-full md:w-1/2">
+            <div className="bg-[url(/images/pattern_speakers.svg)] bg-cover flex items-center justify-center w-full h-64 p-5 md:h-auto md:w-1/2">
               <ButtonLink
                 variant="secondary"
                 href="https://forms.gle/M6Y8V2xP7PGw5VD8A"
