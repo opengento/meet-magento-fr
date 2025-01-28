@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "@/components/Modal/Modal";
-import {SpeakerProps} from "@/components/Speakers/Speaker/SpeakerProps";
+import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
+import SpeakerPopInContent from "./SpeakerPopInContent";
 
 interface SpeakerPopInProps {
   selectedSpeaker: SpeakerProps;
@@ -11,14 +12,11 @@ interface SpeakerPopInProps {
 const SpeakerPopIn = ({
   isOpen,
   onClose,
-  //selectedSpeaker,
+  selectedSpeaker,
 }: SpeakerPopInProps) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <div>
-        {/* <Speaker speaker={selectedSpeaker} /> */}
-        test
-      </div>
+      <SpeakerPopInContent speaker={selectedSpeaker} />
     </Modal>
   );
 };

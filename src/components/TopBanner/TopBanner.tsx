@@ -1,4 +1,4 @@
-import React, {ReactNode} from "react";
+import React, { ReactNode } from "react";
 import Typography from "../Typography/Typography";
 import BackgroundImage from "../BackgroundImage/BackgroundImage";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
@@ -23,7 +23,7 @@ const TopBanner = ({
   const { width } = useWindowSize();
   const bannerContent = (
     <ClientOnly>
-      <div className="top-banner-content flex flex-col md:flex-row justify-between items-center">
+      <div className="top-banner-content flex flex-wrap flex-row justify-between items-center gap-2">
         <Typography variant="h4" className="text-white" weight="normal">
           {title}
         </Typography>
@@ -34,7 +34,10 @@ const TopBanner = ({
               <button onClick={onPrevClick} className="p-2 rounded bg-white/20">
                 <IoIosArrowBack className="text-white" size={24} />
               </button>
-              <button onClick={onNextClick} className="p-2 rounded bg-white/20 ">
+              <button
+                onClick={onNextClick}
+                className="p-2 rounded bg-white/20 "
+              >
                 <IoIosArrowForward className="text-white" size={24} />
               </button>
             </div>

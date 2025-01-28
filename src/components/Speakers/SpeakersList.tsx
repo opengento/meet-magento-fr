@@ -12,14 +12,13 @@ import Speaker from "./Speaker/Speaker";
 import SpeakerPopIn from "./Speaker/SpeakerPopIn";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
-import {SpeakersListProps} from "@/components/Speakers/SpeakersListProps";
+import { SpeakersListProps } from "@/components/Speakers/SpeakersListProps";
 
-const SpeakersList = ({speakers}: SpeakersListProps) => {
+const SpeakersList = ({ speakers }: SpeakersListProps) => {
   const { width } = useWindowSize();
   const swiperRef = React.useRef<SwiperClass>(null);
-  const [selectedSpeaker, setSelectedSpeaker] = React.useState<SpeakerProps | null>(
-    null
-  );
+  const [selectedSpeaker, setSelectedSpeaker] =
+    React.useState<SpeakerProps | null>(null);
 
   const handleSpeakerClick = (speaker: SpeakerProps) => {
     setSelectedSpeaker(speaker);
@@ -45,12 +44,21 @@ const SpeakersList = ({speakers}: SpeakersListProps) => {
     <section className="speakers-list">
       <div className="mb-12">
         <TopBanner
-          title="Appel à speakers"
+          title="Les speakers"
           backgroundImage="/images/pattern_top-banner_speakers.svg"
           onPrevClick={handlePrev}
           onNextClick={handleNext}
         >
-          <ButtonLink variant="secondary" href="#speakers">Découvrir les speakers</ButtonLink>
+          <div className="md:hidden">
+            <ButtonLink variant="secondary" href="#speakers">
+              Voir tout
+            </ButtonLink>
+          </div>
+          <div className="hidden md:block">
+            <ButtonLink variant="secondary" href="#speakers">
+              Découvrir les speakers
+            </ButtonLink>
+          </div>
         </TopBanner>
       </div>
       <ClientOnly>
