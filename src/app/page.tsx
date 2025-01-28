@@ -1,101 +1,25 @@
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Place from "@/components/Place/Place";
 import Faq from "@/components/Faq/Faq";
-import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
 import SponsorList from "@/components/SponsorList/SponsorList";
 import Container from "@/layouts/Container";
 import Hero from "@/components/Hero/Hero";
 import Speakers from "@/components/Speakers/Speakers";
+import { promises as fs } from 'fs';
+import { SpeakersTypeProps } from "@/components/Speakers/SpeakersProps";
+import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
+import { PlaceDataProps } from "@/components/Place/PlaceProps";
 
-export default function Home() {
-  const sponsors: SponsorProps[] = [
-    {
-      type: "platinum",
-      name: "Adobe",
-      logoSrc: "adobe.svg",
-    },
-    {
-      type: "gold",
-      name: "Dn'D",
-      logoSrc: "dnd.svg",
-    },
-    {
-      type: "gold",
-      name: "Hyvä",
-      logoSrc: "hyva.svg",
-    },
-    {
-      type: "gold",
-      name: "Ati4 Group",
-      logoSrc: "ati4group.svg",
-    },
-    {
-      type: "gold",
-      name: "Platform.sh",
-      logoSrc: "platformsh.svg",
-    },
-    {
-      type: "gold",
-      name: "Blackbird",
-      logoSrc: "blackbird.svg",
-    },
-    {
-      type: "gold",
-      name: "DATASOLUTION",
-      logoSrc: "datasolution.svg",
-    },
-    {
-      type: "silver",
-      name: "PH2M",
-      logoSrc: "ph2m.svg",
-    },
-    {
-      type: "silver",
-      name: "Sensefuel",
-      logoSrc: "sensefuel.svg",
-    },
-    {
-      type: "silver",
-      name: "PayPlug",
-      logoSrc: "payplug.svg",
-    },
-    {
-      type: "silver",
-      name: "Mollie",
-      logoSrc: "mollie.svg",
-    },
-    {
-      type: "silver",
-      name: "Spiriit",
-      logoSrc: "spiriit.svg",
-    },
-    {
-      type: "silver",
-      name: "Sutunam",
-      logoSrc: "sutunam.svg",
-    },
-    {
-      type: "bronze",
-      name: "Nosto",
-      logoSrc: "nosto.svg",
-    },
-    {
-      type: "bronze",
-      name: "Socloz",
-      logoSrc: "socloz.svg",
-    },
-    {
-      type: "bronze",
-      name: "Akeneo",
-      logoSrc: "akeneo.svg",
-    },
-  ];
+export default async function Home() {
+  const speakers: SpeakersTypeProps = JSON.parse(await fs.readFile(process.cwd() + '/src/data/speakers.json', 'utf8'));
+  const sponsors: SponsorProps[] = JSON.parse(await fs.readFile(process.cwd() + '/src/data/sponsors.json', 'utf8'));
+  const place: PlaceDataProps = JSON.parse(await fs.readFile(process.cwd() + '/src/data/place.json', 'utf8'));
 
   return (
     <div className="relative -top-[104px] left-0">
       <Hero />
       <div id="speakers">
-        <Speakers />
+        <Speakers data={speakers} />
       </div>
       <div id="sponsors">
         <SponsorList items={sponsors} />
@@ -119,7 +43,7 @@ export default function Home() {
               imagePosition="left"
               imageWidth="40%"
             >
-              <Place />
+              <Place place={place} />
             </ContentMedia>
           </div>
         </div>

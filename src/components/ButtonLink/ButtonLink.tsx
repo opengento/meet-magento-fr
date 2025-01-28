@@ -80,7 +80,7 @@ const ButtonLink = ({
           target={target}
           rel={rel}
           className={classNames(
-            "inline-block group rounded-3xl font-semibold duration-300",
+            "inline-block w-fit group rounded-3xl font-semibold duration-300",
             variant === "primary" ? "p-[3px]" : paddingClass,
             variantClass[variant]
           )}>

@@ -14,13 +14,26 @@ const Hero = () => {
       <BackgroundImage className="h-screen w-full flex items-center justify-center"
                        imagePath="/images/bg-hero.jpg" priority>
         <Container size="small" className="pt-[104px]">
-          <div className="flex py-16">
-            <div>
-              <Typography variant="h2" color="light">Save the date !</Typography>
-              <Typography variant="h3" color="light">Meet Magento arrive en France</Typography>
-              <Typography color="light">
-                Rejoignez la communauté Magento et Adobe Commerce pour une journée d&apos;innovations, d&apos;échanges
-                et d&apos;expertise, à ne pas manquer !
+          <div className="flex py-16 gap-12">
+            <div className="flex flex-col gap-2">
+              <Typography
+                variant="h1"
+                color="light"
+                weight="semibold"
+              >
+                Save the date !
+              </Typography>
+              <Typography
+                variant="h2"
+                color="light"
+                weight="semibold"
+                underlineColor="primary-100"
+              >
+                Meet Magento arrive en France
+              </Typography>
+              <Typography color="light" className="mt-4 font-alt">
+                Rejoignez la communauté Magento et Adobe Commerce pour une journée d’innovations, d’échanges
+                et d’expertise, à ne pas manquer !
               </Typography>
             </div>
             <div className="hidden md:flex flex-wrap justify-center gap-8">

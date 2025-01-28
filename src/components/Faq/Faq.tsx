@@ -35,7 +35,7 @@ const Faq = () => {
       question: "Comment puis-je acheter des billets pour l'événement ?",
       icon: <FaTicketAlt color="#FF7DD1" size={16}/>,
       answer:
-        "Les billets pour Meet Magento France 2025 seront bientôt disponibles ! Restez connectés.",
+        "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu.",
     },
     {
       question:

@@ -2,17 +2,9 @@ import React from "react";
 import Image from "next/image";
 import useWindowSize from "@/hooks/useWindowSize";
 import { GrFormView } from "react-icons/gr";
+import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
 
-interface Speaker {
-  id: number;
-  name: string;
-  title: string;
-  company: string;
-  role: string;
-  image: string;
-}
-
-const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
+const SpeakerCard = ({ speaker }: { speaker: SpeakerProps }) => (
   <div className="text-black flex flex-col justify-center cursor-pointer">
     <div className="flex gap-2 mb-2">
       {/* <img
@@ -27,7 +19,7 @@ const SpeakerCard = ({ speaker }: { speaker: Speaker }) => (
   </div>
 );
 
-const Speaker = ({ speaker }: { speaker: Speaker }) => {
+const Speaker = ({ speaker }: { speaker: SpeakerProps }) => {
   const { width } = useWindowSize();
   return (
     <>

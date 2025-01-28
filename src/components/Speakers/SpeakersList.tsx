@@ -11,74 +11,17 @@ import TopBanner from "@/components/TopBanner/TopBanner";
 import Speaker from "./Speaker/Speaker";
 import SpeakerPopIn from "./Speaker/SpeakerPopIn";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
+import {SpeakersListProps} from "@/components/Speakers/SpeakersListProps";
 
-const speakers: Speaker[] = [
-  {
-    id: 1,
-    name: "Régis Quintin",
-    title: "lorem ipsum",
-    company: "Adobe",
-    role: "Head of Commerce for Western Europe",
-    image: "/images/speakers/speaker.png",
-  },
-  {
-    id: 2,
-    name: "Balvesh Rakkar",
-    title: "lorem ipsum",
-    company: "Scandiweb",
-    role: "Responsable technique",
-    image: "/images/speakers/speaker.png",
-  },
-  {
-    id: 3,
-    name: "Balvesh Rakkar",
-    title: "lorem ipsum",
-    company: "Scandiweb",
-    role: "Responsable technique",
-    image: "/images/speakers/speaker.png",
-  },
-  {
-    id: 4,
-    name: "Balvesh Rakkar",
-    title: "lorem ipsum",
-    company: "Scandiweb",
-    role: "Responsable technique",
-    image: "/images/speakers/speaker.png",
-  },
-  {
-    id: 5,
-    name: "Balvesh Rakkar",
-    title: "lorem ipsum",
-    company: "Scandiweb",
-    role: "Responsable technique",
-    image: "/images/speakers/speaker.png",
-  },
-  {
-    id: 6,
-    name: "Balvesh Rakkar",
-    title: "lorem ipsum",
-    company: "Scandiweb",
-    role: "Responsable technique",
-    image: "/images/speakers/speaker.png",
-  },
-  {
-    id: 7,
-    name: "Balvesh Rakkar",
-    title: "lorem ipsum",
-    company: "Scandiweb",
-    role: "Responsable technique",
-    image: "/images/speakers/speaker.png",
-  },
-];
-
-const SpeakersList = () => {
+const SpeakersList = ({speakers}: SpeakersListProps) => {
   const { width } = useWindowSize();
   const swiperRef = React.useRef<SwiperClass>(null);
-  const [selectedSpeaker, setSelectedSpeaker] = React.useState<Speaker | null>(
+  const [selectedSpeaker, setSelectedSpeaker] = React.useState<SpeakerProps | null>(
     null
   );
 
-  const handleSpeakerClick = (speaker: Speaker) => {
+  const handleSpeakerClick = (speaker: SpeakerProps) => {
     setSelectedSpeaker(speaker);
   };
 
