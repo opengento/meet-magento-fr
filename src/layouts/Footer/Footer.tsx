@@ -39,7 +39,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '',
+        href: 'https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649',
         text: 'Billetterie'
       },
       className: footerMenuItemLinkStyles
@@ -135,7 +135,7 @@ const Footer = () => {
           </div>
         </Container>
         <div className="px-10">
-          <div className="flex justify-center ">
+          <div className="flex justify-center">
             <HashtagMMFR className="relative z-20 w-full max-w-[100%] h-auto"/>
             <FooterPatternRight className="absolute hidden md:block z-10 bottom-8 right-0"/>
           </div>

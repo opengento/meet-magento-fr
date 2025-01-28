@@ -28,7 +28,7 @@ const Hero = () => {
               <CountdownTimer targetDate={new Date("2025-03-25T08:00:00")}/>
               <ButtonLink
                 variant="secondary"
-                href=""
+                href="https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649"
                 iconPosition="right"
                 icon={<IoIosArrowForward />}
               >
