@@ -17,7 +17,7 @@ const footerMenuItemStyles = "-m-4 list-none mb-2";
 
 const Footer = () => {
   const linkedinUrl: string = 'https://www.linkedin.com/company/meet-magento-france';
-  const youtubeUrl: string = 'https://www.youtube.com/@opengento1877';
+  const youtubeUrl: string = 'https://www.youtube.com/@MeetMagentoFrance';
 
   const footerMenuItems: (ListItem | Content)[] = [
     {
