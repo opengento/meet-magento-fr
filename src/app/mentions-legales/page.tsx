@@ -35,11 +35,13 @@ export default function Page() {
           Ce site web est hébergé avec <em>♥</em> par <Link href="https://github.com/" target="_blank">GitHub</Link>.
         </Typography>
       </ContentMedia>
-      <ContentMedia
-        title="Les organisateurs"
-        titleUnderlineColor="primary-100">
-        <Link href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link>
-      </ContentMedia>
+      <div id="staff">
+        <ContentMedia
+          title="Les organisateurs"
+          titleUnderlineColor="primary-100">
+          <Link href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link>
+        </ContentMedia>
+      </div>
       <ContentMedia
         title="Crédits"
         titleUnderlineColor="primary-100"
