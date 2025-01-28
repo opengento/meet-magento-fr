@@ -47,7 +47,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '/legal-terms',
+        href: '/mentions-legales',
         text: 'Mentions Légales'
       },
       className: footerMenuItemLinkStyles
