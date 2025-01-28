@@ -1,9 +1,9 @@
 import React from "react";
 import Modal from "@/components/Modal/Modal";
-import Speaker from "./Speaker";
+import {SpeakerProps} from "@/components/Speakers/Speaker/SpeakerProps";
 
 interface SpeakerPopInProps {
-  selectedSpeaker: Speaker;
+  selectedSpeaker: SpeakerProps;
   isOpen: boolean;
   onClose: () => void;
 }
