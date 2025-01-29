@@ -43,7 +43,7 @@ const SponsorList = ({ items }: SponsorListProps) => {
         <div className="mt-12">
           <TopBanner
             title="Merci à nos sponsors"
-            backgroundImage="/images/pattern_top-banner_speakers.svg"
+            backgroundImage="/images/pattern_top-banner_sponsors.svg"
           >
             <ButtonLink variant="secondary" href="#sponsors">
               Devenir sponsor
