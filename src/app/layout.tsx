@@ -1,8 +1,9 @@
-import type {Metadata} from "next";
-import {IBM_Plex_Sans_Condensed, Montserrat} from "next/font/google";
+import type { Metadata } from "next";
+import { IBM_Plex_Sans_Condensed, Montserrat } from "next/font/google";
 import "/public/styles.css";
 import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
+import TranslationsProvider from '../components/TranslationsProvider/TranslationsProvider';
 
 const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
   variable: "--font-ibm-plex-sans-condensed",
@@ -27,16 +28,18 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-                                     children,
-                                   }: Readonly<{
+ children,
+}: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
     <html className="font-sans" lang="fr">
       <body className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased bg-camel`}>
-        <Header/>
-        <main>{children}</main>
-        <Footer/>
+        <TranslationsProvider>
+          <Header/>
+          <main>{children}</main>
+          <Footer/>
+        </TranslationsProvider>
       </body>
     </html>
   );

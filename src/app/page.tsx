@@ -1,3 +1,5 @@
+"use client";
+
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Place from "@/components/Place/Place";
 import Faq from "@/components/Faq/Faq";
@@ -5,15 +7,16 @@ import SponsorList from "@/components/SponsorList/SponsorList";
 import Container from "@/layouts/Container";
 import Hero from "@/components/Hero/Hero";
 import Speakers from "@/components/Speakers/Speakers";
-import { promises as fs } from 'fs';
-import { SpeakersTypeProps } from "@/components/Speakers/SpeakersProps";
+import { SpeakersProps } from "@/components/Speakers/SpeakersProps";
 import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
 import { PlaceDataProps } from "@/components/Place/PlaceProps";
+import { useTranslation } from "react-i18next";
 
-export default async function Home() {
-  const speakers: SpeakersTypeProps = JSON.parse(await fs.readFile(process.cwd() + '/src/data/speakers.json', 'utf8'));
-  const sponsors: SponsorProps[] = JSON.parse(await fs.readFile(process.cwd() + '/src/data/sponsors.json', 'utf8'));
-  const place: PlaceDataProps = JSON.parse(await fs.readFile(process.cwd() + '/src/data/place.json', 'utf8'));
+export default function Home() {
+  const { t } = useTranslation(['speakers', 'sponsors', 'place']);
+  const speakers: SpeakersProps = t('speakers:data', { returnObjects: true });
+  const sponsors: SponsorProps[] = t('sponsors:data', { returnObjects: true });
+  const place: PlaceDataProps = t('place:data', { returnObjects: true });
 
   return (
     <div className="relative -top-[104px] left-0">

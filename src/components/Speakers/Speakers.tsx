@@ -6,7 +6,7 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { IoIosArrowForward } from "react-icons/io";
 import { SpeakersProps } from "@/components/Speakers/SpeakersProps";
 
-const Speakers = ({data}: SpeakersProps) => {
+const Speakers = ({ data }: { data: SpeakersProps }) => {
   return (
     <Container size="large">
       <div className="speakers flex flex-col py-8 md:py-12 gap-12">
