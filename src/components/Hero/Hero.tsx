@@ -1,4 +1,5 @@
-'use client'
+"use client";
+
 import Typography from "@/components/Typography/Typography";
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import CountdownTimer from "@/components/Countdown/Countdown"
@@ -6,8 +7,8 @@ import Container from "@/layouts/Container";
 import MMFRFull from "/public/images/mmfr25-full.svg";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import React from "react";
-import {IoIosArrowForward} from "react-icons/io";
-import {useTranslation} from "react-i18next";
+import { IoIosArrowForward } from "react-icons/io";
+import { useTranslation } from "react-i18next";
 import { CiCalendar } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
 

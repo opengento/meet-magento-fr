@@ -12,9 +12,8 @@ import Speaker from "./Speaker/Speaker";
 import SpeakerPopIn from "./Speaker/SpeakerPopIn";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
-import { SpeakersListProps } from "@/components/Speakers/SpeakersListProps";
 
-const SpeakersList = ({ speakers }: SpeakersListProps) => {
+const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
   const { width } = useWindowSize();
   const swiperRef = React.useRef<SwiperClass>(null);
   const [selectedSpeaker, setSelectedSpeaker] =
