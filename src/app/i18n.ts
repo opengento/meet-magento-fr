@@ -14,7 +14,7 @@ i18next
   .init({
     defaultNS: 'common',
     fallbackLng: 'fr',
-    supportedLngs: ['fr'],
+    supportedLngs: ['fr', 'en'],
     lng: 'fr', // default language
     ns: ['common', 'hero', 'place', 'speakers', 'sponsors'],
     interpolation: {
