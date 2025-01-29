@@ -26,6 +26,7 @@ export default function Page() {
         <Typography color="dark">
           Siège social : 17 rue Idrac - 31000 Toulouse - France.
         </Typography>
+        <Link href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link>
       </ContentMedia>
       <ContentMedia
         title="Hébergement"
@@ -35,13 +36,6 @@ export default function Page() {
           Ce site web est hébergé avec <em>♥</em> par <Link href="https://github.com/" target="_blank">GitHub</Link>.
         </Typography>
       </ContentMedia>
-      <div id="staff">
-        <ContentMedia
-          title="Les organisateurs"
-          titleUnderlineColor="primary-100">
-          <Link href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link>
-        </ContentMedia>
-      </div>
       <ContentMedia
         title="Crédits"
         titleUnderlineColor="primary-100"
