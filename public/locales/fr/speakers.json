@@ -1,82 +1,84 @@
 {
-  "title": "Appel à speakers",
-  "subtitle": "Vous êtes expert du E-Commerce ou passionné de Magento ?",
-  "description": "Partagez vos connaissances sur la scène de Meet Magento 2025 France, le 25 mars à Paris.",
-  "registrationLabel": "Rejoignez les conférenciers de MM25FR",
-  "registrationFormUrl": "https://forms.gle/M6Y8V2xP7PGw5VD8A",
-  "speakers": [
-    {
-      "id": 1,
-      "name": "Régis Quintin",
-      "title": "lorem ipsum",
-      "company": "Adobe",
-      "role": "Head of Commerce for Western Europe",
-      "image": "/images/speakers/speaker.png",
-      "biography": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-      "sessions": [
-        {
-          "title": "Utilisation de l'IA dans le parcours d'achat du client",
-          "room": "Salle Orion",
-          "start": "9h00",
-          "end": "10h30",
-          "tags": ["Ouverture", "technique", "Expertise"]
-        },
-        {
-          "title": "Utilisation de l'IA dans le parcours d'achat du client",
-          "room": "Salle Orion",
-          "start": "9h00",
-          "end": "10h30",
-          "tags": ["Ouverture", "technique", "Expertise"]
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Balvesh Rakkar",
-      "title": "lorem ipsum",
-      "company": "Scandiweb",
-      "role": "Responsable technique",
-      "image": "/images/speakers/speaker.png"
-    },
-    {
-      "id": 3,
-      "name": "Balvesh Rakkar",
-      "title": "lorem ipsum",
-      "company": "Scandiweb",
-      "role": "Responsable technique",
-      "image": "/images/speakers/speaker.png"
-    },
-    {
-      "id": 4,
-      "name": "Balvesh Rakkar",
-      "title": "lorem ipsum",
-      "company": "Scandiweb",
-      "role": "Responsable technique",
-      "image": "/images/speakers/speaker.png"
-    },
-    {
-      "id": 5,
-      "name": "Balvesh Rakkar",
-      "title": "lorem ipsum",
-      "company": "Scandiweb",
-      "role": "Responsable technique",
-      "image": "/images/speakers/speaker.png"
-    },
-    {
-      "id": 6,
-      "name": "Balvesh Rakkar",
-      "title": "lorem ipsum",
-      "company": "Scandiweb",
-      "role": "Responsable technique",
-      "image": "/images/speakers/speaker.png"
-    },
-    {
-      "id": 7,
-      "name": "Balvesh Rakkar",
-      "title": "lorem ipsum",
-      "company": "Scandiweb",
-      "role": "Responsable technique",
-      "image": "/images/speakers/speaker.png"
-    }
-  ]
+  "data": {
+    "title": "Appel à speakers",
+    "subtitle": "Vous êtes expert du E-Commerce ou passionné de Magento ?",
+    "description": "Partagez vos connaissances sur la scène de Meet Magento 2025 France, le 25 mars à Paris.",
+    "registrationLabel": "Rejoignez les conférenciers de MM25FR",
+    "registrationFormUrl": "https://forms.gle/M6Y8V2xP7PGw5VD8A",
+    "speakers": [
+      {
+        "id": 1,
+        "name": "Régis Quintin",
+        "title": "lorem ipsum",
+        "company": "Adobe",
+        "role": "Head of Commerce for Western Europe",
+        "image": "/images/speakers/speaker.png",
+        "biography": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "sessions": [
+          {
+            "title": "Utilisation de l'IA dans le parcours d'achat du client",
+            "room": "Salle Orion",
+            "start": "9h00",
+            "end": "10h30",
+            "tags": ["Ouverture", "technique", "Expertise"]
+          },
+          {
+            "title": "Utilisation de l'IA dans le parcours d'achat du client",
+            "room": "Salle Orion",
+            "start": "9h00",
+            "end": "10h30",
+            "tags": ["Ouverture", "technique", "Expertise"]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Balvesh Rakkar",
+        "title": "lorem ipsum",
+        "company": "Scandiweb",
+        "role": "Responsable technique",
+        "image": "/images/speakers/speaker.png"
+      },
+      {
+        "id": 3,
+        "name": "Balvesh Rakkar",
+        "title": "lorem ipsum",
+        "company": "Scandiweb",
+        "role": "Responsable technique",
+        "image": "/images/speakers/speaker.png"
+      },
+      {
+        "id": 4,
+        "name": "Balvesh Rakkar",
+        "title": "lorem ipsum",
+        "company": "Scandiweb",
+        "role": "Responsable technique",
+        "image": "/images/speakers/speaker.png"
+      },
+      {
+        "id": 5,
+        "name": "Balvesh Rakkar",
+        "title": "lorem ipsum",
+        "company": "Scandiweb",
+        "role": "Responsable technique",
+        "image": "/images/speakers/speaker.png"
+      },
+      {
+        "id": 6,
+        "name": "Balvesh Rakkar",
+        "title": "lorem ipsum",
+        "company": "Scandiweb",
+        "role": "Responsable technique",
+        "image": "/images/speakers/speaker.png"
+      },
+      {
+        "id": 7,
+        "name": "Balvesh Rakkar",
+        "title": "lorem ipsum",
+        "company": "Scandiweb",
+        "role": "Responsable technique",
+        "image": "/images/speakers/speaker.png"
+      }
+    ]
+  }
 }

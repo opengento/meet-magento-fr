@@ -14,9 +14,9 @@ import { useTranslation } from "react-i18next";
 
 export default function Home() {
   const { t } = useTranslation(['speakers', 'sponsors', 'place']);
-  const speakers: SpeakersProps = t('speakers', { returnObjects: true });
-  const sponsors: SponsorProps[] = t('sponsors', { returnObjects: true });
-  const place: PlaceDataProps = t('place', { returnObjects: true });
+  const speakers: SpeakersProps = t('speakers:data', { returnObjects: true });
+  const sponsors: SponsorProps[] = t('sponsors:data', { returnObjects: true });
+  const place: PlaceDataProps = t('place:data', { returnObjects: true });
 
   return (
     <div className="relative -top-[104px] left-0">
