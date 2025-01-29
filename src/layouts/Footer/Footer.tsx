@@ -1,23 +1,25 @@
+"use client";
+
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import About from "@/components/About/About";
 import Typography from "@/components/Typography/Typography";
-import {List as FooterMenu} from "@/components/List/List";
+import { List as FooterMenu } from "@/components/List/List";
 import Container from "@/layouts/Container";
 import FooterLogo from "/public/images/logo_macaron.svg";
 import HashtagMMFR from "/public/images/mmfr2025-footer.svg";
 import FooterPatternLeft from "/public/images/footer_pattern_left.svg";
 import FooterPatternRight from "/public/images/footer_pattern_right.svg";
 import {Content, ListItem} from "@/components/List/List.types";
-import {FaLinkedinIn, FaYoutube} from "react-icons/fa";
+import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const footerMenuItemLinkStyles = "font-semibold hover:text-orange w-1/2 mb-2";
 const footerMenuItemStyles = "-m-4 list-none mb-2";
 
 const Footer = () => {
-  const linkedinUrl: string = 'https://www.linkedin.com/company/meet-magento-france';
-  const youtubeUrl: string = 'https://www.youtube.com/@MeetMagentoFrance';
+  const { t } = useTranslation(['common']);
 
   const footerMenuItems: (ListItem | Content)[] = [
     {
@@ -126,11 +128,11 @@ const Footer = () => {
           </div>
           <div className="flex relative z-20 gap-3 justify-end mb-6">
             <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
-                  href={linkedinUrl} target="_blank" rel="noopener">
+                  href={t('common:linkedinUrl')} target="_blank" rel="noopener">
               <FaLinkedinIn color="royalBlue" size={16}/>
             </Link>
             <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
-                  href={youtubeUrl} target="_blank" rel="noopener">
+                  href={t('common:youtubeUrl')} target="_blank" rel="noopener">
               <FaYoutube color="royalBlue" size={16}/>
             </Link>
           </div>
@@ -142,7 +144,6 @@ const Footer = () => {
           </div>
         </div>
       </BackgroundImage>
-
     </footer>
   );
 }

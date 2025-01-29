@@ -1,5 +1,5 @@
-import type {Metadata} from "next";
-import {IBM_Plex_Sans_Condensed, Montserrat} from "next/font/google";
+import type { Metadata } from "next";
+import { IBM_Plex_Sans_Condensed, Montserrat } from "next/font/google";
 import "/public/styles.css";
 import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
@@ -28,8 +28,8 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-                                     children,
-                                   }: Readonly<{
+ children,
+}: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
@@ -37,7 +37,7 @@ export default function RootLayout({
       <body className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased bg-camel`}>
         <TranslationsProvider>
           <Header/>
-            <main>{children}</main>
+          <main>{children}</main>
           <Footer/>
         </TranslationsProvider>
       </body>

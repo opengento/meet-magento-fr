@@ -6,13 +6,12 @@ import {
   SponsorProps,
   SponsorTypeProps,
 } from "@/components/SponsorList/Sponsor/Sponsor.types";
-import { SponsorListProps } from "@/components/SponsorList/SponsorListProps";
 import Container from "@/layouts/Container";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import React from "react";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
-const SponsorList = ({ items }: SponsorListProps) => {
+const SponsorList = ({ items }: { items: SponsorProps[] }) => {
   const sponsorListByType: Record<SponsorTypeProps, SponsorProps[]> =
     items.reduce(
       (
