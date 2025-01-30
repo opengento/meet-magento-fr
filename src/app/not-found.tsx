@@ -3,9 +3,8 @@
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import Typography from "@/components/Typography/Typography";
-import Link from "next/link";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import {FaHome} from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
 
 export default function Home() {
   return (
