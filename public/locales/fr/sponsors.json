@@ -1,4 +1,8 @@
 {
+  "feature": {
+    "submitUrl": null,
+    "seeAllUrl": null
+  },
   "data": [
     {
       "type": "platinum",

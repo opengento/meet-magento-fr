@@ -10,8 +10,12 @@ import Container from "@/layouts/Container";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import React from "react";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import {useTranslation} from "react-i18next";
 
 const SponsorList = ({ items }: { items: SponsorProps[] }) => {
+  const { t } = useTranslation(['sponsors']);
+  const features = t('features', { returnObjects: true });
+
   const sponsorListByType: Record<SponsorTypeProps, SponsorProps[]> =
     items.reduce(
       (
@@ -44,19 +48,25 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
             title="Merci à nos sponsors"
             backgroundImage="/images/pattern_top-banner_sponsors.svg"
           >
-            <ButtonLink variant="secondary" href="#sponsors">
-              Devenir sponsor
-            </ButtonLink>
-            <div className="hidden md:block">
-              <ButtonLink variant="soft-pink" href="#sponsors">
-                Voir tous les sponsors
+            {'submitUrl' in features && typeof features.submitUrl === 'string' && (
+              <ButtonLink variant="secondary" href={features.submitUrl}>
+                Devenir sponsor
               </ButtonLink>
-            </div>
-            <div className="md:hidden">
-              <ButtonLink variant="soft-pink" href="#sponsors">
-                Voir tout
-              </ButtonLink>
-            </div>
+            )}
+            {'seeAllUrl' in features && typeof features.seeAllUrl === 'string' && (
+              <>
+                <div className="hidden md:block">
+                  <ButtonLink variant="soft-pink" href={features.seeAllUrl}>
+                    Voir tous les sponsors
+                  </ButtonLink>
+                </div>
+                <div className="md:hidden">
+                  <ButtonLink variant="soft-pink" href={features.seeAllUrl}>
+                    Voir tout
+                  </ButtonLink>
+                </div>
+              </>
+            )}
           </TopBanner>
         </div>
         <ul
