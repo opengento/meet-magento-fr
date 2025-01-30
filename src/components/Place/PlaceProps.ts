@@ -1,15 +1,10 @@
-import {ReactNode} from "react";
+import { ReactNode } from "react";
 
-type PlaceType = {
+export type PlaceProps = {
   title: ReactNode;
   subtitle: ReactNode;
   address: ReactNode;
   description: ReactNode;
   label: ReactNode;
   url: string;
-};
-
-export type PlaceDataProps = PlaceType;
-export type PlaceProps = {
-  place: PlaceType;
-};
+}

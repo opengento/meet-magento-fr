@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Place from "@/components/Place/Place";
@@ -7,16 +7,16 @@ import SponsorList from "@/components/SponsorList/SponsorList";
 import Container from "@/layouts/Container";
 import Hero from "@/components/Hero/Hero";
 import Speakers from "@/components/Speakers/Speakers";
+import useDataProvider from "@/hooks/useDataProvider";
 import { SpeakersProps } from "@/components/Speakers/SpeakersProps";
 import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
-import { PlaceDataProps } from "@/components/Place/PlaceProps";
-import { useTranslation } from "react-i18next";
+import { PlaceProps } from "@/components/Place/PlaceProps";
 
 export default function Home() {
-  const { t } = useTranslation(['speakers', 'sponsors', 'place']);
-  const speakers: SpeakersProps = t('speakers:data', { returnObjects: true });
-  const sponsors: SponsorProps[] = t('sponsors:data', { returnObjects: true });
-  const place: PlaceDataProps = t('place:data', { returnObjects: true });
+  const dataProvider = useDataProvider();
+  const speakers: SpeakersProps = dataProvider.useSpeakers();
+  const sponsors: SponsorProps[] = dataProvider.useSponsors();
+  const place: PlaceProps = dataProvider.usePlace();
 
   return (
     <div className="relative -top-[104px] left-0">

@@ -1,10 +1,10 @@
 import React from "react";
-import Typography from "../Typography/Typography";
+import Typography from "@/components//Typography/Typography";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import {IoIosArrowForward} from "react-icons/io";
-import {PlaceProps} from "@/components/Place/PlaceProps";
+import { PlaceProps } from "@/components/Place/PlaceProps";
+import { IoIosArrowForward } from "react-icons/io";
 
-const Place = ({place}: PlaceProps) => {
+const Place = ({ place }: { place: PlaceProps }) => {
   return (
     <div className="flex flex-col gap-4 md:gap-6 md:py-6">
       <div className="flex flex-col gap-4 ">
