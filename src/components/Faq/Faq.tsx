@@ -98,6 +98,7 @@ const Faq = () => {
           )}
         </div>
       ))}
+      {/*
       <Typography variant="small" color="dark" weight="normal">
         Pour toute autre question, consultez notre{" "}
         <Link href="#" className="underline">
@@ -108,6 +109,7 @@ const Faq = () => {
           formulaire de contact
         </Link>
       </Typography>
+      */}
     </div>
   );
 };
