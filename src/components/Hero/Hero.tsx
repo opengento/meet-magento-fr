@@ -11,9 +11,10 @@ import { IoIosArrowForward } from "react-icons/io";
 import { useTranslation } from "react-i18next";
 import { CiCalendar } from "react-icons/ci";
 import { FaLocationDot } from "react-icons/fa6";
+import Link from "next/link";
 
 const Hero = () => {
-  const {t} = useTranslation(['hero', 'common']);
+  const {t} = useTranslation(['hero', 'common', 'place']);
 
   return (
     <div className="min-h-screen">
@@ -40,14 +41,14 @@ const Hero = () => {
               <Typography color="light" className="mt-4 font-alt">
                 {t('hero:content')}
               </Typography>
-              <div className="flex flex-wrap lg:flex-nowrap gap-4 mt-7">
+              <div className="flex flex-wrap lg:flex-nowrap gap-4 mt-7 text-white">
                 <div className="flex h-10 gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
                   <CiCalendar size={22} />
-                  <span className="text-white font-medium">{t('hero:date')}</span>
+                  <span className="font-medium">{t('hero:date')}</span>
                 </div>
                 <div className="flex gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
                   <FaLocationDot size={20} />
-                  <span className="text-white font-medium">{t('hero:place')}</span>
+                  <Link href={t('place:data.url')} className="font-medium">{t('hero:place')}</Link>
                 </div>
               </div>
             </div>

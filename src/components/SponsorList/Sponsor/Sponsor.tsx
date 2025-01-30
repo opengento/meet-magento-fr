@@ -42,7 +42,7 @@ const Sponsor = (sponsor: SponsorProps) => {
              height={badgeHeight}
              quality={90}
       />
-      <Image src={`/images/sponsors/${sponsor.logoSrc}`}
+      <Image src={sponsor.logoSrc}
              alt={sponsor.name}
              className={classNames(
                'object-contain object-center max-w-full',

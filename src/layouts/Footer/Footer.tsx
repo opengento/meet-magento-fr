@@ -41,7 +41,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: 'https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649',
+        href: t('common:ticketingUrl'),
         target: '_blank',
         text: 'Billetterie'
       },

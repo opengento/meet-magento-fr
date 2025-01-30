@@ -3,72 +3,58 @@
     {
       "type": "platinum",
       "name": "Adobe",
-      "description": "Création d’expériences B2B et B2C personnalisées par l'IA basées sur notre plateforme composable et évolutive Adobe Commerce",
+      "description": "",
+      "caption": "Création d’expériences B2B et B2C personnalisées par l'IA basées sur notre plateforme composable et évolutive Adobe Commerce",
       "url": "https://www.adobe.com/",
-      "logoSrc": "adobe.svg"
+      "logoSrc": "/images/sponsors/adobe.svg"
     },
     {
       "type": "gold",
       "name": "Dn'D",
-      "description": "Du conseil au delivery d'expériences digitales et E-Commerce B2C & B2B",
+      "description": "Du conseil au delivery d'expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
+      "caption": "Du conseil au delivery d'expériences digitales et E-Commerce B2C & B2B",
       "url": "https://www.dnd.fr/",
-      "logoSrc": "dnd.svg"
+      "logoSrc": "/images/sponsors/dnd.svg"
     },
     {
       "type": "silver",
       "name": "PH2M",
-      "description": "Agence e-commerce créatrice de solutions sur mesure pour marques et distributeurs",
+      "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 12 développeurs, contributeurs actifs Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
+      "caption": "Agence e-commerce créatrice de solutions sur mesure pour marques et distributeurs",
       "url": "https://www.ph2m.com/",
-      "logoSrc": "ph2m.svg"
+      "logoSrc": "/images/sponsors/ph2m.svg"
     },
     {
       "type": "gold",
       "name": "Hyvä",
       "description": "Le frontend Magento le plus populaire avec 5,000 sites lives dans le monde, dont Somfy, Purina, Bultex ou Boucheron. Découvrez comment optimiser votre web perf tout en réduisant votre temps et coût de développement avec Hyvä",
+      "caption": "Frontend hyper léger qui maximise votre web performance avec le minimum d'efforts",
       "url": "https://www.hyva.io/",
-      "logoSrc": "hyva.svg"
+      "logoSrc": "/images/sponsors/hyva.svg"
     },
     {
       "type": "gold",
       "name": "Ati4 Group",
-      "description": "ATI4 Group, agence e-commerce, construisons ensemble votre réussite digitale",
+      "description": "Ensemble, définissons, créons et développons votre projet e-commerce B2C ou B2B. Ati4 Group, c’est plus de 50 experts PIM et Adobe Commerce pour digitaliser et accélérer votre succès en ligne. Passion, partage et expertise sont au cœur de notre engagement.",
+      "caption": "ATI4 Group, agence e-commerce, construisons ensemble votre réussite digitale",
       "url": "https://ati4group.com/",
-      "logoSrc": "ati4group.svg"
+      "logoSrc": "/images/sponsors/ati4group.svg"
     },
     {
       "type": "gold",
       "name": "Blackbird",
       "description": "La mission de Blackbird est d'aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
+      "caption": "Blackbird (groupe Synolia), expert du digital et e-commerce depuis 2015",
       "url": "https://black.bird.eu/",
-      "logoSrc": "blackbird.svg"
+      "logoSrc": "/images/sponsors/blackbird.svg"
     },
     {
       "type": "gold",
       "name": "Platform.sh",
-      "description": "Platform.sh: near-instant, full-stack previews that end staging delays",
+      "description": "",
+      "caption": "Platform.sh: near-instant, full-stack previews that end staging delays",
       "url": "https://platform.sh/",
-      "logoSrc": "platformsh.svg"
-    },
-    {
-      "type": "silver",
-      "name": "LupaSearch",
-      "description": "",
-      "url": "https://www.lupasearch.com/",
-      "logoSrc": "lupasearch.svg"
-    },
-    {
-      "type": "gold",
-      "name": "DATASOLUTION",
-      "description": "",
-      "url": "https://www.datasolution.fr/",
-      "logoSrc": "datasolution.svg"
-    },
-    {
-      "type": "gold",
-      "name": "Decade",
-      "description": "",
-      "url": "https://www.datasolution.fr/",
-      "logoSrc": "decade.svg"
+      "logoSrc": "/images/sponsors/platformsh.svg"
     }
   ]
 }

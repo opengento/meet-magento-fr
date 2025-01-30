@@ -3,6 +3,9 @@ export type SpeakerProps = {
   name: string;
   title: string;
   company: string;
+  companyLogo: string;
+  companyUrl: string;
+  linkedin?: string;
   role: string;
   image: string;
   biography: string;

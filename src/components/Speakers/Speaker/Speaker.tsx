@@ -7,11 +7,13 @@ import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
 const SpeakerCard = ({ speaker }: { speaker: SpeakerProps }) => (
   <div className="text-black flex flex-col justify-center cursor-pointer">
     <div className="flex gap-2 mb-2">
-      {/* <img
-          src={`/${speaker.company.toLowerCase()}-logo.svg`}
-          alt={speaker.company}
-          className="h-6"
-        /> */}
+      <Image
+        src={speaker.companyLogo}
+        alt={speaker.company}
+        width={20}
+        height={20}
+        className="h-6"
+      />
       <span className="text-sm">{speaker.company}</span>
     </div>
     <p className="font-semibold text-lg mb-1">{speaker.name}</p>

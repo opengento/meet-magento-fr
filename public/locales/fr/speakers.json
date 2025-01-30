@@ -8,76 +8,95 @@
     "speakers": [
       {
         "id": 1,
-        "name": "Régis Quintin",
-        "title": "lorem ipsum",
-        "company": "Adobe",
-        "role": "Head of Commerce for Western Europe",
-        "image": "/images/speakers/speaker.png",
-        "biography": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+        "name": "Fred Plais",
+        "company": "Platform.sh",
+        "companyLogo": "/images/speakers/platformsh.svg",
+        "companyUrl": "https://platform.sh/",
+        "linkedin": "",
+        "role": "CEO",
+        "image": "/images/speakers/fred_plais.jpg",
+        "biography": "Fred Plais est un serial entrepreneur et cofondateur & CEO de Platform.sh, localisé en Californie depuis 2015. Passioné de tech, d'open source et d'entreprenariat, Fred est aussi investisseur et board member de plusieurs startups et scaleups francaises et americaines.",
         "sessions": [
           {
-            "title": "Utilisation de l'IA dans le parcours d'achat du client",
+            "title": "Comment PSh est devenu le partenaire de Adobe.",
+            "description": "Une plongée inspirante dans les coulisses d'un partenariat gagnant-gagnant, avec des enseignements applicables à d'autres collaborations stratégiques.",
+            "lang": "fr",
+            "track": "Business",
             "room": "Salle Orion",
             "start": "9h00",
             "end": "10h30",
-            "tags": ["Ouverture", "technique", "Expertise"]
-          },
-          {
-            "title": "Utilisation de l'IA dans le parcours d'achat du client",
-            "room": "Salle Orion",
-            "start": "9h00",
-            "end": "10h30",
-            "tags": ["Ouverture", "technique", "Expertise"]
+            "tags": ["Ouverture", "Business", "Expertise"]
           }
         ]
       },
       {
         "id": 2,
-        "name": "Balvesh Rakkar",
-        "title": "lorem ipsum",
-        "company": "Scandiweb",
-        "role": "Responsable technique",
-        "image": "/images/speakers/speaker.png"
+        "name": "Ivan Chepurnyi",
+        "company": "EcomDev B.V.",
+        "companyLogo": "/images/speakers/ecomdevbv.gif",
+        "companyUrl": "https://ivanchepurnyi.github.io/",
+        "linkedin": "https://www.linkedin.com/in/ivanchepurnyi/",
+        "role": "Magento Performance Expert",
+        "image": "/images/speakers/ivan_chepurnyi.jpg",
+        "biography": "Ivan Chepurnyi stands as a recognized expert in the Magento platform, a status he’s earned since his start in 2007. His deep technical understanding of the system has enabled him to build and fine-tune Magento websites for clients all around the globe.\n\nBeyond his technical skills, Ivan excels in breaking down complex ideas about performance optimization, code quality, and development workflows. His knack for making these intricate topics easy to understand has made him a regular speaker at Magento conferences and events.",
+        "sessions": [
+          {
+            "title": "200 Domains on a Single Magento Instance with a $300 Hosting Bill",
+            "description": "A fascinating story about a unique customer business model with a Magento store where each product segment has its dedicated domain and technology behind it.",
+            "lang": "en",
+            "track": "Technical",
+            "room": "Salle Orion",
+            "start": "9h00",
+            "end": "10h30",
+            "tags": ["Technical", "Expertise"]
+          }
+        ]
       },
       {
         "id": 3,
-        "name": "Balvesh Rakkar",
-        "title": "lorem ipsum",
-        "company": "Scandiweb",
-        "role": "Responsable technique",
-        "image": "/images/speakers/speaker.png"
+        "name": "Adrien Illy",
+        "company": "Agence Dn'D",
+        "companyLogo": "/images/speakers/dnd.svg",
+        "companyUrl": "https://www.dnd.fr/",
+        "linkedin": "https://fr.linkedin.com/in/illyadrien",
+        "role": "Tech Expert",
+        "image": "/images/speakers/adrien_illy.jpg",
+        "biography": "",
+        "sessions": [
+          {
+            "title": "Comment étendre Magento/Adobe Commerce sans le surcharger - App Builder.",
+            "description": "Et si vous personnalisiez Magento sans jamais toucher à son code ? Découvrez une approche innovante basée sur les addons, en exploitant Adobe App Builder et Runtime I/O pour transformer l’expérience Magento.",
+            "lang": "fr",
+            "track": "Technical",
+            "room": "Salle Orion",
+            "start": "9h00",
+            "end": "10h30",
+            "tags": ["Technical", "Expertise"]
+          }
+        ]
       },
       {
         "id": 4,
-        "name": "Balvesh Rakkar",
-        "title": "lorem ipsum",
-        "company": "Scandiweb",
-        "role": "Responsable technique",
-        "image": "/images/speakers/speaker.png"
-      },
-      {
-        "id": 5,
-        "name": "Balvesh Rakkar",
-        "title": "lorem ipsum",
-        "company": "Scandiweb",
-        "role": "Responsable technique",
-        "image": "/images/speakers/speaker.png"
-      },
-      {
-        "id": 6,
-        "name": "Balvesh Rakkar",
-        "title": "lorem ipsum",
-        "company": "Scandiweb",
-        "role": "Responsable technique",
-        "image": "/images/speakers/speaker.png"
-      },
-      {
-        "id": 7,
-        "name": "Balvesh Rakkar",
-        "title": "lorem ipsum",
-        "company": "Scandiweb",
-        "role": "Responsable technique",
-        "image": "/images/speakers/speaker.png"
+        "name": "Hervé Guétin",
+        "company": "Agence Dn'D",
+        "companyLogo": "/images/speakers/dnd.svg",
+        "companyUrl": "https://www.dnd.fr/",
+        "linkedin": "https://www.linkedin.com/in/herveguetin/",
+        "role": "Tech Expert",
+        "image": "/images/speakers/herve_guetin.tiff",
+        "biography": "",
+        "sessions": [
+          {
+            "title": "Le frontend Magento : vers une nouvelle dynamique communautaire.",
+            "description": "Réinventer le frontend Magento en l'alignant sur les meilleures pratiques modernes : une opportunité d’optimiser la stack, d’attirer de nouveaux talents et de dynamiser la communauté grâce à une collaboration renforcée entre backend et frontend.",
+            "lang": "fr",
+            "track": "Technical",
+            "room": "Salle Orion",
+            "start": "9h00",
+            "end": "10h30",
+            "tags": ["Technical", "Expertise"]
+          }
+        ]
       }
     ]
   }

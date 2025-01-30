@@ -1,3 +1,5 @@
+'use client';
+
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import Logo from "@/components/Logo/Logo";
 import Navigation from "./Navigation/Navigation";
@@ -5,8 +7,11 @@ import Container from "../Container";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { FaTicketAlt } from "react-icons/fa";
 import React from "react";
+import {useTranslation} from "react-i18next";
 
 const Header = () => {
+  const { t } = useTranslation(['common']);
+
   const HeaderContent = () => (
     <div className="w-full overflow-hidden rounded-b-xl lg:rounded-xl">
       <BackgroundImage imagePath="/images/bg-gradiant-blue.jpg" priority>
@@ -21,7 +26,7 @@ const Header = () => {
             <div className="order-2 lg:order-3">
               <ButtonLink
                 variant="primary"
-                href="https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649"
+                href={t("common:ticketingUrl")}
                 target="_blank"
                 rel="noopener"
                 iconPosition="left"

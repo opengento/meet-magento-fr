@@ -23,28 +23,32 @@ const SpeakerPopInContent = ({ speaker }: SpeakerPopInContentProps) => {
             width={235}
             height={235}
           />
+          {speaker.linkedin && (
           <div className="absolute bottom-2 left-2 flex gap-2 text-primary">
             <Link
               className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
-              href="https://www.linkedin.com/company/meet-magento-france"
+              href={speaker.linkedin}
               target="_blank"
               rel="noopener"
             >
               <FaLinkedinIn size={16} />
             </Link>
           </div>
+          )}
         </div>
         <div className="flex flex-col flex-col-reverse">
           <div className="flex items-center gap-2">
             <Image
-              src="/magento-icon.svg"
-              alt="Company"
+              src={speaker.companyLogo}
+              alt={speaker.company}
               width={20}
               height={20}
             />
-            <Typography variant="body2" weight="normal">
-              {speaker.company}
-            </Typography>
+            <Link href={speaker.companyUrl} target="_blank" rel="noopener">
+              <Typography variant="body2" weight="normal">
+                {speaker.company}
+              </Typography>
+            </Link>
           </div>
           <Typography variant="subtitle2" weight="normal" className="italic">
             {speaker.role}
@@ -68,10 +72,10 @@ const SpeakerPopInContent = ({ speaker }: SpeakerPopInContentProps) => {
         >
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
-              <Typography variant="h4" weight="semibold">
+              <Typography color="dark" variant="h4" weight="semibold">
                 {session.title}
               </Typography>
-              <div className="flex items-center font-medium">
+              <div className="flex items-center font-medium text-black">
                 {/* <Image src={session.room} alt="Room" width={24} height={24} /> */}
                 <span>{session.room}</span>
                 <span className="mx-2">|</span>
