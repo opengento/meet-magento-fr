@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React, {useState} from "react";
 import {FaCompass, FaHeart, FaLanguage, FaShoppingBag, FaStar, FaTicketAlt, FaUser,} from "react-icons/fa";
 import Typography from "../Typography/Typography";

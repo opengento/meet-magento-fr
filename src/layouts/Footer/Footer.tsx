@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import About from "@/components/About/About";
