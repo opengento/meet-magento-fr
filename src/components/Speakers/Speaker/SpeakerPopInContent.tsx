@@ -76,12 +76,12 @@ const SpeakerPopInContent = ({ speaker }: SpeakerPopInContentProps) => {
                 {session.title}
               </Typography>
               <div className="flex items-center font-medium text-black">
-                {/* <Image src={session.room} alt="Room" width={24} height={24} /> */}
+                {/* <Image src={session.room} alt="Room" width={24} height={24} />
                 <span>{session.room}</span>
                 <span className="mx-2">|</span>
                 <span>{session.start}</span>
                 <span className="mx-1">|</span>
-                <span>{session.end}</span>
+                <span>{session.end}</span> */}
               </div>
             </div>
             <div className="flex gap-2">
@@ -102,16 +102,31 @@ const SpeakerPopInContent = ({ speaker }: SpeakerPopInContentProps) => {
             </div>
           </div>
           <div className="flex flex-col justify-end items-start md:items-end w-full">
+            <Typography
+              color="dark"
+              variant="body1"
+              weight="semibold"
+            >
+              Plus d’informations à venir !
+            </Typography>
+            <Typography
+              color="dark"
+              variant="body1"
+              weight="semibold"
+            >
+              Restez connecté !
+            </Typography>
+            {/*
             <button className="bg-primary text-white px-4 py-2 rounded-lg flex items-center gap-2 rounded-xl w-fit">
               <PiCalendarPlus size={24} className="text-white" />
               <Typography
                 variant="body1"
                 weight="semibold"
-                className="text-white"
+                color="light"
               >
                 Ajouter à mon agenda
               </Typography>
-            </button>
+            </button> */}
           </div>
         </div>
       ))}
