@@ -2,7 +2,7 @@
 import React, {useState} from "react";
 import {FaCompass, FaHeart, FaLanguage, FaShoppingBag, FaStar, FaTicketAlt, FaUser,} from "react-icons/fa";
 import Typography from "../Typography/Typography";
-import Link from "next/link";
+/*import Link from "next/link";*/
 
 const Faq = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
