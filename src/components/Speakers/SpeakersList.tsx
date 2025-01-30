@@ -12,12 +12,15 @@ import Speaker from "./Speaker/Speaker";
 import SpeakerPopIn from "./Speaker/SpeakerPopIn";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
+import {useTranslation} from "react-i18next";
 
 const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
   const { width } = useWindowSize();
   const swiperRef = React.useRef<SwiperClass>(null);
   const [selectedSpeaker, setSelectedSpeaker] =
     React.useState<SpeakerProps | null>(null);
+  const { t } = useTranslation(['speakers']);
+  const actions = t('actions', { returnObjects: true });
 
   const handleSpeakerClick = (speaker: SpeakerProps) => {
     setSelectedSpeaker(speaker);
@@ -48,16 +51,20 @@ const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
           onPrevClick={handlePrev}
           onNextClick={handleNext}
         >
-          <div className="md:hidden">
-            <ButtonLink variant="secondary" href="#speakers">
-              Voir tout
-            </ButtonLink>
-          </div>
-          <div className="hidden md:block">
-            <ButtonLink variant="secondary" href="#speakers">
-              Découvrir les speakers
-            </ButtonLink>
-          </div>
+          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && (
+            <>
+              <div className="md:hidden">
+                <ButtonLink variant="secondary" href={actions.seeAllUrl}>
+                  Voir tout
+                </ButtonLink>
+              </div>
+              <div className="hidden md:block">
+                <ButtonLink variant="secondary" href={actions.seeAllUrl}>
+                  Découvrir les speakers
+                </ButtonLink>
+              </div>
+            </>
+          )}
         </TopBanner>
       </div>
       <ClientOnly>

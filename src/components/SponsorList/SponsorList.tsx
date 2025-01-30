@@ -14,7 +14,7 @@ import {useTranslation} from "react-i18next";
 
 const SponsorList = ({ items }: { items: SponsorProps[] }) => {
   const { t } = useTranslation(['sponsors']);
-  const features = t('features', { returnObjects: true });
+  const actions = t('actions', { returnObjects: true });
 
   const sponsorListByType: Record<SponsorTypeProps, SponsorProps[]> =
     items.reduce(
@@ -48,20 +48,20 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
             title="Merci à nos sponsors"
             backgroundImage="/images/pattern_top-banner_sponsors.svg"
           >
-            {'submitUrl' in features && typeof features.submitUrl === 'string' && (
-              <ButtonLink variant="secondary" href={features.submitUrl}>
+            {'submitUrl' in actions && typeof actions.submitUrl === 'string' && (
+              <ButtonLink variant="secondary" href={actions.submitUrl}>
                 Devenir sponsor
               </ButtonLink>
             )}
-            {'seeAllUrl' in features && typeof features.seeAllUrl === 'string' && (
+            {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && (
               <>
                 <div className="hidden md:block">
-                  <ButtonLink variant="soft-pink" href={features.seeAllUrl}>
+                  <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
                     Voir tous les sponsors
                   </ButtonLink>
                 </div>
                 <div className="md:hidden">
-                  <ButtonLink variant="soft-pink" href={features.seeAllUrl}>
+                  <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
                     Voir tout
                   </ButtonLink>
                 </div>

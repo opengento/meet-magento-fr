@@ -1,4 +1,7 @@
 {
+  "actions": {
+    "seeAllUrl": null
+  },
   "data": {
     "title": "Appel à speakers",
     "subtitle": "Vous êtes expert du E-Commerce ou passionné de Magento ?",
