@@ -7,10 +7,10 @@ const Sponsor = (sponsor: SponsorProps) => {
   const badgeHeight: number = 80;
 
   const boxClasses: Record<SponsorTypeProps, string> = {
-    platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] p-[57px] max-w-[325px] w-full h-[160px] lg:p-[57px] lg:w-[440px] lg:h-[560px]",
-    gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] p-[24px] w-[157px] h-[98px] h-[160px] lg:p-[24px] lg:w-[290px] lg:h-[181.4px]",
-    silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] p-[22px] w-[101px] h-[59px] h-[160px] lg:p-[22px] lg:w-[260px] lg:h-[150px]",
-    bronze: "bg-[url(/images/background/sponsor-bronze.png)] hover:bg-[url(/images/background/sponsor-bronze.png)] p-[40px] w-[101px] h-[48px] lg:p-[20px] lg:w-[182px] lg:h-[85px]",
+    platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] p-[57px] col-span-12 row-span-4 lg:col-span-4 lg:row-span-9",
+    gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] p-[24px] col-span-6 row-span-3 lg:col-span-2 lg:row-span-3",
+    silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] p-[22px] col-span-4 row-span-2 lg:col-span-2 lg:row-span-2",
+    bronze: "bg-[url(/images/background/sponsor-bronze.png)] hover:bg-[url(/images/background/sponsor-bronze.png)] p-[40px] col-span-4 row-span-1 lg:col-span-2 lg:row-span-1",
   };
   const badgeClasses: Record<SponsorTypeProps, string> = {
     platinum: "top-[30px] right-[30px] h-[55px] w-auto lg:top-[24px] lg:right-[24px] lg:h-[80px]",
@@ -29,7 +29,7 @@ const Sponsor = (sponsor: SponsorProps) => {
     <div className={classNames(
       'duration-150 lg:bg-none lg:bg-black/70 lg:backdrop-blur-md bg-cover',
       'hover:bg-transparent hover:backdrop-blur-none hover:bg-cover',
-      'group m-1 rounded-xl relative float-left inline-flex justify-center items-center overflow-hidden',
+      'group rounded-lg relative inline-flex justify-center items-center overflow-hidden',
       boxClasses[sponsor.type]
     )}>
       <Image src={`/images/badges/${sponsor.type}.svg`}

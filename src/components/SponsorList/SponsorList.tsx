@@ -69,11 +69,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
             )}
           </TopBanner>
         </div>
-        <ul
-          className={
-            "clear-both overflow-hidden -mx-1 mt-6 mb-9 md:mb-10 md:max-w-[1350px]"
-          }
-        >
+        <ul className="grid grid-cols-12 grid-rows-6 lg:grid-cols-10 lg:grid-rows-9 gap-2 my-6">
           {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
             <Sponsor
               type={sponsor.type}
