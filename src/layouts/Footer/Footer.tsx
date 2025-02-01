@@ -77,7 +77,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '/mentions-legales#staff',
+        href: '/staff',
         text: 'Les organisateurs'
       },
       className: "w-full font-semibold hover:text-orange mb-2"

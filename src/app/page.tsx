@@ -31,7 +31,7 @@ export default function Home() {
         <div className="content-media-sections flex flex-col gap-12 py-12">
           <div id="faq">
             <ContentMedia
-              imageUrl="/images/faq.png"
+              imageUrl="/images/media/faq.png"
               imagePosition="right"
               imageWidth="40%"
               title="Besoin d'aide ?"

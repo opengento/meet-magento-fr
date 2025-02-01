@@ -63,6 +63,16 @@
       "biography": ""
     },
     {
+      "name": "Thomas Klein",
+      "company": "Opengento",
+      "companyLogo": "/images/logo/opengento.svg",
+      "companyUrl": "https://opengento.fr/",
+      "linkedin": "https://www.linkedin.com/in/thomas-klein/",
+      "role": "Chargée de communication",
+      "photo": "/images/staff/thomas_klein.jpeg",
+      "biography": ""
+    },
+    {
       "name": "Cannelle Lemnos",
       "company": "Ati4 Group",
       "companyLogo": "/images/logo/ati4group.svg",
@@ -71,27 +81,6 @@
       "role": "Chargée de communication",
       "photo": "/images/staff/cannelle_lemnos.png",
       "photoBg": 6,
-      "biography": ""
-    },
-    {
-      "name": "Patricia Poncy",
-      "company": "Platform.sh",
-      "companyLogo": "/images/logo/platformsh.svg",
-      "companyUrl": "https://platform.sh/",
-      "linkedin": "https://www.linkedin.com/in/patriciaponcy",
-      "role": "Agency Partner Manager Western EU",
-      "photo": "/images/staff/patricia_poncy.png",
-      "photoBg": 3,
-      "biography": ""
-    },
-    {
-      "name": "Thomas Klein",
-      "company": "Opengento",
-      "companyLogo": "/images/logo/opengento.svg",
-      "companyUrl": "https://opengento.fr/",
-      "linkedin": "https://www.linkedin.com/in/thomas-klein/",
-      "role": "Chargée de communication",
-      "photo": "/images/staff/thomas_klein.jpeg",
       "biography": ""
     },
     {
@@ -106,14 +95,14 @@
       "biography": ""
     },
     {
-      "name": "Elodie Guiroux",
+      "name": "Patricia Poncy",
       "company": "Platform.sh",
       "companyLogo": "/images/logo/platformsh.svg",
       "companyUrl": "https://platform.sh/",
-      "linkedin": "https://www.linkedin.com/in/elodie-guiroux/",
-      "role": "Events Marketing Manager",
-      "photo": "/images/staff/elodie_guiroux.png",
-      "photoBg": 2,
+      "linkedin": "https://www.linkedin.com/in/patriciaponcy",
+      "role": "Agency Partner Manager Western EU",
+      "photo": "/images/staff/patricia_poncy.png",
+      "photoBg": 3,
       "biography": ""
     },
     {
@@ -125,6 +114,17 @@
       "role": "Directeur Commercial",
       "photo": "/images/staff/olivier_haesen.png",
       "photoBg": 4,
+      "biography": ""
+    },
+    {
+      "name": "Elodie Guiroux",
+      "company": "Platform.sh",
+      "companyLogo": "/images/logo/platformsh.svg",
+      "companyUrl": "https://platform.sh/",
+      "linkedin": "https://www.linkedin.com/in/elodie-guiroux/",
+      "role": "Events Marketing Manager",
+      "photo": "/images/staff/elodie_guiroux.png",
+      "photoBg": 2,
       "biography": ""
     }
   ]

@@ -5,7 +5,7 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 
 export default function Page() {
   return (
-    <Container size="large" className="flex flex-col gap-8 my-8">
+    <Container className="flex flex-col gap-8 my-8">
       <ContentMedia>
         <Typography
           variant="h1"
