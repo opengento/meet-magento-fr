@@ -1,10 +1,29 @@
+'use client';
+
 import Typography from "@/components/Typography/Typography";
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import Link from "next/link";
 import Image from "next/image";
+import Person from "@/components/Person/Person";
+import React from "react";
+import useDataProvider from "@/hooks/useDataProvider";
+import {PersonProps} from "@/components/Person/PersonProps";
+import PersonPopIn from "@/components/Person/PersonPopIn";
 
 export default function Page() {
+  const dataProvider = useDataProvider();
+  const developers = dataProvider.usePersonList('contributors', 'developers');
+  const [selectedDeveloper, setSelectedDeveloper] = React.useState<PersonProps | null>(null);
+
+  const handleDeveloperClick = (developer: PersonProps) => {
+    setSelectedDeveloper(developer);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedDeveloper(null);
+  };
+
   return (
     <Container className="flex flex-col gap-8 my-8">
       <ContentMedia>
@@ -51,18 +70,45 @@ export default function Page() {
           Ce site Web à été fait avec <Link href="https://nextjs.org/" target="_blank">Next.js</Link>.
         </Typography>
         <Typography color="dark">
-          Merci aux <Link className="font-semibold" href="https://github.com/opengento/meet-magento-fr/graphs/contributors" target="_blank">contributeurs</Link> !
-        </Typography>
-        <Typography color="dark">
-          Merci à <Link className="inline-block align-middle" href="https://opengento.fr/" target="_blank" title="Opengento">
+          Merci à <Link
+            className="inline-block align-middle"
+            href="https://opengento.fr/"
+            target="_blank"
+            title="Opengento"
+          >
             <Image
               src="/images/logo/opengento.png"
               alt="Opengento Logo"
               width={101}
               height={24}
             />
-        </Link> pour la réalisation du site !
+          </Link> et aux <Link
+            className="font-semibold"
+            href="https://github.com/opengento/meet-magento-fr/graphs/contributors"
+            target="_blank"
+          >
+            contributeurs
+          </Link> pour la réalisation du site !
         </Typography>
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 gap-y-12 mt-8">
+          {developers
+            .map((developer) => (
+              <div
+                key={developer.id}
+                className="flex flex-row gap-6 group hover:cursor-pointer"
+                onClick={() => handleDeveloperClick(developer)}
+              >
+                <Person person={developer}/>
+              </div>
+            ))}
+        </div>
+        {selectedDeveloper && (
+          <PersonPopIn
+            isOpen={!!selectedDeveloper}
+            onClose={handleCloseModal}
+            selectedPerson={selectedDeveloper}
+          />
+        )}
       </ContentMedia>
       <ContentMedia
         title="Cookies"

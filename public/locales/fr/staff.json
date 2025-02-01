@@ -8,6 +8,7 @@
   "description": "L’édition française de Meet Magento 2025 est un événement communautaire né d’une idée et d’une collaboration entre Dn’D, Hyvä, Opengento et PH2M. Ces entreprises, toutes engagées dans l’écosystème Magento et Adobe Commerce, ont uni leurs forces pour organiser cet événement unique, avec le soutien d’Adobe France, le support de plusieurs acteurs de la communauté et l’approbation de la Magento Association.\n\nCe salon, inédit en France, sera l’occasion de rassembler des experts, des marchands et des professionnels du secteur pour une journée d’échanges, de retours d’expérience et de démonstrations sur les solutions Magento et Adobe Commerce. Découvrez les acteurs qui œuvrent ensemble pour faire de cette rencontre un moment clé du commerce digital.",
   "members": [
     {
+      "id": 1,
       "name": "Camille Bénard",
       "company": "Agence Dn'D",
       "companyLogo": "/images/logo/dnd.svg",
@@ -19,6 +20,7 @@
       "biography": ""
     },
     {
+      "id": 2,
       "name": "Julien Didier",
       "company": "Agence Dn'D",
       "companyLogo": "/images/logo/dnd.svg",
@@ -30,6 +32,7 @@
       "biography": ""
     },
     {
+      "id": 3,
       "name": "Thien-Lan Weber",
       "company": "Hyvä",
       "companyLogo": "/images/logo/hyva.svg",
@@ -41,6 +44,7 @@
       "biography": ""
     },
     {
+      "id": 4,
       "name": "Frédéric Martinez",
       "company": "PH2M",
       "companyLogo": "/images/logo/ph2m.jpeg",
@@ -52,6 +56,7 @@
       "biography": ""
     },
     {
+      "id": 5,
       "name": "Marion Sainty",
       "company": "Blackbird",
       "companyLogo": "/images/logo/blackbird.svg",
@@ -63,6 +68,7 @@
       "biography": ""
     },
     {
+      "id": 6,
       "name": "Thomas Klein",
       "company": "Opengento",
       "companyLogo": "/images/logo/opengento.svg",
@@ -70,9 +76,11 @@
       "linkedin": "https://www.linkedin.com/in/thomas-klein/",
       "role": "Secrétaire",
       "photo": "/images/staff/thomas_klein.jpeg",
+      "photoBg": 3,
       "biography": ""
     },
     {
+      "id": 7,
       "name": "Cannelle Lemnos",
       "company": "Ati4 Group",
       "companyLogo": "/images/logo/ati4group.svg",
@@ -84,6 +92,7 @@
       "biography": ""
     },
     {
+      "id": 8,
       "name": "Ceyhun Kaplan",
       "company": "Blackbird",
       "companyLogo": "/images/logo/blackbird.svg",
@@ -95,6 +104,7 @@
       "biography": ""
     },
     {
+      "id": 9,
       "name": "Patricia Poncy",
       "company": "Platform.sh",
       "companyLogo": "/images/logo/platformsh.svg",
@@ -102,10 +112,11 @@
       "linkedin": "https://www.linkedin.com/in/patriciaponcy",
       "role": "Agency Partner Manager Western EU",
       "photo": "/images/staff/patricia_poncy.png",
-      "photoBg": 3,
+      "photoBg": 1,
       "biography": ""
     },
     {
+      "id": 10,
       "name": "Olivier Haesen",
       "company": "Ati4 Group",
       "companyLogo": "/images/logo/ati4group.svg",
@@ -117,6 +128,7 @@
       "biography": ""
     },
     {
+      "id": 11,
       "name": "Elodie Guiroux",
       "company": "Platform.sh",
       "companyLogo": "/images/logo/platformsh.svg",

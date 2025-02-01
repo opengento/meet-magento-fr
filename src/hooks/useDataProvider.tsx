@@ -56,9 +56,9 @@ const usePlace = (): PlaceProps =>
   return content;
 }
 
-const useStaffs = (): PersonProps[] =>
+const usePersonList = (ns: string, key: string): PersonProps[] =>
 {
-  const content = useData('staff', 'members');
+  const content = useData(ns, key);
   if (!isPersonList(content)) {
     throw new Error('Content is not a valid array of Sponsor Type');
   }
@@ -71,7 +71,7 @@ const useDataProvider = () => {
     useSponsors: useSponsors,
     useSpeakers: useSpeakers,
     usePlace: usePlace,
-    useStaffs: useStaffs,
+    usePersonList: usePersonList,
   }
 };
 

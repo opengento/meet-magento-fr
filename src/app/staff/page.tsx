@@ -16,7 +16,7 @@ import {IoIosArrowForward} from "react-icons/io";
 export default function Page() {
   const { t } = useTranslation(['staff', 'common']);
   const dataProvider = useDataProvider();
-  const staffMembers = dataProvider.useStaffs();
+  const staffMembers = dataProvider.usePersonList('staff', 'members');
   const [selectedStaff, setSelectedStaff] = React.useState<PersonProps | null>(null);
 
   const handleStaffClick = (staff: PersonProps) => {

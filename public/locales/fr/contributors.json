@@ -1,0 +1,40 @@
+{
+  "developers": [
+    {
+      "id": 1,
+      "name": "Timothée AUBRY",
+      "company": "Opengento",
+      "companyLogo": "/images/logo/opengento.svg",
+      "companyUrl": "https://opengento.fr/",
+      "linkedin": "https://www.linkedin.com/in/timoth%C3%A9e-aubry-33b543196/",
+      "role": "Développeur",
+      "photo": "/images/staff/timothee_aubry.jpeg",
+      "photoBg": 1,
+      "biography": ""
+    },
+    {
+      "id": 2,
+      "name": "Baptiste Bourzeix",
+      "company": "Opengento",
+      "companyLogo": "/images/logo/opengento.svg",
+      "companyUrl": "https://opengento.fr/",
+      "linkedin": "https://www.linkedin.com/in/baptiste-bourzeix-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-34bb7565",
+      "role": "Développeur",
+      "photo": "/images/staff/baptiste_bourzeix.jpeg",
+      "photoBg": 2,
+      "biography": ""
+    },
+    {
+      "id": 3,
+      "name": "Thomas Klein",
+      "company": "Opengento",
+      "companyLogo": "/images/logo/opengento.svg",
+      "companyUrl": "https://opengento.fr/",
+      "linkedin": "https://www.linkedin.com/in/thomas-klein/",
+      "role": "Développeur",
+      "photo": "/images/staff/thomas_klein.jpeg",
+      "photoBg": 3,
+      "biography": ""
+    }
+  ]
+}
