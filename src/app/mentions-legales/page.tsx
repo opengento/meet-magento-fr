@@ -2,7 +2,7 @@ import Typography from "@/components/Typography/Typography";
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import Link from "next/link";
-import Opengento from "/public/images/logo/opengento.svg";
+import Image from "next/image";
 
 export default function Page() {
   return (
@@ -26,7 +26,14 @@ export default function Page() {
         <Typography color="dark">
           Siège social : 17 rue Idrac - 31000 Toulouse - France.
         </Typography>
-        <Link href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link>
+        <Link href="https://opengento.fr/" target="_blank" title="Opengento">
+          <Image
+            src="/images/logo/opengento.png"
+            alt="Opengento Logo"
+            width={101}
+            height={24}
+          />
+        </Link>
       </ContentMedia>
       <ContentMedia
         title="Hébergement"
@@ -47,7 +54,14 @@ export default function Page() {
           Merci aux <Link className="font-semibold" href="https://github.com/opengento/meet-magento-fr/graphs/contributors" target="_blank">contributeurs</Link> !
         </Typography>
         <Typography color="dark">
-          Merci à <Link className="inline-block align-middle" href="https://opengento.fr/" target="_blank" title="Opengento"><Opengento /></Link> pour la réalisation du site !
+          Merci à <Link className="inline-block align-middle" href="https://opengento.fr/" target="_blank" title="Opengento">
+            <Image
+              src="/images/logo/opengento.png"
+              alt="Opengento Logo"
+              width={101}
+              height={24}
+            />
+        </Link> pour la réalisation du site !
         </Typography>
       </ContentMedia>
       <ContentMedia

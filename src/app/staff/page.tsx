@@ -6,9 +6,24 @@ import Container from "@/layouts/Container";
 import {useTranslation} from "react-i18next";
 import Image from "next/image";
 import React from "react";
+import {PersonProps} from "@/components/Person/PersonProps";
+import Person from "@/components/Person/Person";
+import useDataProvider from "@/hooks/useDataProvider";
+import PersonPopIn from "@/components/Person/PersonPopIn";
 
 export default function Page() {
   const { t } = useTranslation(['staff']);
+  const dataProvider = useDataProvider();
+  const staffMembers = dataProvider.useStaffs();
+  const [selectedStaff, setSelectedStaff] = React.useState<PersonProps | null>(null);
+
+  const handleStaffClick = (staff: PersonProps) => {
+    setSelectedStaff(staff);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedStaff(null);
+  };
 
   const renderImages = () => {
     const images = t('staff:images', { returnObjects: true });
@@ -53,6 +68,27 @@ export default function Page() {
           {t('staff:description')}
         </Typography>
       </ContentMedia>
+
+      <div className="grid grid-cols-3 gap-8 gap-y-12">
+        {staffMembers
+          .map((staff) => (
+            <div
+              key={staff.id}
+              className="flex flex-row gap-6 group hover:cursor-pointer"
+              onClick={() => handleStaffClick(staff)}
+            >
+              <Person person={staff}/>
+            </div>
+          ))}
+      </div>
+      {selectedStaff && (
+        <PersonPopIn
+          isOpen={!!selectedStaff}
+          onClose={handleCloseModal}
+          selectedPerson={selectedStaff}
+        />
+      )}
+
     </Container>
   );
 }

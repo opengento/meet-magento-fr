@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
 import Typography from "@/components/Typography/Typography";
+import classNames from "classnames";
 
 interface PersonPopInContentProps {
   person: PersonProps;
@@ -11,15 +12,20 @@ interface PersonPopInContentProps {
 }
 
 const PersonPopInContent = ({ person, children }: PersonPopInContentProps) => {
+  const bgClass = `bg-photo-${person.photoBg}`;
+
   return (
     <div className="person-popin-content flex flex-col gap-6">
       {/* Person info section */}
       <div className="flex gap-6">
         <div className="relative">
           <Image
-            src={person.image}
+            src={person.photo}
             alt={person.name}
-            className="rounded-xl object-cover"
+            className={classNames(
+              "rounded-xl object-cover bg-cover",
+              bgClass
+            )}
             width={235}
             height={235}
           />

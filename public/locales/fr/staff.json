@@ -14,7 +14,8 @@
       "companyUrl": "https://www.dnd.fr/",
       "linkedin": "https://www.linkedin.com/in/camille-b%C3%A9nard",
       "role": "Responsable Communication et Marketing",
-      "image": "/images/staff/camille_benard.png",
+      "photo": "/images/staff/camille_benard.png",
+      "photoBg": 1,
       "biography": ""
     },
     {
@@ -24,7 +25,8 @@
       "companyUrl": "https://www.dnd.fr/",
       "linkedin": "https://www.linkedin.com/in/julien-didier-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-0306278",
       "role": "Président & Co-fondateur",
-      "image": "/images/staff/julien_didier.png",
+      "photo": "/images/staff/julien_didier.png",
+      "photoBg": 2,
       "biography": ""
     },
     {
@@ -34,17 +36,19 @@
       "companyUrl": "https://www.hyva.io/",
       "linkedin": "https://www.linkedin.com/in/thienlan",
       "role": "VP Strategy & Marketing",
-      "image": "/images/staff/thien-lan_weber.png",
+      "photo": "/images/staff/thien-lan_weber.png",
+      "photoBg": 3,
       "biography": ""
     },
     {
       "name": "Frédéric Martinez",
       "company": "PH2M",
-      "companyLogo": "/images/logo/ph2m.svg",
+      "companyLogo": "/images/logo/ph2m.jpeg",
       "companyUrl": "https://www.ph2m.com/",
       "linkedin": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-martinez-922aa319",
       "role": "CEO & Founder",
-      "image": "/images/staff/frederic_martinez.png",
+      "photo": "/images/staff/frederic_martinez.png",
+      "photoBg": 4,
       "biography": ""
     },
     {
@@ -54,7 +58,8 @@
       "companyUrl": "https://black.bird.eu/",
       "linkedin": "https://www.linkedin.com/in/marion-sainty",
       "role": "Développement commercial et digital",
-      "image": "/images/staff/marion_sainty.png",
+      "photo": "/images/staff/marion_sainty.png",
+      "photoBg": 5,
       "biography": ""
     },
     {
@@ -64,7 +69,8 @@
       "companyUrl": "https://ati4group.com/",
       "linkedin": "https://www.linkedin.com/in/cannelle-lemnos-consultante-communication",
       "role": "Chargée de communication",
-      "image": "/images/staff/cannelle_lemnos.jpeg",
+      "photo": "/images/staff/cannelle_lemnos.png",
+      "photoBg": 6,
       "biography": ""
     },
     {
@@ -74,7 +80,8 @@
       "companyUrl": "https://platform.sh/",
       "linkedin": "https://www.linkedin.com/in/patriciaponcy",
       "role": "Agency Partner Manager Western EU",
-      "image": "/images/staff/patricia_poncy.png",
+      "photo": "/images/staff/patricia_poncy.png",
+      "photoBg": 3,
       "biography": ""
     },
     {
@@ -84,7 +91,7 @@
       "companyUrl": "https://opengento.fr/",
       "linkedin": "https://www.linkedin.com/in/thomas-klein/",
       "role": "Chargée de communication",
-      "image": "/images/staff/thomas_klein.jpeg",
+      "photo": "/images/staff/thomas_klein.jpeg",
       "biography": ""
     },
     {
@@ -94,7 +101,8 @@
       "companyUrl": "https://black.bird.eu/",
       "linkedin": "https://www.linkedin.com/in/kaplanceyhun",
       "role": "Directeur associé",
-      "image": "/images/staff/ceyhun_kaplan.png",
+      "photo": "/images/staff/ceyhun_kaplan.png",
+      "photoBg": 5,
       "biography": ""
     },
     {
@@ -104,7 +112,8 @@
       "companyUrl": "https://platform.sh/",
       "linkedin": "https://www.linkedin.com/in/elodie-guiroux/",
       "role": "Events Marketing Manager",
-      "image": "/images/staff/elodie_guiroux.jpeg",
+      "photo": "/images/staff/elodie_guiroux.png",
+      "photoBg": 2,
       "biography": ""
     },
     {
@@ -114,7 +123,8 @@
       "companyUrl": "https://ati4group.com/",
       "linkedin": "https://www.linkedin.com/in/olivierhaesen",
       "role": "Directeur Commercial",
-      "image": "/images/staff/olivier_haesen.png",
+      "photo": "/images/staff/olivier_haesen.png",
+      "photoBg": 4,
       "biography": ""
     }
   ]

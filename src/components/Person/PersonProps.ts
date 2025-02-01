@@ -7,6 +7,7 @@ export type PersonProps = {
   companyUrl: string;
   linkedin?: string;
   role: string;
-  image: string;
+  photo: string;
+  photoBg: 1;
   biography: string;
 };
