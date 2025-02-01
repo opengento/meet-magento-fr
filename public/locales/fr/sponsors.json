@@ -59,6 +59,14 @@
       "caption": "Platform.sh: near-instant, full-stack previews that end staging delays",
       "url": "https://platform.sh/",
       "logoSrc": "/images/sponsors/platformsh.svg"
+    },
+    {
+      "type": "gold",
+      "name": "Datasolution",
+      "description": "Partenaire Magento depuis 2008, DATASOLUTION accompagne les entreprises dans la conception, la mise en œuvre et l’optimisation de leurs plateformes e-Commerce B2C et B2B, en partenariat avec les principaux acteurs de l’écosystème Adobe/Magento",
+      "caption": "Leader du e-Commerce B2B et de la gestion des données sur le marché",
+      "url": "https://www.datasolution.fr/",
+      "logoSrc": "/images/sponsors/datasolution.svg"
     }
   ]
 }
