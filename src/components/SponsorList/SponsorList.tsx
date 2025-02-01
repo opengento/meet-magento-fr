@@ -69,7 +69,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
             )}
           </TopBanner>
         </div>
-        <ul className="grid grid-cols-12 grid-rows-6 lg:grid-cols-10 lg:grid-rows-9 gap-2 my-6">
+        <ul className="grid grid-cols-12 grid-rows-6 lg:grid-cols-10 lg:grid-rows-12 gap-2 my-6">
           {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
             <Sponsor
               type={sponsor.type}
