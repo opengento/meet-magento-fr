@@ -68,7 +68,7 @@ export default function Page() {
           {t('staff:description')}
         </Typography>
       </ContentMedia>
-      <div className="grid grid-cols-3 gap-8 gap-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12">
         {staffMembers
           .map((staff) => (
             <div

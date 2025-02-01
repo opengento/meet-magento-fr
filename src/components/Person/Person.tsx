@@ -29,31 +29,31 @@ const Person = ({ person }: { person: PersonProps }) => {
   return (
     <>
       {width < 768 ? (
-        <div className={classNames(
-          "flex flex-row gap-2 rounded-full",
-          bgClass
-        )}>
+        <div className="flex flex-row gap-2 rounded-full">
           <Image
             src={person.photo}
             alt={person.name}
             width={135}
             height={135}
-            className="min-w-[135px] rounded-full relative aspect-squareobject-cover overflow-hidden"
+            className={classNames(
+              "min-w-[135px] rounded-full relative aspect-squareobject-cover overflow-hidden",
+              bgClass
+            )}
           />
           <PersonCard person={person} />
         </div>
       ) : (
         <>
-          <div className={classNames(
-            "flex flex-col relative rounded-full",
-            bgClass
-          )}>
+          <div className="flex flex-col relative rounded-full">
             <Image
               src={person.photo}
               alt={person.name}
               width={165}
               height={165}
-              className="min-w-[165px] rounded-full relative aspect-square object-cover overflow-hidden"
+              className={classNames(
+                "min-w-[165px] rounded-full relative aspect-square object-cover overflow-hidden",
+                bgClass
+              )}
             />
             <div className="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary w-fit px-4 py-2 rounded-full absolute bottom-0 left-1/2 -translate-x-1/2">
               <div className="flex flex-row items-center gap-1">
