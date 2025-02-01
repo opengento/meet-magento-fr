@@ -1,4 +1,4 @@
-export type SpeakerProps = {
+export type PersonProps = {
   id: number;
   name: string;
   title: string;
@@ -9,13 +9,4 @@ export type SpeakerProps = {
   role: string;
   image: string;
   biography: string;
-  sessions: SessionProps[];
-};
-
-type SessionProps = {
-  title: string;
-  room: string;
-  start: string;
-  end: string;
-  tags: string[];
 };

@@ -1,0 +1,121 @@
+{
+  "title": "Les organisateurs",
+  "subtitle": "Qui se cache derrière Meet Magento France 2025 ?",
+  "images": [
+    "/images/media/staff2.jpeg",
+    "/images/media/staff1.jpeg"
+  ],
+  "description": "L’édition française de Meet Magento 2025 est un événement communautaire né d’une idée et d’une collaboration entre Dn’D, Hyvä, Opengento et PH2M. Ces entreprises, toutes engagées dans l’écosystème Magento et Adobe Commerce, ont uni leurs forces pour organiser cet événement unique, avec le soutien d’Adobe France, le support de plusieurs acteurs de la communauté et l’approbation de la Magento Association.\n\nCe salon, inédit en France, sera l’occasion de rassembler des experts, des marchands et des professionnels du secteur pour une journée d’échanges, de retours d’expérience et de démonstrations sur les solutions Magento et Adobe Commerce. Découvrez les acteurs qui œuvrent ensemble pour faire de cette rencontre un moment clé du commerce digital.",
+  "members": [
+    {
+      "name": "Camille Bénard",
+      "company": "Agence Dn'D",
+      "companyLogo": "/images/logo/dnd.svg",
+      "companyUrl": "https://www.dnd.fr/",
+      "linkedin": "https://www.linkedin.com/in/camille-b%C3%A9nard",
+      "role": "Responsable Communication et Marketing",
+      "image": "/images/staff/camille_benard.png",
+      "biography": ""
+    },
+    {
+      "name": "Julien Didier",
+      "company": "Agence Dn'D",
+      "companyLogo": "/images/logo/dnd.svg",
+      "companyUrl": "https://www.dnd.fr/",
+      "linkedin": "https://www.linkedin.com/in/julien-didier-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-0306278",
+      "role": "Président & Co-fondateur",
+      "image": "/images/staff/julien_didier.png",
+      "biography": ""
+    },
+    {
+      "name": "Thien-Lan Weber",
+      "company": "Hyvä",
+      "companyLogo": "/images/logo/hyva.svg",
+      "companyUrl": "https://www.hyva.io/",
+      "linkedin": "https://www.linkedin.com/in/thienlan",
+      "role": "VP Strategy & Marketing",
+      "image": "/images/staff/thien-lan_weber.png",
+      "biography": ""
+    },
+    {
+      "name": "Frédéric Martinez",
+      "company": "PH2M",
+      "companyLogo": "/images/logo/ph2m.svg",
+      "companyUrl": "https://www.ph2m.com/",
+      "linkedin": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-martinez-922aa319",
+      "role": "CEO & Founder",
+      "image": "/images/staff/frederic_martinez.png",
+      "biography": ""
+    },
+    {
+      "name": "Marion Sainty",
+      "company": "Blackbird",
+      "companyLogo": "/images/logo/blackbird.svg",
+      "companyUrl": "https://black.bird.eu/",
+      "linkedin": "https://www.linkedin.com/in/marion-sainty",
+      "role": "Développement commercial et digital",
+      "image": "/images/staff/marion_sainty.png",
+      "biography": ""
+    },
+    {
+      "name": "Cannelle Lemnos",
+      "company": "Ati4 Group",
+      "companyLogo": "/images/logo/ati4group.svg",
+      "companyUrl": "https://ati4group.com/",
+      "linkedin": "https://www.linkedin.com/in/cannelle-lemnos-consultante-communication",
+      "role": "Chargée de communication",
+      "image": "/images/staff/cannelle_lemnos.jpeg",
+      "biography": ""
+    },
+    {
+      "name": "Patricia Poncy",
+      "company": "Platform.sh",
+      "companyLogo": "/images/logo/platformsh.svg",
+      "companyUrl": "https://platform.sh/",
+      "linkedin": "https://www.linkedin.com/in/patriciaponcy",
+      "role": "Agency Partner Manager Western EU",
+      "image": "/images/staff/patricia_poncy.png",
+      "biography": ""
+    },
+    {
+      "name": "Thomas Klein",
+      "company": "Opengento",
+      "companyLogo": "/images/logo/opengento.svg",
+      "companyUrl": "https://opengento.fr/",
+      "linkedin": "https://www.linkedin.com/in/thomas-klein/",
+      "role": "Chargée de communication",
+      "image": "/images/staff/thomas_klein.jpeg",
+      "biography": ""
+    },
+    {
+      "name": "Ceyhun Kaplan",
+      "company": "Blackbird",
+      "companyLogo": "/images/logo/blackbird.svg",
+      "companyUrl": "https://black.bird.eu/",
+      "linkedin": "https://www.linkedin.com/in/kaplanceyhun",
+      "role": "Directeur associé",
+      "image": "/images/staff/ceyhun_kaplan.png",
+      "biography": ""
+    },
+    {
+      "name": "Elodie Guiroux",
+      "company": "Platform.sh",
+      "companyLogo": "/images/logo/platformsh.svg",
+      "companyUrl": "https://platform.sh/",
+      "linkedin": "https://www.linkedin.com/in/elodie-guiroux/",
+      "role": "Events Marketing Manager",
+      "image": "/images/staff/elodie_guiroux.jpeg",
+      "biography": ""
+    },
+    {
+      "name": "Olivier Haesen",
+      "company": "Ati4 Group",
+      "companyLogo": "/images/logo/ati4group.svg",
+      "companyUrl": "https://ati4group.com/",
+      "linkedin": "https://www.linkedin.com/in/olivierhaesen",
+      "role": "Directeur Commercial",
+      "image": "/images/staff/olivier_haesen.png",
+      "biography": ""
+    }
+  ]
+}

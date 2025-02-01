@@ -1,5 +1,5 @@
 import {ReactNode} from "react";
-import {SpeakerProps} from "@/components/Speakers/Speaker/SpeakerProps";
+import {PersonProps} from "@/components/Person/PersonProps";
 
 export type SpeakersProps = {
   title: ReactNode,
@@ -7,5 +7,5 @@ export type SpeakersProps = {
   description: ReactNode,
   registrationLabel: ReactNode,
   registrationFormUrl: string,
-  speakers: SpeakerProps[]
+  speakers: PersonProps[]
 };

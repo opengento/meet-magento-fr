@@ -8,21 +8,22 @@ import "swiper/css/navigation";
 import useWindowSize from "@/hooks/useWindowSize";
 import ClientOnly from "@/helpers/ClientOnly";
 import TopBanner from "@/components/TopBanner/TopBanner";
-import Speaker from "./Speaker/Speaker";
-import SpeakerPopIn from "./Speaker/SpeakerPopIn";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
+import Person from "@/components/Person/Person";
+import { PersonProps } from "@/components/Person/PersonProps";
+import PersonPopIn from "@/components/Person/PersonPopIn";
+import Typography from "@/components/Typography/Typography";
 
-const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
+const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
   const { width } = useWindowSize();
   const swiperRef = React.useRef<SwiperClass>(null);
   const [selectedSpeaker, setSelectedSpeaker] =
-    React.useState<SpeakerProps | null>(null);
+    React.useState<PersonProps | null>(null);
   const { t } = useTranslation(['speakers']);
   const actions = t('actions', { returnObjects: true });
 
-  const handleSpeakerClick = (speaker: SpeakerProps) => {
+  const handleSpeakerClick = (speaker: PersonProps) => {
     setSelectedSpeaker(speaker);
   };
 
@@ -93,7 +94,7 @@ const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
             ? speakers.map((speaker) => (
                 <SwiperSlide key={speaker.id}>
                   <div onClick={() => handleSpeakerClick(speaker)}>
-                    <Speaker speaker={speaker} />
+                    <Person person={speaker} />
                   </div>
                 </SwiperSlide>
               ))
@@ -110,7 +111,7 @@ const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
                             className="flex flex-row gap-6 group hover:cursor-pointer"
                             onClick={() => handleSpeakerClick(speaker)}
                           >
-                            <Speaker speaker={speaker} />
+                            <Person person={speaker} />
                           </div>
                         ))}
                     </div>
@@ -129,7 +130,7 @@ const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
                             className="flex flex-row gap-6 group hover:cursor-pointer"
                             onClick={() => handleSpeakerClick(speaker)}
                           >
-                            <Speaker speaker={speaker} />
+                            <Person person={speaker} />
                           </div>
                         ))}
                     </div>
@@ -140,11 +141,27 @@ const SpeakersList = ({ speakers }: { speakers: SpeakerProps[] }) => {
       </ClientOnly>
 
       {selectedSpeaker && (
-        <SpeakerPopIn
+        <PersonPopIn
           isOpen={!!selectedSpeaker}
           onClose={handleCloseModal}
-          selectedSpeaker={selectedSpeaker}
-        />
+          selectedPerson={selectedSpeaker}
+        >
+          {/* Render Session.tsx List here */}
+          <Typography
+            color="dark"
+            variant="body1"
+            weight="semibold"
+          >
+            Plus d’informations à venir !
+          </Typography>
+          <Typography
+            color="dark"
+            variant="body1"
+            weight="semibold"
+          >
+            Restez connecté !
+          </Typography>
+        </PersonPopIn>
       )}
     </section>
   );

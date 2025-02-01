@@ -2,46 +2,46 @@ import React from "react";
 import Image from "next/image";
 import useWindowSize from "@/hooks/useWindowSize";
 import { GrFormView } from "react-icons/gr";
-import { SpeakerProps } from "@/components/Speakers/Speaker/SpeakerProps";
+import { PersonProps } from "@/components/PersonFaces/Person/PersonProps";
 
-const SpeakerCard = ({ speaker }: { speaker: SpeakerProps }) => (
+const PersonCard = ({ person }: { person: PersonProps }) => (
   <div className="text-black flex flex-col justify-center cursor-pointer">
     <div className="flex gap-2 mb-2">
       <Image
-        src={speaker.companyLogo}
-        alt={speaker.company}
+        src={person.companyLogo}
+        alt={person.company}
         width={20}
         height={20}
         className="h-6"
       />
-      <span className="text-sm">{speaker.company}</span>
+      <span className="text-sm">{person.company}</span>
     </div>
-    <p className="font-semibold text-lg mb-1">{speaker.name}</p>
-    <p className="text-gray-600 italic">{speaker.role}</p>
+    <p className="font-semibold text-lg mb-1">{person.name}</p>
+    <p className="text-gray-600 italic">{person.role}</p>
   </div>
 );
 
-const Speaker = ({ speaker }: { speaker: SpeakerProps }) => {
+const Person = ({ person }: { person: PersonProps }) => {
   const { width } = useWindowSize();
   return (
     <>
       {width < 768 ? (
         <div className="flex flex-row gap-2">
           <Image
-            src={speaker.image}
-            alt={speaker.name}
+            src={person.image}
+            alt={person.name}
             width={135}
             height={135}
             className="min-w-[135px] rounded-full relative aspect-square overflow-hidden object-cover"
           />
-          <SpeakerCard speaker={speaker} />
+          <PersonCard person={person} />
         </div>
       ) : (
         <>
           <div className="flex flex-col relative">
             <Image
-              src={speaker.image}
-              alt={speaker.name}
+              src={person.image}
+              alt={person.name}
               width={165}
               height={165}
               className="min-w-[165px] rounded-full relative aspect-square overflow-hidden object-cover"
@@ -53,11 +53,11 @@ const Speaker = ({ speaker }: { speaker: SpeakerProps }) => {
               </div>
             </div>
           </div>
-          <SpeakerCard speaker={speaker} />
+          <PersonCard person={person} />
         </>
       )}
     </>
   );
 };
 
-export default Speaker;
+export default Person;

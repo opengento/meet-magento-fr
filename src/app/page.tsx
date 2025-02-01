@@ -42,7 +42,7 @@ export default function Home() {
           </div>
           <div id="place">
             <ContentMedia
-              imageUrl="/images/etoile_business_center.jpeg"
+              imageUrl="/images/media/etoile_business_center.jpeg"
               imagePosition="left"
               imageWidth="40%"
             >
