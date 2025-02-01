@@ -6,12 +6,11 @@ import Container from "@/layouts/Container";
 import {useTranslation} from "react-i18next";
 import Image from "next/image";
 import React from "react";
-import {PersonProps} from "@/components/Person/PersonProps";
+import { PersonProps } from "@/components/Person/PersonProps";
 import Person from "@/components/Person/Person";
 import useDataProvider from "@/hooks/useDataProvider";
 import PersonPopIn from "@/components/Person/PersonPopIn";
-import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import {IoIosArrowForward} from "react-icons/io";
+import Push from "@/layouts/Push/Push";
 
 export default function Page() {
   const { t } = useTranslation(['staff', 'common']);
@@ -80,44 +79,7 @@ export default function Page() {
             </div>
           ))}
       </div>
-      <ContentMedia
-        imageUrl="/images/media/faq.png"
-        imagePosition="left"
-        imageWidth="40%"
-      >
-        <div className="flex flex-col gap-6 h-full justify-center">
-          <Typography
-            variant="subtitle1"
-            weight="semibold"
-            color="primary"
-          >
-            Rejoignez-nous à Meet Magento France 2025 !
-          </Typography>
-          <Typography color="dark">
-            Réservez votre place dès maintenant et rejoignez-nous pour un événement riche en échanges, en apprentissages et en opportunités !
-          </Typography>
-          <div className="flex flex-row flex-wrap gap-8">
-            <ButtonLink
-              variant="secondary-invert"
-              href="/#programs"
-              iconPosition="right"
-              icon={<IoIosArrowForward />}
-            >
-              Je découvre la programmation
-            </ButtonLink>
-            <ButtonLink
-              variant="secondary-invert"
-              href={t('common:ticketingUrl')}
-              target="_blank"
-              rel="noopener"
-              iconPosition="right"
-              icon={<IoIosArrowForward />}
-            >
-              Je prend mon billet
-            </ButtonLink>
-          </div>
-        </div>
-      </ContentMedia>
+      <Push />
       {selectedStaff && (
         <PersonPopIn
           isOpen={!!selectedStaff}

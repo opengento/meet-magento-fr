@@ -2,6 +2,11 @@
   "linkedinUrl": "https://www.linkedin.com/company/meet-magento-france",
   "youtubeUrl": "https://www.youtube.com/@MeetMagentoFrance",
   "ticketingUrl": "https://www.eventbrite.fr/e/billets-meet-magento-2025-france-1124570503649",
+  "ticketingLabel": "Je prends mon billet",
+  "programUrl": "/#programs",
+  "programLabel": "Je découvre la programmation",
+  "pushSubtitle": "Rejoignez-nous à Meet Magento France 2025 !",
+  "pushContent": "Réservez votre place dès maintenant et rejoignez-nous pour un événement riche en échanges, en apprentissages et en opportunités !",
   "days": "Jours",
   "hours": "Heures",
   "minutes": "Minutes"
