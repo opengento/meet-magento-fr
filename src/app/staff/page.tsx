@@ -30,7 +30,7 @@ export default function Page() {
     const images = t('staff:images', { returnObjects: true });
     if (Array.isArray(images)) {
       return (
-        <div className="flex flex-col md:flex-row gap-4 mb-12">
+        <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
           {images.map((src, index) => (
             <Image key={index}
                    src={src}
