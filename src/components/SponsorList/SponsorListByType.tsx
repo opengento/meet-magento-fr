@@ -60,7 +60,7 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
         />
         <div className={classNames(
           wrapperClass,
-          "gap-8 mb-10"
+          "gap-8 mt-8 mb-16"
         )}>
           {sponsors.map((sponsor, index) => (
             <div
