@@ -30,8 +30,6 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
       }
     );
 
-  const displayByType = t('sponsors:display', { returnObjects: true });
-
   const renderSponsorSection = (
     sponsorType: SponsorTypeProps,
     sponsors: SponsorProps[],
@@ -41,21 +39,21 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
       ? 'flex flex-col'
       : 'grid grid-cols-1 md:grid-cols-2';
     const boxClass = display === 'list'
-      ? 'flex flex-col md:flex-row md:items-center'
+      ? 'flex flex-col md:grid md:grid-cols-5 md:items-center'
       : 'flex flex-col';
 
     return (
       <>
         <TopBanner
           title={
-            <div className="flex flex-row justify-center gap-2">
+            <div className="flex flex-row items-center gap-2">
               <Image
                 src={`/images/badges/${sponsorType}.svg`}
                 alt={sponsorType}
                 width={35}
                 height={40}
               />
-              {t(`sponsors:types.${sponsorType}`)}
+              <span>{t(`sponsors:types.${sponsorType}`)}</span>
             </div>
           }
           backgroundImage="/images/bg-gradiant-purple.jpg"
@@ -73,21 +71,21 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
               )}
             >
               <Image
-                src={sponsor.bannerSrc}
+                src={sponsor.bannerSrc ?? '/images/background.svg'}
                 alt={sponsor.name}
                 width={606}
                 height={280}
-                className="rounded-3xl object-cover"
+                className="rounded-3xl object-fit md:col-span-2"
               />
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4 md:col-span-3">
                 <Image
                   src={sponsor.logoSrc}
                   alt={sponsor.name}
-                  width={100}
+                  width={150}
                   height={30}
                 />
                 <Typography color="dark">
-                  {sponsor.description}
+                  {sponsor.description ?? sponsor.caption}
                 </Typography>
                 <ButtonLink
                   variant="secondary-invert"
@@ -107,18 +105,24 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
     );
   };
 
+  const displayByType = t('sponsors:display', { returnObjects: true });
+  const isDisplayByType = (content: object): content is Record<SponsorTypeProps, string> => {
+    return content !== null && typeof content === 'object';
+  }
+  const sponsorTypes: SponsorTypeProps[] = ['platinum', 'gold', 'silver', 'bronze'];
+
   return (
-    <>
-      {Object.keys(sponsorListByType).map((sponsorType) => (
-        <>
+    <div className="my-10">
+      {sponsorTypes.map((sponsorType, index) => (
+        <div id={sponsorType} key={index}>
           {renderSponsorSection(
             sponsorType,
             sponsorListByType[sponsorType],
-            displayByType[sponsorType]
+            isDisplayByType(displayByType) ? displayByType[sponsorType] : 'grid'
           )}
-        </>
+        </div>
       ))}
-    </>
+    </div>
   );
 };
 

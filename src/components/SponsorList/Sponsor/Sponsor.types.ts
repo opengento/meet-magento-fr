@@ -6,8 +6,8 @@ export type SponsorProps = {
   name: string,
   logoSrc: string,
   whiteLogoSrc: string,
-  bannerSrc: string,
+  bannerSrc?: string,
   url: string,
-  description: string,
+  description?: string,
   caption: string,
 };
