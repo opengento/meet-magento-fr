@@ -36,7 +36,7 @@ const Person = ({ person }: { person: PersonProps }) => {
             width={135}
             height={135}
             className={classNames(
-              "min-w-[135px] rounded-full relative aspect-squareobject-cover overflow-hidden",
+              "min-w-[135px] rounded-full relative aspect-square object-cover overflow-hidden",
               bgClass
             )}
           />
