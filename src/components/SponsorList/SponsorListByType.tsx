@@ -114,13 +114,17 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
   return (
     <div className="my-10">
       {sponsorTypes.map((sponsorType, index) => (
-        <div id={sponsorType} key={index}>
-          {renderSponsorSection(
-            sponsorType,
-            sponsorListByType[sponsorType],
-            isDisplayByType(displayByType) ? displayByType[sponsorType] : 'grid'
-          )}
-        </div>
+          <div
+            key={index}
+            id={sponsorType}
+            className={sponsorListByType[sponsorType].length > 0 ? '' : 'hidden'}
+          >
+            {renderSponsorSection(
+              sponsorType,
+              sponsorListByType[sponsorType],
+              isDisplayByType(displayByType) ? displayByType[sponsorType] : 'grid'
+            )}
+          </div>
       ))}
     </div>
   );
