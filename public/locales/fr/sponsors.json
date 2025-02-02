@@ -1,7 +1,9 @@
 {
+  "title": "Nos sponsors",
+  "subtitle": "Acteurs incontournables de l’écosystème Magento et Adobe Commerce, ils rendent cet événement possible et offriront aux participants l'opportunité d'échanger en face à face avec des experts lors de cette journée exceptionnelle.",
   "actions": {
     "submitUrl": null,
-    "seeAllUrl": null
+    "seeAllUrl": "/sponsors"
   },
   "data": [
     {

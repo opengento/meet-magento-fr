@@ -6,7 +6,7 @@ import useWindowSize from "@/hooks/useWindowSize";
 import ClientOnly from "@/helpers/ClientOnly";
 
 interface TopBannerProps {
-  title: string;
+  title: ReactNode;
   backgroundImage?: string;
   children?: ReactNode;
   onPrevClick?: () => void;

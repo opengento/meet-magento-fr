@@ -1,22 +1,18 @@
 'use client';
+
 import { useState } from "react";
 import Link from "next/link";
+import {useTranslation} from "react-i18next";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const menuItems = [
-    { label: "Programme", href: "/#programs" },
-    { label: "Speakers", href: "/#speakers" },
-    { label: "Sponsors", href: "/#sponsors" },
-    { label: "Préparer ma venue", href: "/#place" },
-    { label: "FAQ & Contact", href: "/#faq" },
-  ];
+  const { t } = useTranslation(['menu']);
+  const menuItems = t('menu:navigation', { returnObjects: true });
 
   return (
     <div className="navigation">
       <nav className="hidden lg:flex items-center gap-8">
-        {menuItems.map((item) => (
+        {Array.isArray(menuItems) && menuItems.map((item) => (
           <Link
             key={item.href}
             href={item.href}
@@ -80,7 +76,7 @@ const Navigation = () => {
               </button>
             </div>
             <nav className="flex flex-col items-end px-8 gap-10">
-              {menuItems.map((item) => (
+              {Array.isArray(menuItems) && menuItems.map((item) => (
                 <Link
                   key={item.href}
                   href={item.href}
