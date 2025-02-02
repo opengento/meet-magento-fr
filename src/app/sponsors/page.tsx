@@ -6,7 +6,7 @@ import Container from "@/layouts/Container";
 import {useTranslation} from "react-i18next";
 import useDataProvider from "@/hooks/useDataProvider";
 import Push from "@/layouts/Push/Push";
-import TopBanner from "@/components/TopBanner/TopBanner";
+import SponsorListByType from "@/components/SponsorList/SponsorListByType";
 
 export default function Page() {
   const { t } = useTranslation(['sponsors']);
@@ -32,6 +32,7 @@ export default function Page() {
           {t('sponsors:subtitle')}
         </Typography>
       </ContentMedia>
+      <SponsorListByType items={sponsors}/>
       <Push />
     </Container>
   );

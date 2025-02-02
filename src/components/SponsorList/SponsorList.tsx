@@ -42,7 +42,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
 
   return (
     <BackgroundImage imagePath="/images/background/sponsors.png">
-      <Container size="large" className={"overflow-hidden"}>
+      <Container size="large">
         <div className="mt-12">
           <TopBanner
             title="Merci à nos sponsors"
@@ -74,7 +74,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
             <Sponsor
               type={sponsor.type}
               name={sponsor.name}
-              logoSrc={sponsor.logoSrc}
+              logoSrc={sponsor.whiteLogoSrc}
               key={key}
             />
           ))}

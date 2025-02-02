@@ -1,6 +1,12 @@
-import {SponsorProps, SponsorTypeProps} from "@/components/SponsorList/Sponsor/Sponsor.types";
+import { SponsorTypeProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
 import Image from "next/image";
 import classNames from "classnames";
+
+interface SponsorProps {
+  type: SponsorTypeProps
+  name: string,
+  logoSrc: string,
+}
 
 const Sponsor = (sponsor: SponsorProps) => {
   const badgeWidth: number = 70;

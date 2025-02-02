@@ -1,9 +1,22 @@
 {
   "title": "Nos sponsors",
   "subtitle": "Acteurs incontournables de l’écosystème Magento et Adobe Commerce, ils rendent cet événement possible et offriront aux participants l'opportunité d'échanger en face à face avec des experts lors de cette journée exceptionnelle.",
+  "buttonCompany": "Site officiel",
   "actions": {
     "submitUrl": null,
     "seeAllUrl": "/sponsors"
+  },
+  "types": {
+    "platinum": "Partenaire Platinium",
+    "gold": "Partenaire Gold",
+    "silver": "Partenaire Silver",
+    "bronze": "Partenaire Bronze"
+  },
+  "display": {
+    "platinum": "list",
+    "gold": "grid",
+    "silver": "grid",
+    "bronze": "grid"
   },
   "partners": [
     {
@@ -12,7 +25,7 @@
       "description": "",
       "caption": "Création d’expériences B2B et B2C personnalisées par l'IA basées sur notre plateforme composable et évolutive Adobe Commerce",
       "url": "https://www.adobe.com/",
-      "logoSrc": "/images/sponsors/adobe.svg"
+      "whiteLogoSrc": "/images/sponsors/adobe.svg"
     },
     {
       "type": "gold",
@@ -20,7 +33,7 @@
       "description": "Du conseil au delivery d'expériences digitales et E-Commerce sur mesure pour le B2C et le B2B. Dn’D accompagne depuis plus de 20 ans des entreprises issues de secteurs variés (retail, luxe, industrie...) dans la réussite de leurs projets IT, digitaux et E-Commerce.",
       "caption": "Du conseil au delivery d'expériences digitales et E-Commerce B2C & B2B",
       "url": "https://www.dnd.fr/",
-      "logoSrc": "/images/sponsors/dnd.svg"
+      "whiteLogoSrc": "/images/sponsors/dnd.svg"
     },
     {
       "type": "silver",
@@ -28,7 +41,7 @@
       "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 12 développeurs, contributeurs actifs Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
       "caption": "Agence e-commerce créatrice de solutions sur mesure pour marques et distributeurs",
       "url": "https://www.ph2m.com/",
-      "logoSrc": "/images/sponsors/ph2m.svg"
+      "whiteLogoSrc": "/images/sponsors/ph2m.svg"
     },
     {
       "type": "gold",
@@ -36,7 +49,7 @@
       "description": "Le frontend Magento le plus populaire avec 5,000 sites lives dans le monde, dont Somfy, Purina, Bultex ou Boucheron. Découvrez comment optimiser votre web perf tout en réduisant votre temps et coût de développement avec Hyvä",
       "caption": "Frontend hyper léger qui maximise votre web performance avec le minimum d'efforts",
       "url": "https://www.hyva.io/",
-      "logoSrc": "/images/sponsors/hyva.svg"
+      "whiteLogoSrc": "/images/sponsors/hyva.svg"
     },
     {
       "type": "gold",
@@ -44,7 +57,7 @@
       "description": "Ensemble, définissons, créons et développons votre projet e-commerce B2C ou B2B. Ati4 Group, c’est plus de 50 experts PIM et Adobe Commerce pour digitaliser et accélérer votre succès en ligne. Passion, partage et expertise sont au cœur de notre engagement.",
       "caption": "ATI4 Group, agence e-commerce, construisons ensemble votre réussite digitale",
       "url": "https://ati4group.com/",
-      "logoSrc": "/images/sponsors/ati4group.svg"
+      "whiteLogoSrc": "/images/sponsors/ati4group.svg"
     },
     {
       "type": "gold",
@@ -52,7 +65,7 @@
       "description": "La mission de Blackbird est d'aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
       "caption": "Blackbird (groupe Synolia), expert du digital et e-commerce depuis 2015",
       "url": "https://black.bird.eu/",
-      "logoSrc": "/images/sponsors/blackbird.svg"
+      "whiteLogoSrc": "/images/sponsors/blackbird.svg"
     },
     {
       "type": "gold",
@@ -60,7 +73,7 @@
       "description": "",
       "caption": "Platform.sh: near-instant, full-stack previews that end staging delays",
       "url": "https://platform.sh/",
-      "logoSrc": "/images/sponsors/platformsh.svg"
+      "whiteLogoSrc": "/images/sponsors/platformsh.svg"
     },
     {
       "type": "gold",
@@ -68,7 +81,7 @@
       "description": "Partenaire Magento depuis 2008, DATASOLUTION accompagne les entreprises dans la conception, la mise en œuvre et l’optimisation de leurs plateformes e-Commerce B2C et B2B, en partenariat avec les principaux acteurs de l’écosystème Adobe/Magento",
       "caption": "Leader du e-Commerce B2B et de la gestion des données sur le marché",
       "url": "https://www.datasolution.fr/",
-      "logoSrc": "/images/sponsors/datasolution.svg"
+      "whiteLogoSrc": "/images/sponsors/datasolution.svg"
     }
   ]
 }
