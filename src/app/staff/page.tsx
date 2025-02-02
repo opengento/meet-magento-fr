@@ -3,7 +3,7 @@
 import Typography from "@/components/Typography/Typography";
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 import Image from "next/image";
 import React from "react";
 import { PersonProps } from "@/components/Person/PersonProps";

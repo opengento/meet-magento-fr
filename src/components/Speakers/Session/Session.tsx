@@ -1,10 +1,16 @@
+'use client';
+
 import React from "react";
 import Typography from "@/components/Typography/Typography";
 import { SessionProps } from "@/components/Speakers/Session/SessionProps";
 import Image from "next/image";
-import {PiCalendarPlus} from "react-icons/pi";
+import { PiCalendarPlus } from "react-icons/pi";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import { useTranslation } from "react-i18next";
 
 const Session = ({ session }: { session: SessionProps }) => {
+  const { t } = useTranslation(['speakers']);
+
   return (
     <div className="flex flex-col md:flex-row justify-between rounded-xl gap-6 p-6 bg-white">
       <div className="flex flex-col gap-6">
@@ -13,11 +19,17 @@ const Session = ({ session }: { session: SessionProps }) => {
             {session.title}
           </Typography>
           <div className="flex items-center font-medium text-black">
-            <Image src={session.room} alt="Room" width={24} height={24} />
-            <span>{session.room}</span>
-            <span className="mx-2">|</span>
+            <Image
+              src={`/images/speakers/rooms/${session.room}.svg`}
+              alt={t(`speakers:data.rooms.${session.room}`)}
+              width={18}
+              height={20}
+              className="object-fit mr-1"
+            />
+            <span>{t(`speakers:data.rooms.${session.room}`)}</span>
+            <span className="mx-2 text-primary">|</span>
             <span>{session.start}</span>
-            <span className="mx-1">|</span>
+            <span className="mx-1 text-primary">&bull;</span>
             <span>{session.end}</span>
           </div>
         </div>
@@ -39,16 +51,22 @@ const Session = ({ session }: { session: SessionProps }) => {
         </div>
       </div>
       <div className="flex flex-col justify-end items-start md:items-end w-full">
-        <button className="bg-primary text-white px-4 py-2 rounded-xl flex items-center gap-2 w-fit">
-          <PiCalendarPlus size={24} className="text-white" />
-          <Typography
-            variant="body1"
-            weight="semibold"
-            color="light"
+        {!!session.eventUrl && (
+          <ButtonLink
+            variant="secondary-invert"
+            href={session.eventUrl}
+            iconPosition="left"
+            icon={<PiCalendarPlus size={24} className="text-white"/>}
           >
-            Ajouter à mon agenda
-          </Typography>
-        </button>
+            <Typography
+              variant="body1"
+              weight="semibold"
+              color="light"
+            >
+              Ajouter à mon agenda
+            </Typography>
+          </ButtonLink>
+        )}
       </div>
     </div>
   );

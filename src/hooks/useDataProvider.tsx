@@ -3,14 +3,19 @@
 import { useTranslation } from "react-i18next";
 import { SpeakersProps } from "@/components/Speakers/SpeakersProps";
 import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
-import {PlaceProps} from "@/components/Place/PlaceProps";
-import {PersonProps} from "@/components/Person/PersonProps";
+import { PlaceProps } from "@/components/Place/PlaceProps";
+import { PersonProps } from "@/components/Person/PersonProps";
+import {SessionProps} from "@/components/Speakers/Session/SessionProps";
 
 const useData = (ns: string, key: string = 'data') => {
   return useTranslation([ns]).t(key, { returnObjects: true });
 }
 
 const isSpeakersProps = (content: object): content is SpeakersProps => {
+  return content !== null && typeof content === 'object';
+}
+
+const isSessionProps = (content: object): content is SessionProps[] => {
   return content !== null && typeof content === 'object';
 }
 
@@ -34,6 +39,16 @@ const useSpeakers = (): SpeakersProps =>
   }
 
   return content;
+}
+
+const useSessions = (speakerId: number): SessionProps[] =>
+{
+  const content = useData('speakers', 'data.sessions');
+  if (!isSessionProps(content)) {
+    throw new Error('Content is not a valid Speakers Type');
+  }
+
+  return content.filter((session) => session.speakers.includes(speakerId));
 }
 
 const useSponsors = (): SponsorProps[] =>
@@ -70,6 +85,7 @@ const useDataProvider = () => {
   return {
     useSponsors: useSponsors,
     useSpeakers: useSpeakers,
+    useSessions: useSessions,
     usePlace: usePlace,
     usePersonList: usePersonList,
   }

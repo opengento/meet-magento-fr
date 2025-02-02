@@ -8,8 +8,8 @@ import useDataProvider from "@/hooks/useDataProvider";
 import Push from "@/layouts/Push/Push";
 import Person from "@/components/Person/Person";
 import React from "react";
-import PersonPopIn from "@/components/Person/PersonPopIn";
 import { PersonProps } from "@/components/Person/PersonProps";
+import SpeakerPopIn from "@/components/Speakers/Speaker/PersonPopIn";
 
 export default function Page() {
   const { t } = useTranslation(['speakers']);
@@ -58,10 +58,10 @@ export default function Page() {
       </div>
       <Push/>
       {selectedSpeaker && (
-        <PersonPopIn
+        <SpeakerPopIn
+          selectedSpeaker={selectedSpeaker}
           isOpen={!!selectedSpeaker}
           onClose={handleCloseModal}
-          selectedPerson={selectedSpeaker}
         />
       )}
     </Container>

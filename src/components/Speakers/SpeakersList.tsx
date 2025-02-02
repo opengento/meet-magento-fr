@@ -14,6 +14,7 @@ import Person from "@/components/Person/Person";
 import { PersonProps } from "@/components/Person/PersonProps";
 import PersonPopIn from "@/components/Person/PersonPopIn";
 import Typography from "@/components/Typography/Typography";
+import SpeakerPopIn from "@/components/Speakers/Speaker/PersonPopIn";
 
 const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
   const { width } = useWindowSize();
@@ -139,29 +140,12 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
               )}
         </Swiper>
       </ClientOnly>
-
       {selectedSpeaker && (
-        <PersonPopIn
+        <SpeakerPopIn
+          selectedSpeaker={selectedSpeaker}
           isOpen={!!selectedSpeaker}
           onClose={handleCloseModal}
-          selectedPerson={selectedSpeaker}
-        >
-          {/* Render Session.tsx List here */}
-          <Typography
-            color="dark"
-            variant="body1"
-            weight="semibold"
-          >
-            Plus d’informations à venir !
-          </Typography>
-          <Typography
-            color="dark"
-            variant="body1"
-            weight="semibold"
-          >
-            Restez connecté !
-          </Typography>
-        </PersonPopIn>
+        />
       )}
     </section>
   );

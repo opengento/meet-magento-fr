@@ -21,19 +21,7 @@
         "role": "CEO",
         "photo": "/images/speakers/fred_plais.jpg",
         "photoBg": 3,
-        "biography": "Fred Plais est un serial entrepreneur et cofondateur & CEO de Platform.sh, localisé en Californie depuis 2015. Passioné de tech, d'open source et d'entreprenariat, Fred est aussi investisseur et board member de plusieurs startups et scaleups francaises et americaines.",
-        "sessions": [
-          {
-            "title": "Comment PSh est devenu le partenaire de Adobe.",
-            "description": "Une plongée inspirante dans les coulisses d'un partenariat gagnant-gagnant, avec des enseignements applicables à d'autres collaborations stratégiques.",
-            "lang": "fr",
-            "track": "Business",
-            "room": "Salle Orion",
-            "start": "9h00",
-            "end": "10h30",
-            "tags": ["Ouverture", "Business", "Expertise"]
-          }
-        ]
+        "biography": "Fred Plais est un serial entrepreneur et cofondateur & CEO de Platform.sh, localisé en Californie depuis 2015. Passioné de tech, d'open source et d'entreprenariat, Fred est aussi investisseur et board member de plusieurs startups et scaleups francaises et americaines."
       },
       {
         "id": 2,
@@ -45,19 +33,7 @@
         "role": "Magento Performance Expert",
         "photo": "/images/speakers/ivan_chepurnyi.jpg",
         "photoBg": 6,
-        "biography": "Ivan Chepurnyi stands as a recognized expert in the Magento platform, a status he’s earned since his start in 2007. His deep technical understanding of the system has enabled him to build and fine-tune Magento websites for clients all around the globe.\n\nBeyond his technical skills, Ivan excels in breaking down complex ideas about performance optimization, code quality, and development workflows. His knack for making these intricate topics easy to understand has made him a regular speaker at Magento conferences and events.",
-        "sessions": [
-          {
-            "title": "200 Domains on a Single Magento Instance with a $300 Hosting Bill",
-            "description": "A fascinating story about a unique customer business model with a Magento store where each product segment has its dedicated domain and technology behind it.",
-            "lang": "en",
-            "track": "Technical",
-            "room": "Salle Orion",
-            "start": "9h00",
-            "end": "10h30",
-            "tags": ["Technical", "Expertise"]
-          }
-        ]
+        "biography": "Ivan Chepurnyi stands as a recognized expert in the Magento platform, a status he’s earned since his start in 2007. His deep technical understanding of the system has enabled him to build and fine-tune Magento websites for clients all around the globe.\n\nBeyond his technical skills, Ivan excels in breaking down complex ideas about performance optimization, code quality, and development workflows. His knack for making these intricate topics easy to understand has made him a regular speaker at Magento conferences and events."
       },
       {
         "id": 3,
@@ -69,19 +45,7 @@
         "role": "Tech Expert",
         "photo": "/images/speakers/adrien_illy.jpg",
         "photoBg": 4,
-        "biography": "",
-        "sessions": [
-          {
-            "title": "Comment étendre Magento/Adobe Commerce sans le surcharger - App Builder.",
-            "description": "Et si vous personnalisiez Magento sans jamais toucher à son code ? Découvrez une approche innovante basée sur les addons, en exploitant Adobe App Builder et Runtime I/O pour transformer l’expérience Magento.",
-            "lang": "fr",
-            "track": "Technical",
-            "room": "Salle Orion",
-            "start": "9h00",
-            "end": "10h30",
-            "tags": ["Technical", "Expertise"]
-          }
-        ]
+        "biography": ""
       },
       {
         "id": 4,
@@ -93,19 +57,58 @@
         "role": "Tech Expert",
         "photo": "/images/speakers/herve_guetin.jpg",
         "photoBg": 1,
-        "biography": "",
-        "sessions": [
-          {
-            "title": "Le frontend Magento : vers une nouvelle dynamique communautaire.",
-            "description": "Réinventer le frontend Magento en l'alignant sur les meilleures pratiques modernes : une opportunité d’optimiser la stack, d’attirer de nouveaux talents et de dynamiser la communauté grâce à une collaboration renforcée entre backend et frontend.",
-            "lang": "fr",
-            "track": "Technical",
-            "room": "Salle Orion",
-            "start": "9h00",
-            "end": "10h30",
-            "tags": ["Technical", "Expertise"]
-          }
-        ]
+        "biography": ""
+      }
+    ],
+    "rooms": {
+      "orion": "Salle Orion",
+      "vega": "Salle Véga",
+      "boreal": "Salle Boréal"
+    },
+    "sessions": [
+      {
+        "title": "Comment PSh est devenu le partenaire de Adobe.",
+        "description": "Une plongée inspirante dans les coulisses d'un partenariat gagnant-gagnant, avec des enseignements applicables à d'autres collaborations stratégiques.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "orion",
+        "start": "9h00",
+        "end": "10h30",
+        "tags": ["Ouverture", "Business", "Expertise"],
+        "speakers": [1]
+      },
+      {
+        "title": "200 Domains on a Single Magento Instance with a $300 Hosting Bill",
+        "description": "A fascinating story about a unique customer business model with a Magento store where each product segment has its dedicated domain and technology behind it.",
+        "lang": "en",
+        "track": "Technical",
+        "room": "orion",
+        "start": "9h00",
+        "end": "10h30",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [2]
+      },
+      {
+        "title": "Comment étendre Magento/Adobe Commerce sans le surcharger - App Builder.",
+        "description": "Et si vous personnalisiez Magento sans jamais toucher à son code ? Découvrez une approche innovante basée sur les addons, en exploitant Adobe App Builder et Runtime I/O pour transformer l’expérience Magento.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": "orion",
+        "start": "9h00",
+        "end": "10h30",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [3]
+      },
+      {
+        "title": "Le frontend Magento : vers une nouvelle dynamique communautaire.",
+        "description": "Réinventer le frontend Magento en l'alignant sur les meilleures pratiques modernes : une opportunité d’optimiser la stack, d’attirer de nouveaux talents et de dynamiser la communauté grâce à une collaboration renforcée entre backend et frontend.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": "orion",
+        "start": "9h00",
+        "end": "10h30",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [4]
       }
     ]
   }
