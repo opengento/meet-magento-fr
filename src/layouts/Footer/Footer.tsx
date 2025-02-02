@@ -9,7 +9,7 @@ import FooterLogo from "/public/images/logo_macaron.svg";
 import HashtagMMFR from "/public/images/mmfr2025-footer.svg";
 import FooterPatternLeft from "/public/images/footer_pattern_left.svg";
 import FooterPatternRight from "/public/images/footer_pattern_right.svg";
-import {Content, ListItem} from "@/components/List/List.types";
+import { Content, ListItem } from "@/components/List/List.types";
 import { FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
@@ -58,7 +58,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '/#sponsors',
+        href: '/sponsors',
         text: 'Sponsors'
       },
       className: footerMenuItemLinkStyles

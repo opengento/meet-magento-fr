@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import Link from "next/link";
-import {useTranslation} from "react-i18next";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
