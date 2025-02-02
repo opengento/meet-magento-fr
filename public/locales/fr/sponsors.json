@@ -5,7 +5,7 @@
     "submitUrl": null,
     "seeAllUrl": "/sponsors"
   },
-  "data": [
+  "partners": [
     {
       "type": "platinum",
       "name": "Adobe",

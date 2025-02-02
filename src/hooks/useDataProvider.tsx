@@ -38,7 +38,7 @@ const useSpeakers = (): SpeakersProps =>
 
 const useSponsors = (): SponsorProps[] =>
 {
-  const content = useData('sponsors');
+  const content = useData('sponsors', 'partners');
   if (!isSponsors(content)) {
     throw new Error('Content is not a valid array of Sponsor Type');
   }
