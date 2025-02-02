@@ -52,6 +52,7 @@ export default function Page() {
           variant="h1"
           color="dark"
           weight="semibold"
+          underlineColor="primary-100"
           className="mb-2"
         >
           {t('staff:title')}
