@@ -84,7 +84,7 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
                     alt={sponsor.name}
                     width={150}
                     height={30}
-                    className="object-fit h-full w-auto"
+                    className="object-fit h-full w-auto max-w-48"
                   />
                 </div>
                 <Typography color="dark">
