@@ -9,9 +9,10 @@ import {
   FaStar,
   FaTicketAlt,
   FaUser,
+  FaTshirt
 } from "react-icons/fa"
 import Typography from "@/components/Typography/Typography";
-import {FaShirt} from "react-icons/fa6";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Faq = ({
   display = 'list',
@@ -69,7 +70,7 @@ const Faq = ({
     },
     {
       question: "Y aura-t-il un vestiaire sur place ?",
-      icon: <FaShirt color="#FF7DD1" size={16}/>,
+      icon: <FaTshirt color="#FF7DD1" size={16}/>,
       answer: "Oui."
     },
   ];
@@ -94,21 +95,9 @@ const Faq = ({
                 {faq.question}
               </Typography>
             </div>
-            <svg
-              className={`text-black bg-white p-1 rounded-full w-6 h-6 transform transition-transform ${
-                openIndex === index ? "rotate-180" : ""
-              }`}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M19 9l-7 7-7-7"
-              />
-            </svg>
+            <IoIosArrowDown className= {`flex-shrink-0 text-black bg-white p-1 rounded-full w-6 h-6 transform transition-transform ${
+              openIndex === index ? "rotate-180" : ""
+            }`}/>
           </div>
           {openIndex === index && (
             <div className="mt-2 pl-8">
