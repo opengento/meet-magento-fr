@@ -76,7 +76,7 @@ const Faq = ({
   ];
 
   const displayClass = display === 'grid'
-    ? 'grid grid-cols-2 gap-6'
+    ? 'grid grid-cols-1 md:grid-cols-2 gap-6'
     : 'flex flex-col gap-4';
   limit ??= faqList.length;
 
