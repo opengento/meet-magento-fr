@@ -41,35 +41,33 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
   ];
 
   return (
-    <BackgroundImage imagePath="/images/background/sponsors.png">
+    <BackgroundImage imagePath="/images/background/sponsors.png" className="py-12">
       <Container size="large">
-        <div className="mt-12">
-          <TopBanner
-            title="Merci à nos sponsors"
-            backgroundImage="/images/pattern_top-banner_sponsors.svg"
-          >
-            {'submitUrl' in actions && typeof actions.submitUrl === 'string' && (
-              <ButtonLink variant="secondary" href={actions.submitUrl}>
-                Devenir sponsor
-              </ButtonLink>
-            )}
-            {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && (
-              <>
-                <div className="hidden md:block">
-                  <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
-                    Voir tous les sponsors
-                  </ButtonLink>
-                </div>
-                <div className="md:hidden">
-                  <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
-                    Voir tout
-                  </ButtonLink>
-                </div>
-              </>
-            )}
-          </TopBanner>
-        </div>
-        <div className="grid grid-cols-12 auto-rows-[1rem] lg:grid-cols-10 md:auto-rows-[2rem] gap-2 my-6">
+        <TopBanner
+          title="Merci à nos sponsors"
+          backgroundImage="/images/pattern_top-banner_sponsors.svg"
+        >
+          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && (
+            <ButtonLink variant="secondary" href={actions.submitUrl}>
+              Devenir sponsor
+            </ButtonLink>
+          )}
+          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && (
+            <>
+              <div className="hidden md:block">
+                <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
+                  Voir tous les sponsors
+                </ButtonLink>
+              </div>
+              <div className="md:hidden">
+                <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
+                  Voir tout
+                </ButtonLink>
+              </div>
+            </>
+          )}
+        </TopBanner>
+        <div className="grid grid-cols-12 auto-rows-[1rem] lg:grid-cols-10 md:auto-rows-[2rem] gap-2 mt-6">
           {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
             <Sponsor
               type={sponsor.type}
