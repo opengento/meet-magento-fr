@@ -11,8 +11,12 @@ import useDataProvider from "@/hooks/useDataProvider";
 import { SpeakersProps } from "@/components/Speakers/SpeakersProps";
 import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
 import { PlaceProps } from "@/components/Place/PlaceProps";
+import Typography from "@/components/Typography/Typography";
+import Link from "next/link";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+  const { t } = useTranslation(['common']);
   const dataProvider = useDataProvider();
   const speakers: SpeakersProps = dataProvider.useSpeakers();
   const sponsors: SponsorProps[] = dataProvider.useSponsors();
@@ -37,7 +41,23 @@ export default function Home() {
               title="Besoin d'aide ?"
               titleUnderlineColor="purple-100"
             >
-              <Faq />
+              <Faq display="list" limit={7} />
+              <Typography
+                variant="small"
+                color="dark"
+                weight="normal"
+                className="mt-6"
+              >
+                Pour toute autre question, consultez notre{" "}
+                <Link href={t('common:faqUrl')} className="underline">
+                  {t('common:faqLabel')}
+                </Link>{" "}
+                ou écrivez-nous via le{" "}
+                <Link href={t('common:contactUrl')} className="underline">
+                  {t('common:contactLabel')}
+                </Link>
+                .
+              </Typography>
             </ContentMedia>
           </div>
           <div id="place">

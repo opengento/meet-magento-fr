@@ -1,10 +1,25 @@
 'use client';
-import React, {useState} from "react";
-import {FaCompass, FaHeart, FaLanguage, FaShoppingBag, FaStar, FaTicketAlt, FaUser,} from "react-icons/fa";
-import Typography from "../Typography/Typography";
-/*import Link from "next/link";*/
+import React, { useState } from "react";
+import {
+  FaBus,
+  FaCompass,
+  FaHeart,
+  FaLanguage,
+  FaShoppingBag,
+  FaStar,
+  FaTicketAlt,
+  FaUser,
+} from "react-icons/fa"
+import Typography from "@/components/Typography/Typography";
+import {FaShirt} from "react-icons/fa6";
 
-const Faq = () => {
+const Faq = ({
+  display = 'list',
+  limit
+}: {
+  display: 'list' | 'grid',
+  limit?: number,
+}) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqList: {
@@ -15,52 +30,58 @@ const Faq = () => {
     {
       question: "Quelle est la date et le lieu de Meet Magento France 2025 ?",
       icon: <FaCompass color="#FF7DD1" size={16}/>,
-      answer:
-        "Meet Magento France 2025 se déroulera le 25 mars 2025, à L’Étoile Business Center à Paris.",
+      answer: "Meet Magento France 2025 se déroulera le 25 mars 2025, à L’Étoile Business Center à Paris.",
     },
     {
-      question:
-        "Quels types de conférences seront proposés lors de l'événement ?",
+      question: "Quels types de conférences seront proposés lors de l'événement ?",
       icon: <FaUser color="#FF7DD1" size={16}/>,
-      answer:
-        "Des conférences business et techniques animées par des experts du digital, E-Commerçants, éditeurs et agences sont attendues au programme de Meet Magento France 2025 ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
+      answer: "Des conférences business et techniques animées par des experts du digital, E-Commerçants, éditeurs et agences sont attendues au programme de Meet Magento France 2025 ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
     },
     {
       question: "Qui peut participer à Meet Magento France 2025 ?",
       icon: <FaHeart color="#FF7DD1" size={16}/>,
-      answer:
-        "Meet Magento France 2025 accueillera les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se rencontreront lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
+      answer: "Meet Magento France 2025 accueillera les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se rencontreront lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
     },
     {
       question: "Comment puis-je acheter des billets pour l'événement ?",
       icon: <FaTicketAlt color="#FF7DD1" size={16}/>,
-      answer:
-        "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu.",
+      answer: "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu.",
     },
     {
-      question:
-        "Puis-je proposer un sujet de conférence pour Meet Magento France 2025 ?",
+      question: "Puis-je proposer un sujet de conférence pour Meet Magento France 2025 ?",
       icon: <FaStar color="#FF7DD1" size={16}/>,
-      answer:
-        "L’appel à speaker pour Meet Magento France 2025 est ouvert jusqu’au 31 janvier ! Soumettez votre candidature dès maintenant et rejoignez le panel d’experts qui prendra la parole à cette occasion !",
+      answer: "L’appel à speaker pour Meet Magento France 2025 est ouvert jusqu’au 31 janvier ! Soumettez votre candidature dès maintenant et rejoignez le panel d’experts qui prendra la parole à cette occasion !",
     },
     {
       question: "Que contient un billet pour Meet Magento France 2025 ?",
       icon: <FaShoppingBag color="#FF7DD1" size={16}/>,
-      answer:
-        "Lorsque vous achetez un billet pour Meet Magento France 2025 vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
+      answer: "Lorsque vous achetez un billet pour Meet Magento France 2025 vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
     },
     {
       question: "What if I don't speak French?",
       icon: <FaLanguage color="#FF7DD1" size={16}/>,
-      answer:
-        "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
+      answer: "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
+    },
+    {
+      question: "Quels sont les transports à proximité de l'Étoile Business Center ?",
+      icon: <FaBus color="#FF7DD1" size={16}/>,
+      answer: "Oui.",
+    },
+    {
+      question: "Y aura-t-il un vestiaire sur place ?",
+      icon: <FaShirt color="#FF7DD1" size={16}/>,
+      answer: "Oui."
     },
   ];
 
+  const displayClass = display === 'grid'
+    ? 'grid grid-cols-2 gap-6'
+    : 'flex flex-col gap-4';
+  limit ??= faqList.length;
+
   return (
-    <div className="flex flex-col gap-4">
-      {faqList.map((faq, index) => (
+    <div className={displayClass}>
+      {faqList.slice(0, limit).map((faq, index) => (
         <div
           key={index}
           className="bg-purple-100 p-4 cursor-pointer rounded-3xl"
@@ -98,18 +119,6 @@ const Faq = () => {
           )}
         </div>
       ))}
-      {/*
-      <Typography variant="small" color="dark" weight="normal">
-        Pour toute autre question, consultez notre{" "}
-        <Link href="#" className="underline">
-          FAQ complète
-        </Link>{" "}
-        ou écrivez-nous via le{" "}
-        <Link href="#" className="underline">
-          formulaire de contact
-        </Link>
-      </Typography>
-      */}
     </div>
   );
 };

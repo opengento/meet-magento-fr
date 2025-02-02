@@ -25,7 +25,7 @@ const Footer = () => {
     {
       content: {
         type: 'link',
-        href: '/#faq',
+        href: '/contact',
         text: 'FAQ & Contact'
       },
       className: footerMenuItemLinkStyles
