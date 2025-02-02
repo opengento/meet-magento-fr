@@ -77,15 +77,18 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
                 height={280}
                 className="rounded-3xl object-fit md:col-span-2"
               />
-              <div className="flex flex-col gap-4 md:col-span-3">
-                <Image
-                  src={sponsor.logoSrc}
-                  alt={sponsor.name}
-                  width={150}
-                  height={30}
-                />
+              <div className="flex flex-col gap-6 md:col-span-3">
+                <div className="h-8">
+                  <Image
+                    src={sponsor.logoSrc}
+                    alt={sponsor.name}
+                    width={150}
+                    height={30}
+                    className="object-fit h-full w-auto"
+                  />
+                </div>
                 <Typography color="dark">
-                  {sponsor.description ?? sponsor.caption}
+                  {sponsor.description ? sponsor.description : sponsor.caption}
                 </Typography>
                 <ButtonLink
                   variant="secondary-invert"
