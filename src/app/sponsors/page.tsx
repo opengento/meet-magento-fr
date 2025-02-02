@@ -3,7 +3,7 @@
 import Typography from "@/components/Typography/Typography";
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 import useDataProvider from "@/hooks/useDataProvider";
 import Push from "@/layouts/Push/Push";
 import SponsorListByType from "@/components/SponsorList/SponsorListByType";
@@ -29,7 +29,7 @@ export default function Page() {
           color="dark"
           className="mb-8"
         >
-          {t('sponsors:subtitle')}
+          {t('sponsors:description')}
         </Typography>
       </ContentMedia>
       <SponsorListByType items={sponsors}/>
