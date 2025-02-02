@@ -23,7 +23,7 @@ const PersonPopInContent = ({ person, children }: PersonPopInContentProps) => {
             src={person.photo}
             alt={person.name}
             className={classNames(
-              "rounded-xl object-cover bg-cover",
+              "rounded-xl aspect-square object-cover bg-cover",
               bgClass
             )}
             width={235}
