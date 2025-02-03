@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from "react";
+import React, {ReactNode, useState} from "react";
 import {
   FaBus,
   FaCompass,
@@ -75,41 +75,60 @@ const Faq = ({
     },
   ];
 
-  const displayClass = display === 'grid'
-    ? 'grid grid-cols-1 md:grid-cols-2 gap-6'
-    : 'flex flex-col gap-4';
-  limit ??= faqList.length;
+  const renderFaqItem = (
+    faq: { question: string, icon: ReactNode, answer: string },
+    index: number
+  ) => (
+    <div
+      className="bg-purple-100 p-4 cursor-pointer rounded-3xl"
+      onClick={() => setOpenIndex(openIndex === index ? null : index)}
+    >
+      <div className="flex items-center justify-between gap-4">
+        <div className="flex items-center gap-4">
+          <div className="flex-shrink-0">{faq.icon}</div>
+          <Typography variant="body2" color="dark" weight="medium">
+            {faq.question}
+          </Typography>
+        </div>
+        <IoIosArrowDown
+          className={`flex-shrink-0 text-black bg-white p-1 rounded-full w-6 h-6 transform transition-transform ${
+            openIndex === index ? "rotate-180" : ""
+          }`}/>
+      </div>
+      {openIndex === index && (
+        <div className="mt-2 pl-8">
+          <Typography variant="body2" color="dark" weight="normal">
+            {faq.answer}
+          </Typography>
+        </div>
+      )}
+    </div>
+  );
 
+  limit = !limit || limit > faqList.length ? faqList.length : limit;
+  const faqWrap = [];
+  let displayClass = '';
+  if (display === 'grid') {
+    faqWrap.push(faqList.slice(0, Math.ceil((limit) / 2)));
+    faqWrap.push(faqList.slice(Math.ceil((limit) / 2), limit));
+    displayClass = 'flex flex-col w-full lg:w-1/2 gap-4 px-4 py-2'
+  } else {
+    faqWrap.push(faqList.slice(0, limit));
+    displayClass = 'flex flex-col gap-4';
+  }
+
+  let faqId = 0;
   return (
-    <div className={displayClass}>
-      {faqList.slice(0, limit).map((faq, index) => (
-        <div
-          key={index}
-          className="bg-purple-100 p-4 cursor-pointer rounded-3xl"
-          onClick={() => setOpenIndex(openIndex === index ? null : index)}
-        >
-          <div className="flex items-center justify-between gap-4">
-            <div className="flex items-center gap-4">
-              <div className="flex-shrink-0">{faq.icon}</div>
-              <Typography variant="body2" color="dark" weight="medium">
-                {faq.question}
-              </Typography>
-            </div>
-            <IoIosArrowDown className= {`flex-shrink-0 text-black bg-white p-1 rounded-full w-6 h-6 transform transition-transform ${
-              openIndex === index ? "rotate-180" : ""
-            }`}/>
-          </div>
-          {openIndex === index && (
-            <div className="mt-2 pl-8">
-              <Typography variant="body2" color="dark" weight="normal">
-                {faq.answer}
-              </Typography>
-            </div>
-          )}
+    <div className={display === 'grid' ? 'flex flex-wrap -mx-4' : ''}>
+      {faqWrap.map((faqItems, index) => (
+        <div className={displayClass} key={index}>
+          {faqItems.map((faq) => (
+            renderFaqItem(faq, faqId++)
+          ))}
         </div>
       ))}
     </div>
   );
-};
+}
 
 export default Faq;
