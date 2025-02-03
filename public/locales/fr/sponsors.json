@@ -90,6 +90,15 @@
       "url": "https://www.datasolution.fr/",
       "logoSrc": "/images/sponsors/datasolution.svg",
       "whiteLogoSrc": "/images/sponsors/white/datasolution.svg"
+    },
+    {
+      "type": "silver",
+      "name": "MaPS System",
+      "description": "MaPS System centralise et optimise la gestion des données (MDM, PIM, DAM), garantissant qualité, conformité et rapidité d'accès aux informations.",
+      "caption": "Gestion de vos données de références avec notre plateforme tout-en-un intégrant MDM, PIM et DAM.",
+      "url": "https://www.maps-system.com/",
+      "logoSrc": "/images/sponsors/maps.svg",
+      "whiteLogoSrc": "/images/sponsors/white/maps.svg"
     }
   ]
 }
