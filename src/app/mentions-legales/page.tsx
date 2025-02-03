@@ -136,7 +136,7 @@ export default function Page() {
 
           <Typography variant="h4" color="dark">1 – Introduction</Typography>
           <Typography color="dark">
-            Dans le cadre de son activité, l'association Opengento est amené à recueillir et traiter des informations vous concernant. En effet, en répondant à notre formulaire de contact, vous nous transmettez des informations personnelles, dont certaines sont susceptibles de vous identifier.
+            Dans le cadre de son activité, l’association Opengento est amené à recueillir et traiter des informations vous concernant. En effet, en répondant à notre formulaire de contact, vous nous transmettez des informations personnelles, dont certaines sont susceptibles de vous identifier.
           </Typography>
           <Typography color="dark">
             La présente Politique de confidentialité vous informe de la manière dont nous recueillons et traitons vos données personnelles.
@@ -144,7 +144,7 @@ export default function Page() {
 
           <Typography variant="h4" color="dark">2 – Responsable du traitement de la donnée</Typography>
           <Typography color="dark">
-            L'association responsable du traitement de vos données personnelles est Opengento, dont le siège social est situé au 17 rue Idrac - 31000 Toulouse - France et dont Mr. Frédéric Martinez est le représentant légal et le délégué à la protection des données.
+            L’association responsable du traitement de vos données personnelles est Opengento, dont le siège social est situé au 17 rue Idrac - 31000 Toulouse - France et dont Mr. Frédéric Martinez est le représentant légal et le délégué à la protection des données.
           </Typography>
 
           <Typography variant="h4" color="dark">3 – Quelles sont les données recueillies et dans quel contexte ?</Typography>
