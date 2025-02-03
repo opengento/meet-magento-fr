@@ -118,14 +118,14 @@ const Faq = ({
   return (
     <div className={display === 'grid' ? 'grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-8 md:mb-12' : ''}>
       {faqWrap.map((faqItems, wrapIndex) => (
-          <div className={`flex flex-col gap-4 ${display === 'grid' ? 'md:gap-8' : ''}`} key={`faq-wrap-${wrapIndex}`}>
-            {faqItems.map((faq) => (
-              <div key={`faq-item-${faq.question}`}>
-                {renderFaqItem(faq, faqId++)}
-              </div>
-            ))}
-          </div>
-        ))}
+        <div className={`flex flex-col gap-4 ${display === 'grid' ? 'md:gap-8' : ''}`} key={`faq-wrap-${wrapIndex}`}>
+          {faqItems.map((faq) => (
+            <div key={`faq-item-${faq.question}`}>
+              {renderFaqItem(faq, faqId++)}
+            </div>
+          ))}
+        </div>
+      ))}
     </div>
   );
 }
