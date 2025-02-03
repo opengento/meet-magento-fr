@@ -66,12 +66,12 @@ const Faq = ({
     {
       question: "Quels sont les transports à proximité de l'Étoile Business Center ?",
       icon: <FaBus color="#FF7DD1" size={16}/>,
-      answer: "Oui.",
+      answer: "L'Étoile Business Center est idéalement situé à deux pas de l'Arc de Triomphe. Accès direct par les lignes de métro 1, 2 et 6 (station Charles de Gaulle - Étoile) et le RER A. De nombreuses lignes de bus desservent également le quartier.",
     },
     {
       question: "Y aura-t-il un vestiaire sur place ?",
       icon: <FaTshirt color="#FF7DD1" size={16}/>,
-      answer: "Oui."
+      answer: "Oui, un vestiaire gratuit sera à votre disposition pendant toute la durée de l'événement."
     },
   ];
 
