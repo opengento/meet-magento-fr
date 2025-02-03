@@ -24,25 +24,27 @@ const ProgramList = () => {
     }
   };
   return (
-    <section className="program-list flex flex-col gap-8">
-      <TopBanner
-        title="Extrait du Programme"
-        onNextClick={handleNext}
-        onPrevClick={handlePrev}
-      >
-        <>
-          <div className="md:hidden">
-            <ButtonLink variant="secondary-invert" href={"/program"}>
-              Voir tout
-            </ButtonLink>
-          </div>
-          <div className="hidden md:block">
-            <ButtonLink variant="secondary-invert" href={"/program"}>
-              Découvrir le Programme
-            </ButtonLink>
-          </div>
-        </>
-      </TopBanner>
+    <section className="program-list">
+      <div className="mb-8">
+        <TopBanner
+          title="Extrait du Programme"
+          onNextClick={handleNext}
+          onPrevClick={handlePrev}
+        >
+          <>
+            <div className="md:hidden">
+              <ButtonLink variant="secondary-invert" href={"/program"}>
+                Voir tout
+              </ButtonLink>
+            </div>
+            <div className="hidden md:block">
+              <ButtonLink variant="secondary-invert" href={"/program"}>
+                Découvrir le Programme
+              </ButtonLink>
+            </div>
+          </>
+        </TopBanner>
+      </div>
       <ClientOnly>
         <Swiper
           onSwiper={(swiper) => {
