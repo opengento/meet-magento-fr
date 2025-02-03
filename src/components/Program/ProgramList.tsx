@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import useDataProvider from "@/hooks/useDataProvider";
 import ClientOnly from "@/helpers/ClientOnly";
+import ProgramTile from "./ProgramTile";
 
 const ProgramList = () => {
   const swiperRef = React.useRef<SwiperClass>(null);
@@ -54,7 +55,7 @@ const ProgramList = () => {
           spaceBetween={30}
           breakpoints={{
             0: {
-              slidesPerView: 1.2,
+              slidesPerView: 1,
               spaceBetween: 16,
             },
             768: {
@@ -64,8 +65,8 @@ const ProgramList = () => {
           className="relative"
         >
           {sessions.map((session) => (
-            <SwiperSlide key={session.id}>
-              <div className="text-white">{session.title}</div>
+            <SwiperSlide key={session.id} className="!h-auto">
+              <ProgramTile session={session} />
             </SwiperSlide>
           ))}
         </Swiper>

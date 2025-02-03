@@ -26,7 +26,9 @@ const SpeakerPopIn = ({
       selectedPerson={selectedSpeaker}
     >
       {sessions.map((session, index) => (
-        <Session session={session} key={index} />
+        <div className="rounded-xl gap-6 p-6 bg-white" key={index}>
+          <Session session={session} key={index} />
+        </div>
       ))}
     </PersonPopIn>
   );

@@ -12,7 +12,7 @@ const PersonCard = ({
   person: PersonProps;
   appearance?: "speaker" | "program";
 }) => (
-  <div className="text-black flex flex-col justify-center cursor-pointer">
+  <div className="text-black flex flex-col justify-center">
     {appearance === "speaker" && (
       <div className="flex gap-2 mb-2">
         <Image
@@ -67,7 +67,7 @@ const Person = ({
           <PersonCard person={person} appearance={appearance} />
         </div>
       ) : (
-        <>
+        <div className="flex flex-row gap-6">
           <div className="flex flex-col relative">
             <Image
               src={person.photo}
@@ -86,7 +86,7 @@ const Person = ({
             )}
           </div>
           <PersonCard person={person} appearance={appearance} />
-        </>
+        </div>
       )}
     </>
   );
