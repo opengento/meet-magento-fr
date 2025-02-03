@@ -10,7 +10,7 @@ import Container from "@/layouts/Container";
 import TopBanner from "@/components/TopBanner/TopBanner";
 import React from "react";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const SponsorList = ({ items }: { items: SponsorProps[] }) => {
   const { t } = useTranslation(['sponsors']);
@@ -47,12 +47,12 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
           title="Merci à nos sponsors"
           backgroundImage="/images/pattern_top-banner_sponsors.svg"
         >
-          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && (
+          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && actions.submitUrl !== '' && (
             <ButtonLink variant="secondary" href={actions.submitUrl}>
               Devenir sponsor
             </ButtonLink>
           )}
-          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && (
+          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && actions.seeAllUrl !== '' && (
             <>
               <div className="hidden md:block">
                 <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
