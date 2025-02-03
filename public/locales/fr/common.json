@@ -13,5 +13,13 @@
   "pushContent": "Réservez votre place dès maintenant et rejoignez-nous pour un événement riche en échanges, en apprentissages et en opportunités !",
   "days": "Jours",
   "hours": "Heures",
-  "minutes": "Minutes"
+  "minutes": "Minutes",
+  "name": "Nom",
+  "fullname": "Prénom et nom de famille",
+  "email": "Email",
+  "objet": "Objet",
+  "message": "Message",
+  "help": "Comment pouvons-nous vous aider ?",
+  "agreeTerms": "J’accepte les Termes et conditions.",
+  "send": "Envoyer"
 }
