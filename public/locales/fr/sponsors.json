@@ -8,9 +8,9 @@
   },
   "types": {
     "platinum": "Partenaire Platinium",
-    "gold": "Partenaire Gold",
-    "silver": "Partenaire Silver",
-    "bronze": "Partenaire Bronze"
+    "gold": "Partenaires Gold",
+    "silver": "Partenaires Silver",
+    "bronze": "Partenaires Bronze"
   },
   "display": {
     "platinum": "list",
