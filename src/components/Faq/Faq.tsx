@@ -51,7 +51,7 @@ const Faq = ({
     {
       question: "Puis-je proposer un sujet de conférence pour Meet Magento France 2025 ?",
       icon: <FaStar color="#FF7DD1" size={16}/>,
-      answer: "L’appel à speaker pour Meet Magento France 2025 est ouvert jusqu’au 31 janvier ! Soumettez votre candidature dès maintenant et rejoignez le panel d’experts qui prendra la parole à cette occasion !",
+      answer: "L’appel à speakers pour Meet Magento France 2025 est maintenant terminé. Les candidatures ont été clôturées le 31 janvier 2025 !",
     },
     {
       question: "Que contient un billet pour Meet Magento France 2025 ?",
