@@ -29,7 +29,7 @@ const TopBanner = ({
         </Typography>
         <div className="flex gap-2">
           {children}
-          {onPrevClick && onNextClick && width > 768 && (
+          {onPrevClick && onNextClick && width > 1024 && (
             <div className="flex gap-2 ml-4">
               <button onClick={onPrevClick} className="p-2 rounded bg-white/20">
                 <IoIosArrowBack className="text-white" size={24} />

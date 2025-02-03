@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import React from "react";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
@@ -19,8 +19,8 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
   const swiperRef = React.useRef<SwiperClass>(null);
   const [selectedSpeaker, setSelectedSpeaker] =
     React.useState<PersonProps | null>(null);
-  const { t } = useTranslation(['speakers']);
-  const actions = t('actions', { returnObjects: true });
+  const { t } = useTranslation(["speakers"]);
+  const actions = t("actions", { returnObjects: true });
 
   const handleSpeakerClick = (speaker: PersonProps) => {
     setSelectedSpeaker(speaker);
@@ -51,7 +51,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
           onPrevClick={handlePrev}
           onNextClick={handleNext}
         >
-          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && (
+          {"seeAllUrl" in actions && typeof actions.seeAllUrl === "string" && (
             <>
               <div className="md:hidden">
                 <ButtonLink variant="secondary" href={actions.seeAllUrl}>
@@ -76,7 +76,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
           spaceBetween={30}
           breakpoints={{
             0: {
-              slidesPerView: 1.2,
+              slidesPerView: 1.1,
               spaceBetween: 16,
             },
             768: {

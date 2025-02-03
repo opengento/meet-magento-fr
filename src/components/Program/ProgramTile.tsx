@@ -22,7 +22,7 @@ const ProgramTile = ({ session }: { session: SessionProps }) => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="flex flex-row items-center gap-1 bg-primary px-4 py-2 rounded-full md:opacity-0 md:group-hover:opacity-100 md:transition-opacity md:duration-300 md:hover:cursor-pointer">
+        <div className="flex flex-row items-center gap-1 bg-primary px-4 py-2 rounded-full lg:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 lg:hover:cursor-pointer">
           <PiCalendarPlus size={20} className="text-white" />
           <span className="text-sm text-white font-semibold">
             Ajouter à mon agenda

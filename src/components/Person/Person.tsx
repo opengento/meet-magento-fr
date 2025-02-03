@@ -60,8 +60,8 @@ const Person = ({
           <Image
             src={person.photo}
             alt={person.name}
-            width={appearance === "speaker" ? 96 : 135}
-            height={appearance === "speaker" ? 96 : 135}
+            width={appearance === "program" ? 96 : 135}
+            height={appearance === "program" ? 96 : 135}
             className={imageClass}
           />
           <PersonCard person={person} appearance={appearance} />
@@ -72,12 +72,12 @@ const Person = ({
             <Image
               src={person.photo}
               alt={person.name}
-              width={appearance === "speaker" ? 96 : 165}
-              height={appearance === "speaker" ? 96 : 165}
+              width={appearance === "program" ? 96 : 165}
+              height={appearance === "program" ? 96 : 165}
               className={imageClass}
             />
             {appearance === "speaker" && (
-              <div className="text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-primary w-fit px-4 py-2 rounded-full absolute bottom-0 left-1/2 -translate-x-1/2">
+              <div className="text-white font-semibold lg:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 lg:hover:cursor-pointer bg-primary w-fit px-4 py-2 rounded-full absolute bottom-0 left-1/2 -translate-x-1/2">
                 <div className="flex flex-row items-center gap-1">
                   <GrFormView size={20} className="text-white" />
                   <span className="text-sm">Biographie</span>
