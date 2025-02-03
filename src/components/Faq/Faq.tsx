@@ -107,21 +107,18 @@ const Faq = ({
 
   limit = !limit || limit > faqList.length ? faqList.length : limit;
   const faqWrap = [];
-  let displayClass = '';
   if (display === 'grid') {
     faqWrap.push(faqList.slice(0, Math.ceil((limit) / 2)));
     faqWrap.push(faqList.slice(Math.ceil((limit) / 2), limit));
-    displayClass = 'flex flex-col w-full lg:w-1/2 gap-4 px-4 py-2'
   } else {
     faqWrap.push(faqList.slice(0, limit));
-    displayClass = 'flex flex-col gap-4';
   }
 
   let faqId = 0;
   return (
-    <div className={display === 'grid' ? 'flex flex-wrap -mx-4' : ''}>
+    <div className={display === 'grid' ? 'grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-8 md:mb-12' : ''}>
       {faqWrap.map((faqItems, index) => (
-        <div className={displayClass} key={index}>
+        <div className={`flex flex-col gap-4 ${display === 'grid' ? 'md:gap-8' : ''}`} key={index}>
           {faqItems.map((faq) => (
             renderFaqItem(faq, faqId++)
           ))}
