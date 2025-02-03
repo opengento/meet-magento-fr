@@ -24,9 +24,18 @@ const ProgramList = () => {
         onNextClick={handleNext}
         onPrevClick={handlePrev}
       >
-        <ButtonLink variant="secondary-invert" href="/program">
-          Découvrir le programme
-        </ButtonLink>
+        <>
+          <div className="md:hidden">
+            <ButtonLink variant="secondary-invert" href={"/program"}>
+              Voir tout
+            </ButtonLink>
+          </div>
+          <div className="hidden md:block">
+            <ButtonLink variant="secondary-invert" href={"/program"}>
+              Découvrir le Programme
+            </ButtonLink>
+          </div>
+        </>
       </TopBanner>
     </section>
   );
