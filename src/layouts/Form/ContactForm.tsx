@@ -12,7 +12,7 @@ const ContactForm = ({ action }: Contact) => {
   const { t } = useTranslation(['common']);
 
   return (
-    <Form action={action} formMethod="POST" className="text-base text-black font-semibold">
+    <form action={action} method="POST" className="text-base text-black font-semibold">
       {/* To Track referrals , place the referrer name within the " " in the above hidden input field */}
       <input type="hidden" name="zf_referrer_name" value="mmfr-website"/>
       {/* To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field */}
@@ -70,7 +70,7 @@ const ContactForm = ({ action }: Contact) => {
       >
         <span className="font-semibold">{t('common:send')}</span>
       </button>
-    </Form>
+    </form>
   );
 };
 
