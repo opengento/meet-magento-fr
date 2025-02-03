@@ -29,7 +29,7 @@ export default function Page() {
           {t('faq:description')}
         </Typography>
       </ContentMedia>
-      <div className="bg-white rounded-3xl p-4 md:p-8">
+      <div className="bg-white rounded-xl p-4 md:p-8">
         <Typography
           variant="h2"
           color="dark"
