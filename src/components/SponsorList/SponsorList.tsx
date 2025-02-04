@@ -47,12 +47,12 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
           title="Merci à nos sponsors"
           backgroundImage="/images/pattern_top-banner_sponsors.svg"
         >
-          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && actions.submitUrl !== '' && (
+          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
             <ButtonLink variant="secondary" href={actions.submitUrl}>
               Devenir sponsor
             </ButtonLink>
           )}
-          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && actions.seeAllUrl !== '' && (
+          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && !!actions.seeAllUrl && (
             <>
               <div className="hidden md:block">
                 <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
