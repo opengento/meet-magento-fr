@@ -11,13 +11,12 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 
 const Session = ({
   session,
-  withPopIn = false,
+  onPopInClick,
 }: {
   session: SessionProps;
-  withPopIn: boolean;
+  onPopInClick?: () => void;
 }) => {
   const { t } = useTranslation(["speakers"]);
-
   return (
     <div className="flex flex-col md:flex-row justify-between">
       <div className="flex flex-col gap-6">
@@ -38,8 +37,11 @@ const Session = ({
             <span>{session.start}</span>
             <span className="mx-1 text-primary">&bull;</span>
             <span>{session.end}</span>
-            {withPopIn && (
-              <BsFillInfoCircleFill className="text-pink mx-1 hover:cursor-pointer" />
+            {onPopInClick && (
+              <BsFillInfoCircleFill
+                className="text-pink mx-1 hover:cursor-pointer"
+                onClick={onPopInClick}
+              />
             )}
           </div>
         </div>

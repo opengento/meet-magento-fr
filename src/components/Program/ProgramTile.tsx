@@ -5,7 +5,13 @@ import { PiCalendarPlus } from "react-icons/pi";
 import Person from "../Person/Person";
 import useDataProvider from "@/hooks/useDataProvider";
 
-const ProgramTile = ({ session }: { session: SessionProps }) => {
+const ProgramTile = ({
+  session,
+  onPopInClick,
+}: {
+  session: SessionProps;
+  onPopInClick: () => void;
+}) => {
   const dataProvider = useDataProvider();
   const speakers = dataProvider
     .usePersonList("speakers", "data.speakers")
@@ -14,7 +20,7 @@ const ProgramTile = ({ session }: { session: SessionProps }) => {
   return (
     <div className="program-tile bg-white rounded-xl flex flex-col justify-between gap-6 p-4 md:p-6 h-full group">
       <div className="flex flex-col gap-6">
-        <Session session={session} />
+        <Session session={session} onPopInClick={onPopInClick} />
         <div className="program-tile-speakers flex flex-col gap-2">
           {speakers.map((speaker) => (
             <Person person={speaker} appearance="program" key={speaker.id} />
