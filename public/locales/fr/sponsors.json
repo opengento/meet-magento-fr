@@ -76,7 +76,7 @@
     {
       "type": "gold",
       "name": "Platform.sh",
-      "description": "",
+      "description": "Platform.sh is a unified, secure, enterprise-grade platform for building, running and scaling fleets of websites and applications. They are headquartered in France and have offices in Australia, Canada, DACH, and the UK. Serving more than 5,000 customers worldwide, it offers fully managed cloud infrastructure with built-in security and 24/7 global support.",
       "caption": "Platform.sh: near-instant, full-stack previews that end staging delays",
       "url": "https://platform.sh/",
       "logoSrc": "/images/sponsors/platformsh.svg",
