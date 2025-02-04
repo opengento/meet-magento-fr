@@ -47,7 +47,7 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
             isOpen ? "translate-x-0" : "translate-x-full"
           }`}
         >
-          <div className="relative h-full overflow-y-auto px-6 py-10 md:p-8 bg-camel ">
+          <div className="relative h-full overflow-y-auto px-6 py-14 md:px-8 bg-camel ">
             <button
               onClick={onClose}
               className="absolute top-4 right-4 p-2 rounded bg-purple"
