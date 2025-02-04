@@ -5,7 +5,6 @@ import { SessionProps } from "@/components/Speakers/Session/SessionProps";
 import Session from "@/components/Speakers/Session/Session";
 import Person from "@/components/Person/Person";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import Typography from "@/components/Typography/Typography";
 
 const ProgramTile = ({ session }: { session: SessionProps }) => {
   const dataProvider = useDataProvider();
