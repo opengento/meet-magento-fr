@@ -15,10 +15,14 @@ interface Session {
   onPopInClick?: () => void;
 }
 
-const Session = ({ session, showAddToCalendar = true, onPopInClick }: Session) => {
+const Session = ({
+  session,
+  showAddToCalendar = true,
+  onPopInClick,
+}: Session) => {
   const { t } = useTranslation(["speakers"]);
   return (
-    <div className="flex flex-col md:flex-row justify-between">
+    <div className="flex flex-col md:flex-row justify-between gap-6">
       <div className="flex flex-col gap-6">
         <div className="flex flex-col gap-2">
           <Typography color="dark" variant="h4" weight="semibold">

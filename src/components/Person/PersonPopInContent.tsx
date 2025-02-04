@@ -7,14 +7,14 @@ import Typography from "@/components/Typography/Typography";
 
 interface PersonPopInContentProps {
   person: PersonProps;
-  children?: ReactNode
+  children?: ReactNode;
 }
 
 const PersonPopInContent = ({ person, children }: PersonPopInContentProps) => {
   return (
     <div className="person-popin-content flex flex-col gap-6">
       {/* Person info section */}
-      <div className="flex gap-6">
+      <div className="flex flex-col md:flex-row gap-6">
         <div className="relative">
           <Image
             src={person.photo}
@@ -24,16 +24,16 @@ const PersonPopInContent = ({ person, children }: PersonPopInContentProps) => {
             height={235}
           />
           {person.linkedin && (
-          <div className="absolute bottom-2 left-2 flex gap-2 text-primary">
-            <Link
-              className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
-              href={person.linkedin}
-              target="_blank"
-              rel="noopener"
-            >
-              <FaLinkedinIn size={16} />
-            </Link>
-          </div>
+            <div className="absolute bottom-2 left-2 flex gap-2 text-primary">
+              <Link
+                className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
+                href={person.linkedin}
+                target="_blank"
+                rel="noopener"
+              >
+                <FaLinkedinIn size={16} />
+              </Link>
+            </div>
           )}
         </div>
         <div className="flex flex-col-reverse">
