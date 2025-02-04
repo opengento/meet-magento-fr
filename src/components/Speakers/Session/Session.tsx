@@ -7,15 +7,15 @@ import Image from "next/image";
 import { PiCalendarPlus } from "react-icons/pi";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useTranslation } from "react-i18next";
+import { BsFillInfoCircleFill } from "react-icons/bs";
 
 interface Session {
   session: SessionProps;
-  showAddToCalendar?: boolean;
+  onPopInClick?: () => void;
 }
 
-const Session = ({ session, showAddToCalendar = true }: Session) => {
+const Session = ({ session, onPopInClick }: Session) => {
   const { t } = useTranslation(["speakers"]);
-
   return (
     <div className="flex flex-col md:flex-row justify-between">
       <div className="flex flex-col gap-6">
@@ -36,6 +36,12 @@ const Session = ({ session, showAddToCalendar = true }: Session) => {
             <span>{session.start}</span>
             <span className="mx-1 text-primary">&bull;</span>
             <span>{session.end}</span>
+            {onPopInClick && (
+              <BsFillInfoCircleFill
+                className="text-pink mx-1 hover:cursor-pointer"
+                onClick={onPopInClick}
+              />
+            )}
           </div>
         </div>
         <div className="flex gap-2">
@@ -52,7 +58,7 @@ const Session = ({ session, showAddToCalendar = true }: Session) => {
           ))}
         </div>
       </div>
-      {showAddToCalendar && !!session.eventUrl && (
+      {!!session.eventUrl && (
         <div className="flex flex-col justify-end items-start md:items-end w-full">
           <ButtonLink
             variant="secondary-invert"

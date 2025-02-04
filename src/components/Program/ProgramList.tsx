@@ -8,10 +8,14 @@ import "swiper/css/navigation";
 import useDataProvider from "@/hooks/useDataProvider";
 import ClientOnly from "@/helpers/ClientOnly";
 import ProgramTile from "./ProgramTile";
+import SessionPopIn from "../Speakers/Session/SessionPopIn";
+import { SessionProps } from "../Speakers/Session/SessionProps";
 
 const ProgramList = () => {
   const swiperRef = React.useRef<SwiperClass>(null);
   const sessions = useDataProvider().useSessions();
+  const [selectedSession, setSelectedSession] =
+    React.useState<SessionProps | null>(null);
 
   const handlePrev = () => {
     if (swiperRef.current) {
@@ -69,11 +73,21 @@ const ProgramList = () => {
         >
           {sessions.map((session) => (
             <SwiperSlide key={session.id} className="!h-auto">
-              <ProgramTile session={session} />
+              <ProgramTile
+                session={session}
+                onPopInClick={() => setSelectedSession(session)}
+              />
             </SwiperSlide>
           ))}
         </Swiper>
       </ClientOnly>
+      {selectedSession && (
+        <SessionPopIn
+          selectedSession={selectedSession}
+          isOpen={!!selectedSession}
+          onClose={() => setSelectedSession(null)}
+        />
+      )}
     </section>
   );
 };
