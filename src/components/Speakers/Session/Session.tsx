@@ -7,8 +7,15 @@ import Image from "next/image";
 import { PiCalendarPlus } from "react-icons/pi";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useTranslation } from "react-i18next";
+import { BsFillInfoCircleFill } from "react-icons/bs";
 
-const Session = ({ session }: { session: SessionProps }) => {
+const Session = ({
+  session,
+  withPopIn = false,
+}: {
+  session: SessionProps;
+  withPopIn: boolean;
+}) => {
   const { t } = useTranslation(["speakers"]);
 
   return (
@@ -31,6 +38,9 @@ const Session = ({ session }: { session: SessionProps }) => {
             <span>{session.start}</span>
             <span className="mx-1 text-primary">&bull;</span>
             <span>{session.end}</span>
+            {withPopIn && (
+              <BsFillInfoCircleFill className="text-pink mx-1 hover:cursor-pointer" />
+            )}
           </div>
         </div>
         <div className="flex gap-2">

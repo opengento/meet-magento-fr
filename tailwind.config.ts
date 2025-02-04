@@ -7,7 +7,7 @@ export default {
     "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -18,7 +18,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         royalBlue: "#19009E",
-        royalPink: "#FF7DD1",
+        pink: "#FF7DD1",
         orange: "#EE6524",
         camel: "rgba(255, 212, 181, 0.15)",
         purple: {
