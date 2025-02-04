@@ -1,4 +1,5 @@
 export type SessionProps = {
+  id: number;
   title: string;
   description: string;
   lang: string;

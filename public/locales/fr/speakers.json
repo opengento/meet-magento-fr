@@ -68,6 +68,7 @@
     },
     "sessions": [
       {
+        "id": 1,
         "title": "Comment PSh est devenu le partenaire de Adobe.",
         "description": "Une plongée inspirante dans les coulisses d'un partenariat gagnant-gagnant, avec des enseignements applicables à d'autres collaborations stratégiques.",
         "lang": "fr",
@@ -79,6 +80,7 @@
         "speakers": [1]
       },
       {
+        "id": 2,
         "title": "200 Domains on a Single Magento Instance with a $300 Hosting Bill",
         "description": "A fascinating story about a unique customer business model with a Magento store where each product segment has its dedicated domain and technology behind it.",
         "lang": "en",
@@ -90,6 +92,7 @@
         "speakers": [2]
       },
       {
+        "id": 3,
         "title": "Comment étendre Magento/Adobe Commerce sans le surcharger - App Builder.",
         "description": "Et si vous personnalisiez Magento sans jamais toucher à son code ? Découvrez une approche innovante basée sur les addons, en exploitant Adobe App Builder et Runtime I/O pour transformer l’expérience Magento.",
         "lang": "fr",
@@ -101,6 +104,7 @@
         "speakers": [3]
       },
       {
+        "id": 4,
         "title": "Le frontend Magento : vers une nouvelle dynamique communautaire.",
         "description": "Réinventer le frontend Magento en l'alignant sur les meilleures pratiques modernes : une opportunité d’optimiser la stack, d’attirer de nouveaux talents et de dynamiser la communauté grâce à une collaboration renforcée entre backend et frontend.",
         "lang": "fr",

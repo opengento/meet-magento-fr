@@ -29,7 +29,7 @@ const TopBanner = ({
         </Typography>
         <div className="flex gap-2">
           {children}
-          {onPrevClick && onNextClick && width > 768 && (
+          {onPrevClick && onNextClick && width > 1024 && (
             <div className="flex gap-2 ml-4">
               <button onClick={onPrevClick} className="p-2 rounded bg-white/20">
                 <IoIosArrowBack className="text-white" size={24} />
@@ -48,11 +48,11 @@ const TopBanner = ({
   );
 
   return (
-    <div className="top-banner overflow-hidden rounded-xl">
+    <div className="top-banner">
       {backgroundImage ? (
         <BackgroundImage
           imagePath={backgroundImage}
-          className="py-3 px-4 md:px-14"
+          className="py-3 px-4 md:px-14 overflow-hidden rounded-xl"
         >
           {bannerContent}
         </BackgroundImage>

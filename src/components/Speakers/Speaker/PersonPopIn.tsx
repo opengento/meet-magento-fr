@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { PersonProps } from "@/components/Person/PersonProps";
 import PersonPopIn from "@/components/Person/PersonPopIn";
@@ -14,7 +14,7 @@ interface SpeakerPopInProps {
 const SpeakerPopIn = ({
   isOpen,
   onClose,
-  selectedSpeaker
+  selectedSpeaker,
 }: SpeakerPopInProps) => {
   const dataProvider = useDataProvider();
   const sessions = dataProvider.useSessions(selectedSpeaker.id);
@@ -26,8 +26,10 @@ const SpeakerPopIn = ({
       selectedPerson={selectedSpeaker}
     >
       {sessions.map((session, index) => (
-        <Session session={session} key={index} />
-      ))};
+        <div className="rounded-xl gap-6 p-6 bg-white" key={index}>
+          <Session session={session} key={index} />
+        </div>
+      ))}
     </PersonPopIn>
   );
 };
