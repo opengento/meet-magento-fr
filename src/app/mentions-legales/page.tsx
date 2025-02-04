@@ -70,25 +70,7 @@ export default function Page() {
           Ce site Web à été fait avec <Link href="https://nextjs.org/" target="_blank">Next.js</Link>.
         </Typography>
         <Typography color="dark">
-          Merci à <Link
-            className="inline-block align-middle"
-            href="https://opengento.fr/"
-            target="_blank"
-            title="Opengento"
-          >
-            <Image
-              src="/images/logo/opengento.png"
-              alt="Opengento Logo"
-              width={101}
-              height={24}
-            />
-          </Link> et aux <Link
-            className="font-semibold"
-            href="https://github.com/opengento/meet-magento-fr/graphs/contributors"
-            target="_blank"
-          >
-            contributeurs
-          </Link> pour la réalisation du site !
+          Merci à eux pour la réalisation du site :
         </Typography>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 gap-y-12 mt-8">
           {developers
