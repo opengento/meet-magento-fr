@@ -54,6 +54,12 @@ const Faq = ({
         "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu.",
     },
     {
+      question: "What if I don't speak French?",
+      icon: <FaLanguage className="text-pink" size={16} />,
+      answer:
+        "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
+    },
+    {
       question:
         "Puis-je proposer un sujet de conférence pour Meet Magento France 2025 ?",
       icon: <FaStar className="text-pink" size={16} />,
@@ -65,12 +71,6 @@ const Faq = ({
       icon: <FaShoppingBag className="text-pink" size={16} />,
       answer:
         "Lorsque vous achetez un billet pour Meet Magento France 2025 vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
-    },
-    {
-      question: "What if I don't speak French?",
-      icon: <FaLanguage className="text-pink" size={16} />,
-      answer:
-        "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
     },
     {
       question:

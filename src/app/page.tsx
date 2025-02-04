@@ -45,7 +45,7 @@ export default function Home() {
               title="Besoin d'aide ?"
               titleUnderlineColor="purple-100"
             >
-              <Faq display="list" limit={7} />
+              <Faq display="list" limit={5} />
               <Typography
                 variant="small"
                 color="dark"
