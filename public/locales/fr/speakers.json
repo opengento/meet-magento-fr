@@ -20,8 +20,7 @@
         "companyUrl": "https://platform.sh/",
         "linkedin": "",
         "role": "CEO",
-        "photo": "/images/speakers/fred_plais.jpg",
-        "photoBg": 3,
+        "photo": "/images/speakers/fred_plais.png",
         "biography": "Fred Plais est un serial entrepreneur et cofondateur & CEO de Platform.sh, localisé en Californie depuis 2015. Passioné de tech, d'open source et d'entreprenariat, Fred est aussi investisseur et board member de plusieurs startups et scaleups francaises et americaines."
       },
       {
@@ -32,8 +31,7 @@
         "companyUrl": "https://ivanchepurnyi.github.io/",
         "linkedin": "https://www.linkedin.com/in/ivanchepurnyi/",
         "role": "Magento Performance Expert",
-        "photo": "/images/speakers/ivan_chepurnyi.jpg",
-        "photoBg": 6,
+        "photo": "/images/speakers/ivan_chepurnyi.png",
         "biography": "Ivan Chepurnyi stands as a recognized expert in the Magento platform, a status he’s earned since his start in 2007. His deep technical understanding of the system has enabled him to build and fine-tune Magento websites for clients all around the globe.\n\nBeyond his technical skills, Ivan excels in breaking down complex ideas about performance optimization, code quality, and development workflows. His knack for making these intricate topics easy to understand has made him a regular speaker at Magento conferences and events."
       },
       {
@@ -44,8 +42,7 @@
         "companyUrl": "https://www.dnd.fr/",
         "linkedin": "https://fr.linkedin.com/in/illyadrien",
         "role": "Tech Expert",
-        "photo": "/images/speakers/adrien_illy.jpg",
-        "photoBg": 4,
+        "photo": "/images/speakers/adrien_illy.png",
         "biography": ""
       },
       {
@@ -56,8 +53,7 @@
         "companyUrl": "https://www.maddlen.fr/",
         "linkedin": "https://www.linkedin.com/in/herveguetin/",
         "role": "Consultant & développeur full-stack",
-        "photo": "/images/speakers/herve_guetin.jpg",
-        "photoBg": 1,
+        "photo": "/images/speakers/herve_guetin.png",
         "biography": ""
       }
     ],

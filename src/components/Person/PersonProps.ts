@@ -8,6 +8,5 @@ export type PersonProps = {
   linkedin?: string;
   role: string;
   photo: string;
-  photoBg: 1;
   biography: string;
 };

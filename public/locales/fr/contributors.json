@@ -7,9 +7,8 @@
       "companyLogo": "/images/logo/opengento.svg",
       "companyUrl": "https://opengento.fr/",
       "linkedin": "https://www.linkedin.com/in/timoth%C3%A9e-aubry-33b543196/",
-      "role": "Développeur",
-      "photo": "/images/staff/timothee_aubry.jpeg",
-      "photoBg": 1,
+      "role": "Developer",
+      "photo": "/images/staff/timothee_aubry.png",
       "biography": ""
     },
     {
@@ -19,9 +18,8 @@
       "companyLogo": "/images/logo/opengento.svg",
       "companyUrl": "https://opengento.fr/",
       "linkedin": "https://www.linkedin.com/in/baptiste-bourzeix-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-34bb7565",
-      "role": "Développeur",
-      "photo": "/images/staff/baptiste_bourzeix.jpeg",
-      "photoBg": 2,
+      "role": "Developer",
+      "photo": "/images/staff/baptiste_bourzeix.png",
       "biography": ""
     },
     {
@@ -31,9 +29,30 @@
       "companyLogo": "/images/logo/opengento.svg",
       "companyUrl": "https://opengento.fr/",
       "linkedin": "https://www.linkedin.com/in/thomas-klein/",
-      "role": "Développeur",
+      "role": "Developer",
       "photo": "/images/staff/thomas_klein.png",
-      "photoBg": 3,
+      "biography": ""
+    },
+    {
+      "id": 4,
+      "name": "Vilya Ean",
+      "company": "Dn'D",
+      "companyLogo": "/images/logo/dnd.svg",
+      "companyUrl": "https://www.dnd.fr/",
+      "linkedin": "https://www.linkedin.com/in/vilya-ean-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-32351733",
+      "role": "Head of UX & UI Design",
+      "photo": "/images/staff/vilya_ean.png",
+      "biography": ""
+    },
+    {
+      "id": 5,
+      "name": "Mathis Querne",
+      "company": "Dn'D",
+      "companyLogo": "/images/logo/dnd.svg",
+      "companyUrl": "https://www.dnd.fr/",
+      "linkedin": "https://www.linkedin.com/in/mathis-querne",
+      "role": "UI/UX Designer",
+      "photo": "/images/staff/mathis_querne.png",
       "biography": ""
     }
   ]

@@ -37,7 +37,6 @@ const Person = ({
   appearance?: "speaker" | "program";
 }) => {
   const { width } = useWindowSize();
-  const bgClass = `bg-cover bg-photo-${person.photoBg}`;
 
   const imageClass = classNames(
     "relative aspect-square object-cover overflow-hidden",
@@ -49,7 +48,6 @@ const Person = ({
       "[clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]":
         appearance === "program",
     },
-    bgClass
   );
 
   return (
