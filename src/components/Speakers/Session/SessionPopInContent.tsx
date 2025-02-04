@@ -14,11 +14,11 @@ const SessionPopInContent = ({ session }: { session: SessionProps }) => {
     .filter((speaker) => session.speakers.includes(speaker.id));
   return (
     <div className="session-pop-in-content flex flex-col gap-6">
-      <Session session={session}/>
+      <Session session={session} showAddToCalendar={false} />
       <div className="flex flex-col rounded-xl bg-white p-6 gap-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {speakers.map((speaker) => (
-            <Person person={speaker} appearance="program" key={speaker.id}/>
+            <Person person={speaker} appearance="program" key={speaker.id} />
           ))}
         </div>
         <Typography variant="body1">{session.description}</Typography>

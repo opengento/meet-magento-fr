@@ -12,15 +12,16 @@ interface ContentMediaProps {
 }
 
 const ContentMedia = ({
-                        children,
-                        imageUrl,
-                        imagePosition = "left",
-                        imageWidth = "50%",
-                        title,
-                        titleUnderlineColor,
-                      }: ContentMediaProps) => {
+  children,
+  imageUrl,
+  imagePosition = "left",
+  imageWidth = "50%",
+  title,
+  titleUnderlineColor,
+}: ContentMediaProps) => {
   return (
-    <div className="content-media relative rounded-xl overflow-hidden pt-2.5 bg-[url(/images/pattern_top.svg)]">
+    <div className="content-media relative rounded-xl overflow-hidden">
+      <div className="absolute inset-0 h-2.5 bg-[url(/images/pattern_top.svg)]" />
       <div className="flex flex-col gap-6 md:gap-12 bg-white py-6 px-4 md:p-12">
         {title && (
           <div className="content-media__title">
@@ -43,10 +44,12 @@ const ContentMedia = ({
         >
           {imageUrl && (
             <div
-              className="content-media__image rounded-xl overflow-hidden w-full"
-              style={{flex: `0 0 ${imageWidth}`}}
+              className="content-media__image w-full"
+              style={{
+                flex: `0 0 ${imageWidth}`,
+              }}
             >
-              <div className="relative w-full aspect-[4/3] md: aspect-none md:h-full">
+              <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden h-min">
                 <Image
                   src={imageUrl}
                   alt="Content Media"
