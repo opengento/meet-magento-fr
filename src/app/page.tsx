@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="relative -top-[104px] left-0">
       <Hero />
-      <div id="program">
+      <div id="programs">
         <Program />
       </div>
       <div id="speakers">
