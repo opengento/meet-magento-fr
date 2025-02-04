@@ -44,10 +44,12 @@ const ContentMedia = ({
         >
           {imageUrl && (
             <div
-              className="content-media__image rounded-xl overflow-hidden w-full"
-              style={{ flex: `0 0 ${imageWidth}` }}
+              className="content-media__image w-full"
+              style={{
+                flex: `0 0 ${imageWidth}`,
+              }}
             >
-              <div className="relative w-full aspect-[4/3] md: aspect-none md:h-full">
+              <div className="relative w-full aspect-[4/3] rounded-xl overflow-hidden h-min">
                 <Image
                   src={imageUrl}
                   alt="Content Media"
