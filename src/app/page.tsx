@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div className="relative -top-[104px] left-0">
       <Hero />
-      <div id="program">
+      <div id="programs">
         <Program />
       </div>
       <div id="speakers">
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="content-media-sections flex flex-col gap-12 py-12">
           <div id="faq">
             <ContentMedia
-              imageUrl="/images/media/faq.png"
+              imageUrl="/images/media/faq.jpg"
               imagePosition="right"
               imageWidth="40%"
               title="Besoin d'aide ?"

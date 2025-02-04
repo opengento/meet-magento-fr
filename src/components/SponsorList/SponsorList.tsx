@@ -41,18 +41,18 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
   ];
 
   return (
-    <BackgroundImage imagePath="/images/background/sponsors.png" className="py-12">
+    <BackgroundImage imagePath="/images/background/sponsors.jpg" className="py-12">
       <Container size="large">
         <TopBanner
           title="Merci à nos sponsors"
           backgroundImage="/images/pattern_top-banner_sponsors.svg"
         >
-          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && actions.submitUrl !== '' && (
+          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
             <ButtonLink variant="secondary" href={actions.submitUrl}>
               Devenir sponsor
             </ButtonLink>
           )}
-          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && actions.seeAllUrl !== '' && (
+          {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && !!actions.seeAllUrl && (
             <>
               <div className="hidden md:block">
                 <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>

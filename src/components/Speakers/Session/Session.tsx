@@ -9,13 +9,12 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useTranslation } from "react-i18next";
 import { BsFillInfoCircleFill } from "react-icons/bs";
 
-const Session = ({
-  session,
-  onPopInClick,
-}: {
+interface Session {
   session: SessionProps;
   onPopInClick?: () => void;
-}) => {
+}
+
+const Session = ({ session, onPopInClick }: Session) => {
   const { t } = useTranslation(["speakers"]);
   return (
     <div className="flex flex-col md:flex-row justify-between">
@@ -65,11 +64,9 @@ const Session = ({
             variant="secondary-invert"
             href={session.eventUrl}
             iconPosition="left"
-            icon={<PiCalendarPlus size={24} className="text-white" />}
+            icon={<PiCalendarPlus />}
           >
-            <Typography variant="body1" weight="semibold" color="light">
-              Ajouter à mon agenda
-            </Typography>
+            Ajouter à mon agenda
           </ButtonLink>
         </div>
       )}
