@@ -77,7 +77,8 @@
         "start": "9h00",
         "end": "10h30",
         "tags": ["Ouverture", "Business", "Expertise"],
-        "speakers": [1]
+        "speakers": [1],
+        "eventUrl": null
       },
       {
         "id": 2,
@@ -89,7 +90,8 @@
         "start": "9h00",
         "end": "10h30",
         "tags": ["Technical", "Expertise"],
-        "speakers": [2]
+        "speakers": [2],
+        "eventUrl": null
       },
       {
         "id": 3,
@@ -101,7 +103,8 @@
         "start": "9h00",
         "end": "10h30",
         "tags": ["Technical", "Expertise"],
-        "speakers": [3]
+        "speakers": [3],
+        "eventUrl": null
       },
       {
         "id": 4,
@@ -113,7 +116,8 @@
         "start": "9h00",
         "end": "10h30",
         "tags": ["Technical", "Expertise"],
-        "speakers": [4]
+        "speakers": [4],
+        "eventUrl": null
       }
     ]
   }

@@ -8,7 +8,12 @@ import { PiCalendarPlus } from "react-icons/pi";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useTranslation } from "react-i18next";
 
-const Session = ({ session }: { session: SessionProps }) => {
+interface Session {
+  session: SessionProps;
+  showAddToCalendar?: boolean;
+}
+
+const Session = ({ session, showAddToCalendar = true }: Session) => {
   const { t } = useTranslation(["speakers"]);
 
   return (
@@ -47,17 +52,15 @@ const Session = ({ session }: { session: SessionProps }) => {
           ))}
         </div>
       </div>
-      {!!session.eventUrl && (
+      {showAddToCalendar && !!session.eventUrl && (
         <div className="flex flex-col justify-end items-start md:items-end w-full">
           <ButtonLink
             variant="secondary-invert"
             href={session.eventUrl}
             iconPosition="left"
-            icon={<PiCalendarPlus size={24} className="text-white" />}
+            icon={<PiCalendarPlus />}
           >
-            <Typography variant="body1" weight="semibold" color="light">
-              Ajouter à mon agenda
-            </Typography>
+            Ajouter à mon agenda
           </ButtonLink>
         </div>
       )}
