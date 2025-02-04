@@ -6,7 +6,7 @@ import ProgramList from "./ProgramList";
 const Program = () => {
   return (
     <BackgroundImage
-      imagePath="/images/background/sponsors.jpg"
+      imagePath="/images/background/programs.jpg"
       className="py-12"
     >
       <Container size="large">

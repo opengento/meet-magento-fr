@@ -12,7 +12,7 @@ const Push = () => {
   return (
     <div className="my-4">
       <ContentMedia
-        imageUrl="/images/media/faq.png"
+        imageUrl="/images/media/faq.jpg"
         imagePosition="left"
         imageWidth="40%"
       >
