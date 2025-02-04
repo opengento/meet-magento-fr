@@ -14,7 +14,7 @@ const SessionPopIn = ({
 }) => {
   return (
     <Modal isOpen={isOpen} onClose={onClose}>
-      <SessionPopInContent />
+      <SessionPopInContent session={selectedSession} />
     </Modal>
   );
 };
