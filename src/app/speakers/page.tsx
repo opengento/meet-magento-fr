@@ -9,7 +9,7 @@ import Push from "@/layouts/Push/Push";
 import Person from "@/components/Person/Person";
 import React from "react";
 import { PersonProps } from "@/components/Person/PersonProps";
-import SpeakerPopIn from "@/components/Speakers/Speaker/PersonPopIn";
+import SpeakerPopIn from "@/components/Speakers/Speaker/SpeakerPopIn";
 
 export default function Page() {
   const { t } = useTranslation(['speakers']);

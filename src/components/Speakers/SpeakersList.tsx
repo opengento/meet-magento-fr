@@ -12,7 +12,7 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useTranslation } from "react-i18next";
 import Person from "@/components/Person/Person";
 import { PersonProps } from "@/components/Person/PersonProps";
-import SpeakerPopIn from "@/components/Speakers/Speaker/PersonPopIn";
+import SpeakerPopIn from "@/components/Speakers/Speaker/SpeakerPopIn";
 
 const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
   const { width } = useWindowSize();
