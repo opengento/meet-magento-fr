@@ -41,7 +41,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
   ];
 
   return (
-    <BackgroundImage imagePath="/images/background/sponsors.png" className="py-12">
+    <BackgroundImage imagePath="/images/background/sponsors.jpg" className="py-12">
       <Container size="large">
         <TopBanner
           title="Merci à nos sponsors"
