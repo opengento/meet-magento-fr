@@ -18,8 +18,8 @@
         "company": "Platform.sh",
         "companyLogo": "/images/logo/platformsh.svg",
         "companyUrl": "https://platform.sh/",
-        "linkedin": "",
-        "role": "CEO",
+        "linkedin": "https://www.linkedin.com/in/fplais/",
+        "role": "Co-Founder & CEO",
         "photo": "/images/speakers/fred_plais.png",
         "biography": "Fred Plais est un serial entrepreneur et cofondateur & CEO de Platform.sh, localisé en Californie depuis 2015. Passioné de tech, d'open source et d'entreprenariat, Fred est aussi investisseur et board member de plusieurs startups et scaleups francaises et americaines."
       },
@@ -52,7 +52,7 @@
         "companyLogo": "/images/logo/maddlen.jpeg",
         "companyUrl": "https://www.maddlen.fr/",
         "linkedin": "https://www.linkedin.com/in/herveguetin/",
-        "role": "Consultant & développeur full-stack",
+        "role": "Consultant & Full-Stack Developer",
         "photo": "/images/speakers/herve_guetin.png",
         "biography": "Hervé Guétin est un expert en commerce digital avec plus de 15 ans d’expérience en tant que CTO, consultant et développeur full-stack. Spécialiste Magento et développeur frontend aguerri, il accompagne les entreprises dans la conception, le développement et l’optimisation de leurs plateformes e-commerce. Passionné par la veille technologique, il s’attache à repousser les limites de Magento en y intégrant des technologies innovantes."
       },
