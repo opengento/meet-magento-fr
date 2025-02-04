@@ -21,7 +21,7 @@ const ProgramTile = ({
   return (
     <div className="program-tile bg-white rounded-xl flex flex-col justify-between gap-6 p-4 md:p-6 h-full">
       <div className="flex flex-col gap-6">
-        <Session session={session} onPopInClick={onPopInClick} />
+        <Session session={session} showAddToCalendar={false} onPopInClick={onPopInClick} />
         <div className="program-tile-speakers flex flex-col gap-2">
           {speakers.map((speaker) => (
             <Person person={speaker} appearance="program" key={speaker.id} />

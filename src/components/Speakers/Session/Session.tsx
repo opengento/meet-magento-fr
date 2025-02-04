@@ -11,10 +11,11 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 
 interface Session {
   session: SessionProps;
+  showAddToCalendar?: boolean;
   onPopInClick?: () => void;
 }
 
-const Session = ({ session, onPopInClick }: Session) => {
+const Session = ({ session, showAddToCalendar = true, onPopInClick }: Session) => {
   const { t } = useTranslation(["speakers"]);
   return (
     <div className="flex flex-col md:flex-row justify-between">
@@ -58,7 +59,7 @@ const Session = ({ session, onPopInClick }: Session) => {
           ))}
         </div>
       </div>
-      {!!session.eventUrl && (
+      {showAddToCalendar && !!session.eventUrl && (
         <div className="flex flex-col justify-end items-start md:items-end w-full">
           <ButtonLink
             variant="secondary-invert"

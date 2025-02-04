@@ -5,6 +5,7 @@ import Person from "@/components/Person/Person";
 import useDataProvider from "@/hooks/useDataProvider";
 import Typography from "@/components/Typography/Typography";
 import { PiCalendarPlus } from "react-icons/pi";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 const SessionPopInContent = ({ session }: { session: SessionProps }) => {
   const dataProvider = useDataProvider();
@@ -13,23 +14,27 @@ const SessionPopInContent = ({ session }: { session: SessionProps }) => {
     .filter((speaker) => session.speakers.includes(speaker.id));
   return (
     <div className="session-pop-in-content flex flex-col gap-6">
-      <Session session={session} />
+      <Session session={session}/>
       <div className="flex flex-col rounded-xl bg-white p-6 gap-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {speakers.map((speaker) => (
-            <Person person={speaker} appearance="program" key={speaker.id} />
+            <Person person={speaker} appearance="program" key={speaker.id}/>
           ))}
         </div>
         <Typography variant="body1">{session.description}</Typography>
       </div>
-      <div className="flex justify-center">
-        <div className="flex flex-row items-center gap-1 bg-primary px-4 py-2 rounded-full hover:cursor-pointer">
-          <PiCalendarPlus size={20} className="text-white" />
-          <span className="text-base text-white font-semibold">
-            Ajouter cette conférence à mon agenda
-          </span>
+      {!!session.eventUrl && (
+        <div className="mx-auto">
+          <ButtonLink
+            variant="secondary-invert"
+            href={session.eventUrl}
+            iconPosition="left"
+            icon={<PiCalendarPlus />}
+          >
+            Ajouter à mon agenda
+          </ButtonLink>
         </div>
-      </div>
+      )}
     </div>
   );
 };
