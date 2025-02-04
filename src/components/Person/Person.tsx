@@ -20,7 +20,6 @@ const PersonCard = ({
           alt={person.company}
           width={20}
           height={20}
-          className="h-6"
         />
         <span className="text-sm">{person.company}</span>
       </div>

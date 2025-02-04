@@ -51,11 +51,11 @@
       {
         "id": 4,
         "name": "Hervé Guétin",
-        "company": "Agence Dn'D",
-        "companyLogo": "/images/logo/dnd.svg",
-        "companyUrl": "https://www.dnd.fr/",
+        "company": "Maddlen",
+        "companyLogo": "/images/logo/maddlen.jpeg",
+        "companyUrl": "https://www.maddlen.fr/",
         "linkedin": "https://www.linkedin.com/in/herveguetin/",
-        "role": "Tech Expert",
+        "role": "Consultant & développeur full-stack",
         "photo": "/images/speakers/herve_guetin.jpg",
         "photoBg": 1,
         "biography": ""
