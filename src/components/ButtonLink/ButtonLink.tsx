@@ -36,7 +36,7 @@ const ButtonLink = ({
     : "gap-3 ";
 
   const renderContent = (content: ReactNode) => {
-    const iconClassName: string = "inline-block p-1 rounded-full";
+    const iconClassName: string = "inline-block p-1 rounded-full duration-300";
     const contentClassName: string = variant === "primary"
       ? "flex-1 bg-none bg-cover bg-center bg-clip-text group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:to-violet-500 group-hover:text-transparent"
       : "flex-1";
