@@ -75,7 +75,7 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
                 alt={sponsor.name}
                 width={606}
                 height={280}
-                className="rounded-3xl object-fit md:col-span-2"
+                className="rounded-3xl object-contain md:col-span-2"
               />
               <div className="flex flex-col gap-6 md:col-span-3">
                 <div className="h-8">
@@ -84,7 +84,7 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
                     alt={sponsor.name}
                     width={150}
                     height={30}
-                    className="object-fit h-full w-auto max-w-48"
+                    className="object-contain h-full w-auto max-w-48"
                   />
                 </div>
                 <Typography color="dark">

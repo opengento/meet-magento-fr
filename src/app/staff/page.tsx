@@ -37,7 +37,7 @@ export default function Page() {
                    alt=""
                    height={438}
                    width={582}
-                   className="rounded-xl object-fit max-h-96 w-auto"
+                   className="rounded-xl object-contain max-h-96 w-auto"
             />
           ))}
         </div>

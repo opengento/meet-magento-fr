@@ -36,7 +36,7 @@ const Session = ({
                   alt={t(`speakers:data.rooms.${session.room}`)}
                   width={18}
                   height={20}
-                  className="object-fit mr-1"
+                  className="object-contain mr-1"
                 />
                 <span>{t(`speakers:data.rooms.${session.room}`)}</span>
               </>
