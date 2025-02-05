@@ -30,6 +30,8 @@ const Place = ({ place }: { place: PlaceProps }) => {
         <ButtonLink
           variant="secondary-invert-w-border"
           href={place.url}
+          target="_blank"
+          rel="noopener"
           iconPosition="right"
           icon={<IoIosArrowForward />}
         >
