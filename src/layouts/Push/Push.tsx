@@ -25,7 +25,7 @@ const Push = () => {
           </Typography>
           <div className="flex flex-row flex-wrap gap-8">
             <ButtonLink
-              variant="secondary-invert"
+              variant="secondary-invert-w-border"
               href={t('common:programUrl')}
               iconPosition="right"
               icon={<IoIosArrowForward />}
@@ -33,7 +33,7 @@ const Push = () => {
               {t('common:programLabel')}
             </ButtonLink>
             <ButtonLink
-              variant="secondary-invert"
+              variant="secondary-invert-w-border"
               href={t('common:ticketingUrl')}
               target="_blank"
               rel="noopener"

@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 export type ButtonLinkProps = {
-  variant: "primary" | "secondary" | "secondary-invert" | "soft-pink",
+  variant: "primary" | "secondary" | "secondary-invert" | "secondary-invert-w-border" | "soft-pink",
   href: string,
   target?: string,
   rel?: string,

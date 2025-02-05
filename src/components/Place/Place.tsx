@@ -28,7 +28,7 @@ const Place = ({ place }: { place: PlaceProps }) => {
           {place.description}
         </Typography>
         <ButtonLink
-          variant="secondary-invert"
+          variant="secondary-invert-w-border"
           href={place.url}
           iconPosition="right"
           icon={<IoIosArrowForward />}

@@ -91,7 +91,7 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
                   {sponsor.description ? sponsor.description : sponsor.caption}
                 </Typography>
                 <ButtonLink
-                  variant="secondary-invert"
+                  variant="secondary-invert-w-border"
                   href={sponsor.url}
                   target="_blank"
                   rel="noopener"

@@ -31,7 +31,7 @@ const ProgramTile = ({
       {!!session.eventUrl && (
         <div className="mx-auto">
           <ButtonLink
-            variant="secondary-invert"
+            variant="secondary-invert-w-border"
             href={session.eventUrl}
             iconPosition="left"
             icon={<PiCalendarPlus />}

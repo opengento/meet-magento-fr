@@ -66,7 +66,7 @@ const Session = ({
       {showAddToCalendar && !!session.eventUrl && (
         <div className="flex flex-col justify-end items-start md:items-end w-full">
           <ButtonLink
-            variant="secondary-invert"
+            variant="secondary-invert-w-border"
             href={session.eventUrl}
             iconPosition="left"
             icon={<PiCalendarPlus />}

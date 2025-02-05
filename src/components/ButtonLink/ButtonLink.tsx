@@ -1,7 +1,7 @@
 import Link from "next/link";
-import React, {ReactNode} from "react";
+import { ReactNode } from "react";
 import classNames from "classnames";
-import {ButtonLinkProps} from "@/components/ButtonLink/ButtonLinkProps";
+import { ButtonLinkProps } from "@/components/ButtonLink/ButtonLinkProps";
 
 const ButtonLink = ({
   variant,
@@ -17,6 +17,7 @@ const ButtonLink = ({
     primary: "text-black bg-[url(/images/background.svg)] bg-cover bg-center hover:bg-[left_75%]",
     secondary: "bg-white text-primary hover:bg-primary hover:text-white",
     "secondary-invert": "bg-primary text-white hover:bg-white hover:text-primary",
+    "secondary-invert-w-border": "bg-primary text-white border border-white hover:border-primary hover:bg-white hover:text-primary",
     "soft-pink": "bg-purple-500 text-white hover:bg-white hover:text-purple-500",
   };
 
@@ -24,6 +25,7 @@ const ButtonLink = ({
     primary: "bg-none text-black",
     secondary: "bg-primary text-white group-hover:bg-white group-hover:text-primary",
     "secondary-invert": "bg-white text-primary group-hover:bg-primary group-hover:text-white",
+    "secondary-invert-w-border": "bg-white text-primary group-hover:bg-primary group-hover:text-white",
     "soft-pink": "bg-purple-500 text-white group-hover:bg-white group-hover:text-purple-500",
   };
 
@@ -38,8 +40,8 @@ const ButtonLink = ({
   const renderContent = (content: ReactNode) => {
     const iconClassName: string = "inline-block p-1 rounded-full duration-300";
     const contentClassName: string = variant === "primary"
-      ? "flex-1 bg-none bg-cover bg-center bg-clip-text group-hover:bg-gradient-to-r group-hover:from-pink-500 group-hover:to-violet-500 group-hover:text-transparent"
-      : "flex-1";
+      ? "flex-1 inline-block group-hover:text-transparent group-hover:bg-gradient-to-r from-indigo-500 via-purple-500 to-red-500 bg-clip-text"
+      : "flex-1 inline-block";
 
     if (iconPosition === "left") {
       return (
