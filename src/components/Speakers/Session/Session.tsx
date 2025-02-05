@@ -29,18 +29,26 @@ const Session = ({
             {session.title}
           </Typography>
           <div className="flex items-center font-medium text-black">
-            <Image
-              src={`/images/speakers/rooms/${session.room}.svg`}
-              alt={t(`speakers:data.rooms.${session.room}`)}
-              width={18}
-              height={20}
-              className="object-fit mr-1"
-            />
-            <span>{t(`speakers:data.rooms.${session.room}`)}</span>
-            <span className="mx-2 text-primary">|</span>
-            <span>{session.start}</span>
-            <span className="mx-1 text-primary">&bull;</span>
-            <span>{session.end}</span>
+            {!!session.room && (
+              <>
+                <Image
+                  src={`/images/speakers/rooms/${session.room}.svg`}
+                  alt={t(`speakers:data.rooms.${session.room}`)}
+                  width={18}
+                  height={20}
+                  className="object-fit mr-1"
+                />
+                <span>{t(`speakers:data.rooms.${session.room}`)}</span>
+              </>
+            )}
+            {!!session.start && session.end && (
+              <>
+                <span className="mx-2 text-primary">|</span>
+                <span>{session.start}</span>
+                <span className="mx-1 text-primary">&bull;</span>
+                <span>{session.end}</span>
+              </>
+            )}
             {onPopInClick && (
               <BsFillInfoCircleFill
                 className="text-pink mx-1 hover:cursor-pointer"

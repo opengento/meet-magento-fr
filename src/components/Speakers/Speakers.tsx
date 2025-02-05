@@ -32,18 +32,21 @@ const Speakers = ({ data }: { data: SpeakersProps }) => {
                 </Typography>
               </div>
             </div>
-            <div className="bg-[url(/images/pattern_speakers.svg)] bg-cover flex items-center justify-center w-full h-64 p-5 md:h-auto md:w-1/2">
-              <ButtonLink
-                variant="secondary"
-                href={data.registrationFormUrl}
-                target="_blank"
-                rel="noopener"
-                iconPosition="right"
-                icon={<IoIosArrowForward />}
-              >
-                {data.registrationLabel}
-              </ButtonLink>
-            </div>
+            {data.isRegistrationEnabled && (
+              <div
+                className="bg-[url(/images/pattern_speakers.svg)] bg-cover flex items-center justify-center w-full h-64 p-5 md:h-auto md:w-1/2">
+                <ButtonLink
+                  variant="secondary"
+                  href={data.registrationFormUrl}
+                  target="_blank"
+                  rel="noopener"
+                  iconPosition="right"
+                  icon={<IoIosArrowForward/>}
+                >
+                  {data.registrationLabel}
+                </ButtonLink>
+              </div>
+            )}
           </div>
         </div>
       </div>
