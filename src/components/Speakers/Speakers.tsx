@@ -11,28 +11,31 @@ const Speakers = ({ data }: { data: SpeakersProps }) => {
     <Container size="large">
       <div className="speakers flex flex-col py-8 md:py-12 gap-12">
         <SpeakersList speakers={data.speakers} />
-        <div className="flex flex-col md:flex-row rounded-xl overflow-hidden relative">
-          <div className="absolute inset-0 h-3 md:h-full md:w-3 bg-secondary" />
-          <div className="bg-white flex-1 flex flex-col md:flex-row">
-            <div className="flex flex-col gap-6 flex-1 py-8 px-6 md:py-12 md:px-16">
-              <Typography
-                variant="h3"
-                color="dark"
-                weight="semibold"
-                underlineColor="secondary-100"
-              >
-                {data.title}
-              </Typography>
-              <div className="flex flex-col">
-                <Typography variant="subtitle2" color="dark" weight="bold">
-                  {data.subtitle}
+        {data.isRegistrationEnabled && (
+          <div
+            className="flex flex-col md:flex-row rounded-xl overflow-hidden relative">
+            <div
+              className="absolute inset-0 h-3 md:h-full md:w-3 bg-secondary"/>
+            <div className="bg-white flex-1 flex flex-col md:flex-row">
+              <div
+                className="flex flex-col gap-6 flex-1 py-8 px-6 md:py-12 md:px-16">
+                <Typography
+                  variant="h3"
+                  color="dark"
+                  weight="semibold"
+                  underlineColor="secondary-100"
+                >
+                  {data.title}
                 </Typography>
-                <Typography variant="subtitle2" color="dark" weight="medium">
-                  {data.description}
-                </Typography>
+                <div className="flex flex-col">
+                  <Typography variant="subtitle2" color="dark" weight="bold">
+                    {data.subtitle}
+                  </Typography>
+                  <Typography variant="subtitle2" color="dark" weight="medium">
+                    {data.description}
+                  </Typography>
+                </div>
               </div>
-            </div>
-            {data.isRegistrationEnabled && (
               <div
                 className="bg-[url(/images/pattern_speakers.svg)] bg-cover flex items-center justify-center w-full h-64 p-5 md:h-auto md:w-1/2">
                 <ButtonLink
@@ -46,9 +49,9 @@ const Speakers = ({ data }: { data: SpeakersProps }) => {
                   {data.registrationLabel}
                 </ButtonLink>
               </div>
-            )}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </Container>
   );
