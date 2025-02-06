@@ -48,8 +48,9 @@ const Person = ({
   return (
     <div
       className={classNames(
-        "flex flex-row gap-2 3xl:gap-6 group cursor-pointer",
+        "flex flex-row gap-2 3xl:gap-6 group",
         {
+          "cursor-pointer": onClick !== undefined,
           "items-center": appearance === "program",
           "items-start sm:items-center": appearance === "speaker"
         }
