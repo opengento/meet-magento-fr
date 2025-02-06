@@ -45,7 +45,16 @@ const Field = ({
 }: Field) => {
   return (
     <div className={classNames(wrapperClass[labelPosition], className)}>
-      <Label required={required} id={id} className={labelClass[labelPosition]}>
+      <Label
+        required={required}
+        id={id}
+        className={classNames(
+          labelClass[labelPosition],
+          {
+            "cursor-pointer": id !== undefined
+          }
+        )}
+      >
         {label}
       </Label>
       <Input
