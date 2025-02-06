@@ -3,13 +3,14 @@ import classNames from "classnames";
 
 interface Label {
   required: boolean;
+  id?: string;
   className?: string;
   children?: ReactNode;
 }
 
-const Label = ({ required, className, children }: Label) => {
+const Label = ({ required, id, className, children }: Label) => {
   return (
-    <label className={classNames(
+    <label htmlFor={id} className={classNames(
       "text-base font-semibold",
       className
     )}>

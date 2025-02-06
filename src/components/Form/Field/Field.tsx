@@ -31,10 +31,21 @@ const inputClass = {
   top: 'block w-full'
 };
 
-const Field = ({ variant = 'input', label, labelPosition = 'top', id, name, type, required, placeholder, value, className }: Field) => {
+const Field = ({
+  variant = 'input',
+  label,
+  labelPosition = 'top',
+  id,
+  name,
+  type,
+  required,
+  placeholder,
+  value,
+  className
+}: Field) => {
   return (
     <div className={classNames(wrapperClass[labelPosition], className)}>
-      <Label required={required} className={labelClass[labelPosition]}>
+      <Label required={required} id={id} className={labelClass[labelPosition]}>
         {label}
       </Label>
       <Input

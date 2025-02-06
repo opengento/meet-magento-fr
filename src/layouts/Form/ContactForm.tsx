@@ -22,6 +22,7 @@ const ContactForm = ({ action }: Contact) => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <Field
           label={t('common:Name')}
+          id="name"
           name="Name_First"
           type="text"
           required={true}
@@ -29,12 +30,14 @@ const ContactForm = ({ action }: Contact) => {
         />
         <Field
           label={t('common:Email')}
+          id="email"
           name="Email"
           type="email"
           required={true}
         />
         <Field
           label={t('common:Objet')}
+          id="object"
           name="SingleLine"
           type="text"
           required={true}
@@ -42,6 +45,7 @@ const ContactForm = ({ action }: Contact) => {
         />
         <Field
           label={t('common:Message')}
+          id="message"
           name="MultiLine"
           variant="textarea"
           required={true}
@@ -52,6 +56,7 @@ const ContactForm = ({ action }: Contact) => {
           <Field
             label={t('common:agreeTerms')}
             labelPosition="right"
+            id="terms"
             name="TermsConditions"
             type="checkbox"
             required={true}
