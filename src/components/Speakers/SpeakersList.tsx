@@ -91,12 +91,10 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
         >
           {width < 768
             ? speakers.map((speaker) => (
-                <SwiperSlide key={speaker.id}>
-                  <div onClick={() => handleSpeakerClick(speaker)}>
-                    <Person person={speaker} />
-                  </div>
-                </SwiperSlide>
-              ))
+              <SwiperSlide key={speaker.id}>
+                <Person person={speaker} onClick={() => handleSpeakerClick(speaker)}/>
+              </SwiperSlide>
+            ))
             : width < 1024
             ? Array.from({ length: Math.ceil(speakers.length / 4) }).map(
                 (_, slideIndex) => (
@@ -105,13 +103,11 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
                       {speakers
                         .slice(slideIndex * 4, (slideIndex + 1) * 4)
                         .map((speaker) => (
-                          <div
-                            key={speaker.id}
-                            className="flex flex-row gap-6 group hover:cursor-pointer"
+                          <Person
+                            person={speaker}
                             onClick={() => handleSpeakerClick(speaker)}
-                          >
-                            <Person person={speaker} />
-                          </div>
+                            key={speaker.id}
+                          />
                         ))}
                     </div>
                   </SwiperSlide>
@@ -124,13 +120,11 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
                       {speakers
                         .slice(slideIndex * 6, (slideIndex + 1) * 6)
                         .map((speaker) => (
-                          <div
-                            key={speaker.id}
-                            className="flex flex-row gap-6 group hover:cursor-pointer"
+                          <Person
+                            person={speaker}
                             onClick={() => handleSpeakerClick(speaker)}
-                          >
-                            <Person person={speaker} />
-                          </div>
+                            key={speaker.id}
+                          />
                         ))}
                     </div>
                   </SwiperSlide>

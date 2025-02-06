@@ -75,13 +75,11 @@ export default function Page() {
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-8 gap-y-12 mt-8">
           {developers
             .map((developer) => (
-              <div
-                key={developer.id}
-                className="flex flex-row gap-6 group hover:cursor-pointer"
+              <Person
+                person={developer}
                 onClick={() => handleDeveloperClick(developer)}
-              >
-                <Person person={developer}/>
-              </div>
+                key={developer.id}
+              />
             ))}
         </div>
         {selectedDeveloper && (

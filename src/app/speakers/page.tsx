@@ -47,13 +47,11 @@ export default function Page() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-12 my-7">
         {speakers.speakers
           .map((speaker) => (
-            <div
-              key={speaker.id}
-              className="flex flex-row gap-6 group hover:cursor-pointer"
+            <Person
+              person={speaker}
               onClick={() => handleSpeakerClick(speaker)}
-            >
-              <Person person={speaker}/>
-            </div>
+              key={speaker.id}
+            />
           ))}
       </div>
       <Push/>
