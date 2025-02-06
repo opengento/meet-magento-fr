@@ -4,6 +4,7 @@ import useWindowSize from "@/hooks/useWindowSize";
 import { GrFormView } from "react-icons/gr";
 import { PersonProps } from "@/components/Person/PersonProps";
 import classNames from "classnames";
+import ClientOnly from "@/helpers/ClientOnly";
 
 const PersonCard = ({
   person,
@@ -47,11 +48,11 @@ const Person = ({
       "rounded-full": appearance === "speaker",
       "[clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]":
         appearance === "program",
-    },
+    }
   );
 
   return (
-    <>
+    <ClientOnly>
       {width < 768 ? (
         <div className="flex flex-row gap-2">
           <Image
@@ -85,7 +86,7 @@ const Person = ({
           <PersonCard person={person} appearance={appearance} />
         </div>
       )}
-    </>
+    </ClientOnly>
   );
 };
 
