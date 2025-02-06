@@ -31,12 +31,15 @@ const TopBanner = ({
           {children}
           {onPrevClick && onNextClick && width > 1024 && (
             <div className="flex gap-2 ml-4">
-              <button onClick={onPrevClick} className="p-2 rounded bg-white/20">
+              <button
+                onClick={onPrevClick}
+                className="p-2 rounded bg-white/20 hover:bg-white/40"
+              >
                 <IoIosArrowBack className="text-white" size={24} />
               </button>
               <button
                 onClick={onNextClick}
-                className="p-2 rounded bg-white/20 "
+                className="p-2 rounded bg-white/20 hover:bg-white/40"
               >
                 <IoIosArrowForward className="text-white" size={24} />
               </button>
