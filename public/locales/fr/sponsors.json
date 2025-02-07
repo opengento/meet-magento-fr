@@ -115,17 +115,17 @@
       "description": null,
       "caption": "Premier Magento Extension Developer and Services Provider",
       "url": "https://amasty.com/",
-      "bannerSrc": null,
+      "bannerSrc": "/images/sponsors/banners/amasty.jpg",
       "logoSrc": "/images/sponsors/amasty.svg",
       "whiteLogoSrc": "/images/sponsors/white/amasty.svg"
     },
     {
       "type": "silver",
       "name": "Sensefuel",
-      "description": "Sensefuel équipe les marques et enseignes d'une plateforme de recherche e-commerce et de découverte de produits exploitant toute la puissance des nouvelles générations d’IA.  Sensefuel crée des expériences d’achat captivantes, adaptées aux sensibilités et contextes de chaque visiteur pour stimuler conversion et fidélité.",
+      "description": "Sensefuel équipe les marques et enseignes d'une plateforme de recherche e-commerce et de découverte de produits exploitant toute la puissance des nouvelles générations d’IA.",
       "caption": "",
       "url": "https://www.sensefuel.com/",
-      "bannerSrc": null,
+      "bannerSrc": "/images/sponsors/banners/sensefuel.jpg",
       "logoSrc": "/images/sponsors/sensefuel.svg",
       "whiteLogoSrc": "/images/sponsors/white/sensefuel.svg"
     }
