@@ -27,6 +27,7 @@ const Navigation = () => {
       <button
         className="lg:hidden text-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
+        title="Menu"
       >
         <svg
           className="w-6 h-6"
