@@ -80,6 +80,28 @@
         "biography": ""
       },
       {
+        "id": 10,
+        "name": "Frédéric Truscello",
+        "company": "Somfy Group",
+        "companyLogo": "/images/logo/somfy.svg",
+        "companyUrl": "https://www.somfy.fr/",
+        "linkedin": "https://www.linkedin.com/in/frederic-truscello/",
+        "role": "Business Analyst E-Commerce",
+        "photo": "/images/speakers/frederic_truscello.jpeg",
+        "biography": ""
+      },
+      {
+        "id": 11,
+        "name": "Gaetan Airiau",
+        "company": "Somfy Group",
+        "companyLogo": "/images/logo/somfy.svg",
+        "companyUrl": "https://www.somfy.fr/",
+        "linkedin": "https://www.linkedin.com/in/ga%C3%A9tan-airiau-808a8a5b/",
+        "role": "Customer Solutions Pole Director",
+        "photo": "/images/speakers/gaetan_airiau.jpg",
+        "biography": ""
+      },
+      {
         "id": 3,
         "name": "Adrien Illy",
         "company": "Agence Dn'D",
@@ -195,6 +217,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [5],
+        "eventUrl": null
+      },
+      {
+        "id": 7,
+        "title": "SOMFY Group x Adobe Commerce & Hyva",
+        "description": "Comment Adobe Commerce et Hyva se sont imposés comme modèle rapide, évolutif pour le nouveau portail Simu, marque du groupe Somfy.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [10, 11],
         "eventUrl": null
       }
     ]
