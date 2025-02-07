@@ -128,11 +128,11 @@ const Footer = () => {
           </div>
           <div className="flex relative z-20 gap-3 justify-end mb-6">
             <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
-                  href={t('common:linkedinUrl')} target="_blank" rel="noopener">
+                  href={t('common:linkedinUrl')} target="_blank" rel="noopener" title="LinkedIn">
               <FaLinkedinIn color="royalBlue" size={16}/>
             </Link>
             <Link className="flex items-center justify-center w-10 h-10 bg-white rounded-full"
-                  href={t('common:youtubeUrl')} target="_blank" rel="noopener">
+                  href={t('common:youtubeUrl')} target="_blank" rel="noopener" title="YouTube">
               <FaYoutube color="royalBlue" size={16}/>
             </Link>
           </div>
