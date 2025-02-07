@@ -16,7 +16,7 @@ const Sponsor = (sponsor: SponsorProps) => {
     platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] p-[57px] col-span-12 row-span-5 lg:col-span-4 lg:row-span-12",
     gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] p-[24px] col-span-6 row-span-3 lg:col-span-2 lg:row-span-4",
     silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] p-[22px] col-span-4 row-span-2 lg:col-span-2 lg:row-span-3",
-    bronze: "bg-[url(/images/background/sponsor-bronze.png)] hover:bg-[url(/images/background/sponsor-bronze.jpg)] p-[40px] col-span-4 row-span-1 lg:col-span-2 lg:row-span-2",
+    bronze: "bg-[url(/images/background/sponsor-bronze.jpg)] hover:bg-[url(/images/background/sponsor-bronze.jpg)] p-[40px] col-span-4 row-span-1 lg:col-span-2 lg:row-span-2",
   };
   const badgeClasses: Record<SponsorTypeProps, string> = {
     platinum: "top-[30px] right-[30px] h-[55px] lg:top-[24px] lg:right-[24px] lg:h-[80px]",
