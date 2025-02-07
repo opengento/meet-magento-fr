@@ -34,12 +34,14 @@ const TopBanner = ({
               <button
                 onClick={onPrevClick}
                 className="p-2 rounded bg-white/20 hover:bg-white/40"
+                title="Précédent"
               >
                 <IoIosArrowBack className="text-white" size={24} />
               </button>
               <button
                 onClick={onNextClick}
                 className="p-2 rounded bg-white/20 hover:bg-white/40"
+                title="Suivant"
               >
                 <IoIosArrowForward className="text-white" size={24} />
               </button>
