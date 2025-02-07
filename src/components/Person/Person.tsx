@@ -19,6 +19,7 @@ const PersonCard = ({
           alt={person.company}
           width={20}
           height={20}
+          className="object-contain max-w-5 max-h-5"
         />
         <span className="text-sm">{person.company}</span>
       </div>

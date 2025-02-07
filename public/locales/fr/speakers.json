@@ -14,6 +14,17 @@
     "registrationFormUrl": "https://forms.gle/M6Y8V2xP7PGw5VD8A",
     "speakers": [
       {
+        "id": 6,
+        "name": "Régis Quintin",
+        "company": "Adobe",
+        "companyLogo": "/images/logo/adobe.svg",
+        "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
+        "linkedin": "https://www.linkedin.com/in/regisquintin",
+        "role": "Head of Adobe Commerce for EMEA",
+        "photo": "/images/speakers/regis_quintin.jpeg",
+        "biography": ""
+      },
+      {
         "id": 1,
         "name": "Fred Plais",
         "company": "Platform.sh",
@@ -34,6 +45,39 @@
         "role": "Magento Performance Expert",
         "photo": "/images/speakers/ivan_chepurnyi.png",
         "biography": "Ivan Chepurnyi stands as a recognized expert in the Magento platform, a status he’s earned since his start in 2007. His deep technical understanding of the system has enabled him to build and fine-tune Magento websites for clients all around the globe.\n\nBeyond his technical skills, Ivan excels in breaking down complex ideas about performance optimization, code quality, and development workflows. His knack for making these intricate topics easy to understand has made him a regular speaker at Magento conferences and events."
+      },
+      {
+        "id": 7,
+        "name": "Willem Wigman",
+        "company": "Hyvä",
+        "companyLogo": "/images/logo/hyva.svg",
+        "companyUrl": "https://www.hyva.io/",
+        "linkedin": "https://www.linkedin.com/in/willem-wigman/",
+        "role": "Magento Performance Expert",
+        "photo": "/images/speakers/willem_wigman.jpg",
+        "biography": ""
+      },
+      {
+        "id": 5,
+        "name": "Romain Ruaud",
+        "company": "ElasticSuite",
+        "companyLogo": "/images/logo/elasticsuite.png",
+        "companyUrl": "https://elasticsuite.io/",
+        "linkedin": "https://www.linkedin.com/in/romain-ruaud-5a001a20/",
+        "role": "Co-Founder & CTO",
+        "photo": "/images/speakers/romain_ruaud.png",
+        "biography": "Créateur d’ElasticSuite, l’extension Magento la plus téléchargée avec plus de 3 millions d’installations, et de Gally, Romain Ruaud est un expert du e-commerce et de l’open source. Passionné par l’expérience client et le searchandising, il partagera son retour d’expérience sur les défis du développement, du maintien et de la pérennisation des projets open source, ainsi que sur les interactions avec la communauté."
+      },
+      {
+        "id": 9,
+        "name": "Nicolas J. Chevalier",
+        "company": "ECN",
+        "companyLogo": "/images/logo/ecn.png",
+        "companyUrl": "http://www.ecommerce-nation.fr/",
+        "linkedin": "https://www.linkedin.com/in/njchevalier/",
+        "role": "Fondateur & CEO",
+        "photo": "/images/speakers/nicolas_j_chevalier.jpeg",
+        "biography": ""
       },
       {
         "id": 3,
@@ -58,15 +102,15 @@
         "biography": "Hervé Guétin est un expert en commerce digital avec plus de 15 ans d’expérience en tant que CTO, consultant et développeur full-stack. Spécialiste Magento et développeur frontend aguerri, il accompagne les entreprises dans la conception, le développement et l’optimisation de leurs plateformes e-commerce. Passionné par la veille technologique, il s’attache à repousser les limites de Magento en y intégrant des technologies innovantes."
       },
       {
-        "id": 5,
-        "name": "Romain Ruaud",
-        "company": "ElasticSuite",
-        "companyLogo": "/images/logo/elasticsuite.png",
-        "companyUrl": "https://elasticsuite.io/",
-        "linkedin": "https://www.linkedin.com/in/romain-ruaud-5a001a20/",
+        "id": 8,
+        "name": "Joris Hart",
+        "company": "Ati4 Group",
+        "companyLogo": "/images/logo/ati4group.svg",
+        "companyUrl": "https://ati4group.com/",
+        "linkedin": "https://www.linkedin.com/in/joris-hart/",
         "role": "Co-Founder & CTO",
-        "photo": "/images/speakers/romain_ruaud.png",
-        "biography": "Créateur d’ElasticSuite, l’extension Magento la plus téléchargée avec plus de 3 millions d’installations, et de Gally, Romain Ruaud est un expert du e-commerce et de l’open source. Passionné par l’expérience client et le searchandising, il partagera son retour d’expérience sur les défis du développement, du maintien et de la pérennisation des projets open source, ainsi que sur les interactions avec la communauté."
+        "photo": "/images/speakers/joris_hart.jpeg",
+        "biography": ""
       }
     ],
     "rooms": {
@@ -77,6 +121,19 @@
     "sessions": [
       {
         "id": 1,
+        "title": "Back from Adobe Summit",
+        "description": "Retour sur les grandes annonces qui seront faites à Adobe Summit, sur les innovations qui positionnent Adobe Commerce au centre de la convergence du Commerce, du Marketing et de la Vente.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Opening", "Business", "Expertise"],
+        "speakers": [6],
+        "eventUrl": null
+      },
+      {
+        "id": 2,
         "title": "Comment PSh est devenu le partenaire de Adobe.",
         "description": "Une plongée inspirante dans les coulisses d'un partenariat gagnant-gagnant, avec des enseignements applicables à d'autres collaborations stratégiques.",
         "lang": "fr",
@@ -89,7 +146,7 @@
         "eventUrl": null
       },
       {
-        "id": 2,
+        "id": 3,
         "title": "200 Domains on a Single Magento Instance with a $300 Hosting Bill",
         "description": "A fascinating story about a unique customer business model with a Magento store where each product segment has its dedicated domain and technology behind it.",
         "lang": "en",
@@ -102,7 +159,7 @@
         "eventUrl": null
       },
       {
-        "id": 3,
+        "id": 4,
         "title": "Comment étendre Magento/Adobe Commerce sans le surcharger - App Builder.",
         "description": "Et si vous personnalisiez Magento sans jamais toucher à son code ? Découvrez une approche innovante basée sur les addons, en exploitant Adobe App Builder et Runtime I/O pour transformer l’expérience Magento.",
         "lang": "fr",
@@ -115,7 +172,7 @@
         "eventUrl": null
       },
       {
-        "id": 4,
+        "id": 5,
         "title": "Le frontend Magento : vers une nouvelle dynamique communautaire.",
         "description": "Réinventer le frontend Magento en l'alignant sur les meilleures pratiques modernes : une opportunité d’optimiser la stack, d’attirer de nouveaux talents et de dynamiser la communauté grâce à une collaboration renforcée entre backend et frontend.",
         "lang": "fr",
@@ -128,7 +185,7 @@
         "eventUrl": null
       },
       {
-        "id": 5,
+        "id": 6,
         "title": "Les défis cachés des logiciels open source : entre passion et pression.",
         "description": "Maintenir un projet open source, c’est bien plus que coder : découvrez les défis invisibles qui pèsent sur les créateurs et comment trouver un équilibre durable.",
         "lang": "fr",
