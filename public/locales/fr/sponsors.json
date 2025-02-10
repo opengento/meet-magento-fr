@@ -82,12 +82,22 @@
     {
       "type": "gold",
       "name": "Platform.sh",
-      "description": "Platform.sh is a unified, secure, enterprise-grade platform for building, running and scaling fleets of websites and applications. They are headquartered in France and have offices in Australia, Canada, DACH, and the UK. Serving more than 5,000 customers worldwide, it offers fully managed cloud infrastructure with built-in security and 24/7 global support.",
+      "description": "Platform.sh est une plateforme cloud d'hébergement d'applications web, leader dans le domaine du management de flottes de sites et applications web. Basée en France, avec des bureaux à l’international, elle sert 5 000 clients avec une infrastructure sécurisée et une assistance 24/7.",
       "caption": "Platform.sh: near-instant, full-stack previews that end staging delays",
       "url": "https://platform.sh/",
       "bannerSrc": "/images/sponsors/banners/platformsh.jpg",
       "logoSrc": "/images/sponsors/platformsh.svg",
       "whiteLogoSrc": "/images/sponsors/white/platformsh.svg"
+    },
+    {
+      "type": "silver",
+      "name": "LupaSearch",
+      "description": "Wordless Vector Search & Discovery. Boost sales with AI-enhanced search that knows how your customers think.",
+      "caption": "Wordless Vector Search & Discovery. AI-enriched, image-based search.",
+      "url": "https://www.lupasearch.com/",
+      "bannerSrc": null,
+      "logoSrc": "/images/sponsors/lupasearch.svg",
+      "whiteLogoSrc": "/images/sponsors/white/lupasearch.svg"
     },
     {
       "type": "gold",
