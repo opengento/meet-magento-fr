@@ -35,6 +35,15 @@ export default {
           100: "rgba(255, 71, 88, 0.15)",
         },
       },
+      gridTemplateColumns: {
+        90: 'repeat(90, minmax(0, 1fr))'
+      },
+      gridColumn: {
+        'span-30': 'span 30 / span 30',
+        'span-20': 'span 20 / span 20',
+        'span-18': 'span 18 / span 18',
+        'span-15': 'span 15 / span 15',
+      },
     },
   },
   plugins: [],

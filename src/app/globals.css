@@ -19,22 +19,3 @@ body {
   background: var(--background);
   font-family: var(--font-ibm-plex-sans-condensed), sans-serif;
 }
-
-.bg-photo-1 {
-  @apply bg-[url(/images/background/photo/1.png)];
-}
-.bg-photo-2 {
-  @apply bg-[url(/images/background/photo/2.png)];
-}
-.bg-photo-3 {
-  @apply bg-[url(/images/background/photo/3.png)];
-}
-.bg-photo-4 {
-  @apply bg-[url(/images/background/photo/4.png)];
-}
-.bg-photo-5 {
-  @apply bg-[url(/images/background/photo/5.png)];
-}
-.bg-photo-6 {
-  @apply bg-[url(/images/background/photo/6.png)];
-}
