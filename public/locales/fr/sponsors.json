@@ -131,13 +131,33 @@
     },
     {
       "type": "silver",
+      "name": "Spiriit",
+      "description": "Agence e-commerce engagée auprès des marques et distributeurs, nous déployons des plateformes robustes avec Magento Cloud, Adobe Commerce et Hyvä. Notre objectif : booster la conversion grâce à notre expertise en CRO et IA.",
+      "caption": "Votre partenaire e-commerce depuis +27 ans, expert Magento Cloud, Adobe Commerce, Hyvä",
+      "url": "https://www.spiriit.com/",
+      "bannerSrc": null,
+      "logoSrc": "/images/sponsors/spiriit.svg",
+      "whiteLogoSrc": "/images/sponsors/white/spiriit.svg"
+    },
+    {
+      "type": "silver",
       "name": "Sensefuel",
       "description": "Plateforme de recherche et de découverte de produits exclusivement dédiée au e-commerce, qui exploite toute la puissance de l’intelligence artificielle de nouvelle génération.",
-      "caption": "",
+      "caption": "Making ecommerce search personal",
       "url": "https://www.sensefuel.com/",
       "bannerSrc": "/images/sponsors/banners/sensefuel.jpg",
       "logoSrc": "/images/sponsors/sensefuel.svg",
       "whiteLogoSrc": "/images/sponsors/white/sensefuel.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Magebit",
+      "description": "With over 10 years of expertise, Magebit is a full-service eCommerce agency trusted by 450+ global brands to drive digital success!",
+      "caption": "An eCommerce agency you wish you met sooner",
+      "url": "https://magebit.com/",
+      "bannerSrc": null,
+      "logoSrc": "/images/sponsors/magebit.svg",
+      "whiteLogoSrc": "/images/sponsors/white/magebit.svg"
     }
   ]
 }
