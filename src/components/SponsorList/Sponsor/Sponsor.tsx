@@ -33,9 +33,8 @@ const Sponsor = (sponsor: SponsorProps) => {
 
   return (
     <div className={classNames(
-      'duration-150 lg:bg-none lg:bg-black/40 lg:backdrop-blur-md bg-cover',
-      'hover:bg-transparent hover:backdrop-blur-none hover:bg-cover',
-      'group rounded-sm relative flex justify-center items-center overflow-hidden',
+      'group rounded-sm relative bg-cover flex justify-center items-center',
+      'lg:bg-none lg:bg-black/40 lg:backdrop-blur-md hover:bg-transparent hover:backdrop-blur-none',
       boxClasses[sponsor.type]
     )}>
       <Image
@@ -51,10 +50,7 @@ const Sponsor = (sponsor: SponsorProps) => {
       <Image
         src={sponsor.logoSrc}
         alt={sponsor.name}
-        className={classNames(
-          'object-contain object-center',
-          logoClasses[sponsor.type]
-        )}
+        className={classNames('object-contain', logoClasses[sponsor.type])}
         width={440}
         height={560}
       />
