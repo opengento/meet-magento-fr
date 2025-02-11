@@ -89,6 +89,28 @@
         "role": "Consultant & Full-Stack Developer",
         "photo": "/images/speakers/herve_guetin.png",
         "biography": "Hervé Guétin est un expert en commerce digital avec plus de 15 ans d’expérience en tant que CTO, consultant et développeur full-stack. Spécialiste Magento et développeur frontend aguerri, il accompagne les entreprises dans la conception, le développement et l’optimisation de leurs plateformes e-commerce. Passionné par la veille technologique, il s’attache à repousser les limites de Magento en y intégrant des technologies innovantes."
+      },
+      {
+        "id": 8,
+        "name": "Valerian Demesy",
+        "company": "Editions Dipa Burda SAS",
+        "companyLogo": "/images/logo/burda.png",
+        "companyUrl": "https://www.burdastyle.fr/",
+        "linkedin": "https://www.linkedin.com/in/valerian-demesy/",
+        "role": "CEO",
+        "photo": "/images/speakers/valerian_demesy.jpg",
+        "biography": "Évoluant depuis plusieurs années dans le e-commerce et la transformation digitale, Valérian Demesy a été Chief Digital Officer, puis Chief Operating Officer, avant de prendre la direction d’Éditions Dipa Burda. Il pilote l’optimisation des parcours utilisateurs, l’amélioration des performances e-commerce et la gestion de projet digital, notamment sur Magento, tout en automatisant les workflows et en renforçant les synergies entre l’édition, l’e-commerce et l’abonnement. Aujourd’hui, en tant que CEO, il poursuit cette dynamique en accompagnant la transformation digitale de l’entreprise et en adaptant ses stratégies aux évolutions du marché."
+      },
+      {
+        "id": 9,
+        "name": "Xavier Ferrandi",
+        "company": "Editions Dipa Burda SAS",
+        "companyLogo": "/images/logo/burda.png",
+        "companyUrl": "https://www.burdastyle.fr/",
+        "linkedin": "https://www.linkedin.com/in/xavierferrandi/",
+        "role": "Head Of Digital",
+        "photo": "/images/speakers/xavier_ferrandi.png",
+        "biography": "Xavier évolue dans l'univers du digital depuis 8 ans et du e-commerce depuis 4 ans aux Editions Dipa Burda. Il a débuté son parcours en tant que Web Content Manager avant d'accéder au poste de Head of Digital, fonction qu'il occupe depuis plus de deux an, devenant ainsi moteur de la transformation digitale de l’entreprise. Il a notamment piloté la réconciliation de l’écosystème digital sur une unique instance Magento, assurant ainsi une cohérence technique et opérationnelle. Par ailleurs, il a défini la roadmap digital sur les dernières années, et a lancé le chantier de la refonte front et back de l’écosystème e-commerce, modernisant l'apparence des sites et les préparant aux défis de demain."
       }
     ],
     "rooms": {
@@ -173,6 +195,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [5],
+        "eventUrl": null
+      },
+      {
+        "id": 6,
+        "title": "Dipa Burda x Magento : Digitaliser un héritage, structurer un avenir",
+        "description": "Les Éditions Dipa Burda, historiquement axées sur l’impression, ont dû repenser leur stratégie face à la digitalisation. Sans vision digitale unifiée, le groupe a multiplié les acquisitions et les sites web, créant un écosystème e-commerce complexe. Une plongée dans l’évolution d’une entreprise de niche qui a su moderniser son e-commerce pour répondre aux enjeux du futur.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [8, 9],
         "eventUrl": null
       }
     ]
