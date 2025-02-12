@@ -50,7 +50,7 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
           <div className="relative h-full overflow-y-auto px-6 py-14 md:px-8 bg-camel ">
             <button
               onClick={onClose}
-              className="absolute top-4 right-4 p-2 rounded bg-purple"
+              className="absolute top-4 right-4 p-2 rounded bg-purple transition hover:bg-purple-500"
             >
               <IoClose className="text-white" size={24} />
             </button>
