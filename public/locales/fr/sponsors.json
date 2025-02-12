@@ -12,12 +12,6 @@
     "silver": "Partenaires Silver",
     "bronze": "Partenaires Bronze"
   },
-  "display": {
-    "platinum": "list",
-    "gold": "grid",
-    "silver": "grid",
-    "bronze": "grid"
-  },
   "partners": [
     {
       "type": "platinum",

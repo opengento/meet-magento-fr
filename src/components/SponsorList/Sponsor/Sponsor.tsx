@@ -1,14 +1,12 @@
-import { SponsorTypeProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
+import {
+  SponsorProps,
+  SponsorTypeProps
+} from "@/components/SponsorList/Sponsor/Sponsor.types";
 import Image from "next/image";
 import classNames from "classnames";
+import Link from "next/link";
 
-interface SponsorProps {
-  type: SponsorTypeProps
-  name: string,
-  logoSrc: string,
-}
-
-const Sponsor = (sponsor: SponsorProps) => {
+const Sponsor = ({ sponsor }: { sponsor: SponsorProps }) => {
   const badgeWidth: number = 70;
   const badgeHeight: number = 80;
 
@@ -32,11 +30,17 @@ const Sponsor = (sponsor: SponsorProps) => {
   };
 
   return (
-    <div className={classNames(
-      'group rounded-sm relative bg-cover flex justify-center items-center',
-      'lg:bg-none lg:bg-black/40 lg:backdrop-blur-md hover:bg-transparent hover:backdrop-blur-none',
-      boxClasses[sponsor.type]
-    )}>
+    <Link
+      href={sponsor.url}
+      target="_blank"
+      rel="noopener"
+      className={classNames(
+        'group rounded-sm relative bg-cover flex justify-center items-center',
+        'lg:bg-none lg:bg-black/40 lg:backdrop-blur-md hover:bg-transparent hover:backdrop-blur-none',
+        'transform transition duration-500 hover:scale-110 hover:z-10',
+        boxClasses[sponsor.type]
+      )}
+    >
       <Image
         src={`/images/badges/${sponsor.type}.svg`}
         alt={sponsor.type}
@@ -48,13 +52,13 @@ const Sponsor = (sponsor: SponsorProps) => {
         height={badgeHeight}
       />
       <Image
-        src={sponsor.logoSrc}
+        src={sponsor.whiteLogoSrc}
         alt={sponsor.name}
         className={classNames('object-contain', logoClasses[sponsor.type])}
         width={440}
         height={560}
       />
-    </div>
+    </Link>
   );
 };
 
