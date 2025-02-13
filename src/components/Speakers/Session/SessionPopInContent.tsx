@@ -21,7 +21,7 @@ const SessionPopInContent = ({ session }: { session: SessionProps }) => {
             <Person person={speaker} appearance="program" key={speaker.id} />
           ))}
         </div>
-        <Typography variant="body1">{session.description}</Typography>
+        <Typography variant="body1" className="whitespace-pre-wrap">{session.description}</Typography>
       </div>
       {!!session.eventUrl && (
         <div className="mx-auto">

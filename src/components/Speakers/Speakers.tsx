@@ -31,7 +31,7 @@ const Speakers = ({ data }: { data: SpeakersProps }) => {
                   <Typography variant="subtitle2" color="dark" weight="bold">
                     {data.subtitle}
                   </Typography>
-                  <Typography variant="subtitle2" color="dark" weight="medium">
+                  <Typography variant="subtitle2" color="dark" weight="medium" className="whitespace-pre-wrap">
                     {data.description}
                   </Typography>
                 </div>

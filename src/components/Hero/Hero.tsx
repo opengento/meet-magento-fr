@@ -38,7 +38,7 @@ const Hero = () => {
               >
                 {t('hero:subtitle')}
               </Typography>
-              <Typography color="light" className="mt-4 font-alt">
+              <Typography color="light" className="mt-4 font-alt whitespace-pre-wrap">
                 {t('hero:content')}
               </Typography>
               <div className="flex flex-wrap lg:flex-nowrap gap-4 mt-7 text-white">

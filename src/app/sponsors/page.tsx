@@ -27,7 +27,7 @@ export default function Page() {
         </Typography>
         <Typography
           color="dark"
-          className="mb-8"
+          className="mb-8 whitespace-pre-wrap"
         >
           {t('sponsors:description')}
         </Typography>

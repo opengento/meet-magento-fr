@@ -13,7 +13,6 @@ interface PersonPopInContentProps {
 const PersonPopInContent = ({ person, children }: PersonPopInContentProps) => {
   return (
     <div className="person-popin-content flex flex-col gap-6">
-      {/* Person info section */}
       <div className="flex flex-col md:flex-row gap-6">
         <div className="relative">
           <Image
@@ -58,13 +57,9 @@ const PersonPopInContent = ({ person, children }: PersonPopInContentProps) => {
           </Typography>
         </div>
       </div>
-
-      {/* Biography text */}
-      <Typography variant="body1" weight="normal">
+      <Typography variant="body1" weight="normal" className="whitespace-pre-wrap">
         {person.biography}
       </Typography>
-
-      {/* Sessions section */}
       {children}
     </div>
   );

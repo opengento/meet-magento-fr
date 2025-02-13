@@ -110,7 +110,7 @@ const Faq = ({
       </div>
       {openIndex === index && (
         <div className="mt-2 pl-8">
-          <Typography variant="body2" color="dark" weight="normal">
+          <Typography variant="body2" color="dark" weight="normal" className="whitespace-pre-wrap">
             {faq.answer}
           </Typography>
         </div>

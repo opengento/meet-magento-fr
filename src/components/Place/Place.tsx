@@ -24,7 +24,7 @@ const Place = ({ place }: { place: PlaceProps }) => {
             {place.address}
           </Typography>
         </div>
-        <Typography variant="body1" color="dark" weight="normal">
+        <Typography variant="body1" color="dark" weight="normal" className="whitespace-pre-wrap">
           {place.description}
         </Typography>
         <ButtonLink

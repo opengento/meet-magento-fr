@@ -57,7 +57,7 @@ const SponsorCard = ({ sponsor }: { sponsor: SponsorProps }) => {
             className="object-contain h-full w-auto max-w-48"
           />
         </div>
-        <Typography color="dark">
+        <Typography color="dark" className="whitespace-pre-wrap">
           {sponsor.description ? sponsor.description : sponsor.caption}
         </Typography>
         <ButtonLink
