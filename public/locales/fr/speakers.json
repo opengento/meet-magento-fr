@@ -39,7 +39,7 @@
         "id": 2,
         "name": "Ivan Chepurnyi",
         "company": "EcomDev B.V.",
-        "companyLogo": "/images/logo/ecomdevbv.gif",
+        "companyLogo": "/images/logo/ecomdevbv.png",
         "companyUrl": "https://ivanchepurnyi.github.io/",
         "linkedin": "https://www.linkedin.com/in/ivanchepurnyi/",
         "role": "Magento Performance Expert",
@@ -111,6 +111,17 @@
         "role": "Head Of Digital",
         "photo": "/images/speakers/xavier_ferrandi.png",
         "biography": "Xavier évolue dans l'univers du digital depuis 8 ans et du e-commerce depuis 4 ans aux Editions Dipa Burda. Il a débuté son parcours en tant que Web Content Manager avant d'accéder au poste de Head of Digital, fonction qu'il occupe depuis plus de deux an, devenant ainsi moteur de la transformation digitale de l’entreprise. Il a notamment piloté la réconciliation de l’écosystème digital sur une unique instance Magento, assurant ainsi une cohérence technique et opérationnelle. Par ailleurs, il a défini la roadmap digital sur les dernières années, et a lancé le chantier de la refonte front et back de l’écosystème e-commerce, modernisant l'apparence des sites et les préparant aux défis de demain."
+      },
+      {
+        "id": 10,
+        "name": "Michael Bouvy",
+        "company": "Click & Mortar",
+        "companyLogo": "/images/logo/click&mortar.png",
+        "companyUrl": "https://www.clickandmortar.fr/",
+        "linkedin": "https://www.linkedin.com/in/michaelbouvy/",
+        "role": "CTO",
+        "photo": "/images/speakers/michael_bouvy.jpg",
+        "biography": "Fort de près de 15 ans d'expérience, dont les 10 dernières en freelance, en développement web et e-commerce, je suis un expert sur Magento, avec une solide expertise en architecture applicative, DevOps, et cloud (AWS, Kubernetes, Docker).\n\nMon approche est axée sur l'innovation, avec une maîtrise pour le développement front-end (Vue.js, PWA) et la gestion d'équipes techniques.\n\nPassionné par l'architecture applicative (microservices, asynchrone), la création d'APIs REST / GraphQL, et la performance technique, je cherche à apporter ma vision technique et mon leadership pour propulser les entreprises vers de nouveaux sommets."
       }
     ],
     "rooms": {
@@ -208,6 +219,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [8, 9],
+        "eventUrl": null
+      },
+      {
+        "id": 8,
+        "title": "Analysez vos données business Magento sans SQL grâce à l'IA",
+        "description": "Dans un monde où les données sont la clé de la performance e-commerce, comment permettre aux équipes business d’interroger Magento sans connaissance technique ? Découvrez comment l’IA, en interprétant le langage naturel et en exécutant des requêtes SQL dynamiquement, transforme la prise de décision. Une approche sécurisée, intuitive et performante, pour tirer le meilleur de vos données sans effort technique.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [10],
         "eventUrl": null
       }
     ]

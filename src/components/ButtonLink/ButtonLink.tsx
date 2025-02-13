@@ -78,14 +78,16 @@ const ButtonLink = ({
   };
 
   return (
-    <Link href={href}
-          target={target}
-          rel={rel}
-          className={classNames(
-            "inline-block w-fit group rounded-3xl font-semibold duration-300",
-            variant === "primary" ? "p-[3px]" : paddingClass,
-            variantClass[variant]
-          )}>
+    <Link
+      href={href}
+      target={target}
+      rel={rel}
+      className={classNames(
+        "inline-block w-fit group rounded-3xl font-semibold duration-300",
+        variant === "primary" ? "p-[3px]" : paddingClass,
+        variantClass[variant]
+      )}
+    >
       <div className={classNames(
         "flex items-center justify-between text-center",
         wrapperClass
