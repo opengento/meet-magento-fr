@@ -120,7 +120,7 @@
         "companyUrl": "https://www.clickandmortar.fr/",
         "linkedin": "https://www.linkedin.com/in/michaelbouvy/",
         "role": "CTO",
-        "photo": "/images/speakers/michael_bouvy.jpg",
+        "photo": "/images/speakers/michael_bouvy.png",
         "biography": "Fort de près de 15 ans d'expérience, dont les 10 dernières en freelance, en développement web et e-commerce, je suis un expert sur Magento, avec une solide expertise en architecture applicative, DevOps, et cloud (AWS, Kubernetes, Docker).\n\nMon approche est axée sur l'innovation, avec une maîtrise pour le développement front-end (Vue.js, PWA) et la gestion d'équipes techniques.\n\nPassionné par l'architecture applicative (microservices, asynchrone), la création d'APIs REST / GraphQL, et la performance technique, je cherche à apporter ma vision technique et mon leadership pour propulser les entreprises vers de nouveaux sommets."
       }
     ],
