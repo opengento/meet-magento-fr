@@ -41,7 +41,7 @@ export default function Page() {
           {t('faq:faq')}
         </Typography>
         <Faq display="grid" />
-        <hr className="w-full mx-auto border h-[1px] mb-14" />
+        <hr className="w-full mx-auto border h-[1px] mb-14" id="form"/>
         <Typography
           variant="h4"
           color="dark"

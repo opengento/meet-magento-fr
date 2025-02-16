@@ -24,14 +24,16 @@ const Place = ({ place }: { place: PlaceProps }) => {
             {place.address}
           </Typography>
         </div>
-        <Typography variant="body1" color="dark" weight="normal" className="whitespace-pre-wrap">
+        <Typography
+          color="dark"
+          weight="normal"
+          className="whitespace-pre-wrap"
+        >
           {place.description}
         </Typography>
         <ButtonLink
           variant="secondary-invert-w-border"
-          href={place.url}
-          target="_blank"
-          rel="noopener"
+          href={place.page}
           iconPosition="right"
           icon={<IoIosArrowForward />}
         >

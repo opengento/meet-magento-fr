@@ -9,9 +9,6 @@ import Hero from "@/components/Hero/Hero";
 import Speakers from "@/components/Speakers/Speakers";
 import Program from "@/components/Program/Program";
 import useDataProvider from "@/hooks/useDataProvider";
-import { SpeakersProps } from "@/components/Speakers/SpeakersProps";
-import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
-import { PlaceProps } from "@/components/Place/PlaceProps";
 import Typography from "@/components/Typography/Typography";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
@@ -19,9 +16,6 @@ import { useTranslation } from "react-i18next";
 export default function Home() {
   const { t } = useTranslation(["common"]);
   const dataProvider = useDataProvider();
-  const speakers: SpeakersProps = dataProvider.useSpeakers();
-  const sponsors: SponsorProps[] = dataProvider.useSponsors();
-  const place: PlaceProps = dataProvider.usePlace();
 
   return (
     <div className="relative -top-[104px] left-0">
@@ -30,10 +24,10 @@ export default function Home() {
         <Program />
       </div>
       <div id="speakers">
-        <Speakers data={speakers} />
+        <Speakers data={dataProvider.useSpeakers()} />
       </div>
       <div id="sponsors">
-        <SponsorList items={sponsors} />
+        <SponsorList items={dataProvider.useSponsors()} />
       </div>
       <Container size="large">
         <div className="content-media-sections flex flex-col gap-12 py-12">
@@ -70,7 +64,7 @@ export default function Home() {
               imagePosition="left"
               imageWidth="40%"
             >
-              <Place place={place} />
+              <Place place={dataProvider.usePlace()} />
             </ContentMedia>
           </div>
         </div>

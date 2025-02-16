@@ -6,5 +6,6 @@ export type PlaceProps = {
   address: ReactNode;
   description: ReactNode;
   label: ReactNode;
+  page: string;
   url: string;
 }

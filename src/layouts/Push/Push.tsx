@@ -2,9 +2,9 @@
 
 import Typography from "@/components/Typography/Typography";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import {IoIosArrowForward} from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const Push = () => {
   const { t } = useTranslation(['common']);

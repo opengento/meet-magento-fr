@@ -6,6 +6,11 @@ import { SponsorProps } from "@/components/SponsorList/Sponsor/Sponsor.types";
 import { PlaceProps } from "@/components/Place/PlaceProps";
 import { PersonProps } from "@/components/Person/PersonProps";
 import { SessionProps } from "@/components/Speakers/Session/SessionProps";
+import {
+  AccommodationProps
+} from "@/components/Place/Accommodation/AccommodationProps";
+import {PlaceAccessProps} from "@/components/Place/Access/Access.types";
+import {ScheduleProps} from "@/components/Place/Schedule/ScheduleProps";
 
 const useData = (ns: string, key: string = "data") => {
   return useTranslation([ns]).t(key, { returnObjects: true });
@@ -24,6 +29,18 @@ const isSponsors = (content: object): content is SponsorProps[] => {
 };
 
 const isPlaceProps = (content: object): content is PlaceProps => {
+  return content !== null && typeof content === "object";
+};
+
+const isPlaceScheduleProps = (content: object): content is ScheduleProps => {
+  return content !== null && typeof content === "object";
+};
+
+const isPlaceAccessProps = (content: object): content is PlaceAccessProps => {
+  return content !== null && typeof content === "object";
+};
+
+const isAccommodationProps = (content: object): content is AccommodationProps => {
   return content !== null && typeof content === "object";
 };
 
@@ -61,9 +78,36 @@ const useSponsors = (): SponsorProps[] => {
 };
 
 const usePlace = (): PlaceProps => {
-  const content = useData("place");
+  const content = useData("place", "location");
   if (!isPlaceProps(content)) {
     throw new Error("Content is not a valid Place Type");
+  }
+
+  return content;
+};
+
+const usePlaceSchedule = (): ScheduleProps => {
+  const content = useData("place", "schedules");
+  if (!isPlaceScheduleProps(content)) {
+    throw new Error("Content is not a valid Place Schedule Type");
+  }
+
+  return content;
+};
+
+const usePlaceAccess = (): PlaceAccessProps => {
+  const content = useData("place", "access");
+  if (!isPlaceAccessProps(content)) {
+    throw new Error("Content is not a valid Place Access Type");
+  }
+
+  return content;
+};
+
+const useAccommodation = (): AccommodationProps => {
+  const content = useData("place", "accommodation");
+  if (!isAccommodationProps(content)) {
+    throw new Error("Content is not a valid Accommodation Type");
   }
 
   return content;
@@ -84,6 +128,9 @@ const useDataProvider = () => {
     useSpeakers: useSpeakers,
     useSessions: useSessions,
     usePlace: usePlace,
+    usePlaceSchedule: usePlaceSchedule,
+    usePlaceAccess: usePlaceAccess,
+    useAccommodation: useAccommodation,
     usePersonList: usePersonList,
   };
 };
