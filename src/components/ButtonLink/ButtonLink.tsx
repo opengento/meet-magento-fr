@@ -22,7 +22,7 @@ const ButtonLink = ({
   };
 
   const iconClass = {
-    primary: "bg-none text-black",
+    primary: "bg-none text-black group-hover:text-purple-500",
     secondary: "bg-primary text-white group-hover:bg-white group-hover:text-primary",
     "secondary-invert": "bg-white text-primary group-hover:bg-primary group-hover:text-white",
     "secondary-invert-w-border": "bg-white text-primary group-hover:bg-primary group-hover:text-white",
