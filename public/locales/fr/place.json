@@ -3,12 +3,25 @@
   "description": "Voici toutes les informations pratiques pour faciliter votre participation au Meet Magento Paris 2025:\n\nNous sommes ravis de vous accueillir le 25 mars 2025 à l'Étoile Business Center, situé au 21-25 Rue Balzac, 75008 Paris, dans un cadre prestigieux, idéal pour une journée de conférences et de networking.",
   "schedules": {
     "title": "Horaires de l'événement :",
-    "times": {
-      "Ouverture des portes ": "9h00 avec un petit-déjeuner d’accueil.",
-      "Conférences business et techniques, networking, temps forts ": "découvrez le planning ici",
-      "Clôture du salon ": "18h30",
-      "Apéritif dînatoire & soirée ": "jusqu'à 22h00."
-    }
+    "times": [
+      {
+        "subtitle": "Ouverture des portes ",
+        "text": "9h00 avec un petit-déjeuner d’accueil."
+      },
+      {
+        "subtitle": "Conférences business et techniques, networking, temps forts ",
+        "text": "découvrez le planning ici",
+        "link": "/#programs"
+      },
+      {
+        "subtitle": "Clôture du salon ",
+        "text": "18h30"
+      },
+      {
+        "subtitle": "Apéritif dînatoire & soirée ",
+        "text": "jusqu'à 22h00."
+      }
+    ]
   },
   "access": {
     "title": "Accès au lieu",

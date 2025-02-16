@@ -1,10 +1,9 @@
 import { ScheduleProps } from "@/components/Place/Schedule/ScheduleProps";
 import Typography from "@/components/Typography/Typography";
 import { FaClock } from "react-icons/fa";
+import Link from "next/link";
 
 const Schedule = ({ schedule }: { schedule: ScheduleProps }) => {
-  let i = 0;
-
   return (
     <div className="flex flex-col gap-2">
       <div className="flex flex-row items-center gap-2">
@@ -16,11 +15,18 @@ const Schedule = ({ schedule }: { schedule: ScheduleProps }) => {
         </Typography>
       </div>
       <ul className="list-disc pl-6 md:pl-12 text-black">
-        {Object.entries(schedule.times).map(([key, value]) => (
-          <li className="pb-2" key={++i}>
+        {schedule.times.map((time, index) => (
+          <li className="pb-2" key={index}>
             <div className="flex flex-row flex-wrap gap-x-1">
-              <Typography color="dark" weight="semibold">{key}:</Typography>
-              <Typography color="dark">{value}</Typography>
+              <Typography color="dark" weight="semibold">{time.subtitle}:</Typography>
+              {time.link && (
+                <Link href={time.link} className="underline">
+                  <Typography color="dark">{time.text}</Typography>
+                </Link>
+              )}
+              {time.link === undefined && (
+                <Typography color="dark">{time.text}</Typography>
+              )}
             </div>
           </li>
         ))}
