@@ -55,7 +55,7 @@
         "linkedin": "https://www.linkedin.com/in/willem-wigman/",
         "role": "Founder & CEO",
         "photo": "/images/speakers/willem_wigman.png",
-        "biography": ""
+        "biography": "Willem is the founder of Hyvä, the fastest Magento frontend on the market. He has been working with Magento since 2011. After he started specialising in performance optimization on Magento, he accidentally built Hyvä out of frustration with existing frontend solutions. Hyvä launched in 2020 and focuses heavily on performance, reducing complexity, build time, maintenance cost and boosting developers' happiness. Today Willem is the CEO of a full remote company of 24 staff scattered across Europe."
       },
       {
         "id": 5,
@@ -77,7 +77,7 @@
         "linkedin": "https://fr.linkedin.com/in/illyadrien",
         "role": "Tech Expert",
         "photo": "/images/speakers/adrien_illy.png",
-        "biography": ""
+        "biography": "Interventions validées\nInterventions validées\n100%\n8\nJ4\n\nExpert Technique chez Dn'D, j'évolue dans l’écosystème Magento depuis plus de 10 ans, avec une spécialisation dans les marketplaces à fort trafic et les plateformes B2B complexes. Mon expertise couvre l’optimisation des performances, la scalabilité et l’intégration de solutions backend variées. Lors de cette intervention, j'aborderai les bonnes pratiques pour tirer parti d’App Builder et enrichir Magento sans alourdir sa structure, en exploitant des approches modernes et modulaires.\n \n  \n \t\nExpert Technique chez Dn'D, j'évolue dans l’écosystème Magento depuis plus de 10 ans, avec une spécialisation dans les marketplaces à fort trafic et les plateformes B2B complexes. Mon expertise couvre l’optimisation des performances, la scalabilité et l’intégration de solutions backend variées. Lors de cette intervention, j'aborderai les bonnes pratiques pour tirer parti d’App Builder et enrichir Magento sans alourdir sa structure, en exploitant des approches modernes et modulaires.\nActiver la compatibilité du lecteur d'écran\n \nPour activer la compatibilité avec le lecteur d'écran, appuyez sur ⌘+Option+Z Pour connaître les raccourcis clavier, appuyez sur ⌘barre oblique\nMarion SAINTY a rejoint le document."
       },
       {
         "id": 4,
@@ -122,6 +122,28 @@
         "role": "CTO",
         "photo": "/images/speakers/michael_bouvy.png",
         "biography": "Fort de près de 15 ans d'expérience, dont les 10 dernières en freelance, en développement web et e-commerce, je suis un expert sur Magento, avec une solide expertise en architecture applicative, DevOps, et cloud (AWS, Kubernetes, Docker).\n\nMon approche est axée sur l'innovation, avec une maîtrise pour le développement front-end (Vue.js, PWA) et la gestion d'équipes techniques.\n\nPassionné par l'architecture applicative (microservices, asynchrone), la création d'APIs REST / GraphQL, et la performance technique, je cherche à apporter ma vision technique et mon leadership pour propulser les entreprises vers de nouveaux sommets."
+      },
+      {
+        "id": 11,
+        "name": "Benjamin Volle",
+        "company": "Synolia",
+        "companyLogo": "/images/logo/synolia.png",
+        "companyUrl": "https://www.synolia.com/",
+        "linkedin": "https://www.linkedin.com/in/benjamin-volle/",
+        "role": "Responsable technique Adobe Commerce",
+        "photo": "/images/speakers/benjamin_volle.jpg",
+        "biography": "Passionné par le développement web depuis près de 15 ans, avec plus de 10 ans d'expertise sur Magento/Adobe Commerce, il a commencé en tant que développeur jusqu'à devenir aujourd'hui Responsable Technique.\nTitulaire de la certification Adobe Certified Master - Adobe Commerce Architect, il s'intéresse autant au développement qu'aux aspects DevOps et infrastructure.\nIl a également contribué à la rédaction des certifications techniques et fonctionnelles d'Adobe."
+      },
+      {
+        "id": 12,
+        "name": "Sergej Derzap",
+        "company": "Amasty",
+        "companyLogo": "/images/logo/amasty.png",
+        "companyUrl": "https://amasty.com/",
+        "linkedin": "https://www.linkedin.com/in/derzap/",
+        "role": "CEO & CPO",
+        "photo": "/images/speakers/benjamin_volle.jpg",
+        "biography": "With 18+ years in the tech industry, Sergej Derzap is the CEO & CPO of Amasty, a leading company in Magento Extension development. He drives the company's vision, mission, and strategy while overseeing product direction. A certified PMP and executive MBA graduate, Sergej leverages his expertise to identify growth opportunities, build partnerships, monitor market trends, and foster collaboration across teams."
       }
     ],
     "rooms": {
@@ -232,6 +254,45 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [10],
+        "eventUrl": null
+      },
+      {
+        "id": 9,
+        "title": "Level up: the next stage in the Hyvä evolution",
+        "description": "For the first time ever in France, Willem Wigman will share the founding story of Hyvä, how it transformed the Magento Ecosystem and Community, what the French market means for Hyvä and a sneak peek into the company's ambitious plans...and the long-awaited roadmap!",
+        "lang": "en",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [7],
+        "eventUrl": null
+      },
+      {
+        "id": 10,
+        "title": "Comment exploiter API Mesh, App Builder et les SaaS Storefront Services avec Adobe Commerce.",
+        "description": "Nous partagerons notre retour d’expérience technique sur :\n- L’intégration d’un connecteur OneStock via App Builder.\n- L’utilisation d’API Mesh pour orchestrer les appels entre Adobe Commerce Cloud et les services Adobe disponibles en SaaS dans une optique Composable.\n- L’exploitation de \"Live Search\", \"Catalog Service\" et \"Product Recommendations\" pour offrir une expérience rapide et personnalisée.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [11],
+        "eventUrl": null
+      },
+      {
+        "id": 11,
+        "title": "Magento Open Source : The Formula for Competitive Advantage in eCommerce.",
+        "description": "With so many e-commerce platforms available, is Magento Open Source still a competitive choice? In this talk, we’ll break down the key factors every e-merchant must assess—functionality, performance, compliance, and cost—while comparing Magento 2 with industry leaders. Through real-world case studies, we’ll explore whether the right combination of tools and expertise can make Magento Open Source a powerhouse in today’s e-commerce landscape.",
+        "lang": "en",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [12],
         "eventUrl": null
       }
     ]
