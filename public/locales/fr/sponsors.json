@@ -34,6 +34,16 @@
       "whiteLogoSrc": "/images/sponsors/white/dnd.svg"
     },
     {
+      "type": "gold",
+      "name": "Smile",
+      "description": "Smile booste votre performance e-commerce avec des solutions tech innovantes & robustes. Avec ElasticSuite, l’extension Magento la plus téléchargée au monde, optimisez votre searchandising, améliorez l’UX & maîtrisez vos données.",
+      "caption": "Boostez l'e-commerce avec ElasticSuite, l'extension Magento n°1 au monde",
+      "url": "https://elasticsuite.io/",
+      "bannerSrc": null,
+      "logoSrc": "/images/sponsors/smile.svg",
+      "whiteLogoSrc": "/images/sponsors/white/smile.svg"
+    },
+    {
       "type": "silver",
       "name": "PH2M",
       "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 12 développeurs, contribuant activement à Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
