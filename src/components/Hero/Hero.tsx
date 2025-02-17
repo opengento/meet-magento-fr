@@ -48,7 +48,7 @@ const Hero = () => {
                 </div>
                 <div className="flex gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
                   <FaLocationDot size={20} />
-                  <Link href={t('place:data.url')} className="font-medium">{t('hero:place')}</Link>
+                  <Link href={'/place'} className="font-medium">{t('hero:place')}</Link>
                 </div>
               </div>
             </div>
