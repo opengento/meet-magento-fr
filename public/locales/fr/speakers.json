@@ -261,11 +261,11 @@
         "title": "Level up: the next stage in the Hyvä evolution",
         "description": "For the first time ever in France, Willem Wigman will share the founding story of Hyvä, how it transformed the Magento Ecosystem and Community, what the French market means for Hyvä and a sneak peek into the company's ambitious plans...and the long-awaited roadmap!",
         "lang": "en",
-        "track": "Business",
+        "track": "Technical",
         "room": null,
         "start": null,
         "end": null,
-        "tags": ["Business", "Expertise"],
+        "tags": ["Technical", "Expertise"],
         "speakers": [7],
         "eventUrl": null
       },
