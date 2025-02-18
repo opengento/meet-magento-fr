@@ -175,6 +175,16 @@
     },
     {
       "type": "bronze",
+      "name": "Opengento",
+      "description": null,
+      "caption": "",
+      "url": "https://opengento.fr/",
+      "bannerSrc": "/images/sponsors/banners/opengento.jpg",
+      "logoSrc": "/images/sponsors/opengento.svg",
+      "whiteLogoSrc": "/images/sponsors/white/opengento.svg"
+    },
+    {
+      "type": "bronze",
       "name": "Amasty",
       "description": null,
       "caption": "Premier Magento Extension Developer and Services Provider",
