@@ -114,6 +114,16 @@
       "whiteLogoSrc": "/images/sponsors/white/datasolution.svg"
     },
     {
+      "type": "gold",
+      "name": "Decade",
+      "description": "DECADE, spécialiste e-commerce depuis +20 ans, accompagne ses clients dans la durée, en conseil et réalisation : replatforming, marketplace, PIM/DAM, OMS, international … des projets adaptés à chaque modèle marchand.",
+      "caption": "Agence e-commerce depuis +20 ans : conseil et intégration en B2C et B2B",
+      "url": "https://www.decade.fr/",
+      "bannerSrc": "/images/sponsors/banners/decade.jpg",
+      "logoSrc": "/images/sponsors/decade.svg",
+      "whiteLogoSrc": "/images/sponsors/white/decade.svg"
+    },
+    {
       "type": "silver",
       "name": "MaPS System",
       "description": "MaPS System centralise et optimise la gestion des données (MDM, PIM, DAM), garantissant qualité, conformité et rapidité d'accès aux informations.",
@@ -124,14 +134,14 @@
       "whiteLogoSrc": "/images/sponsors/white/maps.svg"
     },
     {
-      "type": "bronze",
-      "name": "Amasty",
-      "description": null,
-      "caption": "Premier Magento Extension Developer and Services Provider",
-      "url": "https://amasty.com/",
-      "bannerSrc": "/images/sponsors/banners/amasty.jpg",
-      "logoSrc": "/images/sponsors/amasty.svg",
-      "whiteLogoSrc": "/images/sponsors/white/amasty.svg"
+      "type": "silver",
+      "name": "Sutunam",
+      "description": "Agence Magento experte depuis 2010. Certifiée Hyvä silver. UX/UI, développements et maintenance en passant par l'hébergement et l'intégration IA. A Lyon et Hanoï.",
+      "caption": "Agence Magento depuis 2010. Certifiée Hyvä silver. UX/UI, dev, maintenance et hébergement",
+      "url": "https://www.sutunam.com/",
+      "bannerSrc": "/images/sponsors/banners/sutunam.jpg",
+      "logoSrc": "/images/sponsors/sutunam.svg",
+      "whiteLogoSrc": "/images/sponsors/white/sutunam.svg"
     },
     {
       "type": "silver",
@@ -162,6 +172,36 @@
       "bannerSrc": "/images/sponsors/banners/magebit.jpg",
       "logoSrc": "/images/sponsors/magebit.svg",
       "whiteLogoSrc": "/images/sponsors/white/magebit.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Opengento",
+      "description": null,
+      "caption": "",
+      "url": "https://opengento.fr/",
+      "bannerSrc": "/images/sponsors/banners/opengento.jpg",
+      "logoSrc": "/images/sponsors/opengento.svg",
+      "whiteLogoSrc": "/images/sponsors/white/opengento.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Amasty",
+      "description": null,
+      "caption": "Premier Magento Extension Developer and Services Provider",
+      "url": "https://amasty.com/",
+      "bannerSrc": "/images/sponsors/banners/amasty.jpg",
+      "logoSrc": "/images/sponsors/amasty.svg",
+      "whiteLogoSrc": "/images/sponsors/white/amasty.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Akeneo",
+      "description": null,
+      "caption": "",
+      "url": "https://www.akeneo.com/",
+      "bannerSrc": "/images/sponsors/banners/akeneo.jpg",
+      "logoSrc": "/images/sponsors/akeneo.svg",
+      "whiteLogoSrc": "/images/sponsors/white/akeneo.svg"
     }
   ]
 }
