@@ -144,6 +144,39 @@
         "role": "CEO & CPO",
         "photo": "/images/speakers/sergej_derzap.jpg",
         "biography": "With 18+ years in the tech industry, Sergej Derzap is the CEO & CPO of Amasty, a leading company in Magento Extension development. He drives the company's vision, mission, and strategy while overseeing product direction. A certified PMP and executive MBA graduate, Sergej leverages his expertise to identify growth opportunities, build partnerships, monitor market trends, and foster collaboration across teams."
+      },
+      {
+        "id": 13,
+        "name": "Kévin Corte",
+        "company": "MaPS System",
+        "companyLogo": "/images/logo/maps.png",
+        "companyUrl": "https://www.maps-system.com/",
+        "linkedin": "https://www.linkedin.com/in/kevin-corte/",
+        "role": "Directeur commercial",
+        "photo": "/images/speakers/kevin_corte.jpg",
+        "biography": "Kévin Corte est un expert du digital, de la gestion des données de référence et du eCommerce avec plus de 20 ans d’expérience. Après une expérience de Chief Digital Officer chez Chaussea, où il développe l’eCommerce et optimise l’expérience client omnicanale, il rejoint MaPS System. Ses expériences lui confèrent une expertise pointue des besoins des eCommerçants et une capacité à adapter la plateforme MaPS System aux enjeux métier de chacun. Aujourd’hui, en tant que Chief Commercial Officer, il pilote la stratégie commerciale, accompagnant les clients dans leur transformation digitale et l’optimisation de leur gestion des données."
+      },
+      {
+        "id": 14,
+        "name": "Isabelle Sarrazin",
+        "company": "Easypara",
+        "companyLogo": "/images/logo/easypara.svg",
+        "companyUrl": "https://www.easypara.fr/",
+        "linkedin": "https://www.linkedin.com/in/isabelle-sarrazin-2601886/",
+        "role": "Directrice générale",
+        "photo": "/images/speakers/isabelle_sarrazin.jpg",
+        "biography": "Titulaire d'un diplome d'ingénieur de l'école CentraleSupélec, Isabelle Sarrazin démarre sa carrière en tant que consultante, puis manager en organisation chez PriceWaterhouseCoopers. Elle intègre par la suite la SNCF sur le programme d'implémentation de l'ERP puis sur différents postes. \nEn 2007, elle s'associe avec 3 partenaires pour fonder easyparapharmacie, une entreprise de eCommerce dans le domaine de la parapharmacie. Elle rejoint le management opérationnel de l'entreprise en 2020 pour prendre en charge les fonctions IT et finances, ainsi que la définition de la stratégie de l'entreprise."
+      },
+      {
+        "id": 15,
+        "name": "Klauss Mortreux",
+        "company": "Blackbird",
+        "companyLogo": "/images/logo/blackbird.svg",
+        "companyUrl": "https://black.bird.eu/",
+        "linkedin": "https://www.linkedin.com/in/klauss-mortreux/",
+        "role": "Front-end Technical Lead",
+        "photo": "/images/speakers/klauss_mortreux.jpg",
+        "biography": "Tombé dans la marmite du développement depuis bientôt 10 ans, et presque autant dans le web, je contribue aujourd’hui à la progression technique et à l’expertise du pôle front de Blackbird Agency. Passionné par le design et la performance web, j’aide nos clients à tirer le meilleur parti de leurs sites en proposant des expériences Magento 2 sur mesure avec Hyvä !"
       }
     ],
     "rooms": {
@@ -293,6 +326,32 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [12],
+        "eventUrl": null
+      },
+      {
+        "id": 12,
+        "title": "Easypara : de la saisie à la gouvernance des données.",
+        "description": "Comment structurer et automatiser la gestion des données produits pour booster son e-commerce ? Easypara partage son retour d’expérience sur sa transformation digitale : du casse-tête des fiches produits à une gouvernance optimisée grâce au PIM et au DAM. Moins de saisie manuelle, plus de fluidité avec les fournisseurs et une meilleure expérience client. Découvrez les défis, solutions et résultats concrets d’un projet mené avec MaPS System et Magento 2 !",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [13, 14],
+        "eventUrl": null
+      },
+      {
+        "id": 13,
+        "title": "Parlons INP, Speculation Rules & View Transitions sur Hyvä !",
+        "description": "Utilisez-vous toutes les fonctionnalités d'Hyvä ? Au-delà d'être le meilleur thème pour Magento 2, il est possible d'aller loin sur des sujets techniques importants : les INP et la directive x-defer pour Alpine, les Speculation Rules, et plus récemment les View Transitions. Parcourons ensemble ce lot de nouveautés que vous ne connaissez peut-être pas encore !",
+        "lang": "fr",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [15],
         "eventUrl": null
       }
     ]
