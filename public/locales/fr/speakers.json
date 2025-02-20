@@ -177,6 +177,17 @@
         "role": "Front-end Technical Lead",
         "photo": "/images/speakers/klauss_mortreux.png",
         "biography": "Tombé dans la marmite du développement depuis bientôt 10 ans, et presque autant dans le web, je contribue aujourd’hui à la progression technique et à l’expertise du pôle front de Blackbird Agency. Passionné par le design et la performance web, j’aide nos clients à tirer le meilleur parti de leurs sites en proposant des expériences Magento 2 sur mesure avec Hyvä !"
+      },
+      {
+        "id": 16,
+        "name": "Christian Lelaidier",
+        "company": "Shippingbo",
+        "companyLogo": "/images/logo/shippingbo.png",
+        "companyUrl": "https://www.shippingbo.com/",
+        "linkedin": "https://www.linkedin.com/in/chrishippingbo/",
+        "role": "Channel Sales Director",
+        "photo": "/images/speakers/christian_lelaidier.png",
+        "biography": "Passionné par les innovations technologiques, j’évolue dans un écosystème ouvert où Shippingbo s’intègre avec tous types d’outils grâce aux API. Adepte de l’approche 'best of breed', j’accompagne les agences e-commerce dans la mise en place de stratégies logistiques adaptées aux besoins de leurs clients. L’omnicanalité est un levier de croissance incontournable, mais sans une logistique performante, elle devient un casse-tête. Venez découvrir comment scaler efficacement avec Magento et Shippingbo !"
       }
     ],
     "rooms": {
@@ -352,6 +363,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [15],
+        "eventUrl": null
+      },
+      {
+        "id": 14,
+        "title": "Magento & Shippingbo : Accélérez votre omnicanalité grâce à la logistique",
+        "description": "Un site Magento est parfait pour représenter l'authenticité de votre marque et offrir une expérience unique à vos clients. Pourtant cela ne suffit plus. Pour se développer, il faut être visible et présent sur tous les canaux de vente disponibles, qu’ils soient physiques ou digitaux, online ou offline. Les marketplaces représentent désormais plus de 62 % des ventes e-commerce dans le monde, et en France, Amazon capte à lui seul plus de 20 % du marché en ligne. Diversifier vos canaux de vente devient essentiel. Mais sans une logistique performante, l’omnicanalité peut devenir un frein. Avec Magento et Shippingbo, transformez votre logistique en moteur de croissance et offrez une expérience client fluide et scalable.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [16],
         "eventUrl": null
       }
     ]
