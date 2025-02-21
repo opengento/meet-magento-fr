@@ -124,6 +124,16 @@
       "whiteLogoSrc": "/images/sponsors/white/decade.svg"
     },
     {
+      "type": "gold",
+      "name": "Hipay",
+      "description": "HiPay optimise les paiements en ligne et en magasin avec une solution sur mesure tout-en-un qui s’adresse aux pure players, marques omnicanal, marketplaces et franchises, quelle que soit la taille de leur réseau de boutiques.",
+      "caption": "Solution de paiement sur mesure tout-en-un",
+      "url": "https://hipay.com/",
+      "bannerSrc": "/images/sponsors/banners/hipay.jpg",
+      "logoSrc": "/images/sponsors/hipay.svg",
+      "whiteLogoSrc": "/images/sponsors/white/hipay.svg"
+    },
+    {
       "type": "silver",
       "name": "MaPS System",
       "description": "MaPS System centralise et optimise la gestion des données (MDM, PIM, DAM), garantissant qualité, conformité et rapidité d'accès aux informations.",
