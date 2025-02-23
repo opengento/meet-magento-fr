@@ -26,6 +26,9 @@ export const metadata: Metadata = {
   description:
     "Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento. Elle rassemble des professionnels de Magento, des développeurs, des commerçants et des leaders du secteur de tout le pays pour discuter des dernières tendances, innovations et meilleures pratiques en matière de e-commerce.",
   robots: "index, follow",
+  verification: {
+    google: "ttCAk_ZTayne2nyCmXUiYD-Qo13hIAD00T1iy4o4h2w"
+  },
   openGraph: {
     images: "https://fr.meet-magento.com/images/media/og.png"
   }
