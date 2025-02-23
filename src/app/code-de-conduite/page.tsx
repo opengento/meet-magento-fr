@@ -102,7 +102,7 @@ export default function Page() {
       <footer>
         <Typography variant="small">
           <em>
-            Version originale et crédit :
+            Version originale et crédit :{" "}
             <Link
               href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy"
               target="_blank">
@@ -112,7 +112,7 @@ export default function Page() {
         </Typography>
         <Typography variant="small">
           <em>
-            Ce texte est sous licence
+            Ce texte est sous licence{" "}
             <Link
               href="http://creativecommons.org/licenses/by/3.0/deed.en_US"
               target="_blank"
