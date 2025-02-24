@@ -24,31 +24,32 @@ const Hero = () => {
           <div className="flex py-16 gap-12 items-center">
             <div className="flex flex-col gap-2">
               <Typography
-                variant="h1"
                 color="light"
                 weight="semibold"
+                className="font-alt text-4xl md:text-5xl lg:text-5xl"
               >
                 {t('hero:title')}
               </Typography>
-              <Typography
-                variant="h2"
-                color="light"
-                weight="semibold"
-                underlineColor="primary-100"
-              >
-                {t('hero:subtitle')}
-              </Typography>
-              <Typography color="light" className="mt-4 font-alt whitespace-pre-wrap">
+              <h1 className="relative w-fit font-alt text-2xl md:text-3xl lg:text-3xl text-white dark:text-gray-600 font-semibold text-left">
+                <span className="relative z-10">{t('hero:subtitle')}</span>
+                <span className="absolute inset-x-0 bottom-0 h-[50%] bg-primary-100"></span>
+              </h1>
+              <Typography color="light"
+                          className="mt-4 font-alt whitespace-pre-wrap">
                 {t('hero:content')}
               </Typography>
-              <div className="flex flex-wrap lg:flex-nowrap gap-4 mt-7 text-white">
-                <div className="flex h-10 gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
-                  <CiCalendar size={22} />
+              <div
+                className="flex flex-wrap lg:flex-nowrap gap-4 mt-7 text-white">
+                <div
+                  className="flex h-10 gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
+                  <CiCalendar size={22}/>
                   <span className="font-medium">{t('hero:date')}</span>
                 </div>
-                <div className="flex gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
-                  <FaLocationDot size={20} />
-                  <Link href={'/place'} className="font-medium">{t('hero:place')}</Link>
+                <div
+                  className="flex gap-2 items-center rounded-full bg-white bg-opacity-20 py-2 px-6">
+                  <FaLocationDot size={20}/>
+                  <Link href={'/place'}
+                        className="font-medium">{t('hero:place')}</Link>
                 </div>
               </div>
             </div>
