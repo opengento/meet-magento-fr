@@ -188,6 +188,28 @@
         "role": "Channel Sales Director",
         "photo": "/images/speakers/christian_lelaidier.png",
         "biography": "Passionné par les innovations technologiques, j’évolue dans un écosystème ouvert où Shippingbo s’intègre avec tous types d’outils grâce aux API. Adepte de l’approche 'best of breed', j’accompagne les agences e-commerce dans la mise en place de stratégies logistiques adaptées aux besoins de leurs clients. L’omnicanalité est un levier de croissance incontournable, mais sans une logistique performante, elle devient un casse-tête. Venez découvrir comment scaler efficacement avec Magento et Shippingbo !"
+      },
+      {
+        "id": 17,
+        "name": "Guillaume Moigneu",
+        "company": "Platform.sh",
+        "companyLogo": "/images/logo/platformsh.svg",
+        "companyUrl": "https://platform.sh/",
+        "linkedin": "https://www.linkedin.com/in/guillaumemoigneu/",
+        "role": "VP Product Advocacy",
+        "photo": "/images/speakers/guillaume_moigneu.jpg",
+        "biography": "Guillaume Moigneu est VP Product Advocacy chez Platform.sh. Passionné d’optimisation, de durabilité et d’IA, il accompagne depuis plus de 25 ans l’évolution des technologies web, du e-commerce aux architectures cloud modernes."
+      },
+      {
+        "id": 18,
+        "name": "Benjamin Calef",
+        "company": "Zadig & Voltaire",
+        "companyLogo": "/images/logo/zadig&voltaire.png",
+        "companyUrl": "https://zadig-et-voltaire.com/",
+        "linkedin": "https://www.linkedin.com/in/benjamin-calef/",
+        "role": "CTO freelance",
+        "photo": "/images/speakers/benjamin_calef.png",
+        "biography": "Ma carrière a démarré chez Caudalie, j'y ai développé une vraie appétence pour Magento, on m'a fait confiance et j'y ai acquis mon expertise. Chez Maisons du Monde, j’ai lead la refonte vers un Magento 2 headless avec une équipe de 12 développeurs. Aujourd’hui, CTO chez Zadig&Voltaire, je pilote une équipe dédiée ainsi qu'une infrastructure digitale. Passionné depuis toujours par la performance, l’automatisation et l’open-source, j’optimise Magento 2 pour repousser ses limites."
       }
     ],
     "rooms": {
@@ -376,6 +398,32 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [16],
+        "eventUrl": null
+      },
+      {
+        "id": 15,
+        "title": "PHP & IA : Implémentation des Transformers pour augmenter les capacités de votre store",
+        "description": "Et si PHP pouvait faire de l’IA ? Découvrez comment ONNX et Transformers permettent l’inférence ML pour analyser du texte, reconnaître des images et générer du langage.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [17],
+        "eventUrl": null
+      },
+      {
+        "id": 16,
+        "title": "Magento 2 : aller plus loin sans finir dans le mur",
+        "description": "Magento 2, c’est un peu comme une fusée : elle peut propulser votre e-commerce vers les sommets… ou exploser en plein vol si on ne la maîtrise pas. Entre indexation capricieuse, documentations incomplètes, montées de version périlleuses, et le fameux « oopsy knockout.js == bad bet » les défis ne manquent pas. Heureusement, il existe des solutions pour garder le cap ! Dans ce talk, je partagerai mes stratégies pour rendre Magento 2 robuste, sécurisé et évolutif, prouvant que stabilité et flexibilité peuvent parfaitement coexister.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [18],
         "eventUrl": null
       }
     ]
