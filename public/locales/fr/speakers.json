@@ -210,6 +210,17 @@
         "role": "CTO freelance",
         "photo": "/images/speakers/benjamin_calef.png",
         "biography": "Ma carrière a démarré chez Caudalie, j'y ai développé une vraie appétence pour Magento, on m'a fait confiance et j'y ai acquis mon expertise. Chez Maisons du Monde, j’ai lead la refonte vers un Magento 2 headless avec une équipe de 12 développeurs. Aujourd’hui, CTO chez Zadig&Voltaire, je pilote une équipe dédiée ainsi qu'une infrastructure digitale. Passionné depuis toujours par la performance, l’automatisation et l’open-source, j’optimise Magento 2 pour repousser ses limites."
+      },
+      {
+        "id": 19,
+        "name": "Victoria Milton",
+        "company": "Adobe",
+        "companyLogo": "/images/logo/adobe.svg",
+        "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
+        "linkedin": "https://www.linkedin.com/in/victoriamilton/",
+        "role": "Senior Solution Consultant",
+        "photo": "/images/speakers/victoria_milton.jpg",
+        "biography": "Victoria travaille depuis plus de 10 ans sur des projets de d'e-commerce B2B et B2C de clients européens.\n\nElle a rejoint Adobe en 2021 en tant qu'expert e-commerce pour positionner Adobe Commerce dans la stratégie digitale des entreprises en collaboration avec les équipes commerciales."
       }
     ],
     "rooms": {
@@ -424,6 +435,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [18],
+        "eventUrl": null
+      },
+      {
+        "id": 17,
+        "title": "Le paiement comme vous le rêvez avec Adobe Payment Services pour Commerce et Magento",
+        "description": "Découvrez comment Payment Services simplifie les paiements pour les utilisateurs d'Adobe Commerce et de Magento. Cette solution résout les défis liés à la sécurité des transactions, à l'intégration complexe et à la gestion des paiements internationaux. Profitez d'une expérience de paiement fluide, sécurisée et optimisée, augmentant la satisfaction client grâce à des transactions rapides et sans friction. Pour les entreprises, cela se traduit par une réduction des coûts opérationnels, une amélioration de la gestion des flux de trésorerie et une augmentation des taux de conversion.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [19],
         "eventUrl": null
       }
     ]

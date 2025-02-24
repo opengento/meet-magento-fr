@@ -134,6 +134,16 @@
       "whiteLogoSrc": "/images/sponsors/white/hipay.svg"
     },
     {
+      "type": "gold",
+      "name": "Payplug",
+      "description": "Payplug est le spécialiste français du paiement qui maximise la performance des commerçants à travers son expertise locale des paiements.",
+      "caption": "Payplug maximise la performance de vos paiements, simplement.",
+      "url": "https://www.payplug.com/",
+      "bannerSrc": "/images/sponsors/banners/payplug.jpg",
+      "logoSrc": "/images/sponsors/payplug.svg",
+      "whiteLogoSrc": "/images/sponsors/white/payplug.svg"
+    },
+    {
       "type": "silver",
       "name": "MaPS System",
       "description": "MaPS System centralise et optimise la gestion des données (MDM, PIM, DAM), garantissant qualité, conformité et rapidité d'accès aux informations.",
