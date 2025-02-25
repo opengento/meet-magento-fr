@@ -189,7 +189,7 @@
       "description": "Payplug est le spécialiste français du paiement qui maximise la performance des commerçants à travers son expertise locale des paiements.",
       "caption": "Payplug maximise la performance de vos paiements, simplement.",
       "url": "https://www.payplug.com/",
-      "bannerSrc": null,
+      "bannerSrc": "/images/sponsors/payplug.svg",
       "logoSrc": "/images/sponsors/payplug.svg",
       "whiteLogoSrc": "/images/sponsors/white/payplug.svg"
     },
