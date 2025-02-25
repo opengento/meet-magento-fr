@@ -254,6 +254,28 @@
         "role": "Technical Evangelist",
         "photo": "/images/speakers/thijs_feryn.png",
         "biography": "As the Technical Evangelist at Varnish Software, Thijs Feryn focuses on web performance, software scalability, and content delivery. He demonstrates content-driven and technical messaging through presentations, videos, books, blog posts, social media posts, podcasts, and other media.\n\nThijs is a published author and wrote Getting Started with Varnish Cache and Varnish 6 by Example. As a public speaker, he has a track record of over 370 presentations in 25 different countries, where he is often praised for his energetic and engaging presentation style.\n\nAs an evangelist, Thijs is also active in many open-source communities, most notably the Varnish and PHP community. He has contributed to various communities for over 18 years both technically and as an organizer and facilitator.\n\nPrior to joining Varnish Software, Thijs Feryn spent 15 years in the web hosting industry, tackling web performance and scalability issues on a daily basis and evangelizing these topics.\n\nFor more information about Thijs’ past & upcoming presentations, please visit https://feryn.eu/speaking."
+      },
+      {
+        "id": 23,
+        "name": "Patrick Valibus",
+        "company": "410 Gone",
+        "companyLogo": "/images/logo/410gone.png",
+        "companyUrl": "https://www.410-gone.fr/",
+        "linkedin": "https://www.linkedin.com/in/patrick-valibus-78b55229/",
+        "role": "CEO",
+        "photo": "/images/speakers/patrick_valibus.png",
+        "biography": "Patrick Valibus est un entrepreneur et expert en marketing digital basé à Lyon. Il a fondé l'agence 410 Gone en 2017, spécialisée dans l'acquisition de trafic et le développement de sites e-commerce. Il a aussi créé Swan Tools et s'implique activement dans la communauté SEO.\n\nAvec plus de dix ans d'expérience, il a travaillé comme consultant SEO, expert Magento, et responsable digital pour diverses entreprises. Il est également président de la FePSeM (Fédération des Professionnels du Search Marketing) depuis 2021. Il a aussi créé Swan Tools et s'implique activement dans la communauté SEO."
+      },
+      {
+        "id": 24,
+        "name": "Mélanie Pisa",
+        "company": "Photoweb",
+        "companyLogo": "/images/logo/photoweb.svg",
+        "companyUrl": "https://www.photoweb.fr/",
+        "linkedin": "https://www.linkedin.com/in/m%C3%A9lanie-pisa-2721251b/",
+        "role": "Responsable SEO",
+        "photo": "/images/speakers/melanie_pisa.jpg",
+        "biography": "Mélanie Pisa est une professionnelle du marketing digital . Elle occupe le poste de Responsable SEO & Partenariats chez Photoweb, une entreprise d'impression photo basée à Grenoble. Ses compétences incluent le e-marketing, la gestion du site e-commerce et du contenu web, le référencement et la stratégie marketing en ligne."
       }
     ],
     "rooms": {
@@ -499,7 +521,7 @@
       {
         "id": 19,
         "title": "Optimizing Varnish for Magento: Advanced Techniques for Performance and Scalability",
-        "description": "Making Magento perform at scale is no easy task. While Magento’s internal caches already alleviate some pressure, using a proper page cache is essential to keep Magento fast and scalable.  \n \nVarnish happens to be the recommended page cache in Magento, and is used by a significant amount of Magento stores.  \n \nIn this presentation Thijs Feryn, Varnish Software’s Technical Evangelist, will show you some tips and tricks to take optimize your Varnish usage in Magento and take the performance and scalability of your Magento store to the next level. \n \nWhile Thijs will talk about some advanced techniques and Varnish features, he will also introduce the basics of using Varnish inside a Magento project. ",
+        "description": "Making Magento perform at scale is no easy task. While Magento’s internal caches already alleviate some pressure, using a proper page cache is essential to keep Magento fast and scalable.  \n \nVarnish happens to be the recommended page cache in Magento, and is used by a significant amount of Magento stores.  \n \nIn this presentation Thijs Feryn, Varnish Software’s Technical Evangelist, will show you some tips and tricks to take optimize your Varnish usage in Magento and take the performance and scalability of your Magento store to the next level. \n \nWhile Thijs will talk about some advanced techniques and Varnish features, he will also introduce the basics of using Varnish inside a Magento project.",
         "lang": "en",
         "track": "Technical",
         "room": null,
@@ -507,6 +529,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [22],
+        "eventUrl": null
+      },
+      {
+        "id": 20,
+        "title": "Migration SEO réussie : Retour d'expérience sur le replatforming de PhotoWeb vers Magento",
+        "description": "Migration SEO : mission réussie ! Découvrez comment PhotoWeb a changé de plateforme pour Magento sans perte de trafic ni chute de référencement. Un retour d’expérience clé pour éviter les pièges et maximiser la performance !",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [23, 24],
         "eventUrl": null
       }
     ]
