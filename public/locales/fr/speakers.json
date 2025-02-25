@@ -243,6 +243,17 @@
         "role": "Customers Solutions Pole Director",
         "photo": "/images/speakers/gaetan_airiau.png",
         "biography": "Chez SOMFY, la stratégie digitale est l'affaire de tous ! Elle n'est pas un plan quinquennal à part mais imprègne chaque volet de notre plan stratégique.\"\nAu sein de la fonction Digital, Data and Value Creation du groupe SOMFY, Gaétan Airiau accompagne ses interlocuteurs business dans la construction et la mise en place d'une stratégie sur les axes Customer Experience et Sales Performance.\nCela se fait au travers de moyens (technologies, ressources humaines, compétences, méthodes) traduits par des modèles de delivery optimisés.\nLe pôle est composé de 3 dimensions\n- La plateforme Customer Relationship Management : gestion des processus Sales Performance ; Incident Management ; Marketing Automation ; Customer Care\n- La plateforme E-commerce : Gestion de l'accès à nos services personnalisés - dont celui prépondérant de la vente en ligne\n- La plateforme PIM : Gestion du processus de l'enrichissement de la donnée produit\nGaétan Airiau joue donc un rôle essentiel dans la transformation digitale du groupe SOMFY, en veillant à ce que chaque initiative soit alignée sur les objectifs globaux de l'entreprise."
+      },
+      {
+        "id": 22,
+        "name": "Thijs Feryn",
+        "company": "Varnish Software",
+        "companyLogo": "/images/logo/varnish.png",
+        "companyUrl": "https://www.varnish-software.com/",
+        "linkedin": "https://www.linkedin.com/in/thijsferyn/",
+        "role": "Technical Evangelist",
+        "photo": "/images/speakers/thijs_feryn.png",
+        "biography": "As the Technical Evangelist at Varnish Software, Thijs Feryn focuses on web performance, software scalability, and content delivery. He demonstrates content-driven and technical messaging through presentations, videos, books, blog posts, social media posts, podcasts, and other media.\n\nThijs is a published author and wrote Getting Started with Varnish Cache and Varnish 6 by Example. As a public speaker, he has a track record of over 370 presentations in 25 different countries, where he is often praised for his energetic and engaging presentation style.\n\nAs an evangelist, Thijs is also active in many open-source communities, most notably the Varnish and PHP community. He has contributed to various communities for over 18 years both technically and as an organizer and facilitator.\n\nPrior to joining Varnish Software, Thijs Feryn spent 15 years in the web hosting industry, tackling web performance and scalability issues on a daily basis and evangelizing these topics.\n\nFor more information about Thijs’ past & upcoming presentations, please visit https://feryn.eu/speaking."
       }
     ],
     "rooms": {
@@ -483,6 +494,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [20, 21],
+        "eventUrl": null
+      },
+      {
+        "id": 19,
+        "title": "Optimizing Varnish for Magento: Advanced Techniques for Performance and Scalability",
+        "description": "Making Magento perform at scale is no easy task. While Magento’s internal caches already alleviate some pressure, using a proper page cache is essential to keep Magento fast and scalable.  \n \nVarnish happens to be the recommended page cache in Magento, and is used by a significant amount of Magento stores.  \n \nIn this presentation Thijs Feryn, Varnish Software’s Technical Evangelist, will show you some tips and tricks to take optimize your Varnish usage in Magento and take the performance and scalability of your Magento store to the next level. \n \nWhile Thijs will talk about some advanced techniques and Varnish features, he will also introduce the basics of using Varnish inside a Magento project. ",
+        "lang": "en",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [22],
         "eventUrl": null
       }
     ]
