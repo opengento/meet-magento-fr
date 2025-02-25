@@ -221,6 +221,28 @@
         "role": "Senior Solution Consultant",
         "photo": "/images/speakers/victoria_milton.jpg",
         "biography": "Victoria travaille depuis plus de 10 ans sur des projets de d'e-commerce B2B et B2C de clients européens.\n\nElle a rejoint Adobe en 2021 en tant qu'expert e-commerce pour positionner Adobe Commerce dans la stratégie digitale des entreprises en collaboration avec les équipes commerciales."
+      },
+      {
+        "id": 20,
+        "name": "Frédéric Truscello",
+        "company": "Somfy Group",
+        "companyLogo": "/images/logo/somfy.svg",
+        "companyUrl": "https://www.somfy.fr/",
+        "linkedin": "https://www.linkedin.com/in/frederic-truscello/",
+        "role": "Expert e-commerce Magento / Adobe Commerce",
+        "photo": "/images/speakers/frederic_truscello.png",
+        "biography": "Fort de plus de 20 ans d’expérience en e-commerce B2B et B2C à l’international, Frédéric Truscello est un expert en digital et spécialiste Magento / Adobe Commerce.\nPassionné par l’e-commerce, il accompagne des clients prestigieux dans leur transformation digitale, conjuguant ainsi ambition et innovation.\nAprès un Proof of Concept réussi en 2023 avec Hyvä pour le groupe SOMFY, il a piloté la refonte de l’ensemble des sites Somfy B2C, la création d’une plateforme B2B évolutive déployée dans plus de 18 pays et travaille actuellement sur le passage à Adobe Commerce Cloud qui permettra de réduire l’ infrastructure du groupe SOMFY de 14 à 4 environnements.\nVenez découvrir des insights précieux et des stratégies innovantes pour réussir votre transformation digitale lors de MeetMagento France !"
+      },
+      {
+        "id": 21,
+        "name": "Gaetan Airiau",
+        "company": "Somfy Group",
+        "companyLogo": "/images/logo/somfy.svg",
+        "companyUrl": "https://www.somfy.fr/",
+        "linkedin": "https://www.linkedin.com/in/ga%C3%A9tan-airiau-808a8a5b/",
+        "role": "Customers Solutions Pole Director",
+        "photo": "/images/speakers/gaetan_airiau.png",
+        "biography": "Chez SOMFY, la stratégie digitale est l'affaire de tous ! Elle n'est pas un plan quinquennal à part mais imprègne chaque volet de notre plan stratégique.\"\nAu sein de la fonction Digital, Data and Value Creation du groupe SOMFY, Gaétan Airiau accompagne ses interlocuteurs business dans la construction et la mise en place d'une stratégie sur les axes Customer Experience et Sales Performance.\nCela se fait au travers de moyens (technologies, ressources humaines, compétences, méthodes) traduits par des modèles de delivery optimisés.\nLe pôle est composé de 3 dimensions\n- La plateforme Customer Relationship Management : gestion des processus Sales Performance ; Incident Management ; Marketing Automation ; Customer Care\n- La plateforme E-commerce : Gestion de l'accès à nos services personnalisés - dont celui prépondérant de la vente en ligne\n- La plateforme PIM : Gestion du processus de l'enrichissement de la donnée produit\nGaétan Airiau joue donc un rôle essentiel dans la transformation digitale du groupe SOMFY, en veillant à ce que chaque initiative soit alignée sur les objectifs globaux de l'entreprise."
       }
     ],
     "rooms": {
@@ -448,6 +470,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [19],
+        "eventUrl": null
+      },
+      {
+        "id": 18,
+        "title": "Adobe Commerce et Hyvä au Cœur de notre Ambition E-Commerce B2C & B2B",
+        "description": "Comment Adobe Commerce et Hyva se sont imposés comme modèle rapide, évolutif pour le nouveau portail Simu, marque du groupe Somfy.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [20, 21],
         "eventUrl": null
       }
     ]
