@@ -38,7 +38,7 @@ export default function Page() {
           lors de l’événement. Ceci inclut les conférences, les ateliers, les soirées,
           Twitter et les autres médias en ligne.
           L’organisation s’engage à prendre des sanctions appropriées pour les personnes
-          qui violent ces règles, jusqu’à l’exclusion <em>sans remboursement</em> 
+          qui violent ces règles, jusqu’à l’exclusion sans remboursement
           et le recours légal.
         </Typography>
       </ContentMedia>
