@@ -276,6 +276,50 @@
         "role": "Responsable SEO",
         "photo": "/images/speakers/melanie_pisa.jpg",
         "biography": "Mélanie Pisa est une professionnelle du marketing digital . Elle occupe le poste de Responsable SEO & Partenariats chez Photoweb, une entreprise d'impression photo basée à Grenoble. Ses compétences incluent le e-marketing, la gestion du site e-commerce et du contenu web, le référencement et la stratégie marketing en ligne."
+      },
+      {
+        "id": 25,
+        "name": "Nicolas J. Chevalier",
+        "company": "ECN",
+        "companyLogo": "/images/logo/ecn.png",
+        "companyUrl": "https://www.ecommerce-nation.fr/",
+        "linkedin": "https://www.linkedin.com/in/njchevalier/",
+        "role": "Founder & CEO",
+        "photo": "/images/speakers/nicolas_j_chevalier.png",
+        "biography": "Nicolas J. Chevalier est le Fondateur & Dirigeant d'E-Commerce Nation, un web média dédié aux professionnels du e-commerce. Vous pouvez notamment retrouver de nombreuses ressources gratuites et accessibles sur notre site tels que : les webinars, les livres blancs, les études, et les infographies. \n\nNicolas livre régulièrement sa vision du marché e-commerce et retail lors des formations et conférences du fait de sa vision 360° du marché."
+      },
+      {
+        "id": 26,
+        "name": "Adonis El Khoury",
+        "company": "Adobe",
+        "companyLogo": "/images/logo/adobe.svg",
+        "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
+        "linkedin": "https://www.linkedin.com/in/adonis-el-khoury",
+        "role": "Partner Solution Architect",
+        "photo": "/images/speakers/adonis_el_khoury.jpg",
+        "biography": "Je m'appelle Adonis, je suis ingénieur logiciel spécialisé sur AEM, avec une expérience préalable chez Capgemini et Accenture avant de rejoindre Adobe. Je suis passionné par la technologie et j'aime partager mon expertise pour aider les partenaires et les clients dans leurs projets, en me concentrant sur des solutions qui simplifient les flux de travail et améliorent l'expérience utilisateur. Je travaille en étroite collaboration avec diverses équipes afin de favoriser l'innovation."
+      },
+      {
+        "id": 27,
+        "name": "Nigel Leadbitter",
+        "company": "Magebit",
+        "companyLogo": "/images/logo/magebit.png",
+        "companyUrl": "https://magebit.com/",
+        "linkedin": "https://www.linkedin.com/in/nigel-leadbitter-1b0414151/",
+        "role": "Account manager",
+        "photo": "/images/speakers/nigel_leadbitter.jpg",
+        "biography": "Avec une formation en psychologie et en écriture, Nigel a consacré sa carrière à explorer les subtilités des relations interpersonnelles et de la communication à travers les cultures. Ayant travaillé dans plusieurs pays, il a acquis une perspective unique sur la manière dont des personnes issues de divers horizons se connectent, collaborent et évoluent ensemble.\n\nSon approche repose sur l’empathie, la curiosité et la conviction que les relations significatives—qu'elles soient personnelles ou professionnelles—sont la clé pour s’épanouir dans le monde globalisé d’aujourd’hui."
+      },
+      {
+        "id": 28,
+        "name": "Julien Anquetil",
+        "company": "Henry Schein",
+        "companyLogo": "/images/logo/henryshein.jpg",
+        "companyUrl": "https://www.henryschein.fr/",
+        "linkedin": "https://www.linkedin.com/in/julienanquetil/",
+        "role": "Software Development Manager",
+        "photo": "/images/speakers/julien_anquetil.jpg",
+        "biography": "Julien Anquetil, Software Development Manager, est un leader visionnaire avec une solide expérience dans le déploiement de plateformes e-commerce Magento 2. De la gestion de sites éditoriaux à fort trafic à l'augmentation du chiffre d'affaires B2B de 2 millions à 35 millions de dollars, son expertise en gestion de projet, développement et solutions IT contribue directement à la réussite des entreprises.\n\nActuellement à la tête de la division Business IT d'une entreprise du Fortune 500 cotée au NASDAQ, il joue un rôle clé dans la transformation digitale de l'entreprise."
       }
     ],
     "rooms": {
@@ -542,6 +586,45 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [23, 24],
+        "eventUrl": null
+      },
+      {
+        "id": 21,
+        "title": "Etat des lieux du E-Commerce en 2025",
+        "description": "Découvrez les dernières tendances, défis et opportunités du e-commerce en 2025. Analysons ensemble l’évolution des comportements d’achat, l'impact de l'intelligence artificielle, la montée en puissance du commerce omnicanal et les nouvelles attentes des consommateurs. E-Commerce Nation partagera ses insights pour vous aider à anticiper les transformations du marché et à adapter vos stratégies.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [25],
+        "eventUrl": null
+      },
+      {
+        "id": 22,
+        "title": "Le frontend devient intelligent et efficace : Développer votre frontend avec Edge Delivery Service",
+        "description": "En judo, la technique l'emporte sur la force brute — tout comme Edge Delivery apporte intelligence et efficacité à votre frontend.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [26],
+        "eventUrl": null
+      },
+      {
+        "id": 23,
+        "title": "4 marques, 1 vision : une expérience client unifiée réussie",
+        "description": "Créer une expérience client fluide sur un seul site web est déjà un défi. Mais que se passe-t-il lorsque vous devez le faire simultanément pour quatre marques au sein d'une entreprise du Fortune 500?\n\nRejoignez-nous pour découvrir notre expérience avec Henry Schein, où nous avons combiné les perspectives business et techniques afin d’améliorer l’UX, rationaliser les opérations et renforcer leur présence en ligne. Nous vous dévoilerons les stratégies clés, les solutions techniques et les enseignements tirés du terrain—vous offrant le meilleur des deux mondes pour optimiser et développer efficacement votre activité e-commerce.\n\n\uD83D\uDE80 Ne manquez pas ça!",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [27, 28],
         "eventUrl": null
       }
     ]
