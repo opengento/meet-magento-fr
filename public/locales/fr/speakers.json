@@ -342,6 +342,71 @@
         "eventUrl": null
       },
       {
+        "id": 7,
+        "title": "Dipa Burda x Magento : Digitaliser un héritage, structurer un avenir",
+        "description": "Les Éditions Dipa Burda, historiquement axées sur l’impression, ont dû repenser leur stratégie face à la digitalisation. Sans vision digitale unifiée, le groupe a multiplié les acquisitions et les sites web, créant un écosystème e-commerce complexe. Une plongée dans l’évolution d’une entreprise de niche qui a su moderniser son e-commerce pour répondre aux enjeux du futur.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [8, 9],
+        "eventUrl": null
+      },
+      {
+        "id": 12,
+        "title": "Easypara : de la saisie à la gouvernance des données.",
+        "description": "Comment structurer et automatiser la gestion des données produits pour booster son e-commerce ? Easypara partage son retour d’expérience sur sa transformation digitale : du casse-tête des fiches produits à une gouvernance optimisée grâce au PIM et au DAM. Moins de saisie manuelle, plus de fluidité avec les fournisseurs et une meilleure expérience client. Découvrez les défis, solutions et résultats concrets d’un projet mené avec MaPS System et Magento 2 !",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [13, 14],
+        "eventUrl": null
+      },
+      {
+        "id": 18,
+        "title": "Adobe Commerce et Hyvä au Cœur de notre Ambition E-Commerce B2C & B2B",
+        "description": "Comment Adobe Commerce et Hyva se sont imposés comme modèle rapide, évolutif pour le nouveau portail Simu, marque du groupe Somfy.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [20, 21],
+        "eventUrl": null
+      },
+      {
+        "id": 20,
+        "title": "Migration SEO réussie : Retour d'expérience sur le replatforming de PhotoWeb vers Magento",
+        "description": "Migration SEO : mission réussie ! Découvrez comment PhotoWeb a changé de plateforme pour Magento sans perte de trafic ni chute de référencement. Un retour d’expérience clé pour éviter les pièges et maximiser la performance !",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [23, 24],
+        "eventUrl": null
+      },
+      {
+        "id": 23,
+        "title": "4 marques, 1 vision : une expérience client unifiée réussie",
+        "description": "Créer une expérience client fluide sur un seul site web est déjà un défi. Mais que se passe-t-il lorsque vous devez le faire simultanément pour quatre marques au sein d'une entreprise du Fortune 500?\n\nRejoignez-nous pour découvrir notre expérience avec Henry Schein, où nous avons combiné les perspectives business et techniques afin d’améliorer l’UX, rationaliser les opérations et renforcer leur présence en ligne. Nous vous dévoilerons les stratégies clés, les solutions techniques et les enseignements tirés du terrain—vous offrant le meilleur des deux mondes pour optimiser et développer efficacement votre activité e-commerce.\n\n\uD83D\uDE80 Ne manquez pas ça!",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [27, 28],
+        "eventUrl": null
+      },
+      {
         "id": 2,
         "title": "Comment Platform.sh est devenu le backbone d’Adobe Commerce Cloud.",
         "description": "Une plongée inspirante dans les coulisses d'un partenariat gagnant-gagnant, avec des enseignements applicables à d'autres collaborations stratégiques.",
@@ -407,19 +472,6 @@
         "eventUrl": null
       },
       {
-        "id": 7,
-        "title": "Dipa Burda x Magento : Digitaliser un héritage, structurer un avenir",
-        "description": "Les Éditions Dipa Burda, historiquement axées sur l’impression, ont dû repenser leur stratégie face à la digitalisation. Sans vision digitale unifiée, le groupe a multiplié les acquisitions et les sites web, créant un écosystème e-commerce complexe. Une plongée dans l’évolution d’une entreprise de niche qui a su moderniser son e-commerce pour répondre aux enjeux du futur.",
-        "lang": "fr",
-        "track": "Business",
-        "room": null,
-        "start": null,
-        "end": null,
-        "tags": ["Business", "Expertise"],
-        "speakers": [8, 9],
-        "eventUrl": null
-      },
-      {
         "id": 8,
         "title": "Analysez vos données business Magento sans SQL grâce à l'IA",
         "description": "Dans un monde où les données sont la clé de la performance e-commerce, comment permettre aux équipes business d’interroger Magento sans connaissance technique ? Découvrez comment l’IA, en interprétant le langage naturel et en exécutant des requêtes SQL dynamiquement, transforme la prise de décision. Une approche sécurisée, intuitive et performante, pour tirer le meilleur de vos données sans effort technique.",
@@ -469,19 +521,6 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [12],
-        "eventUrl": null
-      },
-      {
-        "id": 12,
-        "title": "Easypara : de la saisie à la gouvernance des données.",
-        "description": "Comment structurer et automatiser la gestion des données produits pour booster son e-commerce ? Easypara partage son retour d’expérience sur sa transformation digitale : du casse-tête des fiches produits à une gouvernance optimisée grâce au PIM et au DAM. Moins de saisie manuelle, plus de fluidité avec les fournisseurs et une meilleure expérience client. Découvrez les défis, solutions et résultats concrets d’un projet mené avec MaPS System et Magento 2 !",
-        "lang": "fr",
-        "track": "Business",
-        "room": null,
-        "start": null,
-        "end": null,
-        "tags": ["Business", "Expertise"],
-        "speakers": [13, 14],
         "eventUrl": null
       },
       {
@@ -550,19 +589,6 @@
         "eventUrl": null
       },
       {
-        "id": 18,
-        "title": "Adobe Commerce et Hyvä au Cœur de notre Ambition E-Commerce B2C & B2B",
-        "description": "Comment Adobe Commerce et Hyva se sont imposés comme modèle rapide, évolutif pour le nouveau portail Simu, marque du groupe Somfy.",
-        "lang": "fr",
-        "track": "Business",
-        "room": null,
-        "start": null,
-        "end": null,
-        "tags": ["Business", "Expertise"],
-        "speakers": [20, 21],
-        "eventUrl": null
-      },
-      {
         "id": 19,
         "title": "Optimizing Varnish for Magento: Advanced Techniques for Performance and Scalability",
         "description": "Making Magento perform at scale is no easy task. While Magento’s internal caches already alleviate some pressure, using a proper page cache is essential to keep Magento fast and scalable.  \n \nVarnish happens to be the recommended page cache in Magento, and is used by a significant amount of Magento stores.  \n \nIn this presentation Thijs Feryn, Varnish Software’s Technical Evangelist, will show you some tips and tricks to take optimize your Varnish usage in Magento and take the performance and scalability of your Magento store to the next level. \n \nWhile Thijs will talk about some advanced techniques and Varnish features, he will also introduce the basics of using Varnish inside a Magento project.",
@@ -573,19 +599,6 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [22],
-        "eventUrl": null
-      },
-      {
-        "id": 20,
-        "title": "Migration SEO réussie : Retour d'expérience sur le replatforming de PhotoWeb vers Magento",
-        "description": "Migration SEO : mission réussie ! Découvrez comment PhotoWeb a changé de plateforme pour Magento sans perte de trafic ni chute de référencement. Un retour d’expérience clé pour éviter les pièges et maximiser la performance !",
-        "lang": "fr",
-        "track": "Business",
-        "room": null,
-        "start": null,
-        "end": null,
-        "tags": ["Business", "Expertise"],
-        "speakers": [23, 24],
         "eventUrl": null
       },
       {
@@ -612,19 +625,6 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [26],
-        "eventUrl": null
-      },
-      {
-        "id": 23,
-        "title": "4 marques, 1 vision : une expérience client unifiée réussie",
-        "description": "Créer une expérience client fluide sur un seul site web est déjà un défi. Mais que se passe-t-il lorsque vous devez le faire simultanément pour quatre marques au sein d'une entreprise du Fortune 500?\n\nRejoignez-nous pour découvrir notre expérience avec Henry Schein, où nous avons combiné les perspectives business et techniques afin d’améliorer l’UX, rationaliser les opérations et renforcer leur présence en ligne. Nous vous dévoilerons les stratégies clés, les solutions techniques et les enseignements tirés du terrain—vous offrant le meilleur des deux mondes pour optimiser et développer efficacement votre activité e-commerce.\n\n\uD83D\uDE80 Ne manquez pas ça!",
-        "lang": "fr",
-        "track": "Business",
-        "room": null,
-        "start": null,
-        "end": null,
-        "tags": ["Business", "Expertise"],
-        "speakers": [27, 28],
         "eventUrl": null
       }
     ]
