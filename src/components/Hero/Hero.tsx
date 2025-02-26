@@ -18,24 +18,22 @@ const Hero = () => {
 
   return (
     <div className="min-h-screen">
-      <BackgroundImage className="h-screen w-full flex items-center justify-center"
-                       imagePath="/images/bg-hero.jpg" priority>
+      <BackgroundImage
+        className="h-screen w-full flex items-center justify-center"
+        imagePath="/images/bg-hero.jpg"
+        priority
+      >
         <Container size="default" className="pt-[104px]">
           <div className="flex py-16 gap-12 items-center">
             <div className="flex flex-col gap-2">
-              <Typography
-                color="light"
-                weight="semibold"
-                className="font-alt text-4xl md:text-5xl lg:text-5xl"
-              >
+              <span className="w-fit font-alt text-4xl md:text-5xl lg:text-5xl text-white font-semibold">
                 {t('hero:title')}
-              </Typography>
-              <h1 className="relative w-fit font-alt text-2xl md:text-3xl lg:text-3xl text-white dark:text-gray-600 font-semibold text-left">
+              </span>
+              <h1 className="relative w-fit font-alt text-2xl md:text-3xl lg:text-3xl text-white font-semibold">
                 <span className="relative z-10">{t('hero:subtitle')}</span>
                 <span className="absolute inset-x-0 bottom-0 h-[50%] bg-primary-100"></span>
               </h1>
-              <Typography color="light"
-                          className="mt-4 font-alt whitespace-pre-wrap">
+              <Typography color="light" className="mt-4 font-alt whitespace-pre-wrap">
                 {t('hero:content')}
               </Typography>
               <div
