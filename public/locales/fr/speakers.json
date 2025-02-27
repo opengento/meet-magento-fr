@@ -320,6 +320,28 @@
         "role": "Software Development Manager",
         "photo": "/images/speakers/julien_anquetil.jpg",
         "biography": "Julien Anquetil, Software Development Manager, est un leader visionnaire avec une solide expérience dans le déploiement de plateformes e-commerce Magento 2. De la gestion de sites éditoriaux à fort trafic à l'augmentation du chiffre d'affaires B2B de 2 millions à 35 millions de dollars, son expertise en gestion de projet, développement et solutions IT contribue directement à la réussite des entreprises.\n\nActuellement à la tête de la division Business IT d'une entreprise du Fortune 500 cotée au NASDAQ, il joue un rôle clé dans la transformation digitale de l'entreprise."
+      },
+      {
+        "id": 29,
+        "name": "Sébastien Alexandre",
+        "company": "Groupe Cofel",
+        "companyLogo": "/images/logo/cofel.jpg",
+        "companyUrl": "https://bultex.fr/",
+        "linkedin": "https://www.linkedin.com/in/s%C3%A9bastien-alexandre-dsi-digital/",
+        "role": "Directeur SI et Digtal",
+        "photo": "/images/speakers/sebastien_alexandre.jpg",
+        "biography": "COFEL est un groupe industriel avec des marques incontournables – Bultex, Merinos et Epéda.\nLe groupe, pourtant leader en France, a fait le choix de lancer un programme de transformation digitale majeur pour faire évoluer son modèle B2B vers un modèle B2B & B2C.\nSébastien ALEXANDRE est actuellement directeur des systèmes d’information et directeur digital du groupe.\nIngénieur de formation, Sébastien a la spécificité de diriger à la fois les équipes techniques, ainsi que les équipes e-commerce (marketing consommateur, …). Il a donc la double\nresponsabilité :\n- Construire et faire évoluer des plateformes techniques\n- Vendre et animer des plateformes techniques."
+      },
+      {
+        "id": 30,
+        "name": "Jakub Winkler",
+        "company": "Qoliber",
+        "companyLogo": "/images/logo/qoliber.svg",
+        "companyUrl": "https://qoliber.com/",
+        "linkedin": "https://www.linkedin.com/in/winklerjakub/",
+        "role": "Prime Sorcerer of Strategy & Success",
+        "photo": "/images/speakers/jakub_winkler.jpg",
+        "biography": "Jakub is a world-class Magento / Adobe Commerce expert in store platform optimization and efficiency, with 14 years of experience in the eCommerce industry. Specializing in eCommerce system architecture and application performance optimization, he is the founder of the qoliber brand, an active developer, and a recognized performance optimization expert. Passionate about improving the speed and efficiency of online stores, he is also a dedicated open-source advocate."
       }
     ],
     "rooms": {
@@ -404,6 +426,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [27, 28],
+        "eventUrl": null
+      },
+      {
+        "id": 24,
+        "title": "Magento un outil trop puissant",
+        "description": "Comment un leader industriel du secteur de la literie a-t-il relevé le défi du e-commerce direct sans réseau physique ? Retour sur la transformation digitale de Cofel : entre ambitions stratégiques, complexité technique et équilibre fragile entre business et IT. Une immersion dans un parcours semé d'embûches, où Magento a été un levier puissant… mais exigeant.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [29],
         "eventUrl": null
       },
       {
@@ -625,6 +660,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [26],
+        "eventUrl": null
+      },
+      {
+        "id": 25,
+        "title": "Performance That Pays: Magento Optimization for Long-Term Profitability",
+        "description": "This talk highlights how optimizing Magento’s backend performance is a strategic investment, not just a technical task. Enhancing speed, scalability, and efficiency lowers hosting costs, boosts conversions, reduces maintenance overhead, and ensures seamless growth. Key strategies include database tuning, caching, and API management. By improving backend and frontend performance, merchants and CTOs can future-proof their stores, cut costs, and enhance user experience - proving that performance is directly tied to profitability.",
+        "lang": "en",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [30],
         "eventUrl": null
       }
     ]
