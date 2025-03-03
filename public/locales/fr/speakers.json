@@ -342,6 +342,28 @@
         "role": "Prime Sorcerer of Strategy & Success",
         "photo": "/images/speakers/jakub_winkler.png",
         "biography": "Jakub is a world-class Magento / Adobe Commerce expert in store platform optimization and efficiency, with 14 years of experience in the eCommerce industry. Specializing in eCommerce system architecture and application performance optimization, he is the founder of the qoliber brand, an active developer, and a recognized performance optimization expert. Passionate about improving the speed and efficiency of online stores, he is also a dedicated open-source advocate."
+      },
+      {
+        "id": 31,
+        "name": "Stéphane Maufroy",
+        "company": "NAOS",
+        "companyLogo": "/images/logo/naos.png",
+        "companyUrl": "https://naos.com/",
+        "linkedin": "https://www.linkedin.com/in/smaufroy/",
+        "role": "Responsable Pôle Web DSI",
+        "photo": "/images/speakers/stephane_maufroy.png",
+        "biography": "Responsable du pôle web de la DSI de Naos (Bioderma / Institut Esthederm / Etat Pur), Stéphane Maufroy a plus de 20 ans de carrière dans la tech et le marketing digital, en agence et en ESN, dans les medias en régie publicitaire et chez l'annonceur.\n\nL'équipe web de Naos travaille principalement autour des solutions Adobe Commerce et AEM, et coordonne les flux de données avec des solutions tierces (PIM / DAM / ERP / CRM) pour les plus de 40 filiales sur 4 marques de l'entreprise."
+      },
+      {
+        "id": 32,
+        "name": "John Baxendale",
+        "company": "Adobe",
+        "companyLogo": "/images/logo/adobe.svg",
+        "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
+        "linkedin": "https://www.linkedin.com/in/johnbaxendale/",
+        "role": "Senior Partner Solution Architect",
+        "photo": "/images/speakers/john_baxendale.jpg",
+        "biography": "John has been working in commerce since 1999, initially as a developer, creating code for commerce sites, building the server platform or architecting integrations between various front and back end systems. From 2012 his focus was on helping customers get the best from their OMS solutions and then finally, in 2015, he moved to the orange side and worked with Magento partners to support them win deals and use Magento. With the Adobe acquisition Johns role has expanded to helping partners understand and leverage the Adobe ecosystem to deliver solutions for our shared customers. He currently resides in Barcelona, Spain, where there’s mountain biking and snowboarding in easy reach and a cold Estrella often waiting by the beach."
       }
     ],
     "rooms": {
@@ -452,6 +474,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [1],
+        "eventUrl": null
+      },,
+      {
+        "id": 26,
+        "title": "Chez NAOS, des comptes clients partagés entre Magento et d'autres systèmes",
+        "description": "Un compte client peut être géré de manière simple et centralisée dans Adobe Commerce. Mais lorsque les informations doivent être coordonnées entre différentes instances de Magento, un RCU et sa solution CRM ou d'autres applicatifs hétérogènes, il devient primordial d'utiliser un SSO efficace et puissant.\n\nRetour sur expérience de notre implémentation de Auth0 by Okta, les raisons de son adoption, les conséquences sur l'expérience client, les difficultés opérationnelles, et les choix en matière de sécurité.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [31],
         "eventUrl": null
       },
       {
@@ -673,6 +708,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [30],
+        "eventUrl": null
+      },
+      {
+        "id": 27,
+        "title": "Decoding Adobe Commerce: How to Extend and Integrate the Solution",
+        "description": "We’ll use this session to get an intro and quick-start to Adobe’s App Builder, a toolset which enables a composable approach to working with Adobe apps, both Commerce and other solutions. The App Builder approach helps you minimise development time, improve time to value and most importantly, spend more time creating value for your customers rather than wrestling with development!",
+        "lang": "en",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [32],
         "eventUrl": null
       }
     ]
