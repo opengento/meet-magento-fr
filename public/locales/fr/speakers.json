@@ -91,6 +91,17 @@
         "biography": "Hervé Guétin est un expert en commerce digital avec plus de 15 ans d’expérience en tant que CTO, consultant et développeur full-stack. Spécialiste Magento et développeur frontend aguerri, il accompagne les entreprises dans la conception, le développement et l’optimisation de leurs plateformes e-commerce. Passionné par la veille technologique, il s’attache à repousser les limites de Magento en y intégrant des technologies innovantes."
       },
       {
+        "id": 31,
+        "name": "Stéphane Maufroy",
+        "company": "NAOS",
+        "companyLogo": "/images/logo/naos.png",
+        "companyUrl": "https://naos.com/",
+        "linkedin": "https://www.linkedin.com/in/smaufroy/",
+        "role": "Responsable Pôle Web DSI",
+        "photo": "/images/speakers/stephane_maufroy.png",
+        "biography": "Responsable du pôle web de la DSI de Naos (Bioderma / Institut Esthederm / Etat Pur), Stéphane Maufroy a plus de 20 ans de carrière dans la tech et le marketing digital, en agence et en ESN, dans les medias en régie publicitaire et chez l'annonceur.\n\nL'équipe web de Naos travaille principalement autour des solutions Adobe Commerce et AEM, et coordonne les flux de données avec des solutions tierces (PIM / DAM / ERP / CRM) pour les plus de 40 filiales sur 4 marques de l'entreprise."
+      },
+      {
         "id": 8,
         "name": "Valerian Demesy",
         "company": "Editions Dipa Burda SAS",
@@ -289,6 +300,17 @@
         "biography": "Nicolas J. Chevalier est le Fondateur & Dirigeant d'E-Commerce Nation, un web média dédié aux professionnels du e-commerce. Vous pouvez notamment retrouver de nombreuses ressources gratuites et accessibles sur notre site tels que : les webinars, les livres blancs, les études, et les infographies. \n\nNicolas livre régulièrement sa vision du marché e-commerce et retail lors des formations et conférences du fait de sa vision 360° du marché."
       },
       {
+        "id": 29,
+        "name": "Sébastien Alexandre",
+        "company": "Groupe Cofel",
+        "companyLogo": "/images/logo/cofel.jpg",
+        "companyUrl": "https://bultex.fr/",
+        "linkedin": "https://www.linkedin.com/in/s%C3%A9bastien-alexandre-dsi-digital/",
+        "role": "Directeur SI et Digtal",
+        "photo": "/images/speakers/sebastien_alexandre.png",
+        "biography": "COFEL est un groupe industriel avec des marques incontournables – Bultex, Merinos et Epéda.\nLe groupe, pourtant leader en France, a fait le choix de lancer un programme de transformation digitale majeur pour faire évoluer son modèle B2B vers un modèle B2B & B2C.\nSébastien ALEXANDRE est actuellement directeur des systèmes d’information et directeur digital du groupe.\nIngénieur de formation, Sébastien a la spécificité de diriger à la fois les équipes techniques, ainsi que les équipes e-commerce (marketing consommateur, …). Il a donc la double\nresponsabilité :\n- Construire et faire évoluer des plateformes techniques\n- Vendre et animer des plateformes techniques"
+      },
+      {
         "id": 26,
         "name": "Adonis El Khoury",
         "company": "Adobe",
@@ -322,17 +344,6 @@
         "biography": "Julien Anquetil, Software Development Manager, est un leader visionnaire avec une solide expérience dans le déploiement de plateformes e-commerce Magento 2. De la gestion de sites éditoriaux à fort trafic à l'augmentation du chiffre d'affaires B2B de 2 millions à 35 millions de dollars, son expertise en gestion de projet, développement et solutions IT contribue directement à la réussite des entreprises.\n\nActuellement à la tête de la division Business IT d'une entreprise du Fortune 500 cotée au NASDAQ, il joue un rôle clé dans la transformation digitale de l'entreprise."
       },
       {
-        "id": 29,
-        "name": "Sébastien Alexandre",
-        "company": "Groupe Cofel",
-        "companyLogo": "/images/logo/cofel.jpg",
-        "companyUrl": "https://bultex.fr/",
-        "linkedin": "https://www.linkedin.com/in/s%C3%A9bastien-alexandre-dsi-digital/",
-        "role": "Directeur SI et Digtal",
-        "photo": "/images/speakers/sebastien_alexandre.png",
-        "biography": "COFEL est un groupe industriel avec des marques incontournables – Bultex, Merinos et Epéda.\nLe groupe, pourtant leader en France, a fait le choix de lancer un programme de transformation digitale majeur pour faire évoluer son modèle B2B vers un modèle B2B & B2C.\nSébastien ALEXANDRE est actuellement directeur des systèmes d’information et directeur digital du groupe.\nIngénieur de formation, Sébastien a la spécificité de diriger à la fois les équipes techniques, ainsi que les équipes e-commerce (marketing consommateur, …). Il a donc la double\nresponsabilité :\n- Construire et faire évoluer des plateformes techniques\n- Vendre et animer des plateformes techniques"
-      },
-      {
         "id": 30,
         "name": "Jakub Winkler",
         "company": "Qoliber",
@@ -342,17 +353,6 @@
         "role": "Prime Sorcerer of Strategy & Success",
         "photo": "/images/speakers/jakub_winkler.png",
         "biography": "Jakub is a world-class Magento / Adobe Commerce expert in store platform optimization and efficiency, with 14 years of experience in the eCommerce industry. Specializing in eCommerce system architecture and application performance optimization, he is the founder of the qoliber brand, an active developer, and a recognized performance optimization expert. Passionate about improving the speed and efficiency of online stores, he is also a dedicated open-source advocate."
-      },
-      {
-        "id": 31,
-        "name": "Stéphane Maufroy",
-        "company": "NAOS",
-        "companyLogo": "/images/logo/naos.png",
-        "companyUrl": "https://naos.com/",
-        "linkedin": "https://www.linkedin.com/in/smaufroy/",
-        "role": "Responsable Pôle Web DSI",
-        "photo": "/images/speakers/stephane_maufroy.png",
-        "biography": "Responsable du pôle web de la DSI de Naos (Bioderma / Institut Esthederm / Etat Pur), Stéphane Maufroy a plus de 20 ans de carrière dans la tech et le marketing digital, en agence et en ESN, dans les medias en régie publicitaire et chez l'annonceur.\n\nL'équipe web de Naos travaille principalement autour des solutions Adobe Commerce et AEM, et coordonne les flux de données avec des solutions tierces (PIM / DAM / ERP / CRM) pour les plus de 40 filiales sur 4 marques de l'entreprise."
       },
       {
         "id": 32,
