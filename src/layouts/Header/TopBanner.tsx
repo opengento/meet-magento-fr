@@ -22,7 +22,7 @@ const TopBanner = () => {
           height={48}
           className="object-contain w-6"
         />
-        French
+        Français
       </p>
     </div>
   );
