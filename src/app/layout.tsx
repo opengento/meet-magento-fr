@@ -3,8 +3,7 @@ import { IBM_Plex_Sans_Condensed, Montserrat } from "next/font/google";
 import "/public/styles.css";
 import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
-import TranslationsProvider from '../components/TranslationsProvider/TranslationsProvider';
-import Image from "next/image";
+import TranslationsProvider from '@/components/TranslationsProvider/TranslationsProvider';
 
 const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
   variable: "--font-ibm-plex-sans-condensed",
