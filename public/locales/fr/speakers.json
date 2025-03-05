@@ -364,6 +364,28 @@
         "role": "Senior Partner Solution Architect",
         "photo": "/images/speakers/john_baxendale.png",
         "biography": "John has been working in commerce since 1999, initially as a developer, creating code for commerce sites, building the server platform or architecting integrations between various front and back end systems. From 2012 his focus was on helping customers get the best from their OMS solutions and then finally, in 2015, he moved to the orange side and worked with Magento partners to support them win deals and use Magento. With the Adobe acquisition Johns role has expanded to helping partners understand and leverage the Adobe ecosystem to deliver solutions for our shared customers. He currently resides in Barcelona, Spain, where there’s mountain biking and snowboarding in easy reach and a cold Estrella often waiting by the beach."
+      },
+      {
+        "id": 33,
+        "name": "Christophe Denuzière",
+        "company": "Sutunam",
+        "companyLogo": "/images/logo/sutunam.svg",
+        "companyUrl": "https://www.sutunam.com/",
+        "linkedin": "https://www.linkedin.com/in/christophedenuziere/",
+        "role": "Founder",
+        "photo": "/images/speakers/christophe_denuziere.png",
+        "biography": "Christophe est le co-fondateur de Sutunam, l'agence e-commerce spécialisée Magento, avec plus de 10 développeurs certifiés Magento experts et partenaire Hyva Silver.\n\nDepuis 2010, il accompagne avec ses équipes les e-commerçants dans la création, la maintenance et l'hébergement de leurs boutiques en ligne.\n\nCes dernières années, l’automatisation et l’intelligence artificielle ont pris une place centrale dans les développements de Sutunam.\nL’une des grandes forces de l’agence réside dans sa capacité à concevoir rapidement des prototypes fonctionnels, puis à les industrialiser."
+      },
+      {
+        "id": 34,
+        "name": "Laurent Jean",
+        "company": "Mediacrea",
+        "companyLogo": "/images/logo/mediacrea.png",
+        "companyUrl": "https://www.mediacrea.com/",
+        "linkedin": "https://www.linkedin.com/in/laurentjeanmarseille/",
+        "role": "Founder",
+        "photo": "/images/speakers/laurent_jean.jpg",
+        "biography": "Laurent Jean est créateur de sites internet depuis 2008 ! Expert reconnu en intelligence artificielle (IA) appliquée au SEO et à l’analyse des systèmes avancés.\nIl suit de près l’évolution des LLM et leur impact sur la recherche et le web.\n\nSon expertise couvre le traitement du langage naturel (NLP), l’automatisation de contenu et l’optimisation du référencement grâce à l’IA.\nPassionné de veille technologique, il accompagne entreprises et professionnels dans l’intégration stratégique de ces outils."
       }
     ],
     "rooms": {
@@ -721,6 +743,19 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [32],
+        "eventUrl": null
+      },
+      {
+        "id": 28,
+        "title": "L'IA au service du e-commerce et de votre digitalisation",
+        "description": "L’intelligence artificielle révolutionne le e-commerce : search intelligent, recommandations personnalisées, chatbots, automatisation marketing, optimisation des prix.\nMais comment l’intégrer efficacement dans votre ecommerce ?\n\nCet atelier propose un tour d’horizon des outils et méthodes avec démonstrations concrètes :\nmodules IA intégrés, développement sur mesure, prompts optimisés et génération de contenu (textes & images).\n\nNous aborderons aussi les enjeux et défis : coûts, complexité d’implémentation, éthique, RGPD, biais algorithmiques, et l’impact des LLM sur le SEO.\nEnfin, nous explorerons l’avenir de l’IA dans le e-commerce : vers un commerce toujours plus automatisé ?",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [33, 34],
         "eventUrl": null
       }
     ]
