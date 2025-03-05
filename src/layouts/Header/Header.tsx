@@ -7,8 +7,7 @@ import Container from "../Container";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { FaTicketAlt } from "react-icons/fa";
 import React from "react";
-import {useTranslation} from "react-i18next";
-import Image from "next/image";
+import { useTranslation } from "react-i18next";
 import TopBanner from "@/layouts/Header/TopBanner";
 
 const Header = () => {
