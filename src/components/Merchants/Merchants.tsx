@@ -19,7 +19,7 @@ const Merchants = () => {
     <div className="pt-12">
       <TopBanner
         title={t("merchants:title")}
-        backgroundImage="/images/bg-gradiant-purple.jpg"
+        backgroundImage="/images/background/banner.svg"
       />
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 auto-rows-[4rem] gap-2 mt-8 mb-16">
         {merchants.map((merchant, index) => (

@@ -25,6 +25,21 @@
       "name": "Henry Shein",
       "url": "https://www.henryschein.fr/",
       "logoSrc": "/images/merchants/henryschein.svg"
+    },
+    {
+      "name": "Naos",
+      "url": "https://naos.com/",
+      "logoSrc": "/images/merchants/naos.png"
+    },
+    {
+      "name": "Zadig & Voltaire",
+      "url": "https://zadig-et-voltaire.com/",
+      "logoSrc": "/images/merchants/zadig&voltaire.svg"
+    },
+    {
+      "name": "Bultex",
+      "url": "https://bultex.fr/",
+      "logoSrc": "/images/merchants/bultex.png"
     }
   ]
 }
