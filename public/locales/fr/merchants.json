@@ -1,0 +1,30 @@
+{
+  "title": "Ils seront également présents",
+  "list": [
+    {
+      "name": "Burda",
+      "url": "https://www.burdastyle.fr/",
+      "logoSrc": "/images/merchants/burda.svg"
+    },
+    {
+      "name": "Easypara",
+      "url": "https://www.easypara.fr/",
+      "logoSrc": "/images/merchants/easypara.svg"
+    },
+    {
+      "name": "Somfy",
+      "url": "https://www.somfy.fr/",
+      "logoSrc": "/images/merchants/somfy.svg"
+    },
+    {
+      "name": "Photoweb",
+      "url": "https://www.photoweb.fr/",
+      "logoSrc": "/images/merchants/photoweb.svg"
+    },
+    {
+      "name": "Henry Shein",
+      "url": "https://www.henryschein.fr/",
+      "logoSrc": "/images/merchants/henryschein.svg"
+    }
+  ]
+}

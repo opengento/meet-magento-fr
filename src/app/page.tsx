@@ -12,6 +12,7 @@ import useDataProvider from "@/hooks/useDataProvider";
 import Typography from "@/components/Typography/Typography";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
+import Merchants from "@/components/Merchants/Merchants";
 
 export default function Home() {
   const { t } = useTranslation(["common"]);
@@ -30,6 +31,7 @@ export default function Home() {
         <SponsorList items={dataProvider.useSponsors()} />
       </div>
       <Container size="large">
+        <Merchants />
         <div className="content-media-sections flex flex-col gap-12 py-12">
           <div id="faq">
             <ContentMedia
