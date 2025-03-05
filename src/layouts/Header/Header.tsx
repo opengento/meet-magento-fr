@@ -8,6 +8,8 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { FaTicketAlt } from "react-icons/fa";
 import React from "react";
 import {useTranslation} from "react-i18next";
+import Image from "next/image";
+import TopBanner from "@/layouts/Header/TopBanner";
 
 const Header = () => {
   const { t } = useTranslation(['common']);
@@ -42,14 +44,15 @@ const Header = () => {
   );
 
   return (
-    <header className="sticky top-0 lg:top-6 lg:mt-6 w-full z-50">
-      <div className="hidden lg:block">
+    <header className="sticky top-0 w-full z-50">
+      <TopBanner />
+      <div className="hidden lg:block lg:top-6 lg:mt-6 lg:mb-0">
         <Container size="large">
-          <HeaderContent />
+          <HeaderContent/>
         </Container>
       </div>
-      <div className="lg:hidden">
-        <HeaderContent />
+      <div className="lg:hidden mb-10">
+        <HeaderContent/>
       </div>
     </header>
   );
