@@ -35,13 +35,13 @@
     },
     {
       "type": "gold",
-      "name": "Smile",
+      "name": "ElasticSuite by Smile",
       "description": "Smile booste votre performance e-commerce avec des solutions tech innovantes & robustes. Avec ElasticSuite, l’extension Magento la plus téléchargée au monde, optimisez votre searchandising, améliorez l’UX & maîtrisez vos données.",
       "caption": "Boostez l'e-commerce avec ElasticSuite, l'extension Magento n°1 au monde",
       "url": "https://elasticsuite.io/",
       "bannerSrc": "/images/sponsors/banners/smile.jpg",
-      "logoSrc": "/images/sponsors/smile.svg",
-      "whiteLogoSrc": "/images/sponsors/white/smile.svg"
+      "logoSrc": "/images/sponsors/elasticsuite.svg",
+      "whiteLogoSrc": "/images/sponsors/white/elasticsuite.svg"
     },
     {
       "type": "silver",
