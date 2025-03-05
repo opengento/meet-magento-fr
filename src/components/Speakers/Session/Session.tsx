@@ -28,7 +28,7 @@ const Session = ({
           <Typography color="dark" variant="h4" weight="semibold">
             {session.title}
           </Typography>
-          <div className="flex items-center font-medium text-black">
+          <div className="flex items-center font-medium text-black gap-x-2">
             {!!session.room && (
               <>
                 <Image
@@ -43,15 +43,24 @@ const Session = ({
             )}
             {!!session.start && session.end && (
               <>
-                <span className="mx-2 text-primary">|</span>
-                <span>{session.start}</span>
-                <span className="mx-1 text-primary">&bull;</span>
-                <span>{session.end}</span>
+                <span className="text-primary">|</span>
+                <span>
+                  <span>{session.start}</span>
+                  <span className="mx-1 text-primary">&bull;</span>
+                  <span>{session.end}</span>
+                </span>
               </>
             )}
+            <Image
+              src={`/images/flags/1x1/${session.lang}.svg`}
+              alt={session.lang}
+              width={16}
+              height={16}
+              className="rounded-full w-5 h-5 border border-primary p-[1px]"
+            />
             {onPopInClick && (
               <BsFillInfoCircleFill
-                className="text-pink mx-1 hover:cursor-pointer"
+                className="text-pink mx-1 hover:cursor-pointer rounded-full w-5 h-5 border border-pink p-[1px]"
                 onClick={onPopInClick}
               />
             )}

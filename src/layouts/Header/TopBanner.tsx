@@ -8,15 +8,15 @@ const TopBanner = () => {
       <p>MMFR25 talks are available in two tracks:</p>
       <p className="flex flex-row justify-center items-center gap-x-2">
         <Image
-          src="/images/media/gb.svg"
-          alt="gb"
+          src="/images/flags/3x4/en.svg"
+          alt="en"
           width={48}
           height={48}
           className="object-contain w-6"
         />
         English –
         <Image
-          src="/images/media/fr.svg"
+          src="/images/flags/3x4/fr.svg"
           alt="fr"
           width={48}
           height={48}
