@@ -212,6 +212,17 @@
         "biography": "Guillaume Moigneu est VP Product Advocacy chez Platform.sh. Passionné d’optimisation, de durabilité et d’IA, il accompagne depuis plus de 25 ans l’évolution des technologies web, du e-commerce aux architectures cloud modernes."
       },
       {
+        "id": 30,
+        "name": "Jakub Winkler",
+        "company": "Qoliber",
+        "companyLogo": "/images/logo/qoliber.svg",
+        "companyUrl": "https://qoliber.com/",
+        "linkedin": "https://www.linkedin.com/in/winklerjakub/",
+        "role": "Prime Sorcerer of Strategy & Success",
+        "photo": "/images/speakers/jakub_winkler.png",
+        "biography": "Jakub is a world-class Magento / Adobe Commerce expert in store platform optimization and efficiency, with 14 years of experience in the eCommerce industry. Specializing in eCommerce system architecture and application performance optimization, he is the founder of the qoliber brand, an active developer, and a recognized performance optimization expert. Passionate about improving the speed and efficiency of online stores, he is also a dedicated open-source advocate."
+      },
+      {
         "id": 18,
         "name": "Benjamin Calef",
         "company": "Zadig & Voltaire",
@@ -342,17 +353,6 @@
         "role": "Software Development Manager",
         "photo": "/images/speakers/julien_anquetil.png",
         "biography": "Julien Anquetil, Software Development Manager, est un leader visionnaire avec une solide expérience dans le déploiement de plateformes e-commerce Magento 2. De la gestion de sites éditoriaux à fort trafic à l'augmentation du chiffre d'affaires B2B de 2 millions à 35 millions de dollars, son expertise en gestion de projet, développement et solutions IT contribue directement à la réussite des entreprises.\n\nActuellement à la tête de la division Business IT d'une entreprise du Fortune 500 cotée au NASDAQ, il joue un rôle clé dans la transformation digitale de l'entreprise."
-      },
-      {
-        "id": 30,
-        "name": "Jakub Winkler",
-        "company": "Qoliber",
-        "companyLogo": "/images/logo/qoliber.svg",
-        "companyUrl": "https://qoliber.com/",
-        "linkedin": "https://www.linkedin.com/in/winklerjakub/",
-        "role": "Prime Sorcerer of Strategy & Success",
-        "photo": "/images/speakers/jakub_winkler.png",
-        "biography": "Jakub is a world-class Magento / Adobe Commerce expert in store platform optimization and efficiency, with 14 years of experience in the eCommerce industry. Specializing in eCommerce system architecture and application performance optimization, he is the founder of the qoliber brand, an active developer, and a recognized performance optimization expert. Passionate about improving the speed and efficiency of online stores, he is also a dedicated open-source advocate."
       },
       {
         "id": 32,
