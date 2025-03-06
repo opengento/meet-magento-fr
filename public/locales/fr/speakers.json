@@ -386,6 +386,28 @@
         "role": "Founder",
         "photo": "/images/speakers/laurent_jean.png",
         "biography": "Laurent Jean est créateur de sites internet depuis 2008 ! Expert reconnu en intelligence artificielle (IA) appliquée au SEO et à l’analyse des systèmes avancés.\nIl suit de près l’évolution des LLM et leur impact sur la recherche et le web.\n\nSon expertise couvre le traitement du langage naturel (NLP), l’automatisation de contenu et l’optimisation du référencement grâce à l’IA.\nPassionné de veille technologique, il accompagne entreprises et professionnels dans l’intégration stratégique de ces outils."
+      },
+      {
+        "id": 35,
+        "name": "Baptiste Bataille",
+        "company": "Afflelou",
+        "companyLogo": "/images/logo/afflelou.svg",
+        "companyUrl": "https://www.afflelou.com/",
+        "linkedin": "https://www.linkedin.com/in/bataillebaptiste/",
+        "role": "Project Manager",
+        "photo": "/images/speakers/baptiste_bataille.png",
+        "biography": "Responsable E-commerce durant plus de 10 ans dans le secteur de la mode (Feiyue, Arthur, Eden Park….)\n\nConsultant digital spécialisé en chef de projet pour l’accompagnement des entreprises dans leur transformation digitale (Magento, Shopify)."
+      },
+      {
+        "id": 36,
+        "name": "Joris Hart",
+        "company": "ATI4 Group",
+        "companyLogo": "/images/logo/ati4group.svg",
+        "companyUrl": "https://ati4group.com/",
+        "linkedin": "https://www.linkedin.com/in/joris-hart/",
+        "role": "Co-Founder & CTO",
+        "photo": "/images/speakers/joris_hart.png",
+        "biography": "Joris Hart est co-fondateur et CTO d’ATI4 Group, une agence digitale spécialisée dans l’accompagnement et le développement de sites e-commerce.\n\nDepuis plus de 10 ans, il évolue dans l’écosystème Adobe Commerce avec une solide expérience à l’international. À la tête d’ATI4 Group, il accompagne les entreprises dans leur transformation et croissance digitale avec des solutions sur mesure, adaptées à leurs enjeux et objectifs."
       }
     ],
     "rooms": {
@@ -509,6 +531,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [31],
+        "eventUrl": null
+      },
+      {
+        "id": 29,
+        "title": "Comment Afflelou a boosté son taux de conversion de 51% en repensant sa plateforme B2B pour ses franchisés",
+        "description": "Découvrez comment Afflelou a transformé son portail B2B, un outil clé pour ses franchisés en Europe, en s’appuyant sur Hyvä Theme et une analyse approfondie des données ContentSquare.\nNous partagerons les étapes clés de la refonte, les défis relevés et les leviers de performance activés qui ont conduit à des résultats impressionnants :\n✅ +51% de taux de conversion\n✅ +53% de performance\nUn retour d’expérience concret sur la puissance d’une plateforme B2B optimisée.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [35, 36],
         "eventUrl": null
       },
       {

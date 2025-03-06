@@ -40,6 +40,11 @@
       "name": "Bultex",
       "url": "https://bultex.fr/",
       "logoSrc": "/images/merchants/bultex.png"
+    },
+    {
+      "name": "Afflelou",
+      "url": "https://www.afflelou.com/",
+      "logoSrc": "/images/merchants/afflelou.svg"
     }
   ]
 }
