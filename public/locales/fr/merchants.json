@@ -45,6 +45,11 @@
       "name": "Afflelou",
       "url": "https://www.afflelou.com/",
       "logoSrc": "/images/merchants/afflelou.svg"
+    },
+    {
+      "name": "Fermob",
+      "url": "https://www.fermob.com/",
+      "logoSrc": "/images/merchants/fermob.svg"
     }
   ]
 }
