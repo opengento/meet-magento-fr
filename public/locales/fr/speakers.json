@@ -408,6 +408,17 @@
         "role": "Co-Founder & CTO",
         "photo": "/images/speakers/joris_hart.png",
         "biography": "Joris Hart est co-fondateur et CTO d’ATI4 Group, une agence digitale spécialisée dans l’accompagnement et le développement de sites e-commerce.\n\nDepuis plus de 10 ans, il évolue dans l’écosystème Adobe Commerce avec une solide expérience à l’international. À la tête d’ATI4 Group, il accompagne les entreprises dans leur transformation et croissance digitale avec des solutions sur mesure, adaptées à leurs enjeux et objectifs."
+      },
+      {
+        "id": 37,
+        "name": "Mathias Schreiber",
+        "company": "Magento Association",
+        "companyLogo": "/images/logo/magento.svg",
+        "companyUrl": "https://www.magentoassociation.org/",
+        "linkedin": "https://www.linkedin.com/in/mathias-schreiber/",
+        "role": "Executive Director",
+        "photo": "/images/speakers/mathias_schreiber.jpg",
+        "biography": "Mathias comes from a background in advertising in the music industry. After venturing into musical instrument wholesale he moved to the advertising side of things in the late 90s.\nHe then spent over 20 years in OpenSource, bridging the gap between development and businesses.\nSince 2023 he serves the Magento Community as Executive Director of the Magento Association.\nIn his few hours off Magento he spends his time DJing and making music while co-raising kids in Düsseldorf, Germany."
       }
     ],
     "rooms": {
@@ -791,6 +802,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [33, 34],
+        "eventUrl": null
+      },
+      {
+        "id": 30,
+        "title": "Magento Association - How and Why?",
+        "description": "This session gives a quick introduction about Magento Association - what we do, why we're here and what to expect from us in order to keep Magento Open Source alive and well.",
+        "lang": "en",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business"],
+        "speakers": [37],
         "eventUrl": null
       }
     ]
