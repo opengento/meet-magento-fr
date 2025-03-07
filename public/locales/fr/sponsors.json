@@ -134,6 +134,16 @@
       "whiteLogoSrc": "/images/sponsors/white/hipay.svg"
     },
     {
+      "type": "gold",
+      "name": "hidden",
+      "description": "",
+      "caption": "",
+      "url": "",
+      "bannerSrc": "",
+      "logoSrc": "",
+      "whiteLogoSrc": ""
+    },
+    {
       "type": "silver",
       "name": "MaPS System",
       "description": "MaPS System centralise et optimise la gestion des données (MDM, PIM, DAM), garantissant qualité, conformité et rapidité d'accès aux informations.",
@@ -162,6 +172,16 @@
       "bannerSrc": "/images/sponsors/banners/spiriit.jpg",
       "logoSrc": "/images/sponsors/spiriit.svg",
       "whiteLogoSrc": "/images/sponsors/white/spiriit.svg"
+    },
+    {
+      "type": "silver",
+      "name": "hidden/2",
+      "description": "",
+      "caption": "",
+      "url": "",
+      "bannerSrc": "",
+      "logoSrc": "",
+      "whiteLogoSrc": ""
     },
     {
       "type": "silver",
@@ -194,6 +214,26 @@
       "whiteLogoSrc": "/images/sponsors/white/payplug.svg"
     },
     {
+      "type": "silver",
+      "name": "Mollie",
+      "description": "Mollie est une solution de paiement simple et efficace qui accompagne les entreprises dans le développement de leur activité en France et en Europe.",
+      "caption": "Des paiements en ligne et en boutique pour les entreprises de toute taille",
+      "url": "https://www.mollie.com/",
+      "bannerSrc": "/images/sponsors/banners/mollie.jpg",
+      "logoSrc": "/images/sponsors/mollie.svg",
+      "whiteLogoSrc": "/images/sponsors/white/mollie.svg"
+    },
+    {
+      "type": "silver",
+      "name": "hidden/2",
+      "description": "",
+      "caption": "",
+      "url": "",
+      "bannerSrc": "",
+      "logoSrc": "",
+      "whiteLogoSrc": ""
+    },
+    {
       "type": "bronze",
       "name": "Opengento",
       "description": null,
@@ -217,11 +257,21 @@
       "type": "bronze",
       "name": "Akeneo",
       "description": null,
-      "caption": "",
+      "caption": "Le commerce se réinvente avec l’IA. Activez vos expériences produits dès aujourd’hui.",
       "url": "https://www.akeneo.com/",
       "bannerSrc": "/images/sponsors/banners/akeneo.jpg",
       "logoSrc": "/images/sponsors/akeneo.svg",
       "whiteLogoSrc": "/images/sponsors/white/akeneo.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Splio",
+      "description": null,
+      "caption": "Faites équipe avec Splio et sa plateforme de CRM marketing résolument Retail",
+      "url": "https://splio.com/",
+      "bannerSrc": "/images/sponsors/banners/splio.jpg",
+      "logoSrc": "/images/sponsors/splio.svg",
+      "whiteLogoSrc": "/images/sponsors/white/splio.svg"
     }
   ]
 }

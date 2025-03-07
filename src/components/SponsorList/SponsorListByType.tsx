@@ -16,7 +16,9 @@ const SponsorListByType = ({ items }: { items: SponsorProps[] }) => {
         acc: Record<SponsorTypeProps, SponsorProps[]>,
         sponsor: SponsorProps
       ) => {
-        acc[sponsor.type].push(sponsor);
+        if (!["hidden", "hidden/2"].includes(sponsor.name)) {
+          acc[sponsor.type].push(sponsor);
+        }
 
         return acc;
       },

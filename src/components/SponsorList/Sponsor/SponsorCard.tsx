@@ -18,7 +18,7 @@ const SponsorCard = ({ sponsor }: { sponsor: SponsorProps }) => {
         href={sponsor.url}
         target="_blank"
         rel="noopener"
-        className="bg-white rounded-md flex justify-center items-center px-14 py-16 transform transition duration-500 hover:scale-110"
+        className="bg-white rounded-md flex justify-center items-center h-40 p-14 transform transition duration-500 hover:scale-110"
       >
         <Image
           src={sponsor.logoSrc}
