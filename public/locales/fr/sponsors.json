@@ -255,6 +255,16 @@
     },
     {
       "type": "bronze",
+      "name": "Nosto",
+      "description": null,
+      "caption": "Rendez chaque expérience d’achat mémorable grâce à notre solution de personnalisation, merchandising et de recherche sur site.",
+      "url": "https://www.nosto.com/",
+      "bannerSrc": "/images/sponsors/banners/nosto.jpg",
+      "logoSrc": "/images/sponsors/nosto.svg",
+      "whiteLogoSrc": "/images/sponsors/white/nosto.svg"
+    },
+    {
+      "type": "bronze",
       "name": "Akeneo",
       "description": null,
       "caption": "Le commerce se réinvente avec l’IA. Activez vos expériences produits dès aujourd’hui.",
