@@ -282,6 +282,16 @@
       "bannerSrc": "/images/sponsors/banners/splio.jpg",
       "logoSrc": "/images/sponsors/splio.svg",
       "whiteLogoSrc": "/images/sponsors/white/splio.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Sendcloud",
+      "description": null,
+      "caption": "",
+      "url": "https://www.sendcloud.fr/",
+      "bannerSrc": "/images/sponsors/banners/sendcloud.jpg",
+      "logoSrc": "/images/sponsors/sendcloud.svg",
+      "whiteLogoSrc": "/images/sponsors/white/sendcloud.svg"
     }
   ]
 }
