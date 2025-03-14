@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "../Typography/Typography";
 import { MdDoubleArrow } from "react-icons/md";
 import { FaChartSimple } from "react-icons/fa6";
 import { FaHeart, FaStar, FaTag } from "react-icons/fa";
