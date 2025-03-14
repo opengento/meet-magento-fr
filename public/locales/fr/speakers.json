@@ -82,8 +82,8 @@
       {
         "id": 4,
         "name": "Hervé Guétin",
-        "company": "Maddlen",
-        "companyLogo": "/images/logo/maddlen.jpeg",
+        "company": "Agence Dn'D",
+        "companyLogo": "/images/logo/dnd.svg",
         "companyUrl": "https://www.maddlen.fr/",
         "linkedin": "https://www.linkedin.com/in/herveguetin/",
         "role": "Consultant & Full-Stack Developer",
@@ -419,6 +419,28 @@
         "role": "Executive Director",
         "photo": "/images/speakers/mathias_schreiber.jpg",
         "biography": "Mathias comes from a background in advertising in the music industry. After venturing into musical instrument wholesale he moved to the advertising side of things in the late 90s.\nHe then spent over 20 years in OpenSource, bridging the gap between development and businesses.\nSince 2023 he serves the Magento Community as Executive Director of the Magento Association.\nIn his few hours off Magento he spends his time DJing and making music while co-raising kids in Düsseldorf, Germany."
+      },
+      {
+        "id": 38,
+        "name": "Quentin Couturier",
+        "company": "Izipizi",
+        "companyLogo": "/images/merchants/izipizi.svg",
+        "companyUrl": "https://izipizi.com/",
+        "linkedin": "https://www.linkedin.com/in/quentin-couturier-01619422/",
+        "role": "Co-Founder",
+        "photo": "/images/speakers/quentin_couturier.jpeg",
+        "biography": ""
+      },
+      {
+        "id": 39,
+        "name": "Florence Vanet",
+        "company": "Fermob",
+        "companyLogo": "/images/merchants/fermob.svg",
+        "companyUrl": "https://www.fermob.com/",
+        "linkedin": "https://www.linkedin.com/in/florence-vanet/",
+        "role": "Responsable digital et e-commerce",
+        "photo": "/images/speakers/florence_vanet.jpg",
+        "biography": ""
       }
     ],
     "rooms": {
@@ -506,6 +528,32 @@
         "eventUrl": null
       },
       {
+        "id": 31,
+        "title": "Créer une love brand internationale de lunettes pour toute la famille et investir sur le E-Commerce pour accélérer sa croissance",
+        "description": "D’une idée audacieuse à une marque mondiale : l’ascension d’Izipizi en E-Commerce\nComment transformer un concept simple en un succès international ? Izipizi a relevé ce défi en combinant une identité forte, une stratégie omnicanale agile et une expansion digitale ambitieuse. Son fondateur partagera les coulisses de cette croissance fulgurante : de la création de la marque à son déploiement en e-commerce et à l’international. ADN, différenciation, retail, digital, collaborations… Un talk inspirant pour les e-marchands en quête de stratégies gagnantes !",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [38],
+        "eventUrl": null
+      },
+      {
+        "id": 32,
+        "title": "Adobe Commerce au service de la stratégie BtoC et BtoB internationale de Fermob",
+        "description": "Comment une plateforme unique peut-elle répondre aux enjeux B2B et B2C d’une marque internationale ? Fermob a fait le pari d’Adobe Commerce / Magento pour accompagner son développement, d’abord en B2B, puis en B2C. Entre stratégie différenciée, mutualisation des ressources et vision long terme, découvrez comment une plateforme unique permet d’unifier les opérations sans compromis.",
+        "lang": "fr",
+        "track": "Business",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Business", "Expertise"],
+        "speakers": [39],
+        "eventUrl": null
+      },
+      {
         "id": 24,
         "title": "Cofel et Magento : le pari audacieux du leader de la literie",
         "description": "Comment un leader industriel du secteur de la literie a-t-il relevé le défi du e-commerce direct sans réseau physique ? Retour sur la transformation digitale de Cofel : entre ambitions stratégiques, complexité technique et équilibre fragile entre business et IT. Une immersion dans un parcours semé d'embûches, où Magento a été un levier puissant… mais exigeant.",
@@ -516,6 +564,19 @@
         "end": null,
         "tags": ["Business", "Expertise"],
         "speakers": [29],
+        "eventUrl": null
+      },
+      {
+        "id": 16,
+        "title": "Magento 2 : aller plus loin sans finir dans le mur",
+        "description": "Magento 2, c’est un peu comme une fusée : elle peut propulser votre e-commerce vers les sommets… ou exploser en plein vol si on ne la maîtrise pas. Entre indexation capricieuse, documentations incomplètes, montées de version périlleuses, et le fameux « oopsy knockout.js == bad bet » les défis ne manquent pas. Heureusement, il existe des solutions pour garder le cap ! Dans ce talk, je partagerai mes stratégies pour rendre Magento 2 robuste, sécurisé et évolutif, prouvant que stabilité et flexibilité peuvent parfaitement coexister.",
+        "lang": "fr",
+        "track": "Technical",
+        "room": null,
+        "start": null,
+        "end": null,
+        "tags": ["Technical", "Expertise"],
+        "speakers": [18],
         "eventUrl": null
       },
       {
@@ -698,19 +759,6 @@
         "end": null,
         "tags": ["Technical", "Expertise"],
         "speakers": [17],
-        "eventUrl": null
-      },
-      {
-        "id": 16,
-        "title": "Magento 2 : aller plus loin sans finir dans le mur",
-        "description": "Magento 2, c’est un peu comme une fusée : elle peut propulser votre e-commerce vers les sommets… ou exploser en plein vol si on ne la maîtrise pas. Entre indexation capricieuse, documentations incomplètes, montées de version périlleuses, et le fameux « oopsy knockout.js == bad bet » les défis ne manquent pas. Heureusement, il existe des solutions pour garder le cap ! Dans ce talk, je partagerai mes stratégies pour rendre Magento 2 robuste, sécurisé et évolutif, prouvant que stabilité et flexibilité peuvent parfaitement coexister.",
-        "lang": "fr",
-        "track": "Technical",
-        "room": null,
-        "start": null,
-        "end": null,
-        "tags": ["Technical", "Expertise"],
-        "speakers": [18],
         "eventUrl": null
       },
       {
