@@ -444,9 +444,9 @@
       }
     ],
     "rooms": {
-      "orion": "Salle Orion",
-      "vega": "Salle Véga",
-      "boreal": "Salle Boréal"
+      "orion": "Main Stage",
+      "vega": "Breakout Session 1",
+      "boreal": "Breakout Session 2"
     },
     "sessions": [
       {

@@ -6,11 +6,7 @@
       "title": "Petit-déjeuner & Networking",
       "start": " 9h00",
       "end": " 9h30",
-      "sponsor": {
-        "name": "Socloz",
-        "logoSrc": "/images/logo/socloz.webp",
-        "url": "https://www.socloz.com/"
-      }
+      "sponsor": null
     },
     {
       "title": "Pause & Networking",
@@ -22,11 +18,7 @@
       "title": "Lunch & Networking",
       "start": "12h30",
       "end": "13h30",
-      "sponsor": {
-        "name": "PH2M",
-        "logoSrc": "/images/sponsors/ph2m.svg",
-        "url": "https://www.ph2m.com/"
-      }
+      "sponsor": null
     },
     {
       "title": "Pause & Networking",
@@ -49,9 +41,9 @@
       "start": "18h00",
       "end": "22h00",
       "sponsor": {
-        "name": "Shippingbo",
-        "logoSrc": "/images/sponsors/shippingbo.svg",
-        "url": "https://www.shippingbo.com/"
+        "name": "PH2M",
+        "logoSrc": "/images/sponsors/ph2m.svg",
+        "url": "https://www.ph2m.com/"
       }
     }
   ]
