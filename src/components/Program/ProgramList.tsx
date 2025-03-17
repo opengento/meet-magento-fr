@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import TopBanner from "../TopBanner/TopBanner";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
@@ -10,8 +12,10 @@ import ProgramTile from "./ProgramTile";
 import SessionPopIn from "../Speakers/Session/SessionPopIn";
 import { SessionProps } from "../Speakers/Session/SessionProps";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
+import {useTranslation} from "react-i18next";
 
 const ProgramList = () => {
+  const { t } = useTranslation(["program"]);
   const swiperRef = React.useRef<SwiperClass>(null);
   const sessions = useDataProvider().useSessions();
   const [selectedSession, setSelectedSession] =
@@ -37,9 +41,16 @@ const ProgramList = () => {
           onNextClick={handleNext}
           onPrevClick={handlePrev}
         >
-          <ButtonLink variant="secondary-invert" href="/programme">
-            Découvrir le programme
-          </ButtonLink>
+          <div className="hidden md:block">
+            <ButtonLink variant="secondary-invert" href={t("program:href")}>
+              {t("program:label")}
+            </ButtonLink>
+          </div>
+          <div className="md:hidden">
+            <ButtonLink variant="secondary-invert" href={t("program:href")}>
+              Voir tout
+            </ButtonLink>
+          </div>
         </TopBanner>
       </div>
       <ClientOnly>
