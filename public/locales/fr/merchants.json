@@ -50,6 +50,21 @@
       "name": "Fermob",
       "url": "https://www.fermob.com/",
       "logoSrc": "/images/merchants/fermob.svg"
+    },
+    {
+      "name": "Izipizi",
+      "url": "https://izipizi.com/",
+      "logoSrc": "/images/merchants/izipizi.svg"
+    },
+    {
+      "name": "Groupe Cofel",
+      "url": "https://cofel.fr/",
+      "logoSrc": "/images/merchants/cofel.svg"
+    },
+    {
+      "name": "Magento Association",
+      "url": "https://www.magentoassociation.org/",
+      "logoSrc": "/images/merchants/ma.png"
     }
   ]
 }
