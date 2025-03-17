@@ -9,6 +9,7 @@ import ClientOnly from "@/helpers/ClientOnly";
 import ProgramTile from "./ProgramTile";
 import SessionPopIn from "../Speakers/Session/SessionPopIn";
 import { SessionProps } from "../Speakers/Session/SessionProps";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 const ProgramList = () => {
   const swiperRef = React.useRef<SwiperClass>(null);
@@ -27,6 +28,7 @@ const ProgramList = () => {
       swiperRef.current.slideNext();
     }
   };
+
   return (
     <section className="program-list">
       <div className="mb-8">
@@ -34,7 +36,11 @@ const ProgramList = () => {
           title="Extrait du Programme"
           onNextClick={handleNext}
           onPrevClick={handlePrev}
-        />
+        >
+          <ButtonLink variant="secondary-invert" href="/programme">
+            Découvrir le programme
+          </ButtonLink>
+        </TopBanner>
       </div>
       <ClientOnly>
         <Swiper
