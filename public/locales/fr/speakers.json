@@ -458,7 +458,7 @@
         "room": "orion",
         "start": "10h00",
         "end": "10h45",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Announcement"],
         "speakers": [6],
         "eventUrl": null
       },
@@ -471,7 +471,7 @@
         "room": "orion",
         "start": "11h00",
         "end": "11h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [8, 9],
         "eventUrl": null
       },
@@ -484,7 +484,7 @@
         "room": "orion",
         "start": "15h00",
         "end": "15h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [13, 14],
         "eventUrl": null
       },
@@ -497,7 +497,7 @@
         "room": "orion",
         "start": "16h30",
         "end": "17h",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [20, 21],
         "eventUrl": null
       },
@@ -510,7 +510,7 @@
         "room": "vega",
         "start": "14h00",
         "end": "14h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [23, 24],
         "eventUrl": null
       },
@@ -523,7 +523,7 @@
         "room": "vega",
         "start": "14h30",
         "end": "15h00",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [27, 28],
         "eventUrl": null
       },
@@ -536,7 +536,7 @@
         "room": "orion",
         "start": "14h30",
         "end": "15h00",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [38],
         "eventUrl": null
       },
@@ -549,7 +549,7 @@
         "room": "orion",
         "start": "12h",
         "end": "12h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [39],
         "eventUrl": null
       },
@@ -562,7 +562,7 @@
         "room": "orion",
         "start": "14h00",
         "end": "14h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [29],
         "eventUrl": null
       },
@@ -601,7 +601,7 @@
         "room": "orion",
         "start": "16h00",
         "end": "16h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [31],
         "eventUrl": null
       },
@@ -614,7 +614,7 @@
         "room": "vega",
         "start": "17h00",
         "end": "17h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Merchant"],
         "speakers": [35, 36],
         "eventUrl": null
       },
@@ -679,7 +679,7 @@
         "room": "boreal",
         "start": "16h00",
         "end": "16h30",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Expertise", "IA"],
         "speakers": [10],
         "eventUrl": null
       },
@@ -757,7 +757,7 @@
         "room": "vega",
         "start": "11h00",
         "end": "11h30",
-        "tags": ["Technical", "Expertise"],
+        "tags": ["Technical", "Expertise", "IA"],
         "speakers": [17],
         "eventUrl": null
       },
@@ -796,7 +796,7 @@
         "room": "orion",
         "start": "9h30",
         "end": "10h00",
-        "tags": ["Opening", "Business", "Expertise"],
+        "tags": ["Opening"],
         "speakers": [25],
         "eventUrl": null
       },
@@ -848,7 +848,7 @@
         "room": "vega",
         "start": "13h30",
         "end": "14h00",
-        "tags": ["Business", "Expertise"],
+        "tags": ["Business", "Expertise", "IA"],
         "speakers": [33, 34],
         "eventUrl": null
       },
