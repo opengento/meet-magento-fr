@@ -1,6 +1,6 @@
 {
   "navigation": [
-    { "label": "Programme", "href": "/#programs" },
+    { "label": "Programme", "href": "/programme" },
     { "label": "Speakers", "href": "/speakers" },
     { "label": "Sponsors", "href": "/sponsors" },
     { "label": "Préparer ma venue", "href": "/place" },

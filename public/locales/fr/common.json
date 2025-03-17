@@ -7,7 +7,7 @@
   "faqLabel": "FAQ complète",
   "contactUrl": "/contact#form",
   "contactLabel": "formulaire de contact",
-  "programUrl": "/#programs",
+  "programUrl": "/programme",
   "programLabel": "Je découvre la programmation",
   "pushSubtitle": "Rejoignez-nous à Meet Magento France 2025 !",
   "pushContent": "Réservez votre place dès maintenant et rejoignez-nous pour un événement riche en échanges, en apprentissages et en opportunités !",
@@ -22,5 +22,6 @@
   "message": "Message",
   "help": "Comment pouvons-nous vous aider ?",
   "agreeTerms": "J’accepte les Termes et conditions.",
-  "send": "Envoyer"
+  "send": "Envoyer",
+  "sponsoredBy": "Sponsorisé par :"
 }

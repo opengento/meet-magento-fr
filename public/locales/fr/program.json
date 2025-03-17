@@ -1,0 +1,58 @@
+{
+  "title": "Extrait du Programme",
+  "description": "Une journée rythmée par des conférences inspirantes alliant stratégie business, E-Commerce, expertise technique et retours d’expérience de marchands. Entre chaque session, des moments de networking privilégiés permettront d’échanger entre participants et de renforcer les liens au sein de la communauté Magento et Adobe Commerce !",
+  "breaktimes": [
+    {
+      "title": "Petit-déjeuner & Networking",
+      "start": " 9h00",
+      "end": " 9h30",
+      "sponsor": {
+        "name": "Socloz",
+        "logoSrc": "/images/logo/socloz.webp",
+        "url": "https://www.socloz.com/"
+      }
+    },
+    {
+      "title": "Pause & Networking",
+      "start": "10h45",
+      "end": "11h30",
+      "sponsor": null
+    },
+    {
+      "title": "Lunch & Networking",
+      "start": "12h30",
+      "end": "13h30",
+      "sponsor": {
+        "name": "PH2M",
+        "logoSrc": "/images/sponsors/ph2m.svg",
+        "url": "https://www.ph2m.com/"
+      }
+    },
+    {
+      "title": "Pause & Networking",
+      "start": "15h30",
+      "end": "16h00",
+      "sponsor": null
+    },
+    {
+      "title": "Cocktail & Networking",
+      "start": "17h30",
+      "end": "18h00",
+      "sponsor": {
+        "name": "Mollie",
+        "logoSrc": "/images/sponsors/mollie.svg",
+        "url": "https://www.mollie.com/"
+      }
+    },
+    {
+      "title": "After Party",
+      "start": "18h00",
+      "end": "22h00",
+      "sponsor": {
+        "name": "Shippingbo",
+        "logoSrc": "/images/sponsors/shippingbo.svg",
+        "url": "https://www.shippingbo.com/"
+      }
+    }
+  ]
+}
