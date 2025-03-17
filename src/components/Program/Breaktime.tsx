@@ -43,7 +43,7 @@ const Breaktime = ({ breaktime }: Breaktime ) => {
                 alt={breaktime.sponsor.name}
                 width={125}
                 height={30}
-                className="grow object-contain"
+                className="max-h-8 max-w-32 grow object-contain"
               />
             </Link>
           </div>
