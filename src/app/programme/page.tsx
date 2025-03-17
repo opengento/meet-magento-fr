@@ -5,8 +5,9 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import { useTranslation } from "react-i18next";
 import React from "react";
-import ProgramFilter from "@/components/Program/ProgramFilter";
-import ProgramSplit from "@/components/Program/ProgramSplit";
+//import ProgramFilter from "@/components/Program/ProgramFilter";
+import Timeline from "@/components/Program/Timeline";
+
 export default function Page() {
   const { t } = useTranslation(["program"]);
 
@@ -25,8 +26,10 @@ export default function Page() {
           {t("program:description")}
         </Typography>
       </ContentMedia>
-      <ProgramFilter />
-      <ProgramSplit title="9h00" />
+      {
+        //<ProgramFilter />
+      }
+      <Timeline />
     </Container>
   );
 }
