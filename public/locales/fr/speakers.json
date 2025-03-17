@@ -458,7 +458,7 @@
         "room": "orion",
         "start": "10h00",
         "end": "10h45",
-        "tags": ["Business", "Announcement"],
+        "tags": ["Business"],
         "speakers": [6],
         "eventUrl": null
       },
