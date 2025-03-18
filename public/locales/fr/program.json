@@ -29,9 +29,15 @@
       "sponsor": null
     },
     {
-      "title": "Cocktail & Networking",
+      "title": "Closing Note",
       "start": "17h30",
       "end": "18h00",
+      "sponsor": null
+    },
+    {
+      "title": "Cocktail & Networking",
+      "start": "18h00",
+      "end": "22h00",
       "sponsor": {
         "name": "Mollie",
         "logoSrc": "/images/sponsors/mollie.svg",
@@ -40,8 +46,8 @@
     },
     {
       "title": "After Party",
-      "start": "18h00",
-      "end": "22h00",
+      "start": "22h00",
+      "end": "",
       "sponsor": {
         "name": "PH2M",
         "logoSrc": "/images/sponsors/ph2m.svg",
