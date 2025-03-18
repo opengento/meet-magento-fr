@@ -11,20 +11,50 @@ const PersonCard = ({
   person: PersonProps;
   appearance?: "speaker" | "program";
 }) => (
-  <div className="text-black">
-    {appearance === "speaker" && (
-      <div className="flex flex-wrap gap-2 mb-2">
-        <Image
-          src={person.companyLogo}
-          alt={person.company}
-          width={20}
-          height={20}
-          className="object-contain max-w-5 max-h-5"
-        />
-        <span className="text-sm">{person.company}</span>
-      </div>
-    )}
-    <p className="font-semibold text-lg">{person.name}</p>
+  <div className={classNames(
+    "text-black",
+    {
+      "text-sm": appearance === "program"
+    }
+  )}>
+    <div className={classNames(
+      "flex flex-wrap items-center",
+      {
+        "gap-2 mb-2": appearance === "speaker",
+        "gap-1": appearance === "program",
+      }
+    )}>
+      <Image
+        src={person.companyLogo}
+        alt={person.company}
+        width={20}
+        height={20}
+        className={classNames(
+          "object-contain",
+          {
+            "max-w-5 max-h-5": appearance === "speaker",
+            "max-w-3 max-h-3": appearance === "program",
+          }
+        )}
+      />
+      <span className={classNames(
+        {
+          "text-sm": appearance === "speaker",
+          "text-xs text-gray-600": appearance === "program",
+        }
+      )}>
+        {person.company}
+      </span>
+    </div>
+    <p className={classNames(
+      "font-semibold",
+      {
+        "text-lg": appearance === "speaker",
+        "text-md": appearance === "program",
+      }
+    )}>
+      {person.name}
+    </p>
     <p className="text-gray-600 italic">{person.role}</p>
   </div>
 );
