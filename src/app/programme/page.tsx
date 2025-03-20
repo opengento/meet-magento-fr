@@ -4,12 +4,13 @@ import Typography from "@/components/Typography/Typography";
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Container from "@/layouts/Container";
 import { useTranslation } from "react-i18next";
-import React from "react";
-//import ProgramFilter from "@/components/Program/ProgramFilter";
+import React, { useState } from "react";
 import Timeline from "@/components/Program/Timeline";
+import ProgramFilter from "@/components/Program/ProgramFilter";
 
 export default function Page() {
   const { t } = useTranslation(["program"]);
+  const [activeFilters, setActiveFilters] = useState<string[]>([]);
 
   return (
     <Container size="large" className="flex flex-col gap-8 my-8">
@@ -26,10 +27,11 @@ export default function Page() {
           {t("program:description")}
         </Typography>
       </ContentMedia>
-      {
-        //<ProgramFilter />
-      }
-      <Timeline />
+      <ProgramFilter
+        activeFilters={activeFilters}
+        setActiveFilters={setActiveFilters}
+      />
+      <Timeline activeFilters={activeFilters} />
     </Container>
   );
 }
