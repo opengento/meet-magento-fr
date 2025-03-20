@@ -8,31 +8,36 @@
       "title": "Petit-déjeuner & Networking",
       "start": " 9h00",
       "end": " 9h30",
-      "sponsor": null
+      "sponsor": null,
+      "background": "default",
     },
     {
       "title": "Pause & Networking",
       "start": "10h45",
       "end": "11h30",
-      "sponsor": null
+      "sponsor": null,
+      "background": "variant1"
     },
     {
       "title": "Lunch & Networking",
       "start": "12h30",
       "end": "13h30",
-      "sponsor": null
+      "sponsor": null,
+      "background": "variant2"
     },
     {
       "title": "Pause & Networking",
       "start": "15h30",
       "end": "16h00",
-      "sponsor": null
+      "sponsor": null,
+      "background": "variant3"
     },
     {
       "title": "Closing Note",
       "start": "17h30",
       "end": "18h00",
-      "sponsor": null
+      "sponsor": null,
+      "background": "variant1"
     },
     {
       "title": "Cocktail & Networking",
@@ -42,7 +47,8 @@
         "name": "Mollie",
         "logoSrc": "/images/sponsors/mollie.svg",
         "url": "https://www.mollie.com/"
-      }
+      },
+      "background": "variant2"
     },
     {
       "title": "After Party",
@@ -52,7 +58,8 @@
         "name": "PH2M",
         "logoSrc": "/images/sponsors/ph2m.svg",
         "url": "https://www.ph2m.com/"
-      }
+      },
+      "background": "variant3"
     }
   ]
 }

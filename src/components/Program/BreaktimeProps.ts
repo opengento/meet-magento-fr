@@ -7,4 +7,5 @@ export type BreaktimeProps = {
     logoSrc: string;
     url: string;
   }
+  background: "default" | "variant1" | "variant2" | "variant3";
 }
