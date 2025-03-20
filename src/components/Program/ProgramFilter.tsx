@@ -40,7 +40,7 @@ const ProgramFilter = ({
     }
   };
   return (
-    <div className="program-filter flex md:justify-center items-center overflow-auto lg:overflow-visible">
+    <div className="program-filter flex lg:justify-center items-center overflow-auto lg:overflow-visible">
       <div className="flex justify-center gap-3 md:gap-6 bg-white rounded-full p-4 md:px-8 md:py-6 w-fit shadow-md">
         {filters.map((filter, index) => (
           <button
