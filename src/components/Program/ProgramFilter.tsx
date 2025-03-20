@@ -40,8 +40,8 @@ const ProgramFilter = ({
     }
   };
   return (
-    <div className="program-filter flex justify-center items-center">
-      <div className="flex gap-3 md:gap-6 bg-white rounded-full p-4 md:px-8 md:py-6 w-fit shadow-md">
+    <div className="program-filter flex md:justify-center items-center overflow-auto lg:overflow-visible">
+      <div className="flex justify-center gap-3 md:gap-6 bg-white rounded-full p-4 md:px-8 md:py-6 w-fit shadow-md">
         {filters.map((filter, index) => (
           <button
             key={index}
@@ -56,7 +56,7 @@ const ProgramFilter = ({
           >
             <div className="flex flex-row gap-1 items-center">
               {filter.icon}
-              <span className="font-semibold">{filter.name}</span>
+              <span className="font-semibold min-w-max">{filter.name}</span>
             </div>
           </button>
         ))}

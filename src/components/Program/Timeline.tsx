@@ -79,7 +79,7 @@ const Timeline = ({ activeFilters }: TimelineProps) => {
     }
 
     return (
-      <div className="w-full grid grid-cols-1 md:grid-cols-3 grid-rows-auto gap-4">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-3 grid-rows-auto gap-4">
         {Object.keys(rooms).map((room) => (
           <Fragment key={`timeline-${hour}-${room}`}>
             {renderSession(hour, room)}
