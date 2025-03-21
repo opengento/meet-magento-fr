@@ -1,3 +1,5 @@
+[![Deploy Next.js site to Pages](https://github.com/opengento/meet-magento-fr/actions/workflows/nextjs.yml/badge.svg)](https://github.com/opengento/meet-magento-fr/actions/workflows/nextjs.yml)
+
 This is the Meet Magento FR website.
 
 ## Getting Started
