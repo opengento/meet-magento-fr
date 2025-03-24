@@ -15,7 +15,7 @@ import Link from "next/link";
 
 const Hero = () => {
   const { t } = useTranslation(['hero', 'common', 'place']);
-  const showTicket = t("hero:showTicket", { returnObjects: true });
+  const showTicket = t("common:showTicket", { returnObjects: true });
 
   return (
     <div className="min-h-screen">
@@ -68,7 +68,7 @@ const Hero = () => {
               {!showTicket && (
                 <ButtonLink
                   variant="secondary"
-                  href="/programme"
+                  href={t("common:programUrl")}
                   iconPosition="right"
                   icon={<IoIosArrowForward />}
                 >

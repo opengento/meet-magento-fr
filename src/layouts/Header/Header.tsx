@@ -12,6 +12,7 @@ import TopBanner from "@/layouts/Header/TopBanner";
 
 const Header = () => {
   const { t } = useTranslation(['common']);
+  const showTicket = t("common:showTicket", { returnObjects: true });
 
   const HeaderContent = () => (
     <div className="w-full overflow-hidden rounded-b-xl lg:rounded-xl">
@@ -25,16 +26,18 @@ const Header = () => {
               <Navigation />
             </div>
             <div className="order-2 lg:order-3">
-              <ButtonLink
-                variant="primary"
-                href={t("common:ticketingUrl")}
-                target="_blank"
-                rel="noopener"
-                iconPosition="left"
-                icon={<FaTicketAlt />}
-              >
-                J’achète mon billet
-              </ButtonLink>
+              {showTicket && (
+                <ButtonLink
+                  variant="primary"
+                  href={t("common:ticketingUrl")}
+                  target="_blank"
+                  rel="noopener"
+                  iconPosition="left"
+                  icon={<FaTicketAlt />}
+                >
+                  J’achète mon billet
+                </ButtonLink>
+              )}
             </div>
           </div>
         </div>
