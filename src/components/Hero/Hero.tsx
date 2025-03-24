@@ -14,7 +14,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import Link from "next/link";
 
 const Hero = () => {
-  const {t} = useTranslation(['hero', 'common', 'place']);
+  const { t } = useTranslation(['hero', 'common', 'place']);
+  const showTicket = t("hero:showTicket", { returnObjects: true });
 
   return (
     <div className="min-h-screen">
@@ -53,15 +54,27 @@ const Hero = () => {
             <div className="hidden md:flex flex-wrap justify-center gap-8">
               <MMFRFull/>
               <CountdownTimer targetDate={new Date("2025-03-25T08:00:00")}/>
-              <ButtonLink
-                variant="secondary"
-                href={t('common:ticketingUrl')}
-                target="_blank"
-                iconPosition="right"
-                icon={<IoIosArrowForward />}
-              >
-                {t("hero:ticket")}
-              </ButtonLink>
+              {showTicket && (
+                <ButtonLink
+                  variant="secondary"
+                  href={t('common:ticketingUrl')}
+                  target="_blank"
+                  iconPosition="right"
+                  icon={<IoIosArrowForward />}
+                >
+                  {t("hero:ticket")}
+                </ButtonLink>
+              )}
+              {!showTicket && (
+                <ButtonLink
+                  variant="secondary"
+                  href="/programme"
+                  iconPosition="right"
+                  icon={<IoIosArrowForward />}
+                >
+                  {t("hero:program")}
+                </ButtonLink>
+              )}
             </div>
           </div>
         </Container>
