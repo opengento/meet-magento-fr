@@ -7,7 +7,7 @@ This is the Meet Magento FR website.
 First, run the development server:
 
 ```bash
-npm tailwind:watch
+npm run tailwind:watch
 npm run dev
 ```
 
