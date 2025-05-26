@@ -29,29 +29,29 @@ const Faq = ({
     answer: string;
   }[] = [
     {
-      question: "Quelle est la date et le lieu de Meet Magento France 2025 ?",
+      question: "Quelle était la date et le lieu de Meet Magento France 2025 ?",
       icon: <FaCompass className="text-pink" size={16} />,
       answer:
-        "Meet Magento France 2025 se déroulera le 25 mars 2025, à L’Étoile Business Center à Paris.",
+        "Meet Magento France 2025 s'est déroulé le 25 mars 2025, à L’Étoile Business Center à Paris.",
     },
     {
       question:
-        "Quels types de conférences seront proposés lors de l'événement ?",
+        "Quels types de conférences étaient proposés lors de l'événement ?",
       icon: <FaUser className="text-pink" size={16} />,
       answer:
         "Des conférences business et techniques animées par des experts du digital, e-ommerçants, éditeurs et agences sont attendues au programme de Meet Magento France 2025 ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
     },
     {
-      question: "Qui peut participer à Meet Magento France 2025 ?",
+      question: "Qui pouvait participer à Meet Magento France 2025 ?",
       icon: <FaHeart className="text-pink" size={16} />,
       answer:
-        "Meet Magento France 2025 accueillera les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se rencontreront lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
+        "Meet Magento France 2025 a accueilli les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se sont rencontrés lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
     },
     {
       question: "Comment puis-je acheter des billets pour l'événement ?",
       icon: <FaTicketAlt className="text-pink" size={16} />,
       answer:
-        "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu.",
+        "Les billets pour Meet Magento France 2026 ne sont pas encore disponibles. Suivez notre compte Linkedin pour être informés lorsque ils seront disponibles.",
     },
     {
       question: "What if I don't speak French?",

@@ -4,6 +4,7 @@
     { "label": "Speakers", "href": "/speakers" },
     { "label": "Sponsors", "href": "/sponsors" },
     { "label": "Préparer ma venue", "href": "/place" },
-    { "label": "FAQ & Contact", "href": "/contact" }
+    { "label": "FAQ & Contact", "href": "/contact" },
+    { "label": "Édition 2025", "href": "/edition-2025" }
   ]
 }

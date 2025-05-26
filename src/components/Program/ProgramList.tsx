@@ -37,7 +37,7 @@ const ProgramList = () => {
     <section className="program-list">
       <div className="mb-8">
         <TopBanner
-          title="Extrait du Programme"
+          title={t("program:title-widget")}
           onNextClick={handleNext}
           onPrevClick={handlePrev}
         >

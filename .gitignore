@@ -45,3 +45,5 @@ next-env.d.ts
 
 # tailwind generated styles.css
 public/styles.css
+
+.vscode/
