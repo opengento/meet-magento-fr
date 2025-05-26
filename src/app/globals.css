@@ -19,3 +19,49 @@ body {
   background: var(--background);
   font-family: var(--font-ibm-plex-sans-condensed), sans-serif;
 }
+
+.grid-item-image {
+  break-inside: avoid;
+}
+
+.grid-item-image {
+  img {
+    inline-size: 100%;
+    block-size: 100%;
+    grid-area: 1 / 1 / -1 / -1;
+  }
+}
+
+@screen md {
+  .grid-gallery {
+    .grid-item:nth-child(1) {
+      grid-area: span 2 / span 2;
+    }
+
+    .grid-item:nth-child(4n + 1) {
+      grid-row: span 2;
+    }
+
+    .grid-item:nth-child(4n + 2) {
+      grid-column: span 2;
+    }
+    
+    .grid-item.portrait {
+      grid-row: span 2;
+    }
+    
+    .grid-item.landscape {
+      grid-column: span 2;
+    }
+
+    .grid-item.square {
+      grid-row: span 1;
+      grid-column: span 1;
+    }
+
+    .grid-item.big-square {
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+  }
+}
