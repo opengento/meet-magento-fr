@@ -8,14 +8,14 @@ const Logo = () => {
         <div className="flex flex-col justify-center">
           <Image
             src="/images/mmfr2025-title.svg"
-            alt="Logo"
+            alt="Meet Magento"
             width={200}
             height={60}
             className="hidden md:block pb-2 min-w-[100px]"
           />
           <Image
             src="/images/mmfr25-full.svg"
-            alt="Logo"
+            alt="Meet Magento"
             width={50}
             height={60}
             className="block md:hidden"

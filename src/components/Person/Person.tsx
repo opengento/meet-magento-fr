@@ -26,7 +26,7 @@ const PersonCard = ({
     )}>
       <Image
         src={person.companyLogo}
-        alt={person.company}
+        alt=""
         width={20}
         height={20}
         className={classNames(
