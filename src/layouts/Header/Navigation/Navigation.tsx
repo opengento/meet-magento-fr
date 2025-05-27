@@ -28,6 +28,7 @@ const Navigation = () => {
         className="lg:hidden text-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         title="Menu"
+        aria-label="Menu"
       >
         <svg
           className="w-6 h-6"
@@ -51,6 +52,7 @@ const Navigation = () => {
           className={`absolute inset-0 bg-black transition-opacity duration-300
              ${isMenuOpen ? "bg-opacity-50" : "bg-opacity-0"}`}
           onClick={() => setIsMenuOpen(false)}
+          aria-hidden="true"
         />
         <div className="flex justify-end h-full">
           <div
@@ -62,6 +64,7 @@ const Navigation = () => {
               <button
                 onClick={() => setIsMenuOpen(false)}
                 className="text-white"
+                aria-label="Fermer le menu"
               >
                 <svg
                   className="w-6 h-6"

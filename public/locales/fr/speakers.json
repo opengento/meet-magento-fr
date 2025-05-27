@@ -1,10 +1,15 @@
 {
   "title": "Speakers",
-  "description": "Découvrez les speakers de Meet Magento France, des experts qui interviendront tout au long de la journée lors de conférences sur Magento et Adobe Commerce : stratégie business, E-Commerce, retours d’expérience et expertise technique. Une occasion unique d’enrichir vos connaissances et de découvrir les dernières tendances du secteur !",
+  "waitingTitle": "Speakers {{year}}",
+  "description": "Découvrez les speakers de Meet Magento France, des experts qui interviendront tout au long de la journée lors de conférences sur Magento et Adobe Commerce : stratégie business, E-Commerce, retours d’expérience et expertise technique. Une occasion unique d’enrichir vos connaissances et de découvrir les dernières tendances du secteur !",
   "actions": {
     "submitUrl": null,
     "seeAllUrl": "/speakers"
   },
+  "listTitle": "Liste des speakers",
+  "waitingListTitle": "Liste des speakers {{year}}",
+  "listLabel": "Découvrir les speakers",
+  "waitingListLabel": "Découvrir les speakers {{year}}",
   "data": {
     "title": "Appel à speakers",
     "subtitle": "Vous êtes expert du e-commerce ou passionné de Magento ?",

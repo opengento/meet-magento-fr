@@ -12,7 +12,7 @@ import React from "react";
 import PushWelcome from "@/layouts/Push/PushWelcome";
 
 export default function Page() {
-  const { t } = useTranslation(['place']);
+  const { t } = useTranslation(['place', 'edition']);
   const dataProvider = useDataProvider();
 
   return (
@@ -31,7 +31,7 @@ export default function Page() {
           color="dark"
           className="mb-8 whitespace-pre-wrap"
         >
-          {t('place:description')}
+          {t('place:description', { year: t('edition:nextEditionYear') })}
         </Typography>
         <Schedule schedule={dataProvider.usePlaceSchedule()} />
       </ContentMedia>

@@ -33,7 +33,7 @@ const Session = ({
               <>
                 <Image
                   src={`/images/speakers/rooms/${session.room}.svg`}
-                  alt={t(`speakers:data.rooms.${session.room}`)}
+                  alt=""
                   width={18}
                   height={20}
                   className="object-contain mr-1"

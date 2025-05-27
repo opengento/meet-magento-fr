@@ -19,7 +19,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
   const swiperRef = React.useRef<SwiperClass>(null);
   const [selectedSpeaker, setSelectedSpeaker] =
     React.useState<PersonProps | null>(null);
-  const { t } = useTranslation(["speakers"]);
+  const { t } = useTranslation(["speakers", "common", "edition"]);
   const actions = t("actions", { returnObjects: true });
 
   const handleSpeakerClick = (speaker: PersonProps) => {
@@ -46,7 +46,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
     <section className="speakers-list">
       <div className="mb-12">
         <TopBanner
-          title="Les speakers"
+          title={t("edition:isWaitingNextEdition") ? t("speakers:waitingListTitle", { year: t("edition:nextEditionYear") }) : t("speakers:listTitle")}
           backgroundImage="/images/pattern_top-banner_speakers.svg"
           onPrevClick={handlePrev}
           onNextClick={handleNext}
@@ -55,12 +55,12 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
             <>
               <div className="md:hidden">
                 <ButtonLink variant="secondary" href={actions.seeAllUrl}>
-                  Voir tout
+                  {t("common:seeAll")}
                 </ButtonLink>
               </div>
               <div className="hidden md:block">
                 <ButtonLink variant="secondary" href={actions.seeAllUrl}>
-                  Découvrir les speakers
+                  {t("edition:isWaitingNextEdition") ? t("speakers:waitingListLabel", { year: t("edition:nextEditionYear") }) : t("speakers:listLabel")}
                 </ButtonLink>
               </div>
             </>

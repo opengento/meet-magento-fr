@@ -15,7 +15,7 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import {useTranslation} from "react-i18next";
 
 const ProgramList = () => {
-  const { t } = useTranslation(["program"]);
+  const { t } = useTranslation(["program", "edition"]);
   const swiperRef = React.useRef<SwiperClass>(null);
   const sessions = useDataProvider().useSessions();
   const [selectedSession, setSelectedSession] =
@@ -37,13 +37,13 @@ const ProgramList = () => {
     <section className="program-list">
       <div className="mb-8">
         <TopBanner
-          title="Extrait du Programme"
+          title={t("edition:isWaitingNextEdition") ? t("program:waiting-title-widget", { year: t("edition:nextEditionYear") }) : t("program:title-widget")}
           onNextClick={handleNext}
           onPrevClick={handlePrev}
         >
           <div className="hidden md:block">
             <ButtonLink variant="secondary-invert" href={t("program:href")}>
-              {t("program:label")}
+              {t("edition:isWaitingNextEdition") ? t("program:waiting-label", { year: t("edition:nextEditionYear") }) : t("program:label")}
             </ButtonLink>
           </div>
           <div className="md:hidden">

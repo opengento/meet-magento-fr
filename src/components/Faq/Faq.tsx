@@ -1,7 +1,6 @@
 "use client";
 import React, { ReactNode, useState } from "react";
 import {
-  FaBus,
   FaCompass,
   FaHeart,
   FaLanguage,
@@ -29,29 +28,29 @@ const Faq = ({
     answer: string;
   }[] = [
     {
-      question: "Quelle est la date et le lieu de Meet Magento France 2025 ?",
+      question: "Quelle est la date et le lieu de Meet Magento France 2026 ?",
       icon: <FaCompass className="text-pink" size={16} />,
       answer:
-        "Meet Magento France 2025 se déroulera le 25 mars 2025, à L’Étoile Business Center à Paris.",
+        "Suivez les actualités sur le compte Linkedin de l'événement et soyez avertis dès que la date et le lieu seront annoncés.",
     },
     {
       question:
-        "Quels types de conférences seront proposés lors de l'événement ?",
+        "Quels types de conférences seront proposées lors de l'événement ?",
       icon: <FaUser className="text-pink" size={16} />,
       answer:
-        "Des conférences business et techniques animées par des experts du digital, e-ommerçants, éditeurs et agences sont attendues au programme de Meet Magento France 2025 ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
+        "Des conférences business et techniques animées par des experts du digital, e-ommerçants, éditeurs et agences sont attendues au programme de Meet Magento France ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
     },
     {
-      question: "Qui peut participer à Meet Magento France 2025 ?",
+      question: "Qui peut participer à Meet Magento France ?",
       icon: <FaHeart className="text-pink" size={16} />,
       answer:
-        "Meet Magento France 2025 accueillera les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se rencontreront lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
+        "Meet Magento France accueille les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se sont rencontrés lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
     },
     {
-      question: "Comment puis-je acheter des billets pour l'événement ?",
+      question: "Comment puis-je acheter des billets pour l'événement ?",
       icon: <FaTicketAlt className="text-pink" size={16} />,
       answer:
-        "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu.",
+        "Un peu de patience, la billetterie pour Meet Magento France 2026 n'est pas encore ouverte !",
     },
     {
       question: "What if I don't speak French?",
@@ -61,26 +60,19 @@ const Faq = ({
     },
     {
       question:
-        "Puis-je proposer un sujet de conférence pour Meet Magento France 2025 ?",
+        "Puis-je proposer un sujet de conférence pour Meet Magento France 2026 ?",
       icon: <FaStar className="text-pink" size={16} />,
       answer:
-        "L’appel à speakers pour Meet Magento France 2025 est maintenant terminé. Les candidatures ont été clôturées le 31 janvier 2025 !",
+        "L’appel à speakers pour Meet Magento France 2026 n'est pour l'instant pas ouvert.",
     },
     {
-      question: "Que contient un billet pour Meet Magento France 2025 ?",
+      question: "Que contient un billet pour Meet Magento France ?",
       icon: <FaShoppingBag className="text-pink" size={16} />,
       answer:
-        "Lorsque vous achetez un billet pour Meet Magento France 2025 vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
+        "Lorsque vous achetez un billet pour Meet Magento France vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
     },
     {
-      question:
-        "Quels sont les transports à proximité de l'Étoile Business Center ?",
-      icon: <FaBus className="text-pink" size={16} />,
-      answer:
-        "L'Étoile Business Center est idéalement situé à deux pas de l'Arc de Triomphe. Accès direct par les lignes de métro 1, 2 et 6 (station Charles de Gaulle - Étoile) et le RER A. De nombreuses lignes de bus desservent également le quartier.",
-    },
-    {
-      question: "Est-ce qu’il y aura un vestiaire sur place ?",
+      question: "Est-ce qu’il y aura un vestiaire sur place ?",
       icon: <FaTshirt className="text-pink" size={16} />,
       answer:
         "Oui, un vestiaire gratuit sera à votre disposition pendant toute la durée de l'événement.",

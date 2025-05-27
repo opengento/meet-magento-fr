@@ -5,9 +5,10 @@ interface ModalProps {
   isOpen: boolean;
   onClose: () => void;
   children: React.ReactNode;
+  variant?: 'side' | 'center';
 }
 
-const Modal = ({ isOpen, onClose, children }: ModalProps) => {
+const Modal = ({ isOpen, onClose, children, variant = 'side' }: ModalProps) => {
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
@@ -27,36 +28,53 @@ const Modal = ({ isOpen, onClose, children }: ModalProps) => {
     };
   }, [isOpen]);
 
+  React.useEffect(() => {
+    const handleEscapeKey = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isOpen) {
+        onClose();
+      }
+    };
+
+    document.addEventListener('keydown', handleEscapeKey);
+
+    return () => {
+      document.removeEventListener('keydown', handleEscapeKey);
+    };
+  }, [isOpen, onClose]);
+
   if (!mounted) return null;
 
   return (
-    <div
-      className={`fixed inset-0 z-50 transition-[visibility] duration-300 ${
-        isOpen ? "visible" : "invisible delay-300"
-      }`}
+    <div 
+      className={`
+        fixed inset-0 z-50 bg-black/50 transition-opacity
+        ${isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}
+      `}
+      onClick={onClose}
     >
-      <div
-        className={`absolute inset-0 bg-black transition-opacity duration-300 ${
-          isOpen ? "bg-opacity-50" : "bg-opacity-0"
-        }`}
-        onClick={onClose}
-      />
-      <div className="flex items-start justify-end h-full">
-        <div
-          className={`md:rounded-l-xl overflow-hidden w-full md:max-w-2xl h-full bg-white transform transition-transform duration-300 ease-in-out ${
-            isOpen ? "translate-x-0" : "translate-x-full"
-          }`}
-        >
-          <div className="relative h-full overflow-y-auto px-6 py-14 md:px-8 bg-camel ">
-            <button
-              onClick={onClose}
-              className="absolute top-4 right-4 p-2 rounded bg-purple transition hover:bg-purple-500"
-            >
-              <IoClose className="text-white" size={24} />
-            </button>
-            <div className="pb-6 md:pb-8">{children}</div>
-            <div className="fixed z-20 bottom-0 left-0 w-full h-9 bg-[url('/images/pattern_popin.svg')]"></div>
-          </div>
+      <div 
+        className={`
+          absolute bg-white h-full transition-transform duration-300
+          ${variant === 'side' 
+            ? 'right-0 w-full md:w-3/4 lg:w-2/3 translate-x-0' 
+            : 'left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-11/12 md:w-4/5 lg:w-3/4 h-auto max-h-[90vh] rounded-lg'
+          }
+          ${isOpen 
+            ? variant === 'side' ? 'translate-x-0' : 'scale-100'
+            : variant === 'side' ? 'translate-x-full' : 'scale-95'
+          }
+        `}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <div className="relative h-full overflow-y-auto px-6 py-14 md:px-8 bg-camel ">
+          <button
+            onClick={onClose}
+            className="absolute top-4 right-4 p-2 rounded bg-purple transition hover:bg-purple-500"
+          >
+            <IoClose className="text-white" size={24} />
+          </button>
+          <div className={`pb-6 md:pb-8 ${variant === 'center' ? 'h-full' : ''}`}>{children}</div>
+          <div className="fixed z-20 bottom-0 left-0 w-full h-9 bg-[url('/images/pattern_popin.svg')]"></div>
         </div>
       </div>
     </div>

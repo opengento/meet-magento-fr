@@ -3,9 +3,9 @@
     {
       "id": 1,
       "name": "Timothée AUBRY",
-      "company": "Opengento",
-      "companyLogo": "/images/logo/opengento.svg",
-      "companyUrl": "https://opengento.fr/",
+      "company": "PH2M",
+      "companyLogo": "/images/logo/ph2m.jpeg",
+      "companyUrl": "https://www.ph2m.com/",
       "linkedin": "https://www.linkedin.com/in/timoth%C3%A9e-aubry-33b543196/",
       "role": "Developer",
       "photo": "/images/staff/timothee_aubry.png",
@@ -53,6 +53,17 @@
       "linkedin": "https://www.linkedin.com/in/mathis-querne",
       "role": "UI/UX Designer",
       "photo": "/images/staff/mathis_querne.png",
+      "biography": ""
+    },
+    {
+      "id": 6,
+      "name": "Lucie Guillaume",
+      "company": "PH2M",
+      "companyLogo": "/images/logo/ph2m.jpeg",
+      "companyUrl": "https://www.ph2m.com/",
+      "linkedin": "https://www.linkedin.com/in/lucie-guillaume-93917473/",
+      "role": "Web Integrator",
+      "photo": "/images/staff/lucie_guillaume.jpg",
       "biography": ""
     }
   ]

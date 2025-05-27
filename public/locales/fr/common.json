@@ -10,9 +10,9 @@
   "contactLabel": "formulaire de contact",
   "programUrl": "/programme",
   "programLabel": "Je découvre la programmation",
-  "pushSubtitle": "Rejoignez-nous à Meet Magento France 2025 !",
-  "pushContent": "Réservez votre place dès maintenant et rejoignez-nous pour un événement riche en échanges, en apprentissages et en opportunités !",
-  "pushWelcome": "Nous avons hâte de vous accueillir à cet événement exceptionnel ! \nN’hésitez pas à nous contacter si vous avez des questions pratiques.",
+  "pushSubtitle": "Rejoignez-nous à Meet Magento France {{year}} !",
+  "pushContent": "Réservez votre place dès maintenant et rejoignez-nous pour un événement riche en échanges, en apprentissages et en opportunités !",
+  "pushWelcome": "Nous avons hâte de vous accueillir à cet événement exceptionnel ! \nN’hésitez pas à nous contacter si vous avez des questions pratiques.",
   "days": "Jours",
   "hours": "Heures",
   "minutes": "Minutes",
@@ -21,8 +21,9 @@
   "email": "Email",
   "objet": "Objet",
   "message": "Message",
-  "help": "Comment pouvons-nous vous aider ?",
+  "help": "Comment pouvons-nous vous aider ?",
   "agreeTerms": "J’accepte les Termes et conditions.",
   "send": "Envoyer",
-  "sponsoredBy": "Sponsorisé par :"
+  "sponsoredBy": "Sponsorisé par :",
+  "seeAll": "Voir tout"
 }

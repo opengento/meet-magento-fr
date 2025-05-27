@@ -18,7 +18,7 @@ const Push = () => {
       >
         <div className="flex flex-col gap-6 h-full justify-center">
           <Typography variant="h5" weight="semibold" color="primary">
-            {t('common:pushSubtitle')}
+            {t('common:pushSubtitle', { year: t('edition:nextEditionYear') })}
           </Typography>
           <Typography color="dark" weight="medium">
             {t('common:pushContent')}
