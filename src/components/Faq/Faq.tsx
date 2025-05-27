@@ -1,7 +1,6 @@
 "use client";
 import React, { ReactNode, useState } from "react";
 import {
-  FaBus,
   FaCompass,
   FaHeart,
   FaLanguage,

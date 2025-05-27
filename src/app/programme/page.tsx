@@ -9,7 +9,7 @@ import Timeline from "@/components/Program/Timeline";
 import ProgramFilter from "@/components/Program/ProgramFilter";
 
 export default function Page() {
-  const { t } = useTranslation(["program"]);
+  const { t } = useTranslation(["program", "edition"]);
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
 
   return (
@@ -21,7 +21,7 @@ export default function Page() {
           weight="semibold"
           className="mb-2"
         >
-          {t("program:title")}
+          {t("edition:isWaitingNextEdition") ? t("program:waiting-title", { year: t("edition:nextEditionYear") }) : t("program:title")}
         </Typography>
         <Typography color="dark" className="whitespace-pre-wrap">
           {t("program:description")}

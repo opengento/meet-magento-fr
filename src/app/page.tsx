@@ -1,11 +1,9 @@
 "use client";
 
 import ContentMedia from "@/components/ContentMedia/ContentMedia";
-import Place from "@/components/Place/Place";
 import Faq from "@/components/Faq/Faq";
 import SponsorList from "@/components/SponsorList/SponsorList";
 import Container from "@/layouts/Container";
-import Hero from "@/components/Hero/Hero";
 import Speakers from "@/components/Speakers/Speakers";
 import Program from "@/components/Program/Program";
 import useDataProvider from "@/hooks/useDataProvider";
@@ -13,14 +11,19 @@ import Typography from "@/components/Typography/Typography";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import Merchants from "@/components/Merchants/Merchants";
-
+import HeroWaitingNext from "@/components/HeroWaitingNext/HeroWaitingNext";
+import Hero from "@/components/Hero/Hero";
 export default function Home() {
-  const { t } = useTranslation(["common"]);
+  const { t } = useTranslation(["common", "edition"]);
   const dataProvider = useDataProvider();
 
   return (
     <div className="relative -top-[104px] left-0">
-      <Hero />
+      {t("edition:isWaitingNextEdition") ? (
+        <HeroWaitingNext />
+      ) : (
+        <Hero />
+      )}
       <div id="programs">
         <Program />
       </div>

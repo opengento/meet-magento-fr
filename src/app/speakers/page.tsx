@@ -12,7 +12,7 @@ import { PersonProps } from "@/components/Person/PersonProps";
 import SpeakerPopIn from "@/components/Speakers/Speaker/SpeakerPopIn";
 
 export default function Page() {
-  const { t } = useTranslation(['speakers']);
+  const { t } = useTranslation(['speakers', 'edition']);
   const dataProvider = useDataProvider();
   const speakers = dataProvider.useSpeakers()
   const [selectedSpeaker, setSelectedSpeaker] = React.useState<PersonProps | null>(null);
@@ -35,7 +35,7 @@ export default function Page() {
           underlineColor="primary-100"
           className="mb-2"
         >
-          {t('speakers:title')}
+          {t('edition:isWaitingNextEdition') ? t('speakers:waitingTitle', { year: t('edition:nextEditionYear') }) : t('speakers:title')}
         </Typography>
         <Typography
           color="dark"
