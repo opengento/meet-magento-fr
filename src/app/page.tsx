@@ -60,15 +60,6 @@ export default function Home() {
               </Typography>
             </ContentMedia>
           </div>
-          <div id="place">
-            <ContentMedia
-              imageUrl="/images/media/etoile_business_center.jpeg"
-              imagePosition="left"
-              imageWidth="40%"
-            >
-              <Place place={dataProvider.usePlace()} />
-            </ContentMedia>
-          </div>
         </div>
       </Container>
     </div>

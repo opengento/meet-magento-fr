@@ -4,7 +4,7 @@ const About = () => {
   return (
     <>
       <Typography variant="h6" weight="bold" className="uppercase mb-4 text-white">
-        À propos de Meet Magento Paris 2025
+        À propos de Meet Magento Paris
       </Typography>
       <Typography className="text-white">
         Meet Magento est une conférence annuelle axée sur la plateforme de e-commerce Magento. Elle rassemble
