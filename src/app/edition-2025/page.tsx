@@ -4,7 +4,7 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Typography from "@/components/Typography/Typography";
 import Container from "@/layouts/Container";
 import GridGallery from "@/components/GridGallery/GridGallery";
-import galleryImages from "@/components/GridGallery/gallery-images.json";
+import galleryImages from "../../../public/content/gallery/2025.json";
 
 export default function Page() {
   return (
