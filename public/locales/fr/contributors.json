@@ -54,6 +54,17 @@
       "role": "UI/UX Designer",
       "photo": "/images/staff/mathis_querne.png",
       "biography": ""
+    },
+    {
+      "id": 6,
+      "name": "Lucie Guillaume",
+      "company": "Opengento",
+      "companyLogo": "/images/logo/opengento.svg",
+      "companyUrl": "https://opengento.fr/",
+      "linkedin": "https://www.linkedin.com/in/lucie-guillaume-93917473/",
+      "role": "Web Integrator",
+      "photo": "/images/staff/lucie_guillaume.jpg",
+      "biography": ""
     }
   ]
 }
