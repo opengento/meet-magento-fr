@@ -1,12 +1,11 @@
 'use client';
 
 import GridItemImage from "./GridItemImage";
-import galleryImages from './gallery-images.json';
 
-const GridGallery = () => {
+const GridGallery = ({ images }: { images: { src: string; alt: string; format: string }[] }) => {
   return (
     <div className="grid-gallery grid grid-cols-[repeat(auto-fit,minmax(12.5rem,1fr))] auto-rows-[12.5rem] grid-flow-dense gap-4">
-      {galleryImages.map((image) => (
+      {images.map((image) => (
         <GridItemImage 
           key={image.src} 
           src={image.src} 

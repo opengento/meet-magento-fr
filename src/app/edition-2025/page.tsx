@@ -4,6 +4,8 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import Typography from "@/components/Typography/Typography";
 import Container from "@/layouts/Container";
 import GridGallery from "@/components/GridGallery/GridGallery";
+import galleryImages from "@/components/GridGallery/gallery-images.json";
+
 export default function Page() {
   return (
     <Container className="flex flex-col gap-8 my-8">
@@ -17,7 +19,7 @@ export default function Page() {
           Édition 2025
         </Typography>
       </ContentMedia>
-      <GridGallery />
+      <GridGallery images={galleryImages as { src: string; alt: string; format: string }[]} />
     </Container>
   );
 }

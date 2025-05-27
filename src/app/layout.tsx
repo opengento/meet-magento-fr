@@ -4,6 +4,7 @@ import "/public/styles.css";
 import Header from "@/layouts/Header/Header";
 import Footer from "@/layouts/Footer/Footer";
 import TranslationsProvider from '@/components/TranslationsProvider/TranslationsProvider';
+import { ImageModalProvider } from '@/contexts/ImageModalContext';
 
 const ibmPlexSansCondensed = IBM_Plex_Sans_Condensed({
   variable: "--font-ibm-plex-sans-condensed",
@@ -43,9 +44,11 @@ export default function RootLayout({
     <html className="font-sans" lang="fr">
       <body className={`${ibmPlexSansCondensed.variable} ${montserrat.variable} antialiased bg-camel`}>
         <TranslationsProvider>
-          <Header/>
-          <main>{children}</main>
-          <Footer/>
+          <ImageModalProvider>
+            <Header/>
+            <main>{children}</main>
+            <Footer/>
+          </ImageModalProvider>
         </TranslationsProvider>
       </body>
     </html>
