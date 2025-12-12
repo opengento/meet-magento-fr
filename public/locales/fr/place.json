@@ -25,7 +25,7 @@
   },
   "access": {
     "title": "Accès au lieu",
-    "description": "L'Étoile Business Center est idéalement situé à proximité des Champs-Élysées, dans le cœur du quartier d'affaires emblématique de Paris.",
+    "description": "Les Salons de l’Aveyron sont idéalement situés au cœur de la dynamique du quartier de Bercy, emblématique de Paris.",
     "publicTransport": {
       "title": "Transports en commun",
       "itinerary": []
@@ -45,7 +45,7 @@
     "title": "les Salons de l’Aveyron",
     "subtitle": "En plein coeur de Bercy",
     "address": "17 Rue de l’Aubrac, 75012 Paris",
-    "description": "Le 25 juin 2026, Meet Magento France se tiendra dans un cadre d’exception : les Salons de l’Aveyron, à Paris. Situés au cœur de la dynamique quartier de Bercy, les Salons de l'Aveyron Paris Bercy en font l’écrin idéal pour une journée riche en échanges, partages d’expériences et exploration des dernières innovations autour de Magento et Adobe Commerce.",
+    "description": "Le 25 juin 2026, Meet Magento France se tiendra dans un cadre d’exception : les Salons de l’Aveyron, à Paris. Situés au cœur de la dynamique du quartier de Bercy, les Salons de l'Aveyron Paris Bercy en font l’écrin idéal pour une journée riche en échanges, partages d’expériences et exploration des dernières innovations autour de Magento et Adobe Commerce.",
     "label": "Préparer ma venue",
     "page": "/place",
     "url": "https://maps.app.goo.gl/sryYMjHKVLPPqh2m6"
