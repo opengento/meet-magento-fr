@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70.1 50 259.8 300" width="259.8px" height="300px">
+  <defs>
+    <style>.cls-1{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{fill:#fff;}</style>
+  </defs>
+  <g id="hexagone_contour_" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, 0)">
+    <polygon class="cls-1" points="329.9 275 329.9 125 200 50 70.1 125 70.1 275 200 350 329.9 275"></polygon>
+  </g>
+  <g id="lettres" transform="matrix(1, 0, 0, 1, -7.105427357601002e-15, 0)">
+    <path class="cls-2" d="M184.06,173.37l-.07-29.02-14.23,23.91h-5.04l-14.17-23.29v28.4h-10.5v-48.37h9.26l18.1,30.06,17.83-30.06h9.19l.14,48.37h-10.5Z"></path>
+    <path class="cls-2" d="M249.45,173.37l-.07-29.02-14.23,23.91h-5.04l-14.17-23.29v28.4h-10.5v-48.37h9.26l18.1,30.06,17.83-30.06h9.19l.14,48.37h-10.5Z"></path>
+    <path class="cls-2" d="M140.04,275v-83.43h45.06v8.49h-35.5v28.45h32.27v8.49h-32.27v38.01h-9.56Z"></path>
+    <path class="cls-2" d="M215,275h-9.56v-83.43h30.72c13.78,0,20.68,7.93,20.68,23.79,0,13.39-4.94,21.12-14.82,23.19l16.85,36.46h-10.76l-15.66-35.86h-17.45v35.86ZM235.91,231.02c7.09,0,10.64-3.81,10.64-11.43v-8.1c0-7.62-3.55-11.43-10.64-11.43h-20.92v30.96h20.92Z"></path>
+  </g>
+</svg>

@@ -4,7 +4,7 @@ import Typography from "@/components/Typography/Typography";
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import CountdownTimer from "@/components/Countdown/Countdown"
 import Container from "@/layouts/Container";
-import MMFRFull from "/public/images/mmfr25-full.svg";
+import MMFRFull from "/public/images/mmfr-full.svg";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
