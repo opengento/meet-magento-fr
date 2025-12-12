@@ -46,7 +46,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
     <section className="speakers-list">
       <div className="mb-12">
         <TopBanner
-          title={t("edition:isWaitingNextEdition") ? t("speakers:waitingListTitle", { year: t("edition:nextEditionYear") }) : t("speakers:listTitle")}
+          title={t("speakers:listTitle")}
           backgroundImage="/images/pattern_top-banner_speakers.svg"
           onPrevClick={handlePrev}
           onNextClick={handleNext}
@@ -60,7 +60,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
               </div>
               <div className="hidden md:block">
                 <ButtonLink variant="secondary" href={actions.seeAllUrl}>
-                  {t("edition:isWaitingNextEdition") ? t("speakers:waitingListLabel", { year: t("edition:nextEditionYear") }) : t("speakers:listLabel")}
+                  {t("speakers:listLabel")}
                 </ButtonLink>
               </div>
             </>

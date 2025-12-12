@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 import Merchants from "@/components/Merchants/Merchants";
 import HeroWaitingNext from "@/components/HeroWaitingNext/HeroWaitingNext";
 import Hero from "@/components/Hero/Hero";
+
 export default function Home() {
   const { t } = useTranslation(["common", "edition"]);
   const dataProvider = useDataProvider();

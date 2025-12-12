@@ -99,7 +99,7 @@ const Footer = () => {
           className: "mb-2",
           color: "light",
           variant: "small",
-          children: "© 2025 Meet Magento Paris. Meet Magento is a brand of the Magento Association."
+          children: "© Meet Magento France. Meet Magento is a brand of the Magento Association."
         }
       },
       className: footerMenuItemStyles

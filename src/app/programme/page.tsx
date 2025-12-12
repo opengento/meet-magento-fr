@@ -21,7 +21,7 @@ export default function Page() {
           weight="semibold"
           className="mb-2"
         >
-          {t("edition:isWaitingNextEdition") ? t("program:waiting-title", { year: t("edition:nextEditionYear") }) : t("program:title")}
+          {t("program:title")}
         </Typography>
         <Typography color="dark" className="whitespace-pre-wrap">
           {t("program:description")}

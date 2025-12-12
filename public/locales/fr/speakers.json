@@ -1,21 +1,18 @@
 {
-  "title": "Speakers",
-  "waitingTitle": "Speakers {{year}}",
-  "description": "Découvrez les speakers de Meet Magento France, des experts qui interviendront tout au long de la journée lors de conférences sur Magento et Adobe Commerce : stratégie business, E-Commerce, retours d’expérience et expertise technique. Une occasion unique d’enrichir vos connaissances et de découvrir les dernières tendances du secteur !",
+  "title": "Speakers 2025",
+  "description": "Découvrez les speakers de Meet Magento France, des experts qui interviendront tout au long de la journée lors de conférences sur Magento et Adobe Commerce : stratégie business, E-Commerce, retours d’expérience et expertise technique. Une occasion unique d’enrichir vos connaissances et de découvrir les dernières tendances du secteur !",
   "actions": {
     "submitUrl": null,
     "seeAllUrl": "/speakers"
   },
-  "listTitle": "Liste des speakers",
-  "waitingListTitle": "Liste des speakers {{year}}",
-  "listLabel": "Découvrir les speakers",
-  "waitingListLabel": "Découvrir les speakers {{year}}",
+  "listTitle": "Liste des speakers 2025",
+  "listLabel": "Redécouvrir les speakers 2025",
   "data": {
     "title": "Appel à speakers",
     "subtitle": "Vous êtes expert du e-commerce ou passionné de Magento ?",
-    "description": "Partagez vos connaissances sur la scène de Meet Magento 2025 France, le 25 mars à Paris.",
+    "description": "Partagez vos connaissances sur la scène de Meet Magento 2026 France, le 25 juin à Paris.",
     "isRegistrationEnabled": false,
-    "registrationLabel": "Rejoignez les conférenciers de MM25FR",
+    "registrationLabel": "Rejoignez les conférenciers de MMFR26",
     "registrationFormUrl": "https://forms.gle/M6Y8V2xP7PGw5VD8A",
     "speakers": [
       {

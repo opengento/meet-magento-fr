@@ -37,13 +37,13 @@ const ProgramList = () => {
     <section className="program-list">
       <div className="mb-8">
         <TopBanner
-          title={t("edition:isWaitingNextEdition") ? t("program:waiting-title-widget", { year: t("edition:nextEditionYear") }) : t("program:title-widget")}
+          title={t("program:title-widget")}
           onNextClick={handleNext}
           onPrevClick={handlePrev}
         >
           <div className="hidden md:block">
             <ButtonLink variant="secondary-invert" href={t("program:href")}>
-              {t("edition:isWaitingNextEdition") ? t("program:waiting-label", { year: t("edition:nextEditionYear") }) : t("program:label")}
+              {t("program:label")}
             </ButtonLink>
           </div>
           <div className="md:hidden">

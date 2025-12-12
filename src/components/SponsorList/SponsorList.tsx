@@ -13,8 +13,8 @@ import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import { useTranslation } from "react-i18next";
 
 const SponsorList = ({ items }: { items: SponsorProps[] }) => {
-  const { t } = useTranslation(['sponsors']);
-  const actions = t('actions', { returnObjects: true });
+  const { t } = useTranslation(['common', 'sponsors']);
+  const actions = t('sponsors:actions', { returnObjects: true });
 
   const sponsorListByType: Record<SponsorTypeProps, SponsorProps[]> =
     items.reduce(
@@ -44,24 +44,24 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
     <BackgroundImage imagePath="/images/background/sponsors.jpg" className="py-12">
       <Container size="large">
         <TopBanner
-          title="Merci à nos sponsors"
+          title={t("sponsors:bannerTitle")}
           backgroundImage="/images/pattern_top-banner_sponsors.svg"
         >
           {'submitUrl' in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
             <ButtonLink variant="secondary" href={actions.submitUrl}>
-              Devenir sponsor
+              ${t("sponsors:submit")}
             </ButtonLink>
           )}
           {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && !!actions.seeAllUrl && (
             <>
               <div className="hidden md:block">
                 <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
-                  Voir tous les sponsors
+                  {t("sponsors:seeAll")}
                 </ButtonLink>
               </div>
               <div className="md:hidden">
                 <ButtonLink variant="soft-pink" href={actions.seeAllUrl}>
-                  Voir tout
+                  {t("common:seeAll")}
                 </ButtonLink>
               </div>
             </>
