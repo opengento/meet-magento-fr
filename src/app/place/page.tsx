@@ -36,7 +36,7 @@ export default function Page() {
         <Schedule schedule={dataProvider.usePlaceSchedule()} />
       </ContentMedia>
       <ContentMedia
-        imageUrl="/images/media/etoile_business_center.jpeg"
+        imageUrl="/images/media/salonsdelaveyron.png"
         imagePosition="right"
         imageWidth="50%"
       >

@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 import Merchants from "@/components/Merchants/Merchants";
 import HeroWaitingNext from "@/components/HeroWaitingNext/HeroWaitingNext";
 import Hero from "@/components/Hero/Hero";
+import Place from "@/components/Place/Place";
 
 export default function Home() {
   const { t } = useTranslation(["common", "edition"]);
@@ -21,21 +22,21 @@ export default function Home() {
   return (
     <div className="relative -top-[104px] left-0">
       {t("edition:isWaitingNextEdition") ? (
-        <HeroWaitingNext />
+        <HeroWaitingNext/>
       ) : (
-        <Hero />
+        <Hero/>
       )}
       <div id="programs">
-        <Program />
+        <Program/>
       </div>
       <div id="speakers">
-        <Speakers data={dataProvider.useSpeakers()} />
+        <Speakers data={dataProvider.useSpeakers()}/>
       </div>
       <div id="sponsors">
-        <SponsorList items={dataProvider.useSponsors()} />
+        <SponsorList items={dataProvider.useSponsors()}/>
       </div>
       <Container size="large">
-        <Merchants />
+        <Merchants/>
         <div className="content-media-sections flex flex-col gap-12 py-12">
           <div id="faq">
             <ContentMedia
@@ -45,7 +46,7 @@ export default function Home() {
               title="Besoin d'aide ?"
               titleUnderlineColor="purple-100"
             >
-              <Faq display="list" limit={5} />
+              <Faq display="list" limit={5}/>
               <Typography
                 variant="small"
                 color="dark"
@@ -62,6 +63,15 @@ export default function Home() {
                 </Link>
                 .
               </Typography>
+            </ContentMedia>
+          </div>
+          <div id="place">
+            <ContentMedia
+              imageUrl="/images/media/salonsdelaveyron.png"
+              imagePosition="left"
+              imageWidth="40%"
+            >
+              <Place place={dataProvider.usePlace()}/>
             </ContentMedia>
           </div>
         </div>
