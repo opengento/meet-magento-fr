@@ -60,7 +60,9 @@ const Hero = () => {
               </div>
             </div>
             <div className="hidden md:flex flex-wrap justify-center gap-8">
-              <MMFRFull/>
+              <div className="object-contain w-2/5">
+                <MMFRFull/>
+              </div>
               <CountdownTimer targetDate={new Date(t('edition:nextEditionDate'))}/>
               {showTicket && (
                 <ButtonLink
