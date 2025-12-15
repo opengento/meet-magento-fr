@@ -6,7 +6,7 @@ import Typography from "@/components/Typography/Typography";
 import { List as FooterMenu } from "@/components/List/List";
 import Container from "@/layouts/Container";
 import FooterLogo from "/public/images/mmfr.svg";
-import HashtagMMFR from "/public/images/mmfr2025-footer.svg";
+import HashtagMMFR from "/public/images/mmfr2026-footer.svg";
 import FooterPatternLeft from "/public/images/footer_pattern_left.svg";
 import FooterPatternRight from "/public/images/footer_pattern_right.svg";
 import { Content, ListItem } from "@/components/List/List.types";
