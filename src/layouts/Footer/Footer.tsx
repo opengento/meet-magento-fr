@@ -5,8 +5,8 @@ import About from "@/components/About/About";
 import Typography from "@/components/Typography/Typography";
 import { List as FooterMenu } from "@/components/List/List";
 import Container from "@/layouts/Container";
-import FooterLogo from "/public/images/logo_macaron.svg";
-import HashtagMMFR from "/public/images/mmfr2025-footer.svg";
+import FooterLogo from "/public/images/mmfr.svg";
+import HashtagMMFR from "/public/images/mmfr2026-footer.svg";
 import FooterPatternLeft from "/public/images/footer_pattern_left.svg";
 import FooterPatternRight from "/public/images/footer_pattern_right.svg";
 import { Content, ListItem } from "@/components/List/List.types";
@@ -99,7 +99,7 @@ const Footer = () => {
           className: "mb-2",
           color: "light",
           variant: "small",
-          children: "© 2025 Meet Magento Paris. Meet Magento is a brand of the Magento Association."
+          children: "© Meet Magento France. Meet Magento is a brand of the Magento Association."
         }
       },
       className: footerMenuItemStyles

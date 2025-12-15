@@ -4,7 +4,7 @@ import Typography from "@/components/Typography/Typography";
 import BackgroundImage from "@/components/BackgroundImage/BackgroundImage";
 import CountdownTimer from "@/components/Countdown/Countdown"
 import Container from "@/layouts/Container";
-import MMFRFull from "/public/images/mmfr25-full.svg";
+import MMFRFull from "/public/images/mmfr-full.svg";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
@@ -60,7 +60,9 @@ const Hero = () => {
               </div>
             </div>
             <div className="hidden md:flex flex-wrap justify-center gap-8">
-              <MMFRFull/>
+              <div className="object-contain w-2/5">
+                <MMFRFull/>
+              </div>
               <CountdownTimer targetDate={new Date(t('edition:nextEditionDate'))}/>
               {showTicket && (
                 <ButtonLink

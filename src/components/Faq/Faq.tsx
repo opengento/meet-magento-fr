@@ -28,29 +28,28 @@ const Faq = ({
     answer: string;
   }[] = [
     {
-      question: "Quelle est la date et le lieu de Meet Magento France 2026 ?",
+      question: "Quelle est la date et le lieu de Meet Magento France 2026 ?",
       icon: <FaCompass className="text-pink" size={16} />,
-      answer:
-        "Suivez les actualités sur le compte Linkedin de l'événement et soyez avertis dès que la date et le lieu seront annoncés.",
+      answer: "Meet Magento France 2026 se déroulera le 25 juin 2026 aux Salons de l’Aveyron, 17 Rue de l’Aubrac, 75012 Paris",
     },
     {
       question:
-        "Quels types de conférences seront proposées lors de l'événement ?",
+        "Quels types de conférences seront proposées lors de l'événement ?",
       icon: <FaUser className="text-pink" size={16} />,
       answer:
-        "Des conférences business et techniques animées par des experts du digital, e-ommerçants, éditeurs et agences sont attendues au programme de Meet Magento France ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
+        "Des conférences business et techniques animées par des experts du digital, e-ommerçants, éditeurs et agences sont attendues au programme de Meet Magento France ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
     },
     {
-      question: "Qui peut participer à Meet Magento France ?",
+      question: "Qui peut participer à Meet Magento France ?",
       icon: <FaHeart className="text-pink" size={16} />,
       answer:
-        "Meet Magento France accueille les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se sont rencontrés lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
+        "Meet Magento France accueille les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se sont rencontrés lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
     },
     {
-      question: "Comment puis-je acheter des billets pour l'événement ?",
+      question: "Comment puis-je acheter des billets pour l'événement ?",
       icon: <FaTicketAlt className="text-pink" size={16} />,
       answer:
-        "Un peu de patience, la billetterie pour Meet Magento France 2026 n'est pas encore ouverte !",
+        "Un peu de patience, la billetterie pour Meet Magento France 2026 n'est pas encore ouverte !",
     },
     {
       question: "What if I don't speak French?",
@@ -60,19 +59,19 @@ const Faq = ({
     },
     {
       question:
-        "Puis-je proposer un sujet de conférence pour Meet Magento France 2026 ?",
+        "Puis-je proposer un sujet de conférence pour Meet Magento France 2026 ?",
       icon: <FaStar className="text-pink" size={16} />,
       answer:
         "L’appel à speakers pour Meet Magento France 2026 n'est pour l'instant pas ouvert.",
     },
     {
-      question: "Que contient un billet pour Meet Magento France ?",
+      question: "Que contient un billet pour Meet Magento France ?",
       icon: <FaShoppingBag className="text-pink" size={16} />,
       answer:
         "Lorsque vous achetez un billet pour Meet Magento France vous accédez à la totalité des conférences de l’événement, du petit-déjeuner d’accueil à cocktail dinatoire de clôture, en passant par le déjeuner networking.",
     },
     {
-      question: "Est-ce qu’il y aura un vestiaire sur place ?",
+      question: "Est-ce qu’il y aura un vestiaire sur place ?",
       icon: <FaTshirt className="text-pink" size={16} />,
       answer:
         "Oui, un vestiaire gratuit sera à votre disposition pendant toute la durée de l'événement.",

@@ -1,10 +1,10 @@
 {
-  "title" : "Découvrez le programme !",
-  "subtitle" : "Meet Magento France {{year}}",
-  "content" : "Rejoignez la communauté Magento et Adobe Commerce pour une journée d'innovations, d'échanges et d'expertise, à ne pas manquer !\n\nDe nombreux marchands, éditeurs et agences ont déjà confirmé leur présence.",
-  "place": "L'Étoile Business Center, Paris",
+  "title" : "Save the date!",
+  "subtitle" : "Meet Magento France est de retour",
+  "content" : "Rejoignez la communauté Magento et Adobe Commerce pour une journée d'innovations, d'échanges et d'expertise, à ne pas manquer !",
+  "place": "Les Salons de l’Aveyron, Paris",
   "ticket": "Je prends mon billet",
-  "program": "Voir le programme",
+  "program": "Redécouvrir le programme de 2025",
   "youtube-label": "Revivez la première édition de Meet Magento France",
   "linkedin-label": "Suivez nos actualités sur Linkedin",
   "waiting-next-title": "Meet Magento France {{year}} sera bientôt de retour…"

@@ -1,6 +1,6 @@
 {
   "title": "Préparer ma venue",
-  "description": "Voici toutes les informations pratiques pour faciliter votre participation au Meet Magento Paris {{year}}:\n\nNous sommes ravis de vous accueillir le 25 mars 2025 à l'Étoile Business Center, situé au 21-25 Rue Balzac, 75008 Paris, dans un cadre prestigieux, idéal pour une journée de conférences et de networking.",
+  "description": "Voici toutes les informations pratiques pour faciliter votre participation au Meet Magento Paris {{year}}:\n\nNous sommes ravis de vous accueillir le 25 juin 2026 aux Salons de l’Aveyron, situé au 7 Rue de l’Aubrac, 75012 Paris, dans un cadre prestigieux, idéal pour une journée de conférences et de networking.",
   "schedules": {
     "title": "Horaires de l'événement :",
     "times": [
@@ -25,75 +25,29 @@
   },
   "access": {
     "title": "Accès au lieu",
-    "description": "L'Étoile Business Center est idéalement situé à proximité des Champs-Élysées, dans le cœur du quartier d'affaires emblématique de Paris.",
+    "description": "Les Salons de l’Aveyron sont idéalement situés au cœur de la dynamique du quartier de Bercy, emblématique de Paris.",
     "publicTransport": {
       "title": "Transports en commun",
-      "itinerary": [
-        {
-          "icons": [
-            "/images/place/access/rer_a.svg",
-            "/images/place/access/subway_etoile.svg"
-          ],
-          "name": "Charles de Gaulle – Étoile"
-        },
-        {
-          "icons": ["/images/place/access/subway_georgev.svg"],
-          "name": "George V"
-        },
-        {
-          "icons": ["/images/place/access/subway_ternes.svg"],
-          "name": "Ternes"
-        },
-        {
-          "icons": ["/images/place/access/bus.svg"],
-          "name": "22, 31, 43, 52, 93"
-        }
-      ]
+      "itinerary": []
     },
     "parking": {
       "title": "Venir en voiture",
       "description": "Si vous venez en voiture, plusieurs parkings sont disponibles à proximité, tels que :",
-      "locations": [
-        {
-          "name": "Parking Indigo Etoile-Friedland",
-          "url": "https://www.indigoneo.fr/fr/parkings/364/parking-etoile-friedland"
-        },
-        {
-          "name": "Parking Indigo Paris Hoche",
-          "url": "https://www.indigoneo.fr/fr/parkings/361/parking-hoche"
-        }
-      ]
+      "locations": []
     }
   },
   "accommodation": {
     "title": "Hébergements à proximité",
-    "description": "Pour votre confort, voici quelques hôtels situés à proximité de l'Étoile Business Center :",
-    "locations": [
-      {
-        "name": "Hôtel 4 étoiles Royal Garden Champs-Elysées Paris",
-        "url": "https://www.royalgardenparis.com/"
-      },
-      {
-        "name": "Hôtel Sofitel Paris Arc de Triomphe",
-        "url": "https://www.sofitel-paris-arcdetriomphe.com/"
-      },
-      {
-        "name": "Pley Hotel",
-        "url": "https://pley-hotel.com/"
-      },
-      {
-        "name": "Hotel Le Friedland",
-        "url": "https://www.hotel-paris-friedland.com/"
-      }
-    ]
+    "description": "Pour votre confort, voici quelques hôtels situés à proximité des Salons de l’Aveyron :",
+    "locations": []
   },
   "location": {
-    "title": "L’Étoile Business Center",
-    "subtitle": "En plein coeur de Paris, à deux pas des Champs-Élysées",
-    "address": "21-25 Rue Balzac, 75008 Paris",
-    "description": "Le 25 mars 2025, Meet Magento France se tiendra dans un cadre d’exception : l’Étoile Business Center, à Paris. Situé à deux pas des Champs-Élysées, ce lieu prestigieux, alliant élégance et modernité, incarne la classe française. Son architecture lumineuse et ses espaces raffinés en font l’écrin idéal pour une journée riche en échanges, partages d’expériences et exploration des dernières innovations autour de Magento et Adobe Commerce.",
+    "title": "les Salons de l’Aveyron",
+    "subtitle": "En plein coeur de Bercy",
+    "address": "17 Rue de l’Aubrac, 75012 Paris",
+    "description": "Le 25 juin 2026, Meet Magento France se tiendra dans un cadre d’exception : les Salons de l’Aveyron, à Paris. Situés au cœur de la dynamique du quartier de Bercy, les Salons de l'Aveyron Paris Bercy en font l’écrin idéal pour une journée riche en échanges, partages d’expériences et exploration des dernières innovations autour de Magento et Adobe Commerce.",
     "label": "Préparer ma venue",
     "page": "/place",
-    "url": "https://maps.app.goo.gl/XbqcGru7BhXb6T4Y8"
+    "url": "https://maps.app.goo.gl/sryYMjHKVLPPqh2m6"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "isWaitingNextEdition": true,
-  "nextEditionDate": "2025-03-25T08:00:00",
-  "nextEditionYear": "2025",
-  "waitingNextEditionYear": "2026",
-  "registrationLabel": "MM25FR"
+  "isWaitingNextEdition": false,
+  "nextEditionDate": "2026-06-25T08:00:00",
+  "nextEditionYear": "2026",
+  "waitingNextEditionYear": "2027",
+  "registrationLabel": "MM26FR"
 }
