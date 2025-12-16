@@ -7,6 +7,8 @@ import { useTranslation } from "react-i18next";
 import Push from "@/layouts/Push/Push";
 import Faq from "@/components/Faq/Faq";
 import ContactForm from "@/layouts/Form/ContactForm";
+import Link from "next/link";
+import ButtonLink from "@/components/ButtonLink/ButtonLink";
 
 export default function Page() {
   const { t } = useTranslation(['faq']);
@@ -51,7 +53,13 @@ export default function Page() {
         >
           {t('faq:contactFormTitle')}
         </Typography>
-        <ContactForm action={t('faq:contactFormActionUrl')} />
+
+        <Typography color="dark" weight="semibold">
+          {t('faq:contactText')}
+          <Link href={`mailto:${t('faq:contactEmail')}`} className="ml-2 underline">
+            {t('faq:contactEmail')}
+          </Link>
+        </Typography>
       </div>
       <Push/>
     </Container>

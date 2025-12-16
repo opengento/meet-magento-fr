@@ -15,7 +15,7 @@ const ContactForm = ({ action }: Contact) => {
       {/* To Track referrals , place the referrer name within the " " in the above hidden input field */}
       <input type="hidden" name="zf_referrer_name" value="mmfr-website"/>
       {/* To redirect to a specific page after record submission , place the respective url within the " " in the above hidden input field */}
-      <input type="hidden" name="zf_redirect_url" value="https://meet-magento.opengento.fr/contact"/>
+      <input type="hidden" name="zf_redirect_url" value="https://fr.meet-magento.com/contact"/>
       {/* If GCLID is enabled in Zoho CRM Integration, click details of AdWords Ads will be pushed to Zoho CRM */}
       <input type="hidden" name="zc_gad" value=""/>
 
