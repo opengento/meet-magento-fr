@@ -37,7 +37,7 @@ const Faq = ({
         "Quels types de conférences seront proposées lors de l'événement ?",
       icon: <FaUser className="text-pink" size={16} />,
       answer:
-        "Des conférences business et techniques animées par des experts du digital, e-ommerçants, éditeurs et agences sont attendues au programme de Meet Magento France ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
+        "Des conférences business et techniques animées par des experts du digital, e-commerçants, éditeurs et agences sont attendues au programme de Meet Magento France ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
     },
     {
       question: "Qui peut participer à Meet Magento France ?",
