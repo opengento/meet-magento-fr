@@ -51,11 +51,6 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
           onPrevClick={handlePrev}
           onNextClick={handleNext}
         >
-          {"submitUrl" in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
-            <ButtonLink variant="secondary" href={actions.submitUrl}>
-              ${t("speakers:submit")}
-            </ButtonLink>
-          )}
           {"seeAllUrl" in actions && typeof actions.seeAllUrl === "string" && (
             <>
               <div className="md:hidden">

@@ -49,7 +49,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
         >
           {'submitUrl' in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
             <ButtonLink variant="secondary" href={actions.submitUrl}>
-              ${t("sponsors:submit")}
+              {t("sponsors:submit")}
             </ButtonLink>
           )}
           {'seeAllUrl' in actions && typeof actions.seeAllUrl === 'string' && !!actions.seeAllUrl && (
