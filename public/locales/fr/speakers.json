@@ -5,15 +5,16 @@
     "submitUrl": "https://forms.gle/DPjRvo5ZWKDUFTV26",
     "seeAllUrl": "/speakers"
   },
+  "submit": "Appel à speakers",
   "listTitle": "Liste des speakers 2025",
   "listLabel": "Redécouvrir les speakers 2025",
   "data": {
     "title": "Appel à speakers",
     "subtitle": "Vous êtes expert du e-commerce ou passionné de Magento ?",
     "description": "Partagez vos connaissances sur la scène de Meet Magento 2026 France, le 25 juin à Paris.",
-    "isRegistrationEnabled": false,
+    "isRegistrationEnabled": true,
     "registrationLabel": "Rejoignez les conférenciers de MMFR26",
-    "registrationFormUrl": "https://forms.gle/M6Y8V2xP7PGw5VD8A",
+    "registrationFormUrl": "https://forms.gle/DPjRvo5ZWKDUFTV26",
     "speakers": [
       {
         "id": 6,

@@ -20,7 +20,7 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
   const [selectedSpeaker, setSelectedSpeaker] =
     React.useState<PersonProps | null>(null);
   const { t } = useTranslation(["speakers", "common", "edition"]);
-  const actions = t("actions", { returnObjects: true });
+  const actions = t("speakers:actions", { returnObjects: true });
 
   const handleSpeakerClick = (speaker: PersonProps) => {
     setSelectedSpeaker(speaker);
@@ -51,6 +51,11 @@ const SpeakersList = ({ speakers }: { speakers: PersonProps[] }) => {
           onPrevClick={handlePrev}
           onNextClick={handleNext}
         >
+          {"submitUrl" in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
+            <ButtonLink variant="secondary" href={actions.submitUrl}>
+              ${t("speakers:submit")}
+            </ButtonLink>
+          )}
           {"seeAllUrl" in actions && typeof actions.seeAllUrl === "string" && (
             <>
               <div className="md:hidden">
