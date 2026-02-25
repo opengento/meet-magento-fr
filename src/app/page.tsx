@@ -14,6 +14,9 @@ import Merchants from "@/components/Merchants/Merchants";
 import HeroWaitingNext from "@/components/HeroWaitingNext/HeroWaitingNext";
 import Hero from "@/components/Hero/Hero";
 import Place from "@/components/Place/Place";
+import SpeakersRegistration from "@/components/Speakers/SpeakersRegistration";
+import AfterMovie from "@/components/AfterMovie/AfterMovie";
+import SponsorRegistration from "@/components/SponsorList/SponsorRegistration";
 
 export default function Home() {
   const { t } = useTranslation(["common", "edition"]);
@@ -26,6 +29,9 @@ export default function Home() {
       ) : (
         <Hero/>
       )}
+      <AfterMovie />
+      <SpeakersRegistration data={dataProvider.useSpeakers()}/>
+      <SponsorRegistration />
       <div id="programs">
         <Program/>
       </div>

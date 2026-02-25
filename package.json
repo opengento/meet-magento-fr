@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "NODE_OPTIONS='--inspect' next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "NODE_OPTIONS='--inspect' next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start --webpack",
     "lint": "next lint",
     "tailwind:watch": "npx tailwindcss -i ./src/app/globals.css -o ./public/styles.css --watch",
     "tailwind:build": "npx tailwindcss -i ./src/app/globals.css -o ./public/styles.css --minify"
@@ -15,13 +15,14 @@
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.2",
     "i18next-resources-to-backend": "^1.2.1",
-    "next": "^15.3",
+    "next": "^16.1",
     "next-i18next": "^15.4.1",
     "react": "^19.0",
     "react-dom": "^19.0",
     "react-i18next": "^15.4.0",
     "react-icons": "^5.4",
-    "swiper": "^11.2.1"
+    "react-lite-youtube-embed": "^3.5.1",
+    "swiper": "^12.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

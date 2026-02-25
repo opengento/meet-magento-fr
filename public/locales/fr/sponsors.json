@@ -5,8 +5,10 @@
   "bannerTitle": "Merci à nos sponsors 2025",
   "seeAll": "Voir tous les sponsors 2025",
   "submit": "Devenir sponsor",
+  "contactText": "Contactez-nous à l'adresse suivante :",
+  "contactEmail": "meetmagento-france@opengento.com",
   "actions": {
-    "submitUrl": null,
+    "submitUrl": "/contact",
     "seeAllUrl": "/sponsors"
   },
   "types": {
