@@ -1,5 +1,3 @@
-'use client';
-
 import Container from "@/layouts/Container";
 import LiteYouTubeEmbed from "react-lite-youtube-embed"
 import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
@@ -11,9 +9,9 @@ const AfterMovie = () => {
         <LiteYouTubeEmbed
           id="6ghZUrHD1MQ"
           title="After Movie"
+          params="controls=0&modestbranding=1&playlist=6ghZUrHD1MQ&loop=1"
           autoplay={true}
           muted={true}
-          params="loop=1&controls=0&modestbranding=1&playlist=6ghZUrHD1MQ"
           poster="maxresdefault"
           webp={true}
           lazyLoad={true}

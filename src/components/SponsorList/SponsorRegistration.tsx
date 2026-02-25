@@ -5,8 +5,6 @@ import React from "react";
 import Typography from "../Typography/Typography";
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
-import ButtonLink from "@/components/ButtonLink/ButtonLink";
-import {IoIosArrowForward} from "react-icons/io";
 
 const SponsorRegistration = () => {
   const { t } = useTranslation(["sponsors"]);
