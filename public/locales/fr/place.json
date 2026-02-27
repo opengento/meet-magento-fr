@@ -28,18 +28,147 @@
     "description": "Les Salons de l’Aveyron sont idéalement situés au cœur de la dynamique du quartier de Bercy, emblématique de Paris.",
     "publicTransport": {
       "title": "Transports en commun",
-      "itinerary": []
+      "itinerary": [
+        {
+          "icons": [
+            "/images/place/access/rer.svg",
+            "/images/place/access/rer_a.svg",
+            "/images/place/access/rer_d.svg",
+            "/images/place/access/sub.svg",
+            "/images/place/access/sub_14.svg"
+          ],
+          "name": "Gare de Lyon - Bercy (Olympiades)"
+        },
+        {
+          "icons": [
+            "/images/place/access/sub.svg",
+            "/images/place/access/sub_6.svg",
+            "/images/place/access/sub_14.svg"
+          ],
+          "name": "Bercy"
+        },
+        {
+          "icons": [
+            "/images/place/access/bus.svg",
+            "/images/place/access/bus_24.svg",
+            "/images/place/access/bus_64.svg",
+            "/images/place/access/bus_71.svg",
+            "/images/place/access/bus_325.svg",
+            "/images/place/access/bus_25.svg",
+            "/images/place/access/bus_215.svg",
+            "/images/place/access/bus_77.svg"
+          ],
+          "name": "Bercy"
+        },
+        {
+          "icons": [
+            "/images/place/access/tram.svg",
+            "/images/place/access/tram_13a.svg"
+          ],
+          "name": "Porte de Charenton ou Baron Le Roy"
+        }
+      ]
     },
     "parking": {
       "title": "Venir en voiture",
       "description": "Si vous venez en voiture, plusieurs parkings sont disponibles à proximité, tels que :",
-      "locations": []
+      "locations": [
+        {
+          "name": "Parking Indigo Paris Bercy Village",
+          "url": "https://www.indigoneo.fr/fr/parkings/379/parking-bercy-village"
+        },
+        {
+          "name": "Parking Interparking Bercy Lumière",
+          "url": "https://www.interparking.fr/fr/parkings/Paris/bercy-lumiere/"
+        },
+        {
+          "name": "Saemes Parking Bercy Seine",
+          "url": "https://www.saemes.fr/fr/parking/parking-bercy-seine"
+        },
+        {
+          "name": "Parking Gare de Bercy Accor Arena",
+          "url": "https://www.effia.com/parking/parking-gare-de-bercy-accor-arena-effia"
+        },
+        {
+          "name": "ZenPark & YesPark ",
+          "content": "Plusieurs parkings disponibles à la réservation."
+        }
+      ]
     }
   },
   "accommodation": {
     "title": "Hébergements à proximité",
     "description": "Pour votre confort, voici quelques hôtels situés à proximité des Salons de l’Aveyron :",
-    "locations": []
+    "locations": [
+      {
+        "name": "Pullman Bercy",
+        "rank": 4,
+        "telephone": "01.44.67.34.00",
+        "address": "1 Rue de Libourne, 75012 Paris",
+        "content": "Hébergement partenaire à moins de 10 minutes à pieds.",
+        "url": "https://all.accor.com/hotel/2192/index.fr.shtml"
+      },
+      {
+        "name": "Ibis Styles Paris Bercy",
+        "rank": 3,
+        "telephone": "01.53.46.50.50",
+        "address": "77 Rue de Bercy, 75012 Paris",
+        "content": "Hébergement partenaire à moins de 10 minutes à pieds.",
+        "url": "https://all.accor.com/booking/fr/ibis/hotel/0941"
+      },
+      {
+        "name": "Novotel Bercy",
+        "rank": 4,
+        "telephone": "01.43.42.30.00",
+        "address": "85 Rue de Bercy, 75012 Paris",
+        "content": "Hébergement partenaire à moins de 10 minutes à pieds.",
+        "url": "https://all.accor.com/booking/fr/novotel/hotel/0935"
+      },
+      {
+        "name": "Courtyard Paris Gare de Lyon",
+        "rank": 4,
+        "telephone": "01.80.20.63.00",
+        "address": "209-211 Rue de Bercy, 75012 Paris",
+        "content": "Hébergement partenaire à moins de 10 minutes à pieds.",
+        "url": "https://www.marriott.com/fr/hotels/pargl-courtyard-paris-gare-de-lyon/overview/"
+      },
+      {
+        "name": "Hôtel Campanile Paris Bercy",
+        "rank": 3,
+        "telephone": "01.44.67.75.75",
+        "address": "17 Rue Baron Leroy 75012 Paris",
+        "content": "Hébergement partenaire à moins de 10 minutes à pieds.",
+        "url": "https://paris-12-bercy-village.campanile.com/fr-fr/"
+      },
+      {
+        "name": "Ibis Paris Bercy Village",
+        "rank": 3,
+        "telephone": "08.92.68.06.71",
+        "address": "19 Place des Vins de France, 75012 Paris",
+        "url": "https://all.accor.com/hotel/1743/index.fr.shtml"
+      },
+      {
+        "name": "Adagio City Appart Hôtel",
+        "rank": 4,
+        "telephone": "01.53.02.11.00",
+        "address": "1-7 Cours du Minervois, 75012 Paris",
+        "url": "https://www.adagio-city.com/fr/hotel-6789-aparthotel-adagio-paris-bercy-village/index.shtml"
+      },
+      {
+        "name": "Hôtel Claret Bercy",
+        "rank": 3,
+        "telephone": "01.46.28.41.31",
+        "address": "44 Boulevard de Bercy 75012 Paris France",
+        "url": "https://www.hotel-claret.com/"
+      },
+      {
+        "name": "Hôtel Le 209",
+        "rank": 4,
+        "telephone": "01.43.40.80.30",
+        "address": "209 Rue de Charenton, 75012 Paris",
+        "url": "https://www.le209.com/fr/"
+      }
+    ]
   },
   "location": {
     "title": "les Salons de l’Aveyron",

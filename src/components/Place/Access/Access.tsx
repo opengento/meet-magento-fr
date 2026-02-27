@@ -2,7 +2,9 @@ import React from "react";
 import { PlaceProps } from "@/components/Place/PlaceProps";
 import {
   PlaceAccessParkingProps,
-  PlaceAccessProps, PlaceAccessPublicTransportProps
+  PlaceAccessProps,
+  PlaceAccessPublicTransportProps,
+  LocationProps
 } from "@/components/Place/Access/Access.types";
 import { FaParking } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
@@ -60,6 +62,17 @@ const Access = ({ location, access }: PlaceAccess) => {
     </>
   );
 
+  const renderParkingLocation = (location: LocationProps) => (
+    <div className="flex flex-row gap-1 items-center">
+      <Typography color="primary">
+        <FaParking/>
+      </Typography>
+      <Typography color="dark">
+        {location.name}
+      </Typography>
+    </div>
+  );
+
   const renderParking = (parking: PlaceAccessParkingProps) => (
     <>
       <Typography
@@ -76,19 +89,21 @@ const Access = ({ location, access }: PlaceAccess) => {
       <ul className="text-black mt-4">
         {parking.locations.map((location, index) => (
           <li key={index} className="mb-2">
-            <Link
-              href={location.url}
-              target="_blank"
-              rel="noopener"
-              className="flex flex-row gap-1 items-center hover:underline"
-            >
-              <Typography color="primary">
-                <FaParking/>
-              </Typography>
-              <Typography color="dark">
-                {location.name}
-              </Typography>
-            </Link>
+            {(location.url && (
+              <Link
+                href={location.url}
+                target="_blank"
+                rel="noopener"
+                className="hover:underline"
+              >
+                {renderParkingLocation(location)}
+              </Link>
+            ))}
+            {!location.url && (
+              <>
+                {renderParkingLocation(location)}
+              </>
+            )}
             {location.content && (
               <Typography color="dark" className="whitespace-pre-wrap">
                 {location.content}

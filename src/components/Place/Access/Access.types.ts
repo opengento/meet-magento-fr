@@ -10,7 +10,7 @@ type PublicTransport = {
 
 type Location = {
   name: string;
-  url: string;
+  url?: string | undefined;
   content?: string | undefined;
 };
 
@@ -20,6 +20,7 @@ type Parking = {
   locations: Location[];
 };
 
+export type LocationProps = Location;
 export type PlaceAccessPublicTransportProps = PublicTransport;
 export type PlaceAccessParkingProps = Parking;
 export type PlaceAccessProps = {

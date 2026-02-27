@@ -1,6 +1,9 @@
 type Location = {
   name: string;
+  rank: number;
   url: string;
+  telephone?: string | undefined;
+  address?: string | undefined;
   content?: string | undefined;
 };
 

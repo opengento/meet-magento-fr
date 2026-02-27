@@ -30,6 +30,9 @@ Figma: https://www.figma.com/design/FmSh61VToKnw46q88kqt8U/MEETMAGENTO-01-UI-All
 
 ## Content
 
+### Transit Icons
+https://commons.wikimedia.org/wiki/Template:Paris_transit_icons
+
 ### Speakers
 https://docs.google.com/spreadsheets/d/1FfFDlhUT_8jf_aSab9tszl1s3NEwbPq3X7zLMz6m-SU/edit?gid=0#gid=0
 
