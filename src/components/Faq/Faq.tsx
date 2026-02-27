@@ -48,8 +48,7 @@ const Faq = ({
     {
       question: "Comment puis-je acheter des billets pour l’événement ?",
       icon: <FaTicketAlt className="text-pink" size={16} />,
-      answer:
-        "La billetterie pour Meet Magento France 2026 est ouverte ! Vous pouvez procéder à l’achat de votre billet depuis la billetterie : https://www.eventbrite.fr/e/billets-meet-magento-2026-france-1979332028379",
+      answer: "Les billets pour Meet Magento France 2025 sont disponibles ! Rendez-vous sur la billeterie à partir du menu."
     },
     {
       question: "What if I don’t speak French?",
@@ -61,7 +60,7 @@ const Faq = ({
       question: "Puis-je proposer un sujet de conférence pour Meet Magento France 2026 ?",
       icon: <FaStar className="text-pink" size={16} />,
       answer:
-        "L’appel à speakers pour Meet Magento France 2026 est ouvert. Vous pouvez soumettre votre candidature en remplissant ce formulaire: forms.gle/DPjRvo5ZWKDUFTV26",
+        "L’appel à speaker pour Meet Magento France 2026 est ouvert jusqu’au 5 avril ! Soumettez votre candidature dès maintenant et rejoignez le panel d’experts qui prendra la parole à cette occasion !",
     },
     {
       question: "Que contient un billet pour Meet Magento France ?",
