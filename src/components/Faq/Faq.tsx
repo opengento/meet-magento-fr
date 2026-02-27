@@ -34,7 +34,7 @@ const Faq = ({
     },
     {
       question:
-        "Quels types de conférences seront proposées lors de l'événement ?",
+        "Quels types de conférences seront proposées lors de l’événement ?",
       icon: <FaUser className="text-pink" size={16} />,
       answer:
         "Des conférences business et techniques animées par des experts du digital, e-commerçants, éditeurs et agences sont attendues au programme de Meet Magento France ! Découvrez dès à présent l’agenda des conférences et la liste des intervenants.",
@@ -46,13 +46,13 @@ const Faq = ({
         "Meet Magento France accueille les acteurs de l’écosystème Magento et Adobe Commerce. E-commerçants, éditeurs, agences digitales se sont rencontrés lors de cet événement communautaire et tous avec les mêmes objectifs : l’échange et le partage.",
     },
     {
-      question: "Comment puis-je acheter des billets pour l'événement ?",
+      question: "Comment puis-je acheter des billets pour l’événement ?",
       icon: <FaTicketAlt className="text-pink" size={16} />,
       answer:
-        "Un peu de patience, la billetterie pour Meet Magento France 2026 n'est pas encore ouverte !",
+        "La billetterie pour Meet Magento France 2026 est ouverte ! Vous pouvez procéder à l’achat de votre billet depuis la billetterie : https://www.eventbrite.fr/e/billets-meet-magento-2026-france-1979332028379",
     },
     {
-      question: "What if I don't speak French?",
+      question: "What if I don’t speak French?",
       icon: <FaLanguage className="text-pink" size={16} />,
       answer:
         "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
@@ -73,7 +73,7 @@ const Faq = ({
       question: "Est-ce qu’il y aura un vestiaire sur place ?",
       icon: <FaTshirt className="text-pink" size={16} />,
       answer:
-        "Oui, un vestiaire gratuit sera à votre disposition pendant toute la durée de l'événement.",
+        "Oui, un vestiaire gratuit sera à votre disposition pendant toute la durée de l’événement.",
     },
   ];
 
