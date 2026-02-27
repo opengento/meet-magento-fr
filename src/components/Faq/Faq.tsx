@@ -58,11 +58,10 @@ const Faq = ({
         "You are still welcomed! Although the main track will be Business and in French, we will have a secondary track for English Speakers and Tech talks.",
     },
     {
-      question:
-        "Puis-je proposer un sujet de conférence pour Meet Magento France 2026 ?",
+      question: "Puis-je proposer un sujet de conférence pour Meet Magento France 2026 ?",
       icon: <FaStar className="text-pink" size={16} />,
       answer:
-        "L’appel à speakers pour Meet Magento France 2026 n'est pour l'instant pas ouvert.",
+        "L’appel à speakers pour Meet Magento France 2026 est ouvert. Vous pouvez soumettre votre candidature en remplissant ce formulaire: forms.gle/DPjRvo5ZWKDUFTV26",
     },
     {
       question: "Que contient un billet pour Meet Magento France ?",
