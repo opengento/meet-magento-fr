@@ -2,8 +2,8 @@
   "title": "Nos sponsors 2025",
   "description": "Acteurs incontournables de l’écosystème Magento et Adobe Commerce, ils rendent cet événement possible et offriront aux participants l'opportunité d'échanger en face à face avec des experts lors de cette journée exceptionnelle.",
   "buttonCompany": "Site officiel",
-  "bannerTitle": "Merci à nos sponsors 2025",
-  "seeAll": "Voir tous les sponsors 2025",
+  "bannerTitle": "Merci à nos sponsors 2026",
+  "seeAll": "Voir tous les sponsors 2026",
   "submit": "Devenir sponsor",
   "contactText": "Contactez-nous à l'adresse suivante :",
   "contactEmail": "meetmagento-france@opengento.com",
@@ -21,12 +21,22 @@
     {
       "type": "platinum",
       "name": "Adobe",
-      "description": "Reconnu comme leader dans le Magic Quadrant 2021 de Gartner pour le commerce numérique, Adobe Commerce, anciennement connu sous le nom de Magento, est un fournisseur leader de solutions de commerce numérique basées sur le cloud pour les commerçants internationaux des secteurs B2B et B2C. En plus de sa plateforme phare de commerce numérique, Adobe Commerce dispose d'un solide portefeuille de solutions omnicanales basées sur le cloud qui permettent aux commerçants d'intégrer avec succès les expériences d'achat numériques et physiques.",
+      "description": "Adobe permet à chacun d’imaginer, de créer et de donner vie à n’importe quelle expérience digitale. Des multinationales aux petites structures, en passant par les organismes à but non lucratif, les clients font confiance aux solutions Adobe pour inventer, collaborer, gagner en productivité et stimuler la croissance. Avec Adobe Commerce, créez rapidement des contenus B2C et B2B multimarques à l’international depuis une plateforme cloud native unique. Personnalisez les expériences d’achat en ligne afin d’augmenter le trafic, les conversions et la valeur brute des produits.",
       "caption": "Création d’expériences B2B et B2C personnalisées par l'IA basées sur notre plateforme composable et évolutive Adobe Commerce",
       "url": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
       "bannerSrc": "/images/sponsors/banners/adobe.jpg",
       "logoSrc": "/images/sponsors/adobe.svg",
       "whiteLogoSrc": "/images/sponsors/white/adobe.svg"
+    },
+    {
+      "type": "platinum",
+      "name": "Hyva x mollie",
+      "description": "",
+      "caption": "",
+      "url": "https://www.hyva.io/hyva-x-mollie",
+      "bannerSrc": "/images/sponsors/banners/hyva-x-mollie.jpg",
+      "logoSrc": "/images/sponsors/hyva-x-mollie.svg",
+      "whiteLogoSrc": "/images/sponsors/white/hyva-x-mollie.svg"
     },
     {
       "type": "gold",
@@ -40,36 +50,6 @@
     },
     {
       "type": "gold",
-      "name": "Smile & ElasticSuite",
-      "description": "Smile booste votre performance e-commerce avec des solutions tech innovantes & robustes. Avec ElasticSuite, l’extension Magento la plus téléchargée au monde, optimisez votre searchandising, améliorez l’UX & maîtrisez vos données.",
-      "caption": "Boostez l'e-commerce avec ElasticSuite, l'extension Magento n°1 au monde",
-      "url": "https://elasticsuite.io/",
-      "bannerSrc": "/images/sponsors/banners/elasticsuite.jpg",
-      "logoSrc": "/images/sponsors/smile_elasticsuite.svg",
-      "whiteLogoSrc": "/images/sponsors/white/smile_elasticsuite.svg"
-    },
-    {
-      "type": "silver",
-      "name": "PH2M",
-      "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 12 développeurs, contribuant activement à Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
-      "caption": "Agence e-commerce créatrice de solutions sur mesure pour marques et distributeurs",
-      "url": "https://www.ph2m.com/",
-      "bannerSrc": "/images/sponsors/banners/ph2m.jpg",
-      "logoSrc": "/images/sponsors/ph2m.svg",
-      "whiteLogoSrc": "/images/sponsors/white/ph2m.svg"
-    },
-    {
-      "type": "gold",
-      "name": "Hyvä",
-      "description": "Le frontend Magento le plus populaire avec 5,000 sites lives dans le monde, dont Somfy, Purina, Bultex ou Boucheron. Découvrez comment optimiser votre web perf tout en réduisant votre temps et coût de développement avec Hyvä",
-      "caption": "Frontend hyper léger qui maximise votre web performance avec le minimum d'efforts",
-      "url": "https://www.hyva.io/",
-      "bannerSrc": "/images/sponsors/banners/hyva.jpg",
-      "logoSrc": "/images/sponsors/hyva.svg",
-      "whiteLogoSrc": "/images/sponsors/white/hyva.svg"
-    },
-    {
-      "type": "gold",
       "name": "Ati4 Group",
       "description": "Ensemble, définissons, créons et développons votre projet e-commerce B2C ou B2B. Ati4 Group, c’est plus de 50 experts PIM et Adobe Commerce pour digitaliser et accélérer votre succès en ligne. Passion, partage et expertise sont au cœur de notre engagement.",
       "caption": "ATI4 Group, agence e-commerce, construisons ensemble votre réussite digitale",
@@ -80,73 +60,33 @@
     },
     {
       "type": "gold",
-      "name": "Blackbird",
-      "description": "La mission de Blackbird est d'aider les e-commerçants dans toutes les phases de leur projet : conseil stratégique, design créatif, conception et pilotage de plateformes e-commerce sur-mesure, accompagnement proche et réactif et formation.",
-      "caption": "Blackbird (groupe Synolia), expert du digital et e-commerce depuis 2015",
-      "url": "https://black.bird.eu/",
-      "bannerSrc": "/images/sponsors/banners/blackbird.jpg",
-      "logoSrc": "/images/sponsors/blackbird.svg",
-      "whiteLogoSrc": "/images/sponsors/white/blackbird.svg"
-    },
-    {
-      "type": "gold",
-      "name": "Platform.sh",
-      "description": "Platform.sh est une plateforme cloud d'hébergement d'applications web, leader dans le domaine du management de flottes de sites et applications web. Basée en France, avec des bureaux à l’international, elle sert 5 000 clients avec une infrastructure sécurisée et une assistance 24/7.",
-      "caption": "Platform.sh: near-instant, full-stack previews that end staging delays",
-      "url": "https://platform.sh/",
-      "bannerSrc": "/images/sponsors/banners/platformsh.jpg",
-      "logoSrc": "/images/sponsors/platformsh.svg",
-      "whiteLogoSrc": "/images/sponsors/white/platformsh.svg"
+      "name": "Synolia",
+      "description": "Orchestrateur de vos projets digitaux et expert Adobe Commerce & Magento, le groupe Synolia libère votre potentiel e-commerce. Rencontrez nos experts pour bâtir une stratégie omnicanale performante, innovante et durable.",
+      "caption": "Chez Synolia, nous co-concevons des expériences digitales performantes\npour soutenir vos objectifs et atteindre la réussite collective.",
+      "url": "https://www.synolia.com/",
+      "bannerSrc": "/images/sponsors/banners/synolia.jpg",
+      "logoSrc": "/images/sponsors/synolia.svg",
+      "whiteLogoSrc": "/images/sponsors/white/synolia.svg"
     },
     {
       "type": "silver",
-      "name": "LupaSearch",
-      "description": "Wordless Vector Search & Discovery. Boost sales with AI-enhanced search that knows how your customers think.",
-      "caption": "Wordless Vector Search & Discovery. AI-enriched, image-based search.",
-      "url": "https://www.lupasearch.com/",
-      "bannerSrc": "/images/sponsors/banners/lupasearch.jpg",
-      "logoSrc": "/images/sponsors/lupasearch.svg",
-      "whiteLogoSrc": "/images/sponsors/white/lupasearch.svg"
+      "name": "PH2M",
+      "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 14 développeurs, contributeurs actifs Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
+      "caption": "Agence e-commerce créatrice de solutions sur mesure pour marques et distributeurs",
+      "url": "https://www.ph2m.com/",
+      "bannerSrc": "/images/sponsors/banners/ph2m.jpg",
+      "logoSrc": "/images/sponsors/ph2m.svg",
+      "whiteLogoSrc": "/images/sponsors/white/ph2m.svg"
     },
     {
-      "type": "gold",
-      "name": "Datasolution",
-      "description": "Partenaire Magento depuis 2008, DATASOLUTION accompagne les entreprises dans la conception, la mise en œuvre et l’optimisation de leurs plateformes e-Commerce B2C et B2B, en partenariat avec les principaux acteurs de l’écosystème Adobe/Magento",
-      "caption": "Leader du e-Commerce B2B et de la gestion des données sur le marché",
-      "url": "https://www.datasolution.fr/",
-      "bannerSrc": "/images/sponsors/banners/datasolution.jpg",
-      "logoSrc": "/images/sponsors/datasolution.svg",
-      "whiteLogoSrc": "/images/sponsors/white/datasolution.svg"
-    },
-    {
-      "type": "gold",
-      "name": "Decade",
-      "description": "DECADE, spécialiste e-commerce depuis +20 ans, accompagne ses clients dans la durée, en conseil et réalisation : replatforming, marketplace, PIM/DAM, OMS, international … des projets adaptés à chaque modèle marchand.",
-      "caption": "Agence e-commerce depuis +20 ans : conseil et intégration en B2C et B2B",
-      "url": "https://www.decade.fr/",
-      "bannerSrc": "/images/sponsors/banners/decade.jpg",
-      "logoSrc": "/images/sponsors/decade.svg",
-      "whiteLogoSrc": "/images/sponsors/white/decade.svg"
-    },
-    {
-      "type": "gold",
-      "name": "Hipay",
-      "description": "HiPay optimise les paiements en ligne et en magasin avec une solution sur mesure tout-en-un qui s’adresse aux pure players, marques omnicanal, marketplaces et franchises, quelle que soit la taille de leur réseau de boutiques.",
-      "caption": "Solution de paiement sur mesure tout-en-un",
-      "url": "https://hipay.com/",
-      "bannerSrc": "/images/sponsors/banners/hipay.jpg",
-      "logoSrc": "/images/sponsors/hipay.svg",
-      "whiteLogoSrc": "/images/sponsors/white/hipay.svg"
-    },
-    {
-      "type": "gold",
-      "name": "hidden",
-      "description": "",
-      "caption": "",
-      "url": "",
-      "bannerSrc": "",
-      "logoSrc": "",
-      "whiteLogoSrc": ""
+      "type": "silver",
+      "name": "Magebit",
+      "description": "Magebit is recognized as a global leader in Magento development, trusted by over 400 brands including Dunkin', Volkswagen, Hydro Flask, Osprey, Henry Schein, and Snap-On. With 100+ certified Magento specialists and 15+ Hyvä certified developers, Magebit delivers high-performance commerce solutions that drive revenue growth and market leadership across the US, Canada, Europe, and Asia.",
+      "caption": "An eCommerce agency you wish you met sooner",
+      "url": "https://magebit.com/",
+      "bannerSrc": "/images/sponsors/banners/magebit.jpg",
+      "logoSrc": "/images/sponsors/magebit.svg",
+      "whiteLogoSrc": "/images/sponsors/white/magebit.svg"
     },
     {
       "type": "silver",
@@ -169,76 +109,6 @@
       "whiteLogoSrc": "/images/sponsors/white/sutunam.svg"
     },
     {
-      "type": "silver",
-      "name": "Spiriit",
-      "description": "Agence e-commerce engagée auprès des marques et distributeurs, nous déployons des plateformes robustes avec Magento Cloud, Adobe Commerce et Hyvä. Notre objectif : booster la conversion grâce à notre expertise en CRO et IA.",
-      "caption": "Votre partenaire e-commerce depuis +27 ans, expert Magento Cloud, Adobe Commerce, Hyvä",
-      "url": "https://www.spiriit.com/",
-      "bannerSrc": "/images/sponsors/banners/spiriit.jpg",
-      "logoSrc": "/images/sponsors/spiriit.svg",
-      "whiteLogoSrc": "/images/sponsors/white/spiriit.svg"
-    },
-    {
-      "type": "silver",
-      "name": "hidden/2",
-      "description": "",
-      "caption": "",
-      "url": "",
-      "bannerSrc": "",
-      "logoSrc": "",
-      "whiteLogoSrc": ""
-    },
-    {
-      "type": "silver",
-      "name": "Sensefuel",
-      "description": "Plateforme de recherche et de découverte de produits exclusivement dédiée au e-commerce, qui exploite toute la puissance de l’intelligence artificielle de nouvelle génération.",
-      "caption": "Making ecommerce search personal",
-      "url": "https://www.sensefuel.com/",
-      "bannerSrc": "/images/sponsors/banners/sensefuel.jpg",
-      "logoSrc": "/images/sponsors/sensefuel.svg",
-      "whiteLogoSrc": "/images/sponsors/white/sensefuel.svg"
-    },
-    {
-      "type": "silver",
-      "name": "Magebit",
-      "description": "With over 10 years of expertise, Magebit is a full-service eCommerce agency trusted by 450+ global brands to drive digital success!",
-      "caption": "An eCommerce agency you wish you met sooner",
-      "url": "https://magebit.com/",
-      "bannerSrc": "/images/sponsors/banners/magebit.jpg",
-      "logoSrc": "/images/sponsors/magebit.svg",
-      "whiteLogoSrc": "/images/sponsors/white/magebit.svg"
-    },
-    {
-      "type": "silver",
-      "name": "Payplug",
-      "description": "Payplug est le spécialiste français du paiement qui maximise la performance des commerçants à travers son expertise locale des paiements.",
-      "caption": "Payplug maximise la performance de vos paiements, simplement.",
-      "url": "https://www.payplug.com/",
-      "bannerSrc": "/images/sponsors/banners/payplug.jpg",
-      "logoSrc": "/images/sponsors/payplug.svg",
-      "whiteLogoSrc": "/images/sponsors/white/payplug.svg"
-    },
-    {
-      "type": "silver",
-      "name": "Mollie",
-      "description": "Mollie est une solution de paiement simple et efficace qui accompagne les entreprises dans le développement de leur activité en France et en Europe.",
-      "caption": "Des paiements en ligne et en boutique pour les entreprises de toute taille",
-      "url": "https://www.mollie.com/",
-      "bannerSrc": "/images/sponsors/banners/mollie.jpg",
-      "logoSrc": "/images/sponsors/mollie.svg",
-      "whiteLogoSrc": "/images/sponsors/white/mollie.svg"
-    },
-    {
-      "type": "bronze",
-      "name": "Opengento",
-      "description": null,
-      "caption": "",
-      "url": "https://opengento.fr/",
-      "bannerSrc": "/images/sponsors/banners/opengento.jpg",
-      "logoSrc": "/images/sponsors/opengento.svg",
-      "whiteLogoSrc": "/images/sponsors/white/opengento.svg"
-    },
-    {
       "type": "bronze",
       "name": "Amasty",
       "description": null,
@@ -247,46 +117,6 @@
       "bannerSrc": "/images/sponsors/banners/amasty.jpg",
       "logoSrc": "/images/sponsors/amasty.svg",
       "whiteLogoSrc": "/images/sponsors/white/amasty.svg"
-    },
-    {
-      "type": "bronze",
-      "name": "Nosto",
-      "description": null,
-      "caption": "Rendez chaque expérience d’achat mémorable grâce à notre solution de personnalisation, merchandising et de recherche sur site.",
-      "url": "https://www.nosto.com/",
-      "bannerSrc": "/images/sponsors/banners/nosto.jpg",
-      "logoSrc": "/images/sponsors/nosto.svg",
-      "whiteLogoSrc": "/images/sponsors/white/nosto.svg"
-    },
-    {
-      "type": "bronze",
-      "name": "Akeneo",
-      "description": null,
-      "caption": "Le commerce se réinvente avec l’IA. Activez vos expériences produits dès aujourd’hui.",
-      "url": "https://www.akeneo.com/",
-      "bannerSrc": "/images/sponsors/banners/akeneo.jpg",
-      "logoSrc": "/images/sponsors/akeneo.svg",
-      "whiteLogoSrc": "/images/sponsors/white/akeneo.svg"
-    },
-    {
-      "type": "bronze",
-      "name": "Splio",
-      "description": null,
-      "caption": "Faites équipe avec Splio et sa plateforme de CRM marketing résolument Retail",
-      "url": "https://splio.com/",
-      "bannerSrc": "/images/sponsors/banners/splio.jpg",
-      "logoSrc": "/images/sponsors/splio.svg",
-      "whiteLogoSrc": "/images/sponsors/white/splio.svg"
-    },
-    {
-      "type": "bronze",
-      "name": "Sendcloud",
-      "description": null,
-      "caption": "",
-      "url": "https://www.sendcloud.fr/",
-      "bannerSrc": "/images/sponsors/banners/sendcloud.jpg",
-      "logoSrc": "/images/sponsors/sendcloud.svg",
-      "whiteLogoSrc": "/images/sponsors/white/sendcloud.svg"
     }
   ]
 }

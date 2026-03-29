@@ -11,10 +11,10 @@ const Sponsor = ({ sponsor }: { sponsor: SponsorProps }) => {
   const badgeHeight: number = 80;
 
   const boxClasses: Record<SponsorTypeProps, string> = {
-    platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] col-span-12 row-span-5 lg:col-span-30 lg:row-span-12",
-    gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] col-span-6 row-span-3 lg:col-span-20 lg:row-span-4",
-    silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] col-span-4 row-span-2 lg:col-span-18 lg:row-span-3",
-    bronze: "bg-[url(/images/background/sponsor-bronze.jpg)] hover:bg-[url(/images/background/sponsor-bronze.jpg)] col-span-4 row-span-2 lg:col-span-15 lg:row-span-2",
+    platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] col-span-12 row-span-6 lg:col-span-6 lg:row-span-8",
+    gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] col-span-12 row-span-4 lg:col-span-4 lg:row-span-6",
+    silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] col-span-6 row-span-4 lg:col-span-3 lg:row-span-4",
+    bronze: "bg-[url(/images/background/sponsor-bronze.jpg)] hover:bg-[url(/images/background/sponsor-bronze.jpg)] col-span-6 row-span-2 lg:col-span-2 lg:row-span-2",
   };
   const badgeClasses: Record<SponsorTypeProps, string> = {
     platinum: "top-[15px] right-[15px] h-[55px] lg:top-[24px] lg:right-[24px] lg:h-[80px]",
@@ -28,33 +28,6 @@ const Sponsor = ({ sponsor }: { sponsor: SponsorProps }) => {
     silver: "max-w-[70%] max-h-[30%] lg:max-w-[60%] lg:max-h-[30%]",
     bronze: "max-w-[60%] max-h-[20%] lg:max-w-[60%] lg:max-h-[30%]",
   };
-
-  if (sponsor.name === "hidden/2") {
-    return (
-      <span className={classNames(
-        "hidden lg:block lg:invisible",
-        {
-          "col-span-6 row-span-5 lg:col-span-15 lg:row-span-12": sponsor.type === "platinum",
-          "col-span-3 row-span-3 lg:col-span-10 lg:row-span-4": sponsor.type === "gold",
-          "col-span-2 row-span-2 lg:col-span-9 lg:row-span-3": sponsor.type === "silver",
-          "col-span-2 row-span-2 lg:col-span-7 lg:row-span-2": sponsor.type === "bronze"
-        }
-      )}></span>
-    );
-  }
-  if (sponsor.name === "hidden") {
-    return (
-      <span className={classNames(
-        "invisible lg:hidden lg:visible",
-        {
-          "col-span-12 row-span-5 lg:col-span-30 lg:row-span-12": sponsor.type === "platinum",
-          "col-span-6 row-span-3 lg:col-span-20 lg:row-span-4": sponsor.type === "gold",
-          "col-span-4 row-span-2 lg:col-span-18 lg:row-span-3": sponsor.type === "silver",
-          "col-span-4 row-span-2 lg:col-span-15 lg:row-span-2": sponsor.type === "bronze"
-        }
-      )}></span>
-    );
-  }
 
   return (
     <Link
