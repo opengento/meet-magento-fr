@@ -14,7 +14,7 @@ const Sponsor = ({ sponsor }: { sponsor: SponsorProps }) => {
     platinum: "bg-[url(/images/background/sponsor-platinum.jpg)] hover:bg-[url(/images/background/sponsor-platinum.jpg)] col-span-12 row-span-6 lg:col-span-6 lg:row-span-8",
     gold: "bg-[url(/images/background/sponsor-gold.jpg)] hover:bg-[url(/images/background/sponsor-gold.jpg)] col-span-12 row-span-4 lg:col-span-4 lg:row-span-6",
     silver: "bg-[url(/images/background/sponsor-silver.jpg)] hover:bg-[url(/images/background/sponsor-silver.jpg)] col-span-6 row-span-4 lg:col-span-3 lg:row-span-4",
-    bronze: "bg-[url(/images/background/sponsor-bronze.jpg)] hover:bg-[url(/images/background/sponsor-bronze.jpg)] col-span-6 row-span-2 lg:col-span-2 lg:row-span-2",
+    bronze: "bg-[url(/images/background/sponsor-bronze.jpg)] hover:bg-[url(/images/background/sponsor-bronze.jpg)] col-span-6 row-span-2 lg:col-span-2 lg:row-span-3",
   };
   const badgeClasses: Record<SponsorTypeProps, string> = {
     platinum: "top-[15px] right-[15px] h-[55px] lg:top-[24px] lg:right-[24px] lg:h-[80px]",
@@ -23,7 +23,7 @@ const Sponsor = ({ sponsor }: { sponsor: SponsorProps }) => {
     bronze: "top-[5px] right-[5px] h-[14px] lg:top-[11px] lg:right-[11px] lg:h-[25px]",
   };
   const logoClasses: Record<SponsorTypeProps, string> = {
-    platinum: "max-w-[60%] max-h-[40%] lg:max-w-[50%] lg:max-h-[30%]",
+    platinum: "max-w-[60%] max-h-[80%] lg:max-w-[50%] lg:max-h-[80%]",
     gold: "max-w-[65%] max-h-[35%] lg:max-w-[77%] lg:max-h-[33%]",
     silver: "max-w-[70%] max-h-[30%] lg:max-w-[60%] lg:max-h-[30%]",
     bronze: "max-w-[60%] max-h-[20%] lg:max-w-[60%] lg:max-h-[30%]",
