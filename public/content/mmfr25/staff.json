@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Camille Bénard",
+    "company": "Agence Dn'D",
+    "companyLogo": "/images/logo/dnd.svg",
+    "companyUrl": "https://www.dnd.fr/",
+    "linkedin": "https://www.linkedin.com/in/camille-b%C3%A9nard",
+    "role": "Responsable Communication et Marketing",
+    "photo": "/images/staff/camille_benard.png",
+    "biography": ""
+  },
+  {
+    "id": 2,
+    "name": "Julien Didier",
+    "company": "Agence Dn'D",
+    "companyLogo": "/images/logo/dnd.svg",
+    "companyUrl": "https://www.dnd.fr/",
+    "linkedin": "https://www.linkedin.com/in/julien-didier-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-0306278",
+    "role": "Président & Co-fondateur",
+    "photo": "/images/staff/julien_didier.png",
+    "biography": ""
+  },
+  {
+    "id": 3,
+    "name": "Thien-Lan Weber",
+    "company": "Hyvä",
+    "companyLogo": "/images/logo/hyva.svg",
+    "companyUrl": "https://www.hyva.io/",
+    "linkedin": "https://www.linkedin.com/in/thienlan",
+    "role": "VP Strategy & Marketing",
+    "photo": "/images/staff/thien-lan_weber.png",
+    "biography": ""
+  },
+  {
+    "id": 4,
+    "name": "Frédéric Martinez",
+    "company": "PH2M",
+    "companyLogo": "/images/logo/ph2m.jpeg",
+    "companyUrl": "https://www.ph2m.com/",
+    "linkedin": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-martinez-922aa319",
+    "role": "Co-Founder & CEO",
+    "photo": "/images/staff/frederic_martinez.png",
+    "biography": "Egalement Président de l'association Opengento."
+  },
+  {
+    "id": 5,
+    "name": "Marion Sainty",
+    "company": "Blackbird",
+    "companyLogo": "/images/logo/blackbird.svg",
+    "companyUrl": "https://black.bird.eu/",
+    "linkedin": "https://www.linkedin.com/in/marion-sainty",
+    "role": "Développement commercial et digital",
+    "photo": "/images/staff/marion_sainty.png",
+    "biography": ""
+  },
+  {
+    "id": 6,
+    "name": "Thomas Klein",
+    "company": "Opengento",
+    "companyLogo": "/images/logo/opengento.svg",
+    "companyUrl": "https://opengento.fr/",
+    "linkedin": "https://www.linkedin.com/in/thomas-klein/",
+    "role": "Secrétaire",
+    "photo": "/images/staff/thomas_klein.png",
+    "biography": ""
+  },
+  {
+    "id": 7,
+    "name": "Cannelle Lemnos",
+    "company": "Ati4 Group",
+    "companyLogo": "/images/logo/ati4group.svg",
+    "companyUrl": "https://ati4group.com/",
+    "linkedin": "https://www.linkedin.com/in/cannelle-lemnos-consultante-communication",
+    "role": "Chargée de communication",
+    "photo": "/images/staff/cannelle_lemnos.png",
+    "biography": ""
+  },
+  {
+    "id": 8,
+    "name": "Ceyhun Kaplan",
+    "company": "Blackbird",
+    "companyLogo": "/images/logo/blackbird.svg",
+    "companyUrl": "https://black.bird.eu/",
+    "linkedin": "https://www.linkedin.com/in/kaplanceyhun",
+    "role": "Directeur associé",
+    "photo": "/images/staff/ceyhun_kaplan.png",
+    "biography": ""
+  },
+  {
+    "id": 9,
+    "name": "Patricia Poncy",
+    "company": "Platform.sh",
+    "companyLogo": "/images/logo/platformsh.svg",
+    "companyUrl": "https://platform.sh/",
+    "linkedin": "https://www.linkedin.com/in/patriciaponcy",
+    "role": "Agency Partner Manager Western EU",
+    "photo": "/images/staff/patricia_poncy.png",
+    "biography": ""
+  },
+  {
+    "id": 10,
+    "name": "Olivier Haesen",
+    "company": "Ati4 Group",
+    "companyLogo": "/images/logo/ati4group.svg",
+    "companyUrl": "https://ati4group.com/",
+    "linkedin": "https://www.linkedin.com/in/olivierhaesen",
+    "role": "Directeur Commercial",
+    "photo": "/images/staff/olivier_haesen.png",
+    "biography": ""
+  },
+  {
+    "id": 11,
+    "name": "Elodie Guiroux",
+    "company": "Platform.sh",
+    "companyLogo": "/images/logo/platformsh.svg",
+    "companyUrl": "https://platform.sh/",
+    "linkedin": "https://www.linkedin.com/in/elodie-guiroux/",
+    "role": "Events Marketing Manager",
+    "photo": "/images/staff/elodie_guiroux.png",
+    "biography": ""
+  }
+]
