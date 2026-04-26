@@ -20,6 +20,16 @@ interface PlaceAccess {
   access: PlaceAccessProps;
 }
 
+function baseName(str: string): string
+{
+  let base = String(str).substring(str.lastIndexOf('/') + 1);
+  if (base.lastIndexOf(".") != -1) {
+    base = base.substring(0, base.lastIndexOf("."));
+  }
+
+  return base;
+}
+
 const Access = ({ location, access }: PlaceAccess) => {
 
   const renderPublicTransport = (publicTransport: PlaceAccessPublicTransportProps) => (
@@ -49,7 +59,7 @@ const Access = ({ location, access }: PlaceAccess) => {
                   src={icon}
                   height={20}
                   width={100}
-                  alt=""
+                  alt={baseName(icon).replace('_', ' ')}
                   key={`icon-${index}`}
                   className="max-h-5 min-w-5 w-full"
                 />
