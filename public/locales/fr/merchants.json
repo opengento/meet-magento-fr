@@ -65,6 +65,11 @@
       "name": "Magento Association",
       "url": "https://www.magentoassociation.org/",
       "logoSrc": "/images/merchants/ma.png"
+    },
+    {
+      "name": "Opengento",
+      "url": "https://opengento.fr/",
+      "logoSrc": "/images/sponsors/opengento.svg"
     }
   ]
 }
