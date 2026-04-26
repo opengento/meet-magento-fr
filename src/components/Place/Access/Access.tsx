@@ -51,7 +51,7 @@ const Access = ({ location, access }: PlaceAccess) => {
                   width={100}
                   alt=""
                   key={`icon-${index}`}
-                  className="max-h-5 w-full"
+                  className="max-h-5 min-w-5 w-full"
                 />
               ))}
             </div>
