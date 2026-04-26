@@ -10,7 +10,7 @@
     "title": "Appel à speakers",
     "subtitle": "Vous êtes expert du e-commerce ou passionné de Magento ?",
     "description": "Partagez vos connaissances sur la scène de Meet Magento 2026 France, le 25 juin à Paris.",
-    "isRegistrationEnabled": true,
+    "isRegistrationEnabled": false,
     "registrationLabel": "Rejoignez les conférenciers de MMFR26",
     "registrationFormUrl": "https://forms.gle/DPjRvo5ZWKDUFTV26",
     "speakers": [

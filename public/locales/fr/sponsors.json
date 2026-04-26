@@ -1,5 +1,5 @@
 {
-  "title": "Nos sponsors 2025",
+  "title": "Nos sponsors 2026",
   "description": "Acteurs incontournables de l’écosystème Magento et Adobe Commerce, ils rendent cet événement possible et offriront aux participants l'opportunité d'échanger en face à face avec des experts lors de cette journée exceptionnelle.",
   "buttonCompany": "Site officiel",
   "bannerTitle": "Merci à nos sponsors 2026",
@@ -31,7 +31,7 @@
     {
       "type": "platinum",
       "name": "Hyva x mollie",
-      "description": "",
+      "description": "Cette année, Hyvä et Mollie s'associent pour un rayonnement encore plus fort de la communauté Magento et Adobe Commerce! Venez découvrir Hyvä Commerce, une solution tout-en-un conçue pour améliorer la performance des boutiques en ligne, optimiser la conversion et simplifier la gestion de contenu (CMS). Collectivement, nous permettons aux marques de stimuler leur croissance, d'accroître leur rentabilité et d'offrir une expérience client fluide.",
       "caption": "",
       "url": "https://www.hyva.io/hyva-x-mollie",
       "bannerSrc": "/images/sponsors/banners/hyva-x-mollie.png",
@@ -51,7 +51,7 @@
     {
       "type": "gold",
       "name": "Ati4 Group",
-      "description": "Ensemble, définissons, créons et développons votre projet e-commerce B2C ou B2B. Ati4 Group, c’est plus de 50 experts PIM et Adobe Commerce pour digitaliser et accélérer votre succès en ligne. Passion, partage et expertise sont au cœur de notre engagement.",
+      "description": "ATI4 Group est une agence digitale experte en e-commerce Adobe Commerce, active depuis 2020 sur les marchés français et internationaux. Nous accompagnons entreprises B2B & B2C, de l'idée à la maintenance, avec passion, partage et expertise.",
       "caption": "ATI4 Group, agence e-commerce, construisons ensemble votre réussite digitale",
       "url": "https://ati4group.com/",
       "bannerSrc": "/images/sponsors/banners/ati4group.jpg",
@@ -64,7 +64,7 @@
       "description": "Orchestrateur de vos projets digitaux et expert Adobe Commerce & Magento, le groupe Synolia libère votre potentiel e-commerce. Rencontrez nos experts pour bâtir une stratégie omnicanale performante, innovante et durable.",
       "caption": "Chez Synolia, nous co-concevons des expériences digitales performantes\npour soutenir vos objectifs et atteindre la réussite collective.",
       "url": "https://www.synolia.com/",
-      "bannerSrc": "/images/sponsors/banners/synolia.jpg",
+      "bannerSrc": "/images/sponsors/banners/synolia.png",
       "logoSrc": "/images/sponsors/synolia.svg",
       "whiteLogoSrc": "/images/sponsors/white/synolia.svg"
     },
@@ -80,6 +80,26 @@
     },
     {
       "type": "silver",
+      "name": "Empathy",
+      "description": "Empathy partners with leading financial institutions and employers to ease logistical and emotional burdens when it matters most.",
+      "caption": "",
+      "url": "https://www.empathy.com/",
+      "bannerSrc": "/images/sponsors/banners/empathy.png",
+      "logoSrc": "/images/sponsors/empathy.svg",
+      "whiteLogoSrc": "/images/sponsors/white/empathy.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Fasteo",
+      "description": "Infogérance e-commerce spécialiste Magento. Performance, auto-scaling et support sysadmin dédié pour agences et marchands depuis 2009.",
+      "caption": "",
+      "url": "https://www.fasteo.com/",
+      "bannerSrc": "/images/sponsors/banners/fasteo.png",
+      "logoSrc": "/images/sponsors/fasteo.svg",
+      "whiteLogoSrc": "/images/sponsors/white/fasteo.svg"
+    },
+    {
+      "type": "silver",
       "name": "Magebit",
       "description": "Magebit is recognized as a global leader in Magento development, trusted by over 400 brands including Dunkin', Volkswagen, Hydro Flask, Osprey, Henry Schein, and Snap-On. With 100+ certified Magento specialists and 15+ Hyvä certified developers, Magebit delivers high-performance commerce solutions that drive revenue growth and market leadership across the US, Canada, Europe, and Asia.",
       "caption": "An eCommerce agency you wish you met sooner",
@@ -91,7 +111,7 @@
     {
       "type": "silver",
       "name": "MaPS System",
-      "description": "MaPS System centralise et optimise la gestion des données (MDM, PIM, DAM), garantissant qualité, conformité et rapidité d'accès aux informations.",
+      "description": "Décuplez votre e-commerce avec le PIM MaPS System enrichi par l'IA. Centralisez et diffusez vos données via notre connecteur Magento.",
       "caption": "Gestion de vos données de références avec notre plateforme tout-en-un intégrant MDM, PIM et DAM.",
       "url": "https://www.maps-system.com/",
       "bannerSrc": "/images/sponsors/banners/maps.jpg",
@@ -101,12 +121,42 @@
     {
       "type": "silver",
       "name": "Sutunam",
-      "description": "Agence Magento experte depuis 2010. Certifiée Hyvä silver. UX/UI, développements et maintenance en passant par l'hébergement et l'intégration IA. A Lyon et Hanoï.",
+      "description": "Partenaire Magento & Hyvä. Accélérez votre e-commerce : IA concrète, SI automatisés et serveurs sécurisés. 15 ans d'expertise au service de vos ventes.",
       "caption": "Agence Magento depuis 2010. Certifiée Hyvä silver. UX/UI, dev, maintenance et hébergement",
       "url": "https://www.sutunam.com/",
       "bannerSrc": "/images/sponsors/banners/sutunam.jpg",
       "logoSrc": "/images/sponsors/sutunam.svg",
       "whiteLogoSrc": "/images/sponsors/white/sutunam.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Payplug",
+      "description": "Payplug est l’expert français du paiement omnicanal qui fournit le meilleur de la modularité et de la performance.",
+      "caption": "",
+      "url": "https://www.payplug.com/",
+      "bannerSrc": "/images/sponsors/banners/payplug.png",
+      "logoSrc": "/images/sponsors/payplug.svg",
+      "whiteLogoSrc": "/images/sponsors/white/payplug.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Spiriit",
+      "description": "Spiriit accompagne le déploiement et la réussite de projets ambitieux en B2B et B2C, avec un objectif clair : maximiser la conversion et répondre à des enjeux métiers concrets.",
+      "caption": "",
+      "url": "https://www.spiriit.com/",
+      "bannerSrc": "/images/sponsors/banners/spiriit.png",
+      "logoSrc": "/images/sponsors/spiriit.svg",
+      "whiteLogoSrc": "/images/sponsors/white/spiriit.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Upsun",
+      "description": "La plateforme d'applications cloud qui génère instantanément des clones parfaits de la production (copie de données temps réels, configuration et code) sur n'importe quelle branche, sur AWS, Azure ou GCP.",
+      "caption": "",
+      "url": "https://upsun.com/",
+      "bannerSrc": "/images/sponsors/banners/upsun.png",
+      "logoSrc": "/images/sponsors/upsun.svg",
+      "whiteLogoSrc": "/images/sponsors/white/upsun.svg"
     },
     {
       "type": "bronze",
@@ -117,6 +167,36 @@
       "bannerSrc": "/images/sponsors/banners/amasty.jpg",
       "logoSrc": "/images/sponsors/amasty.svg",
       "whiteLogoSrc": "/images/sponsors/white/amasty.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Smile & ElasticSuite",
+      "description": null,
+      "caption": "Boostez l'e-commerce avec ElasticSuite, l'extension Magento n°1 au monde",
+      "url": "https://elasticsuite.io/",
+      "bannerSrc": "/images/sponsors/banners/elasticsuite.png",
+      "logoSrc": "/images/sponsors/smile_elasticsuite.svg",
+      "whiteLogoSrc": "/images/sponsors/white/smile_elasticsuite.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Opengento",
+      "description": null,
+      "caption": "",
+      "url": "https://opengento.fr/",
+      "bannerSrc": "/images/sponsors/banners/opengento.jpg",
+      "logoSrc": "/images/sponsors/opengento.svg",
+      "whiteLogoSrc": "/images/sponsors/white/opengento.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Kiliba",
+      "description": null,
+      "caption": "",
+      "url": "https://www.kiliba.com/",
+      "bannerSrc": "/images/sponsors/banners/kiliba.png",
+      "logoSrc": "/images/sponsors/kiliba.svg",
+      "whiteLogoSrc": "/images/sponsors/white/kiliba.svg"
     }
   ]
 }
