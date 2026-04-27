@@ -170,13 +170,13 @@
     },
     {
       "type": "bronze",
-      "name": "Smile & ElasticSuite",
+      "name": "ElasticSuite",
       "description": null,
       "caption": "Boostez l'e-commerce avec ElasticSuite, l'extension Magento n°1 au monde",
       "url": "https://elasticsuite.io/",
       "bannerSrc": "/images/sponsors/banners/elasticsuite.png",
-      "logoSrc": "/images/sponsors/smile_elasticsuite.svg",
-      "whiteLogoSrc": "/images/sponsors/white/smile_elasticsuite.svg"
+      "logoSrc": "/images/sponsors/elasticsuite.svg",
+      "whiteLogoSrc": "/images/sponsors/white/elasticsuite.svg"
     },
     {
       "type": "bronze",
