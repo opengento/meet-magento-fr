@@ -33,12 +33,6 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
         bronze: [],
       }
     );
-  const sortedSponsors: SponsorProps[] = [
-    ...sponsorListByType.platinum,
-    ...sponsorListByType.gold,
-    ...sponsorListByType.silver,
-    ...sponsorListByType.bronze,
-  ];
 
   return (
     <BackgroundImage imagePath="/images/background/sponsors.jpg" className="py-12">
@@ -67,10 +61,27 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
             </>
           )}
         </TopBanner>
-        <div className="grid grid-cols-12 auto-rows-[1.2rem] md:auto-rows-[1.5rem] gap-2 mt-6">
-          {sortedSponsors.map((sponsor: SponsorProps, key: number) => (
-            <Sponsor sponsor={sponsor} key={key}/>
-          ))}
+        <div className="flex flex-col gap-y-2 my-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 auto-rows-[8rem] md:auto-rows-[16rem] gap-2">
+            {sponsorListByType.platinum.map((sponsor: SponsorProps, key: number) => (
+              <Sponsor sponsor={sponsor} key={key}/>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[6rem] md:auto-rows-[12rem] gap-2">
+            {sponsorListByType.gold.map((sponsor: SponsorProps, key: number) => (
+              <Sponsor sponsor={sponsor} key={key}/>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[4rem] md:auto-rows-[8rem] gap-2">
+            {sponsorListByType.silver.map((sponsor: SponsorProps, key: number) => (
+              <Sponsor sponsor={sponsor} key={key}/>
+            ))}
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-5 auto-rows-[3rem] md:auto-rows-[6rem] gap-2">
+            {sponsorListByType.bronze.map((sponsor: SponsorProps, key: number) => (
+              <Sponsor sponsor={sponsor} key={key}/>
+            ))}
+          </div>
         </div>
       </Container>
     </BackgroundImage>
