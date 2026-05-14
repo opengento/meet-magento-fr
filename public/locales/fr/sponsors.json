@@ -1,9 +1,9 @@
 {
-  "title": "Nos sponsors 2026",
+  "title": "Nos sponsors",
   "description": "Acteurs incontournables de l’écosystème Magento et Adobe Commerce, ils rendent cet événement possible et offriront aux participants l'opportunité d'échanger en face à face avec des experts lors de cette journée exceptionnelle.",
   "buttonCompany": "Site officiel",
-  "bannerTitle": "Merci à nos sponsors 2026",
-  "seeAll": "Voir tous les sponsors 2026",
+  "bannerTitle": "Merci à nos sponsors",
+  "seeAll": "Voir tous les sponsors",
   "submit": "Devenir sponsor",
   "contactText": "Contactez-nous à l'adresse suivante :",
   "contactEmail": "meetmagento-france@opengento.com",
@@ -157,6 +157,26 @@
       "bannerSrc": "/images/sponsors/banners/upsun.png",
       "logoSrc": "/images/sponsors/upsun.svg",
       "whiteLogoSrc": "/images/sponsors/white/upsun.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Scandiweb",
+      "description": "The world’s biggest brands turn to scandiweb for strategy, guidance, development, and growth of their commerce systems and stores.",
+      "caption": "",
+      "url": "https://scandiweb.com/",
+      "bannerSrc": "/images/sponsors/banners/scandiweb.png",
+      "logoSrc": "/images/sponsors/scandiweb.svg",
+      "whiteLogoSrc": "/images/sponsors/white/scandiweb.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Stripe",
+      "description": "Une infrastructure financière qui booste votre croissance. Acceptez des paiements, proposez des services financiers et personnalisez votre modèle de revenus, quel que soit votre volume de transactions.",
+      "caption": "",
+      "url": "https://stripe.com/",
+      "bannerSrc": "/images/sponsors/banners/stripe.png",
+      "logoSrc": "/images/sponsors/stripe.svg",
+      "whiteLogoSrc": "/images/sponsors/white/stripe.svg"
     },
     {
       "type": "bronze",

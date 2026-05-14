@@ -1,9 +1,9 @@
 {
-  "title": "Extrait du Programme 2025",
+  "title": "Extrait du Programme",
   "description": "Une journée rythmée par des conférences inspirantes alliant stratégie business, E-Commerce, expertise technique et retours d’expérience de marchands. Entre chaque session, des moments de networking privilégiés permettront d’échanger entre participants et de renforcer les liens au sein de la communauté Magento et Adobe Commerce !",
-  "label": "Redécouvrir le programme 2025",
+  "label": "Découvrir le programme",
   "href": "/programme",
-  "title-widget": "Ils étaient présents à Meet Magento France 2025",
+  "title-widget": "Extrait du programme du Meet Magento France",
   "breaktimes": [
     {
       "title": "Petit-déjeuner & Networking",
@@ -45,9 +45,9 @@
       "start": "18h00",
       "end": "22h00",
       "sponsor": {
-        "name": "Mollie",
-        "logoSrc": "/images/sponsors/mollie.svg",
-        "url": "https://www.mollie.com/"
+        "name": "Hyva x mollie",
+        "logoSrc": "/images/sponsors/hyva-x-mollie.svg",
+        "url": "https://www.hyva.io/hyva-x-mollie"
       },
       "background": "variant2"
     },
@@ -55,11 +55,7 @@
       "title": "After Party",
       "start": "22h00",
       "end": "",
-      "sponsor": {
-        "name": "PH2M",
-        "logoSrc": "/images/sponsors/ph2m.svg",
-        "url": "https://www.ph2m.com/"
-      },
+      "sponsor": null,
       "background": "variant3"
     }
   ]
