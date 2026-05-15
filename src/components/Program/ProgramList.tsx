@@ -6,7 +6,6 @@ import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import useDataProvider from "@/hooks/useDataProvider";
 import ClientOnly from "@/helpers/ClientOnly";
 import ProgramTile from "./ProgramTile";
 import SessionPopIn from "../Speakers/Session/SessionPopIn";
@@ -14,10 +13,9 @@ import { SessionProps } from "../Speakers/Session/SessionProps";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import {useTranslation} from "react-i18next";
 
-const ProgramList = () => {
+const ProgramList = ({sessions}: {sessions: SessionProps[]}) => {
   const { t } = useTranslation(["program", "edition"]);
   const swiperRef = React.useRef<SwiperClass>(null);
-  const sessions = useDataProvider().useSessions();
   const [selectedSession, setSelectedSession] =
     React.useState<SessionProps | null>(null);
 

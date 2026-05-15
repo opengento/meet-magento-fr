@@ -33,7 +33,7 @@ export default function Home() {
       <SpeakersRegistration data={dataProvider.useSpeakers()}/>
       <SponsorRegistration />
       <div id="programs">
-        <Program/>
+        <Program sessions={dataProvider.useSessions()}/>
       </div>
       <div id="speakers">
         <Speakers data={dataProvider.useSpeakers()}/>
