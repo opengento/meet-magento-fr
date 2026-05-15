@@ -20,6 +20,13 @@ npm run build
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Optim Images
+
+```bash
+find ./public/ -type f -iname "*.png" -exec optipng -nb -nc {} \;
+find ./public/ -type f \( -iname "*.jpg" -o -iname "*.jpeg" \) -exec jpegoptim -f --strip-all {} \;
+```
+
 ## Live
 
 https://fr.meet-magento.com/
