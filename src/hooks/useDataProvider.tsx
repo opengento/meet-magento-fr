@@ -14,7 +14,7 @@ const useData = (ns: string, key: string = "data") => {
   return useTranslation([ns]).t(key, { returnObjects: true });
 };
 
-const useSpeakers = (year?: string): SpeakersProps => {
+const useSpeakers = (year: string = ""): SpeakersProps => {
   if (year) {
     year = "-" + year;
   }
@@ -22,8 +22,8 @@ const useSpeakers = (year?: string): SpeakersProps => {
   return useData("speakers" + year) as SpeakersProps;
 };
 
-const useSessions = (speakerId?: number|null, year?: string): SessionProps[] => {
-  if (year) {
+const useSessions = (speakerId?: number|null, year: string = ""): SessionProps[] => {
+  if (year !== "") {
     year = "-" + year;
   }
   const content = useData("speakers" + year, "data.sessions") as SessionProps[];
@@ -33,7 +33,7 @@ const useSessions = (speakerId?: number|null, year?: string): SessionProps[] => 
   return content.filter((session) => session.speakers.includes(speakerId));
 };
 
-const useSponsors = (year?: string): SponsorProps[] => {
+const useSponsors = (year: string = ""): SponsorProps[] => {
   if (year) {
     year = "-" + year;
   }

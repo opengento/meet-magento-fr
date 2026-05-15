@@ -4,7 +4,7 @@
   "actions": {
     "seeAllUrl": "/speakers"
   },
-  "listTitle": "Liste des speakers",
+  "listTitle": "Nos speakers",
   "listLabel": "Découvrir les speakers",
   "data": {
     "title": "Appel à speakers",
