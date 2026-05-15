@@ -217,6 +217,16 @@
       "bannerSrc": "/images/sponsors/banners/kiliba.png",
       "logoSrc": "/images/sponsors/kiliba.svg",
       "whiteLogoSrc": "/images/sponsors/white/kiliba.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Orisha",
+      "description": null,
+      "caption": "",
+      "url": "https://commerce.orisha.com/fr/",
+      "bannerSrc": "/images/sponsors/banners/orisha.png",
+      "logoSrc": "/images/sponsors/orisha.svg",
+      "whiteLogoSrc": "/images/sponsors/white/orisha.svg"
     }
   ]
 }
