@@ -12,7 +12,7 @@ const SponsorRegistration = () => {
 
   return (
     <>
-      {submitUrl && (
+      {t("sponsors:actions.enableSubmit") && submitUrl && (
         <Container size="large">
           <div className="speakers flex flex-col py-8 md:py-12 gap-12">
             <div className="flex flex-col md:flex-row rounded-xl overflow-hidden relative">

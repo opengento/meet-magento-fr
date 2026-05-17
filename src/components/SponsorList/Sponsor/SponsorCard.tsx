@@ -47,7 +47,7 @@ const SponsorCard = ({ sponsor }: { sponsor: SponsorProps }) => {
         height={280}
         className="rounded-3xl object-contain md:col-span-2"
       />
-      <div className="flex flex-col gap-6 md:col-span-3">
+      <div className="flex flex-col items-stretch gap-6 h-full md:col-span-3">
         <div className="h-8">
           <Image
             src={sponsor.logoSrc}
@@ -57,19 +57,21 @@ const SponsorCard = ({ sponsor }: { sponsor: SponsorProps }) => {
             className="object-contain h-full w-auto max-w-48"
           />
         </div>
-        <Typography color="dark" className="whitespace-pre-wrap">
+        <Typography color="dark" className="whitespace-pre-wrap h-full">
           {sponsor.description ? sponsor.description : sponsor.caption}
         </Typography>
-        <ButtonLink
-          variant="secondary-invert-w-border"
-          href={sponsor.url}
-          target="_blank"
-          rel="noopener"
-          iconPosition="right"
-          icon={<IoIosArrowForward/>}
-        >
-          {t('sponsors:buttonCompany')}
-        </ButtonLink>
+        <div className="block">
+          <ButtonLink
+            variant="secondary-invert-w-border"
+            href={sponsor.url}
+            target="_blank"
+            rel="noopener"
+            iconPosition="right"
+            icon={<IoIosArrowForward/>}
+          >
+            {t('sponsors:buttonCompany')}
+          </ButtonLink>
+        </div>
       </div>
     </div>
   );

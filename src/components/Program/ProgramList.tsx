@@ -12,6 +12,7 @@ import SessionPopIn from "../Speakers/Session/SessionPopIn";
 import { SessionProps } from "../Speakers/Session/SessionProps";
 import ButtonLink from "@/components/ButtonLink/ButtonLink";
 import {useTranslation} from "react-i18next";
+import Typography from "@/components/Typography/Typography";
 
 const ProgramList = ({sessions}: {sessions: SessionProps[]}) => {
   const { t } = useTranslation(["program", "edition"]);
@@ -80,6 +81,11 @@ const ProgramList = ({sessions}: {sessions: SessionProps[]}) => {
               />
             </SwiperSlide>
           ))}
+          {sessions.length === 0 && (
+            <Typography variant="subtitle2" align="center" weight="semibold" color="info">
+              {t("program:empty")}
+            </Typography>
+          )}
         </Swiper>
       </ClientOnly>
       {selectedSession && (
