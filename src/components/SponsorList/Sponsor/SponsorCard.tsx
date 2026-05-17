@@ -60,18 +60,16 @@ const SponsorCard = ({ sponsor }: { sponsor: SponsorProps }) => {
         <Typography color="dark" className="whitespace-pre-wrap h-full">
           {sponsor.description ? sponsor.description : sponsor.caption}
         </Typography>
-        <div className="block">
-          <ButtonLink
-            variant="secondary-invert-w-border"
-            href={sponsor.url}
-            target="_blank"
-            rel="noopener"
-            iconPosition="right"
-            icon={<IoIosArrowForward/>}
-          >
-            {t('sponsors:buttonCompany')}
-          </ButtonLink>
-        </div>
+        <ButtonLink
+          variant="secondary-invert-w-border"
+          href={sponsor.url}
+          target="_blank"
+          rel="noopener"
+          iconPosition="right"
+          icon={<IoIosArrowForward/>}
+        >
+          {t('sponsors:buttonCompany')}
+        </ButtonLink>
       </div>
     </div>
   );
