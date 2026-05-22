@@ -91,13 +91,13 @@
     },
     {
       "type": "silver",
-      "name": "Fasteo",
+      "name": "Fast-Mage",
       "description": "Infogérance e-commerce spécialiste Magento. Performance, auto-scaling et support sysadmin dédié pour agences et marchands depuis 2009.",
       "caption": "",
-      "url": "https://www.fasteo.com/",
-      "bannerSrc": "/images/sponsors/banners/fasteo.png",
-      "logoSrc": "/images/sponsors/fasteo.svg",
-      "whiteLogoSrc": "/images/sponsors/white/fasteo.svg"
+      "url": "https://www.fast-mage.com/",
+      "bannerSrc": "/images/sponsors/banners/fast-mage.png",
+      "logoSrc": "/images/sponsors/fast-mage.svg",
+      "whiteLogoSrc": "/images/sponsors/white/fast-mage.svg"
     },
     {
       "type": "silver",
