@@ -41,7 +41,7 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
           title={t("sponsors:bannerTitle")}
           backgroundImage="/images/pattern_top-banner_sponsors.svg"
         >
-          {'submitUrl' in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
+          {t("sponsors:actions.enableSubmit") && 'submitUrl' in actions && typeof actions.submitUrl === 'string' && !!actions.submitUrl && (
             <ButtonLink variant="secondary" href={actions.submitUrl}>
               {t("sponsors:submit")}
             </ButtonLink>
