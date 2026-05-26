@@ -55,7 +55,7 @@
         "companyUrl": "https://www.bergeredefrance.fr/",
         "linkedin": "https://www.linkedin.com/in/damien-pozzi-1b2369162/",
         "role": "Responsable e-commerce",
-        "photo": "/images/speakers/damien_pozzi.jpg",
+        "photo": "/images/speakers/damien_pozzi.png",
         "biography": "Développeur web de formation, j’ai débuté sur un ERP SaaS avant de me spécialiser en e-commerce chez Bergère de France comme Développeur puis Chef de projet. J’ai ensuite rejoint Chaussea où je suis passé par des postes clés (Responsable E-Commerce et Responsable Technique Web). J’y ai piloté des projets structurants (refonte, performance, conversion). Aujourd’hui Responsable E-Commerce de la SCOP Bergère de France, j’allie vision commerce, pilotage de projets et expertise technique au service de la performance digitale."
       },
       {
@@ -66,7 +66,7 @@
         "companyUrl": "https://www.palaisdesthes.com/",
         "linkedin": "https://www.linkedin.com/in/constance-de-pompignan-512599b/",
         "role": "Directrice WEB & Marketing Client",
-        "photo": "/images/speakers/constance_de_pompignan.jpg",
+        "photo": "/images/speakers/constance_de_pompignan.png",
         "biography": "Après avoir débuté dans de grands groupes de cosmétique et de grande consommation, Constance goûte aux multiples défis du monde des startups dans l’univers de la tech. Profondément attirée par l'univers de la gastronomie, elle rejoint ensuite Pierre Hermé Paris et y découvre les métiers du e-commerce. Après presque 4 ans à conjuguer digital et gastronomie de luxe, elle rejoint Palais des Thés et accompagne, depuis 12 ans maintenant, la croissance de cette Maison, au sein de laquelle le digital a toujours eu une place stratégique."
       },
       {
@@ -77,7 +77,7 @@
         "companyUrl": "https://www.uniwax.com/",
         "linkedin": "https://www.linkedin.com/in/aurore-aoussi/",
         "role": "Directrice du digital",
-        "photo": "/images/speakers/aurore_aoussi.jpg",
+        "photo": "/images/speakers/aurore_aoussi.png",
         "biography": "Aurore Aoussi est experte en e-commerce et en stratégie digitale, avec une expérience développée entre la France et la Côte d’Ivoire. Elle dirige aujourd’hui la stratégie digitale et e-commerce d’Uniwax, leader du textile imprimé en Afrique de l’Ouest, où elle pilote la croissance et la transformation de la marque sur un marché en forte évolution.\nReconnue pour sa capacité à adapter les modèles e-commerce aux spécificités des marchés africains, elle allie vision business, expertise terrain et culture du résultat pour concevoir des stratégies performantes et ancrées dans les usages réels des consommateurs."
       },
       {
@@ -143,7 +143,7 @@
         "companyUrl": "https://black.bird.eu/",
         "linkedin": "https://www.linkedin.com/in/klauss-mortreux/",
         "role": "Front-end Technical Lead",
-        "photo": "/images/speakers/klauss_mortreux.png",
+        "photo": "/images/speakers/klauss_mortreux_mmfr26.png",
         "biography": "Tombé dans la marmite du développement depuis bientôt 10 ans, et presque autant dans le web, je contribue aujourd’hui à la progression technique et à l’expertise du pôle front de Blackbird Agency. Passionné par le design et la performance web, j’aide nos clients à tirer le meilleur parti de leurs sites en proposant des expériences Magento 2 sur mesure avec Hyvä !"
       },
       {
@@ -154,7 +154,7 @@
         "companyUrl": "https://maisonkitsune.com/",
         "linkedin": "https://www.linkedin.com/in/sophiedeleporte/",
         "role": "Responsable Projets Digitaux",
-        "photo": "/images/speakers/sophie_deleporte.jpg",
+        "photo": "/images/speakers/sophie_deleporte.png",
         "biography": "Depuis plus de 6 ans chez Maison Kitsuné, je pilote les projets digitaux et l’évolution de la plateforme Magento à l’international. À la croisée du business, de la tech et de l’UX, je gère la roadmap, les arbitrages techniques et les partenaires.\nDans un contexte exigeant, face à des outils qui évoluent vite, pragmatisme et ingéniosité sont de mise pour l’équipe !\nMon objectif : faire de la plateforme un moteur de croissance, en restant fidèle à l’ADN de la marque."
       },
       {
@@ -165,7 +165,7 @@
         "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
         "linkedin": "https://www.linkedin.com/in/harrisonloveall/",
         "role": "Manager, Payments Specialist Team",
-        "photo": "/images/speakers/harrison_loveal.jpg",
+        "photo": "/images/speakers/harrison_loveal.png",
         "biography": "Harrison Loveall is a payments and eCommerce specialist with deep expertise in the Adobe Commerce and Magento ecosystem. As Manager of Adobe’s Payment Specialist Team, he works with merchants, agencies and partners to modernize payment infrastructures and maximize the value of Adobe Payment Services. Known for his practical, merchant‑first approach, Harrison helps businesses simplify payment migration and build scalable, results‑driven strategies across North America and Europe."
       },
       {
@@ -187,7 +187,7 @@
         "companyUrl": "https://www.hyva.io/",
         "linkedin": "https://www.linkedin.com/in/vinai/",
         "role": "CTO",
-        "photo": "/images/speakers/vinai_kopp.jpg",
+        "photo": "/images/speakers/vinai_kopp.png",
         "biography": "Vinai Kopp has worked as a freelance web-developer since 1998. In March 2008 he specialized in Magento, and has since \nworked on many different projects. Since 2011, he also worked as a trainer. Today he works as technical director at Hyvä Themes."
       },
       {
