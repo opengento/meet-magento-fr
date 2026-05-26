@@ -180,16 +180,6 @@
       "whiteLogoSrc": "/images/sponsors/white/stripe.svg"
     },
     {
-      "type": "silver",
-      "name": "Quable",
-      "description": "With Quable, tell your customers the best product story whenever they connect: e-commerce, marketplaces, B2B, D2C. Keep your product strategy consistent and adapt it to each market.",
-      "caption": "",
-      "url": "https://www.quable.com/",
-      "bannerSrc": "/images/sponsors/banners/quable.png",
-      "logoSrc": "/images/sponsors/quable.svg",
-      "whiteLogoSrc": "/images/sponsors/white/quable.svg"
-    },
-    {
       "type": "bronze",
       "name": "Amasty",
       "description": null,
@@ -234,10 +224,32 @@
       "name": "Orisha",
       "description": null,
       "caption": "",
-      "url": "https://commerce.orisha.com/fr/",
+      "url": "https://commerce.orisha.com/",
       "bannerSrc": "/images/sponsors/banners/orisha.png",
       "logoSrc": "/images/sponsors/orisha.svg",
       "whiteLogoSrc": "/images/sponsors/white/orisha.svg"
+    },
+    {
+      "type": "bronze",
+      "name": "Orvalle",
+      "description": null,
+      "caption": "",
+      "url": "https://orvalle.fr/",
+      "bannerSrc": "/images/sponsors/banners/orvalle.png",
+      "logoSrc": "/images/sponsors/orvalle.svg",
+      "whiteLogoSrc": "/images/sponsors/white/orvalle.svg"
+    }
+  ],
+  "toConfirmPartners": [
+    {
+      "type": "silver",
+      "name": "Quable",
+      "description": "With Quable, tell your customers the best product story whenever they connect: e-commerce, marketplaces, B2B, D2C. Keep your product strategy consistent and adapt it to each market.",
+      "caption": "",
+      "url": "https://www.quable.com/",
+      "bannerSrc": "/images/sponsors/banners/quable.png",
+      "logoSrc": "/images/sponsors/quable.svg",
+      "whiteLogoSrc": "/images/sponsors/white/quable.svg"
     }
   ]
 }
