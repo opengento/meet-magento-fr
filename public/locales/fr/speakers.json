@@ -23,7 +23,7 @@
         "linkedin": "https://www.linkedin.com/in/cvaute/",
         "role": "Country Partnerships Lead, Southern Europe",
         "photo": "/images/speakers/cecile_vaute.png",
-        "biography": "Cécile Vaute pilote les partenariats pour Mollie en Europe du Sud. Forte d'une expérience internationale chez Criteo, elle accompagne les marchands dans leur expansion européenne. Experte en conversion et paiement, elle aide les entreprises à transformer leurs transactions en levier de croissance par le biais des partenariats."
+        "biography": "Cécile Vaute pilote les partenariats pour Mollie en Europe du Sud. Forte d’une expérience internationale chez Criteo, elle accompagne les marchands dans leur expansion européenne. Experte en conversion et paiement, elle aide les entreprises à transformer leurs transactions en levier de croissance par le biais des partenariats."
       },
       {
         "id": 1002,
@@ -34,7 +34,7 @@
         "linkedin": "https://www.linkedin.com/in/regisquintin",
         "role": "Head of Adobe Commerce for EMEA",
         "photo": "/images/speakers/regis_quintin.png",
-        "biography": "Régis a travaillé sur de nombreux projets e-commerce depuis 25 ans pour digitaliser les ventes B2B et B2C de grands clients en France et à l'international, notamment avec Magento à partir de 2008.\n\nAprès avoir rejoint Adobe en 2015, il a aujourd’hui la charge de co-construire la stratégie d’Adobe Commerce en EMEA et de piloter son exécution en lien avec les équipes Adobe et les partenaires sur la région, dans le but de permettre aux entreprises de réaliser leur plein potentiel de vente grâce au digital."
+        "biography": "Régis a travaillé sur de nombreux projets e-commerce depuis 25 ans pour digitaliser les ventes B2B et B2C de grands clients en France et à l’international, notamment avec Magento à partir de 2008.\n\nAprès avoir rejoint Adobe en 2015, il a aujourd’hui la charge de co-construire la stratégie d’Adobe Commerce en EMEA et de piloter son exécution en lien avec les équipes Adobe et les partenaires sur la région, dans le but de permettre aux entreprises de réaliser leur plein potentiel de vente grâce au digital."
       },
       {
         "id": 1003,
@@ -67,7 +67,7 @@
         "linkedin": "https://www.linkedin.com/in/constance-de-pompignan-512599b/",
         "role": "Directrice WEB & Marketing Client",
         "photo": "/images/speakers/constance_de_pompignan.png",
-        "biography": "Après avoir débuté dans de grands groupes de cosmétique et de grande consommation, Constance goûte aux multiples défis du monde des startups dans l’univers de la tech. Profondément attirée par l'univers de la gastronomie, elle rejoint ensuite Pierre Hermé Paris et y découvre les métiers du e-commerce. Après presque 4 ans à conjuguer digital et gastronomie de luxe, elle rejoint Palais des Thés et accompagne, depuis 12 ans maintenant, la croissance de cette Maison, au sein de laquelle le digital a toujours eu une place stratégique."
+        "biography": "Après avoir débuté dans de grands groupes de cosmétique et de grande consommation, Constance goûte aux multiples défis du monde des startups dans l’univers de la tech. Profondément attirée par l’univers de la gastronomie, elle rejoint ensuite Pierre Hermé Paris et y découvre les métiers du e-commerce. Après presque 4 ans à conjuguer digital et gastronomie de luxe, elle rejoint Palais des Thés et accompagne, depuis 12 ans maintenant, la croissance de cette Maison, au sein de laquelle le digital a toujours eu une place stratégique."
       },
       {
         "id": 1006,
@@ -100,7 +100,7 @@
         "linkedin": "",
         "role": "Cheffe de produits",
         "photo": "/images/speakers/nawelle_dogheche.png",
-        "biography": "Cheffe de produits dans le secteur de la santé, Nawelle Dogheche s'appuie sur une expertise acquise dans l'industrie pharmaceutique. Issue d'une formation scientifique et marketing, elle intervient dans des environnements exigeants. Elle pilote le développement de produits, de leur conception à leur mise sur le marché. Récemment arrivée chez Neut dans l'orthopédie, elle participe au développement du site e-commerce comme levier de croissance."
+        "biography": "Cheffe de produits dans le secteur de la santé, Nawelle Dogheche s’appuie sur une expertise acquise dans l’industrie pharmaceutique. Issue d’une formation scientifique et marketing, elle intervient dans des environnements exigeants. Elle pilote le développement de produits, de leur conception à leur mise sur le marché. Récemment arrivée chez Neut dans l’orthopédie, elle participe au développement du site e-commerce comme levier de croissance."
       },
       {
         "id": 1009,
@@ -114,6 +114,28 @@
         "biography": "Benjamin Calef est CTO chez Zadig & Voltaire.\nIl travaille à un endroit précis où beaucoup de discours IA se fracassent contre le réel : la production.\nEntre Magento 2, architecture e-commerce et automatisation, il explore comment des développeurs augmentés par l’IA peuvent livrer avec une vitesse et un niveau d’impact qui rebattent les cartes des équipes tech traditionnelles."
       },
       {
+        "id": 1009,
+        "name": "Stéphane Dom",
+        "company": "Adobe",
+        "companyLogo": "/images/logo/adobe.svg",
+        "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
+        "linkedin": "https://www.linkedin.com/in/stephanedom/",
+        "role": "Product Sales Specialist",
+        "photo": "/images/speakers/stephane_dom.png",
+        "biography": "Stéphane Dom accompagne depuis plusieurs années la transformation et l’accélération d’activités e-commerce, sur des enjeux B2C comme B2B. Son parcours, couplant une expérience entrepreneuriale à des responsabilités au sein d’acteurs majeurs du software, lui confère une compréhension concrète des réalités opérationnelles et des enjeux transversaux de croissance. Au sein d’Adobe, il intervient auprès de grands comptes ainsi que d’entreprises à forte ambition digitale pour concevoir et déployer des stratégies performantes, motorisées par Adobe Commerce."
+      },
+      {
+        "id": 1009,
+        "name": "Frédéric Morel",
+        "company": "Lafreto Outdoor",
+        "companyLogo": "/images/logo/lafretooutdoor.png",
+        "companyUrl": "https://www.lafreto-outdoor.com/",
+        "linkedin": "https://www.linkedin.com/in/fr%C3%A9d%C3%A9ric-morel-aa148412/",
+        "role": "Directeur groupe",
+        "photo": "/images/speakers/frederic_morel.png",
+        "biography": "Frédéric Morel est Président du groupe LAFRETO OUTDOOR. Pionnier du e-commerce de sport depuis le lancement de Glisshop.com en 1999, il développe depuis plus de 25 ans des activités de vente en ligne dans les univers de la montagne, du golf et des sports nautiques. Le groupe opère aujourd’hui dix sites internet à travers trois enseignes, Glisshop, monsieurgolf et Glisse Proshop, et réalise 92 % de ses 53 millions d’euros de chiffre d’affaires sur le digital. Le développement international constitue aujourd’hui le principal axe de croissance que Frédéric Morel entend accélérer grâce à un nouveau projet CMS Adobe commerce."
+      },
+      {
         "id": 1010,
         "name": "Willem Wigman",
         "company": "Hyvä",
@@ -122,7 +144,29 @@
         "linkedin": "https://www.linkedin.com/in/willem-wigman/",
         "role": "Founder & CEO",
         "photo": "/images/speakers/willem_wigman.png",
-        "biography": "Willem is the founder of Hyvä, the fastest Magento frontend on the market. He has been working with Magento since 2011. After he started specialising in performance optimization on Magento, he accidentally built Hyvä out of frustration with existing frontend solutions. Hyvä launched in 2020 and focuses heavily on performance, reducing complexity, build time, maintenance cost and boosting developers' happiness. Today Willem is the CEO of a full remote company of 24 staff scattered across Europe."
+        "biography": "Willem is the founder of Hyvä, the fastest Magento frontend on the market. He has been working with Magento since 2011. After he started specialising in performance optimization on Magento, he accidentally built Hyvä out of frustration with existing frontend solutions. Hyvä launched in 2020 and focuses heavily on performance, reducing complexity, build time, maintenance cost and boosting developers’ happiness. Today Willem is the CEO of a full remote company of 24 staff scattered across Europe."
+      },
+      {
+        "id": 1010,
+        "name": "Charlotte Merandon",
+        "company": "La Parfumerie Europe",
+        "companyLogo": "/images/logo/laparfumerie.png",
+        "companyUrl": "https://www.laparfumerie.eu/",
+        "linkedin": "https://www.linkedin.com/in/charlottemerandon/",
+        "role": "Responsable marketing et e-commerce",
+        "photo": "/images/speakers/charlotte_merandon.png",
+        "biography": "Responsable Marketing et E-commerce chez La Parfumerie Europe, Charlotte Mérandon accompagne la transformation digitale et commerciale de l’enseigne. Forte d’un parcours construit autour du marketing opérationnel, du CRM, de la connaissance client et des projets digitaux B2B, elle pilote aujourd’hui les enjeux e-commerce de l’entreprise. Au Meet Magento, elle partagera un retour d’expérience concret sur les choix, arbitrages, contraintes métier et défis d’un replatforming B2B2C sous Magento 2."
+      },
+      {
+        "id": 1010,
+        "name": "David Lozano",
+        "company": "La Parfumerie Europe",
+        "companyLogo": "/images/logo/laparfumerie.png",
+        "companyUrl": "https://www.laparfumerie.eu/",
+        "linkedin": "https://www.linkedin.com/in/davidlozano/",
+        "role": "Président",
+        "photo": "/images/speakers/david_lozano.png",
+        "biography": "Après avoir rejoint le groupe en 2020 en tant que Directeur Financier et membre du Comité de Direction, il en prend la direction générale en 2023, puis la Présidence en 2025.\nIl pilote depuis lors l’ensemble des fonctions stratégiques, financières et opérationnelles du groupe, avec une attention particulière portée à sa transformation digitale."
       },
       {
         "id": 1011,
@@ -159,13 +203,13 @@
       },
       {
         "id": 1014,
-        "name": "Harrison Loveal",
+        "name": "Harrison Loveall",
         "company": "Adobe",
         "companyLogo": "/images/logo/adobe.svg",
         "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
         "linkedin": "https://www.linkedin.com/in/harrisonloveall/",
         "role": "Manager, Payments Specialist Team",
-        "photo": "/images/speakers/harrison_loveal.png",
+        "photo": "/images/speakers/harrison_loveall.png",
         "biography": "Harrison Loveall is a payments and eCommerce specialist with deep expertise in the Adobe Commerce and Magento ecosystem. As Manager of Adobe’s Payment Specialist Team, he works with merchants, agencies and partners to modernize payment infrastructures and maximize the value of Adobe Payment Services. Known for his practical, merchant‑first approach, Harrison helps businesses simplify payment migration and build scalable, results‑driven strategies across North America and Europe."
       },
       {
@@ -178,6 +222,39 @@
         "role": "Product Manager, Commerce & Adobe Payments, Adobe | Member Board of Directors, Magento Association",
         "photo": "/images/speakers/ritesh_somani.png",
         "biography": "Ritesh Somani helps to drive value-added services and features for Adobe Commerce and Magento Open Source within the product team. He has over 15 years of experience delivering software solutions for SMB and enterprise customers in the commerce and payments spaces for platforms. Having started his own business, and having worked at startups and companies such as Intuit, Visa, and PayPal, Ritesh understands the needs of merchants and has successfully implemented easy-to-use and delightful solutions for millions of businesses worldwide."
+      },
+      {
+        "id": 1015,
+        "name": "Ludovic Lacaze",
+        "company": "Spiriit",
+        "companyLogo": "/images/logo/spiriit.png",
+        "companyUrl": "https://www.spiriit.com/",
+        "linkedin": "https://www.linkedin.com/in/ludovic-lacaze-04baa42/",
+        "role": "Directeur Conseil et architecte technique",
+        "photo": "/images/speakers/ludovic_lacaze.png",
+        "biography": "Ludovic intervient à la fois sur des missions de conseil stratégique ou technique mais aussi en accompagnement des projets de clients.\nAvec près de 200 projets clients accompagnés au cours des 20 dernières années, il a acquis une bonne maîtrise dans l’adaptation au métier de chaque client et une forte capacité de conseil stratégique."
+      },
+      {
+        "id": 1015,
+        "name": "Jérôme Megel",
+        "company": "Spiriit",
+        "companyLogo": "/images/logo/spiriit.png",
+        "companyUrl": "https://www.spiriit.com/",
+        "linkedin": "https://www.linkedin.com/in/j%C3%A9r%C3%B4me-megel-22258322/",
+        "role": "Lead Développeur Magento",
+        "photo": "/images/speakers/jerome_megel.png",
+        "biography": "Avec plus de 15 années d’expériences dans le Web et plus particulièrement l’E-Commerce, Jérôme s’est construit un solide socle technique auprès d’une cinquantaine de clients.\nJérôme a également su tirer parti de son expérience pour passer de l’autre côté de la barrière et devenir e-commerçant pendant plusieurs années."
+      },
+      {
+        "id": 1015,
+        "name": "Coralie Crivillé",
+        "company": "WeConnect",
+        "companyLogo": "/images/logo/weconnect.png",
+        "companyUrl": "http://www.connect-we.fr/",
+        "linkedin": "https://www.linkedin.com/in/coralie-crivill%C3%A9-37466a187/",
+        "role": "Directrice Générale",
+        "photo": "/images/speakers/coralie_criville.png",
+        "biography": "Depuis plusieurs années chez WE Connect, Coralie accompagne les grandes étapes de développement de l’entreprise. Entre structuration interne, évolution des process, lancement de nouvelles activités et pilotage de projets transverses, elle contribue à faire grandir l’organisation au quotidien."
       },
       {
         "id": 1016,
@@ -200,6 +277,83 @@
         "role": "Creator",
         "photo": "/images/speakers/romain_ruaud.png",
         "biography": "Créateur d’ElasticSuite, l’extension Magento la plus téléchargée avec plus de 4 millions d’installations, et de Gally, Romain Ruaud est un expert du e-commerce et de l’open source. Passionné par l’expérience client et le searchandising, il partagera son retour d’expérience sur les défis du développement, du maintien et de la pérennisation des projets open source, ainsi que sur les interactions avec la communauté."
+      },
+      {
+        "id": 1017,
+        "name": "Guillaume Moigneu",
+        "company": "Upsun",
+        "companyLogo": "/images/logo/upsun.png",
+        "companyUrl": "https://upsun.com/",
+        "linkedin": "https://www.linkedin.com/in/guillaumemoigneu/",
+        "role": "Field CTO",
+        "photo": "/images/speakers/guillaume_moigneu.png",
+        "biography": "Guillaume Moigneu est Field CTO chez Upsun. Passionné d’optimisation, de durabilité et d’IA, il accompagne depuis plus de 25 ans l’évolution des technologies web, du e-commerce aux architectures cloud modernes."
+      },
+      {
+        "id": 11,
+        "name": "Benjamin Volle",
+        "company": "Synolia",
+        "companyLogo": "/images/logo/synolia.png",
+        "companyUrl": "https://www.synolia.com/",
+        "linkedin": "https://www.linkedin.com/in/benjamin-volle/",
+        "role": "Responsable Technique Magento",
+        "photo": "/images/speakers/benjamin_volle.png",
+        "biography": "Passionné par le développement web depuis près de 15 ans, avec plus de 10 ans d’expertise sur Magento/Adobe Commerce, il a commencé en tant que développeur jusqu’à devenir aujourd’hui Responsable Technique.\nTitulaire de la certification Adobe Certified Master - Adobe Commerce Architect, il s’intéresse autant au développement qu’aux aspects DevOps et infrastructure.\nIl a également contribué à la rédaction des certifications techniques et fonctionnelles d’Adobe."
+      },
+      {
+        "id": 11,
+        "name": "Boris Brault",
+        "company": "BOW Group/Lexon",
+        "companyLogo": "/images/logo/bowgroup.jpeg",
+        "companyUrl": "https://lexon-design.com/",
+        "linkedin": "https://www.linkedin.com/in/borisbrault/",
+        "role": "CEO",
+        "photo": "/images/speakers/boris_brault.png",
+        "biography": "Entrepreneur visionnaire et force motrice de BOW Group, Boris Brault façonne depuis plus de 20 ans l’avenir de l’électronique grand public, des objets connectés et du design iconique. De l’expansion d’Aiptek sur les marchés européens à la création de MyKronoz, première marque suisse de montres connectées avec plus de 3 millions d’appareils vendus dans le monde, il transforme les idées audacieuses en succès internationaux.\n\nGrâce à des acquisitions stratégiques renforçant l’indépendance du groupe en R&D et en production, puis à l’intégration de Lexon, marque française de design reconnue dans le monde entier, Boris continue de repousser les frontières entre technologie et créativité. Aujourd’hui, il dirige BOW Group avec une ambition forte : créer des objets qui dépassent leur fonction pour faire entrer l’innovation, le design et l’émotion dans le quotidien."
+      },
+      {
+        "id": 11,
+        "name": "Matthias Lecroix",
+        "company": "Stripe",
+        "companyLogo": "/images/logo/stripe.svg",
+        "companyUrl": "https://stripe.com/",
+        "role": "Directeur commercial France ",
+        "linkedin": "https://www.linkedin.com/in/matthiaslecroix/",
+        "photo": "/images/speakers/matthias_lecroix.png",
+        "biography": "Mathias Lecroix est Directeur commercial France pour le segment Velocity. Il accompagne la croissance et la performance des clients grâce à une approche alliant stratégie, data et exécution. Fort d’une solide expérience dans le développement d’initiatives commerciales et le pilotage d’équipes à fort impact, il apporte une vision concrète et résolument orientée résultats."
+      },
+      {
+        "id": 12,
+        "name": "Sergej Derzap",
+        "company": "Amasty",
+        "companyLogo": "/images/logo/amasty.png",
+        "companyUrl": "https://amasty.com/",
+        "linkedin": "https://www.linkedin.com/in/derzap/",
+        "role": "MA Treasurer & MA Marketing Committee Chair, Amasty CEO&CPO",
+        "photo": "/images/speakers/sergej_derzap_26.png",
+        "biography": "With 18+ years in the tech industry, Sergej Derzap is the CEO & CPO of Amasty, a leading company in Magento Extension development. He drives the company’s vision, mission, and strategy while overseeing product direction. A certified PMP and executive MBA graduate, Sergej leverages his expertise to identify growth opportunities, build partnerships, monitor market trends, and foster collaboration across teams."
+      },
+      {
+        "id": 20,
+        "name": "Frédéric Truscello",
+        "company": "Somfy Group",
+        "companyLogo": "/images/merchants/somfy.svg",
+        "companyUrl": "https://www.somfy.fr/",
+        "linkedin": "https://www.linkedin.com/in/frederic-truscello/",
+        "role": "Expert e-commerce Magento / Adobe Commerce",
+        "photo": "/images/speakers/frederic_truscello.png",
+        "biography": "Fort de plus de 20 ans d’expérience en e-commerce B2B et B2C à l’international, Frédéric Truscello est un expert en digital et spécialiste Magento / Adobe Commerce.\nPassionné par l’e-commerce, il accompagne des clients prestigieux dans leur transformation digitale, conjuguant ainsi ambition et innovation.\nAprès un Proof of Concept réussi en 2023 avec Hyvä pour le groupe SOMFY, il a piloté la refonte de l’ensemble des sites Somfy B2C, la création d’une plateforme B2B évolutive déployée dans plus de 18 pays et travaille actuellement sur le passage à Adobe Commerce Cloud qui permettra de réduire l’ infrastructure du groupe SOMFY de 14 à 4 environnements.\nVenez découvrir des insights précieux et des stratégies innovantes pour réussir votre transformation digitale lors de MeetMagento France !"
+      },
+      {
+        "id": 20,
+        "name": "Sébastien Bonnet",
+        "company": "Besson",
+        "companyLogo": "/images/logo/besson.png",
+        "companyUrl": "https://www.besson-shoes.com/",
+        "linkedin": "https://fr.linkedin.com/in/s%C3%A9bastien-bonnet-12413414/",
+        "role": "Directeur des Systèmes d’Information",
+        "photo": "/images/speakers/sebastien_bonnet.png",
+        "biography": "Après plus de 20 années dans les métiers des systèmes d’information. Ma vision de l’IT est globale tant stratégique qu’opérationnelle nécessaire à un projet de transformation digitale de l’entreprise."
       }
     ],
     "rooms": {
