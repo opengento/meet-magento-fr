@@ -67,17 +67,17 @@ const SponsorList = ({ items }: { items: SponsorProps[] }) => {
               <Sponsor sponsor={sponsor} key={key}/>
             ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 auto-rows-[6rem] md:auto-rows-[12rem] gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[6rem] md:auto-rows-[12rem] gap-2">
             {sponsorListByType.gold.map((sponsor: SponsorProps, key: number) => (
               <Sponsor sponsor={sponsor} key={key}/>
             ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-4 auto-rows-[4rem] md:auto-rows-[8rem] gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-5 auto-rows-[4rem] md:auto-rows-[8rem] gap-2">
             {sponsorListByType.silver.map((sponsor: SponsorProps, key: number) => (
               <Sponsor sponsor={sponsor} key={key}/>
             ))}
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-5 auto-rows-[3rem] md:auto-rows-[6rem] gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-6 auto-rows-[3rem] md:auto-rows-[6rem] gap-2">
             {sponsorListByType.bronze.map((sponsor: SponsorProps, key: number) => (
               <Sponsor sponsor={sponsor} key={key}/>
             ))}

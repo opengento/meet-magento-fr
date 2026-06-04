@@ -48,7 +48,7 @@ const Sponsor = ({ sponsor }: { sponsor: SponsorProps }) => {
       <Image
         src={sponsor.whiteLogoSrc}
         alt={sponsor.name}
-        className="object-contain h-3/4 w-1/2"
+        className="object-contain h-3/4 w-2/3"
         width={440}
         height={560}
       />

@@ -70,6 +70,16 @@
       "whiteLogoSrc": "/images/sponsors/white/synolia.svg"
     },
     {
+      "type": "gold",
+      "name": "Viva",
+      "description": "Viva.com est la 1ère Tech Bank d’Europe dédiée aux entreprises. Sur 29 pays et via une technologie cloud-native, elle réunit : paiements omnicanaux, services bancaires et financement en une plateforme unique.",
+      "caption": "Payments. Banking. Financing.",
+      "url": "https://www.viva.com/",
+      "bannerSrc": "/images/sponsors/banners/viva.png",
+      "logoSrc": "/images/sponsors/viva.svg",
+      "whiteLogoSrc": "/images/sponsors/white/viva.svg"
+    },
+    {
       "type": "silver",
       "name": "PH2M",
       "description": "PH2M développe des solutions e-commerce sur mesure depuis 16 ans. Une équipe de 14 développeurs, contributeurs actifs Magento, Front-Commerce & Hyvä, avec plus de 240 projets réalisés.",
@@ -83,7 +93,7 @@
       "type": "silver",
       "name": "Empathy",
       "description": "Recherche IA pour l’entreprise, conçue pour le commerce. Vos règles, votre logique de merchandising, vos promotions et vos relations marques. Sans intermédiaire Big Tech.",
-      "caption": "",
+      "caption": "Recherche IA pour le Commerce",
       "url": "https://empathy.co/",
       "bannerSrc": "/images/sponsors/banners/empathy.png",
       "logoSrc": "/images/sponsors/empathy.svg",
@@ -93,7 +103,7 @@
       "type": "silver",
       "name": "Fast-Mage",
       "description": "Infogérance e-commerce spécialiste Magento. Performance, auto-scaling et support sysadmin dédié pour agences et marchands depuis 2009.",
-      "caption": "",
+      "caption": "L'hébergeur qui accélère votre Magento. Depuis 2009.",
       "url": "https://www.fast-mage.com/",
       "bannerSrc": "/images/sponsors/banners/fast-mage.png",
       "logoSrc": "/images/sponsors/fast-mage.svg",
@@ -103,7 +113,7 @@
       "type": "silver",
       "name": "Magebit",
       "description": "Magebit is recognized as a global leader in Magento development, trusted by over 400 brands including Dunkin', Volkswagen, Hydro Flask, Osprey, Henry Schein, and Snap-On. With 100+ certified Magento specialists and 15+ Hyvä certified developers, Magebit delivers high-performance commerce solutions that drive revenue growth and market leadership across the US, Canada, Europe, and Asia.",
-      "caption": "An eCommerce agency you wish you met sooner",
+      "caption": "The Magento Experts Trusted by World-Leading Brands.",
       "url": "https://magebit.com/",
       "bannerSrc": "/images/sponsors/banners/magebit.jpg",
       "logoSrc": "/images/sponsors/magebit.svg",
@@ -180,6 +190,46 @@
       "whiteLogoSrc": "/images/sponsors/white/stripe.svg"
     },
     {
+      "type": "silver",
+      "name": "Trusted Shops",
+      "description": "With the combination of Trustmark, Buyer Protection and authentic feedback, we ensure real security in the digital world and more success for businesses. And with our eTrusted Experience Feedback Platform, we create valuable insights for businesses and organisations of all sizes.",
+      "caption": "",
+      "url": "https://www.trustedshops.com/",
+      "bannerSrc": "/images/sponsors/banners/trustedshops.png",
+      "logoSrc": "/images/sponsors/trustedshops.svg",
+      "whiteLogoSrc": "/images/sponsors/white/trustedshops.svg"
+    },
+    {
+      "type": "silver",
+      "name": "idealo",
+      "description": "idealo est l’un des sites d’e-commerce et de comparaison des prix leader en France et dans de nombreux autres pays européens.",
+      "caption": "",
+      "url": "https://www.idealo.fr/",
+      "bannerSrc": "/images/sponsors/banners/idealo.png",
+      "logoSrc": "/images/sponsors/idealo.svg",
+      "whiteLogoSrc": "/images/sponsors/white/idealo.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Base",
+      "description": "Base.com est une plateforme SaaS conçue pour simplifier le quotidien des e-commerçants en centralisant l’intégralité de leurs opérations. Vous gérez tout depuis une interface unique via un réseau de plus de 1 700 intégrations disponibles.",
+      "caption": "Outil SaaS de gestion e-commerce tout-en-un qui pilote les opérations en ligne des marques",
+      "url": "https://base.com/",
+      "bannerSrc": "/images/sponsors/banners/base.png",
+      "logoSrc": "/images/sponsors/base.svg",
+      "whiteLogoSrc": "/images/sponsors/white/base.svg"
+    },
+    {
+      "type": "silver",
+      "name": "Quable",
+      "description": "With Quable, tell your customers the best product story whenever they connect: e-commerce, marketplaces, B2B, D2C. Keep your product strategy consistent and adapt it to each market.",
+      "caption": "",
+      "url": "https://www.quable.com/",
+      "bannerSrc": "/images/sponsors/banners/quable.png",
+      "logoSrc": "/images/sponsors/quable.svg",
+      "whiteLogoSrc": "/images/sponsors/white/quable.svg"
+    },
+    {
       "type": "bronze",
       "name": "Amasty",
       "description": null,
@@ -221,7 +271,7 @@
     },
     {
       "type": "bronze",
-      "name": "Orisha",
+      "name": "Orisha Commerce",
       "description": null,
       "caption": "",
       "url": "https://commerce.orisha.com/",
@@ -238,18 +288,6 @@
       "bannerSrc": "/images/sponsors/banners/orvalle.png",
       "logoSrc": "/images/sponsors/orvalle.svg",
       "whiteLogoSrc": "/images/sponsors/white/orvalle.svg"
-    }
-  ],
-  "toConfirmPartners": [
-    {
-      "type": "silver",
-      "name": "Quable",
-      "description": "With Quable, tell your customers the best product story whenever they connect: e-commerce, marketplaces, B2B, D2C. Keep your product strategy consistent and adapt it to each market.",
-      "caption": "",
-      "url": "https://www.quable.com/",
-      "bannerSrc": "/images/sponsors/banners/quable.png",
-      "logoSrc": "/images/sponsors/quable.svg",
-      "whiteLogoSrc": "/images/sponsors/white/quable.svg"
     }
   ]
 }
