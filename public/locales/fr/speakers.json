@@ -15,7 +15,7 @@
     "registrationFormUrl": "https://forms.gle/DPjRvo5ZWKDUFTV26",
     "speakers": [
       {
-        "id": 1001,
+        "id": 2101,
         "name": "Cécile Vaute",
         "company": "Mollie",
         "companyLogo": "/images/logo/mollie.png",
@@ -26,7 +26,7 @@
         "biography": "Cécile Vaute pilote les partenariats pour Mollie en Europe du Sud. Forte d’une expérience internationale chez Criteo, elle accompagne les marchands dans leur expansion européenne. Experte en conversion et paiement, elle aide les entreprises à transformer leurs transactions en levier de croissance par le biais des partenariats."
       },
       {
-        "id": 1002,
+        "id": 2602,
         "name": "Régis Quintin",
         "company": "Adobe",
         "companyLogo": "/images/logo/adobe.svg",
@@ -37,7 +37,7 @@
         "biography": "Régis a travaillé sur de nombreux projets e-commerce depuis 25 ans pour digitaliser les ventes B2B et B2C de grands clients en France et à l’international, notamment avec Magento à partir de 2008.\n\nAprès avoir rejoint Adobe en 2015, il a aujourd’hui la charge de co-construire la stratégie d’Adobe Commerce en EMEA et de piloter son exécution en lien avec les équipes Adobe et les partenaires sur la région, dans le but de permettre aux entreprises de réaliser leur plein potentiel de vente grâce au digital."
       },
       {
-        "id": 1003,
+        "id": 2603,
         "name": "Kévin Corte",
         "company": "MaPS System",
         "companyLogo": "/images/logo/maps.png",
@@ -48,7 +48,7 @@
         "biography": "Kévin Corte est un expert du digital, de la gestion des données de référence et du eCommerce avec plus de 20 ans d’expérience. Après une expérience de Chief Digital Officer chez Chaussea, où il développe l’eCommerce et optimise l’expérience client omnicanale, il rejoint MaPS System. Ses expériences lui confèrent une expertise pointue des besoins des eCommerçants et une capacité à adapter la plateforme MaPS System aux enjeux métier de chacun. Aujourd’hui, en tant que Chief Commercial Officer, il pilote la stratégie commerciale, accompagnant les clients dans leur transformation digitale et l’optimisation de leur gestion des données."
       },
       {
-        "id": 1004,
+        "id": 2604,
         "name": "Damien Pozzi",
         "company": "Bergère de France",
         "companyLogo": "/images/logo/bergeredefrance.jpg",
@@ -59,7 +59,7 @@
         "biography": "Développeur web de formation, j’ai débuté sur un ERP SaaS avant de me spécialiser en e-commerce chez Bergère de France comme Développeur puis Chef de projet. J’ai ensuite rejoint Chaussea où je suis passé par des postes clés (Responsable E-Commerce et Responsable Technique Web). J’y ai piloté des projets structurants (refonte, performance, conversion). Aujourd’hui Responsable E-Commerce de la SCOP Bergère de France, j’allie vision commerce, pilotage de projets et expertise technique au service de la performance digitale."
       },
       {
-        "id": 1005,
+        "id": 2605,
         "name": "Constance De Pompignan",
         "company": "Palais des Thés",
         "companyLogo": "/images/logo/palaisdesthes.png",
@@ -70,7 +70,7 @@
         "biography": "Après avoir débuté dans de grands groupes de cosmétique et de grande consommation, Constance goûte aux multiples défis du monde des startups dans l’univers de la tech. Profondément attirée par l’univers de la gastronomie, elle rejoint ensuite Pierre Hermé Paris et y découvre les métiers du e-commerce. Après presque 4 ans à conjuguer digital et gastronomie de luxe, elle rejoint Palais des Thés et accompagne, depuis 12 ans maintenant, la croissance de cette Maison, au sein de laquelle le digital a toujours eu une place stratégique."
       },
       {
-        "id": 1006,
+        "id": 2606,
         "name": "Aurore Aoussi",
         "company": "Uniwax",
         "companyLogo": "/images/logo/uniwax.png",
@@ -81,7 +81,7 @@
         "biography": "Aurore Aoussi est experte en e-commerce et en stratégie digitale, avec une expérience développée entre la France et la Côte d’Ivoire. Elle dirige aujourd’hui la stratégie digitale et e-commerce d’Uniwax, leader du textile imprimé en Afrique de l’Ouest, où elle pilote la croissance et la transformation de la marque sur un marché en forte évolution.\nReconnue pour sa capacité à adapter les modèles e-commerce aux spécificités des marchés africains, elle allie vision business, expertise terrain et culture du résultat pour concevoir des stratégies performantes et ancrées dans les usages réels des consommateurs."
       },
       {
-        "id": 1007,
+        "id": 2607,
         "name": "Sophie Beurel",
         "company": "Neut",
         "companyLogo": "/images/logo/neut.png",
@@ -92,7 +92,7 @@
         "biography": "Forte d’un parcours polyvalent en commercial, marketing et communication, elle met ces compétences au service de Neut Orthopédie depuis 2009. Elle y occupe un rôle transversal : pilotage de la communication print et digitale, développement des ventes B2B. Elle a mené la refonte du site vitrine en 2015 et contribué récemment au lancement de la plateforme e-commerce, renforçant visibilité et performance."
       },
       {
-        "id": 1008,
+        "id": 2608,
         "name": "Nawelle Dogheche",
         "company": "Neut",
         "companyLogo": "/images/logo/neut.png",
@@ -103,7 +103,7 @@
         "biography": "Cheffe de produits dans le secteur de la santé, Nawelle Dogheche s’appuie sur une expertise acquise dans l’industrie pharmaceutique. Issue d’une formation scientifique et marketing, elle intervient dans des environnements exigeants. Elle pilote le développement de produits, de leur conception à leur mise sur le marché. Récemment arrivée chez Neut dans l’orthopédie, elle participe au développement du site e-commerce comme levier de croissance."
       },
       {
-        "id": 1009,
+        "id": 2609,
         "name": "Benjamin Calef",
         "company": "Zadig & Voltaire",
         "companyLogo": "/images/logo/zadig&voltaire.png",
@@ -114,7 +114,7 @@
         "biography": "Benjamin Calef est CTO chez Zadig & Voltaire.\nIl travaille à un endroit précis où beaucoup de discours IA se fracassent contre le réel : la production.\nEntre Magento 2, architecture e-commerce et automatisation, il explore comment des développeurs augmentés par l’IA peuvent livrer avec une vitesse et un niveau d’impact qui rebattent les cartes des équipes tech traditionnelles."
       },
       {
-        "id": 1009,
+        "id": 2610,
         "name": "Stéphane Dom",
         "company": "Adobe",
         "companyLogo": "/images/logo/adobe.svg",
@@ -125,7 +125,7 @@
         "biography": "Stéphane Dom accompagne depuis plusieurs années la transformation et l’accélération d’activités e-commerce, sur des enjeux B2C comme B2B. Son parcours, couplant une expérience entrepreneuriale à des responsabilités au sein d’acteurs majeurs du software, lui confère une compréhension concrète des réalités opérationnelles et des enjeux transversaux de croissance. Au sein d’Adobe, il intervient auprès de grands comptes ainsi que d’entreprises à forte ambition digitale pour concevoir et déployer des stratégies performantes, motorisées par Adobe Commerce."
       },
       {
-        "id": 1009,
+        "id": 2611,
         "name": "Frédéric Morel",
         "company": "Lafreto Outdoor",
         "companyLogo": "/images/logo/lafretooutdoor.png",
@@ -136,7 +136,7 @@
         "biography": "Frédéric Morel est Président du groupe LAFRETO OUTDOOR. Pionnier du e-commerce de sport depuis le lancement de Glisshop.com en 1999, il développe depuis plus de 25 ans des activités de vente en ligne dans les univers de la montagne, du golf et des sports nautiques. Le groupe opère aujourd’hui dix sites internet à travers trois enseignes, Glisshop, monsieurgolf et Glisse Proshop, et réalise 92 % de ses 53 millions d’euros de chiffre d’affaires sur le digital. Le développement international constitue aujourd’hui le principal axe de croissance que Frédéric Morel entend accélérer grâce à un nouveau projet CMS Adobe commerce."
       },
       {
-        "id": 1010,
+        "id": 2612,
         "name": "Willem Wigman",
         "company": "Hyvä",
         "companyLogo": "/images/logo/hyva.svg",
@@ -147,7 +147,7 @@
         "biography": "Willem is the founder of Hyvä, the fastest Magento frontend on the market. He has been working with Magento since 2011. After he started specialising in performance optimization on Magento, he accidentally built Hyvä out of frustration with existing frontend solutions. Hyvä launched in 2020 and focuses heavily on performance, reducing complexity, build time, maintenance cost and boosting developers’ happiness. Today Willem is the CEO of a full remote company of 24 staff scattered across Europe."
       },
       {
-        "id": 1010,
+        "id": 2613,
         "name": "Charlotte Merandon",
         "company": "La Parfumerie Europe",
         "companyLogo": "/images/logo/laparfumerie.png",
@@ -158,7 +158,7 @@
         "biography": "Responsable Marketing et E-commerce chez La Parfumerie Europe, Charlotte Mérandon accompagne la transformation digitale et commerciale de l’enseigne. Forte d’un parcours construit autour du marketing opérationnel, du CRM, de la connaissance client et des projets digitaux B2B, elle pilote aujourd’hui les enjeux e-commerce de l’entreprise. Au Meet Magento, elle partagera un retour d’expérience concret sur les choix, arbitrages, contraintes métier et défis d’un replatforming B2B2C sous Magento 2."
       },
       {
-        "id": 1010,
+        "id": 2614,
         "name": "David Lozano",
         "company": "La Parfumerie Europe",
         "companyLogo": "/images/logo/laparfumerie.png",
@@ -169,7 +169,7 @@
         "biography": "Après avoir rejoint le groupe en 2020 en tant que Directeur Financier et membre du Comité de Direction, il en prend la direction générale en 2023, puis la Présidence en 2025.\nIl pilote depuis lors l’ensemble des fonctions stratégiques, financières et opérationnelles du groupe, avec une attention particulière portée à sa transformation digitale."
       },
       {
-        "id": 1011,
+        "id": 2615,
         "name": "Ivan Chepurnyi",
         "company": "EcomDev B.V.",
         "companyLogo": "/images/logo/ecomdevbv.png",
@@ -180,7 +180,7 @@
         "biography": "Ivan Chepurnyi stands as a recognized expert in the Magento platform, a status he’s earned since his start in 2007. His deep technical understanding of the system has enabled him to build and fine-tune Magento websites for clients all around the globe.\n\nBeyond his technical skills, Ivan excels in breaking down complex ideas about performance optimization, code quality, and development workflows. His knack for making these intricate topics easy to understand has made him a regular speaker at Magento conferences and events."
       },
       {
-        "id": 1012,
+        "id": 2616,
         "name": "Klauss Mortreux",
         "company": "Blackbird",
         "companyLogo": "/images/logo/blackbird.svg",
@@ -191,7 +191,7 @@
         "biography": "Tombé dans la marmite du développement depuis bientôt 10 ans, et presque autant dans le web, je contribue aujourd’hui à la progression technique et à l’expertise du pôle front de Blackbird Agency. Passionné par le design et la performance web, j’aide nos clients à tirer le meilleur parti de leurs sites en proposant des expériences Magento 2 sur mesure avec Hyvä !"
       },
       {
-        "id": 1013,
+        "id": 2617,
         "name": "Sophie Deleporte",
         "company": "Maison Kitsuné",
         "companyLogo": "/images/logo/maisonkitsune.png",
@@ -202,7 +202,7 @@
         "biography": "Depuis plus de 6 ans chez Maison Kitsuné, je pilote les projets digitaux et l’évolution de la plateforme Magento à l’international. À la croisée du business, de la tech et de l’UX, je gère la roadmap, les arbitrages techniques et les partenaires.\nDans un contexte exigeant, face à des outils qui évoluent vite, pragmatisme et ingéniosité sont de mise pour l’équipe !\nMon objectif : faire de la plateforme un moteur de croissance, en restant fidèle à l’ADN de la marque."
       },
       {
-        "id": 1014,
+        "id": 2618,
         "name": "Harrison Loveall",
         "company": "Adobe",
         "companyLogo": "/images/logo/adobe.svg",
@@ -213,7 +213,7 @@
         "biography": "Harrison Loveall is a payments and eCommerce specialist with deep expertise in the Adobe Commerce and Magento ecosystem. As Manager of Adobe’s Payment Specialist Team, he works with merchants, agencies and partners to modernize payment infrastructures and maximize the value of Adobe Payment Services. Known for his practical, merchant‑first approach, Harrison helps businesses simplify payment migration and build scalable, results‑driven strategies across North America and Europe."
       },
       {
-        "id": 1015,
+        "id": 2619,
         "name": "Ritesh Somani",
         "company": "Adobe",
         "companyLogo": "/images/logo/adobe.svg",
@@ -224,7 +224,7 @@
         "biography": "Ritesh Somani helps to drive value-added services and features for Adobe Commerce and Magento Open Source within the product team. He has over 15 years of experience delivering software solutions for SMB and enterprise customers in the commerce and payments spaces for platforms. Having started his own business, and having worked at startups and companies such as Intuit, Visa, and PayPal, Ritesh understands the needs of merchants and has successfully implemented easy-to-use and delightful solutions for millions of businesses worldwide."
       },
       {
-        "id": 1015,
+        "id": 2620,
         "name": "Ludovic Lacaze",
         "company": "Spiriit",
         "companyLogo": "/images/logo/spiriit.png",
@@ -235,7 +235,7 @@
         "biography": "Ludovic intervient à la fois sur des missions de conseil stratégique ou technique mais aussi en accompagnement des projets de clients.\nAvec près de 200 projets clients accompagnés au cours des 20 dernières années, il a acquis une bonne maîtrise dans l’adaptation au métier de chaque client et une forte capacité de conseil stratégique."
       },
       {
-        "id": 1015,
+        "id": 2621,
         "name": "Jérôme Megel",
         "company": "Spiriit",
         "companyLogo": "/images/logo/spiriit.png",
@@ -246,7 +246,7 @@
         "biography": "Avec plus de 15 années d’expériences dans le Web et plus particulièrement l’E-Commerce, Jérôme s’est construit un solide socle technique auprès d’une cinquantaine de clients.\nJérôme a également su tirer parti de son expérience pour passer de l’autre côté de la barrière et devenir e-commerçant pendant plusieurs années."
       },
       {
-        "id": 1015,
+        "id": 2622,
         "name": "Coralie Crivillé",
         "company": "WeConnect",
         "companyLogo": "/images/logo/weconnect.png",
@@ -257,7 +257,7 @@
         "biography": "Depuis plusieurs années chez WE Connect, Coralie accompagne les grandes étapes de développement de l’entreprise. Entre structuration interne, évolution des process, lancement de nouvelles activités et pilotage de projets transverses, elle contribue à faire grandir l’organisation au quotidien."
       },
       {
-        "id": 1016,
+        "id": 2623,
         "name": "Vinai Kopp",
         "company": "Hyvä",
         "companyLogo": "/images/logo/hyva.svg",
@@ -268,7 +268,7 @@
         "biography": "Vinai Kopp has worked as a freelance web-developer since 1998. In March 2008 he specialized in Magento, and has since \nworked on many different projects. Since 2011, he also worked as a trainer. Today he works as technical director at Hyvä Themes."
       },
       {
-        "id": 1017,
+        "id": 2624,
         "name": "Romain Ruaud",
         "company": "ElasticSuite",
         "companyLogo": "/images/logo/elasticsuite.svg",
@@ -279,7 +279,7 @@
         "biography": "Créateur d’ElasticSuite, l’extension Magento la plus téléchargée avec plus de 4 millions d’installations, et de Gally, Romain Ruaud est un expert du e-commerce et de l’open source. Passionné par l’expérience client et le searchandising, il partagera son retour d’expérience sur les défis du développement, du maintien et de la pérennisation des projets open source, ainsi que sur les interactions avec la communauté."
       },
       {
-        "id": 1017,
+        "id": 2625,
         "name": "Guillaume Moigneu",
         "company": "Upsun",
         "companyLogo": "/images/logo/upsun.png",
@@ -290,7 +290,7 @@
         "biography": "Guillaume Moigneu est Field CTO chez Upsun. Passionné d’optimisation, de durabilité et d’IA, il accompagne depuis plus de 25 ans l’évolution des technologies web, du e-commerce aux architectures cloud modernes."
       },
       {
-        "id": 11,
+        "id": 2626,
         "name": "Benjamin Volle",
         "company": "Synolia",
         "companyLogo": "/images/logo/synolia.png",
@@ -301,7 +301,7 @@
         "biography": "Passionné par le développement web depuis près de 15 ans, avec plus de 10 ans d’expertise sur Magento/Adobe Commerce, il a commencé en tant que développeur jusqu’à devenir aujourd’hui Responsable Technique.\nTitulaire de la certification Adobe Certified Master - Adobe Commerce Architect, il s’intéresse autant au développement qu’aux aspects DevOps et infrastructure.\nIl a également contribué à la rédaction des certifications techniques et fonctionnelles d’Adobe."
       },
       {
-        "id": 11,
+        "id": 2627,
         "name": "Boris Brault",
         "company": "BOW Group/Lexon",
         "companyLogo": "/images/logo/bowgroup.jpeg",
@@ -312,7 +312,7 @@
         "biography": "Entrepreneur visionnaire et force motrice de BOW Group, Boris Brault façonne depuis plus de 20 ans l’avenir de l’électronique grand public, des objets connectés et du design iconique. De l’expansion d’Aiptek sur les marchés européens à la création de MyKronoz, première marque suisse de montres connectées avec plus de 3 millions d’appareils vendus dans le monde, il transforme les idées audacieuses en succès internationaux.\n\nGrâce à des acquisitions stratégiques renforçant l’indépendance du groupe en R&D et en production, puis à l’intégration de Lexon, marque française de design reconnue dans le monde entier, Boris continue de repousser les frontières entre technologie et créativité. Aujourd’hui, il dirige BOW Group avec une ambition forte : créer des objets qui dépassent leur fonction pour faire entrer l’innovation, le design et l’émotion dans le quotidien."
       },
       {
-        "id": 11,
+        "id": 2628,
         "name": "Matthias Lecroix",
         "company": "Stripe",
         "companyLogo": "/images/logo/stripe.svg",
@@ -323,7 +323,7 @@
         "biography": "Mathias Lecroix est Directeur commercial France pour le segment Velocity. Il accompagne la croissance et la performance des clients grâce à une approche alliant stratégie, data et exécution. Fort d’une solide expérience dans le développement d’initiatives commerciales et le pilotage d’équipes à fort impact, il apporte une vision concrète et résolument orientée résultats."
       },
       {
-        "id": 12,
+        "id": 2629,
         "name": "Sergej Derzap",
         "company": "Amasty",
         "companyLogo": "/images/logo/amasty.png",
@@ -334,7 +334,7 @@
         "biography": "With 18+ years in the tech industry, Sergej Derzap is the CEO & CPO of Amasty, a leading company in Magento Extension development. He drives the company’s vision, mission, and strategy while overseeing product direction. A certified PMP and executive MBA graduate, Sergej leverages his expertise to identify growth opportunities, build partnerships, monitor market trends, and foster collaboration across teams."
       },
       {
-        "id": 20,
+        "id": 2630,
         "name": "Frédéric Truscello",
         "company": "Somfy Group",
         "companyLogo": "/images/merchants/somfy.svg",
@@ -345,7 +345,7 @@
         "biography": "Fort de plus de 20 ans d’expérience en e-commerce B2B et B2C à l’international, Frédéric Truscello est un expert en digital et spécialiste Magento / Adobe Commerce.\nPassionné par l’e-commerce, il accompagne des clients prestigieux dans leur transformation digitale, conjuguant ainsi ambition et innovation.\nAprès un Proof of Concept réussi en 2023 avec Hyvä pour le groupe SOMFY, il a piloté la refonte de l’ensemble des sites Somfy B2C, la création d’une plateforme B2B évolutive déployée dans plus de 18 pays et travaille actuellement sur le passage à Adobe Commerce Cloud qui permettra de réduire l’ infrastructure du groupe SOMFY de 14 à 4 environnements.\nVenez découvrir des insights précieux et des stratégies innovantes pour réussir votre transformation digitale lors de MeetMagento France !"
       },
       {
-        "id": 20,
+        "id": 2631,
         "name": "Sébastien Bonnet",
         "company": "Besson",
         "companyLogo": "/images/logo/besson.png",
@@ -354,12 +354,328 @@
         "role": "Directeur des Systèmes d’Information",
         "photo": "/images/speakers/sebastien_bonnet.png",
         "biography": "Après plus de 20 années dans les métiers des systèmes d’information. Ma vision de l’IT est globale tant stratégique qu’opérationnelle nécessaire à un projet de transformation digitale de l’entreprise."
+      },
+      {
+        "id": 2632,
+        "name": "Christophe Denuzière",
+        "company": "Sutunam",
+        "companyLogo": "/images/logo/sutunam.svg",
+        "companyUrl": "https://www.sutunam.com/",
+        "linkedin": "https://www.linkedin.com/in/christophedenuziere/",
+        "role": "Founder",
+        "photo": "/images/speakers/christophe_denuziere_26.png",
+        "biography": "Christophe est le co-fondateur de Sutunam, l'agence e-commerce spécialisée Magento, avec plus de 10 développeurs certifiés Magento experts et partenaire Hyva Silver.\n\nDepuis 2010, il accompagne avec ses équipes les e-commerçants dans la création, la maintenance et l'hébergement de leurs boutiques en ligne.\n\nCes dernières années, l’automatisation et l’intelligence artificielle ont pris une place centrale dans les développements de Sutunam.\nL’une des grandes forces de l’agence réside dans sa capacité à concevoir rapidement des prototypes fonctionnels, puis à les industrialiser."
       }
     ],
     "rooms": {
+      "orion": "Main Stage",
+      "vega": "Breakout Session 1",
+      "boreal": "Breakout Session 2",
       "main": "Main Stage",
       "breakout": "Breakout Session"
     },
-    "sessions": []
+    "sessions": [
+      {
+        "id": 1,
+        "title": "Décodez l'avenir : E-commerce, IA & souveraineté européenne",
+        "description": "En 2026, l'e-commerce européen est à un tournant : l'IA redessine les parcours d'achat, Wero bouleverse les usages du paiement, et la fragmentation des marchés locaux complexifie les stratégies cross-border. Dans cette session, Mollie décrypte les grandes dynamiques qui transforment le secteur : l'essor du commerce agentique, l'émergence de solutions de paiement souveraines, et la manière dont les données transactionnelles deviennent un levier stratégique de croissance et de connaissance client.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "09h35",
+        "end": "10h00",
+        "tags": ["Business", "IA"],
+        "speakers": [2101],
+        "eventUrl": null
+      },
+      {
+        "id": 2,
+        "title": "Adobe Commerce à l’ère de l’Agentic Commerce : de l’IA embarquée aux expériences autonomes",
+        "description": "Le commerce évolue rapidement vers des expériences pilotées par l’IA et les agents autonomes.\nCette keynote présentera les dernières annonces Adobe Commerce issues du Adobe Summit et expliquera comment Adobe prépare les entreprises à l’Agentic Commerce.\nNous découvrirons comment les nouvelles solutions SaaS et les services d’IA générative intégrés transforment la découvrabilité, le merchandising et le développement d’expériences, tout en réduisant les coûts et en accélérant la croissance.\nEnfin, nous verrons comment Adobe Experience Platform permet d’orchestrer des expériences agentiques à grande échelle, pour des parcours personnalisés, performants et orientés revenus.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "10h00",
+        "end": "10h30",
+        "tags": ["Business", "IA"],
+        "speakers": [2602],
+        "eventUrl": null
+      },
+      {
+        "id": 3,
+        "title": "Bergère de France : de la donnée produit aux modèles, un levier de performance commerciale sur Magento",
+        "description": "Comment transformer une donnée produit complexe en levier de performance sur Magento à l’international ? À travers le retour d’expérience de Bergère de France, découvrez comment structurer, enrichir et orchestrer une offre riche (fils, kits, modèles…) pour garantir cohérence, clarté et efficacité commerciale, tout en offrant une expérience d’achat fluide et multilingue.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "11h15",
+        "end": "11h45",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2604,2603],
+        "eventUrl": null
+      },
+      {
+        "id": 4,
+        "title": "Le pari Hyvä 3 ans après : les enjeux d'une tierce maintenance évolutive chez Maison Kitsuné",
+        "description": "Fin 2023, Maison Kitsuné adoptait Hyvä Themes pour gagner en agilité. Trois ans plus tard, quel est le bilan réel ?\n\nCette session confronte la stratégie initiale à la réalité de 2026. Découvrez comment cette technologie a boosté la vélocité et stabilisé le business de la marque. Nous aborderons aussi les tensions quotidiennes : préserver son identité face à l'IA, piloter la dette technique et gérer les risques.\n\nEnfin, nous questionnerons l'avenir : quid du retail premium en 2030 ? Hyvä est-il l'eldorado de Magento ? Une prise de recul essentielle.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "breakout",
+        "start": "11h15",
+        "end": "11h45",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2617,2616],
+        "eventUrl": null
+      },
+      {
+        "id": 5,
+        "title": "E-Commerce et croissance chez Palais des Thés : chiffres, leviers concrets et stratégie digitale",
+        "description": "Pionnier du e-commerce dès 1999, Palais des Thés n'a jamais cessé de cultiver son esprit précurseur dans le domaine du digital. Découvrez comment nous relevons le défi quotidien de rendre le thé aussi vivant en ligne qu’en boutique et comment le digital accompagne depuis toujours le développement et le rayonnement de la marque.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "11h45",
+        "end": "12h15",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2605],
+        "eventUrl": null
+      },
+      {
+        "id": 6,
+        "title": "Skills, Agents and Magento - The Hyvä Way",
+        "description": "Everyone’s seen an AI agent spin up a greenfield shop in a day. But a demo isn’t a business. Real ecommerce demands complex integrations, evolving tax rules, and a system that holds up on Black Friday. It turns out that the very complexity that makes Magento challenging is what makes it uniquely powerful in the agentic era.\nIn this talk, Vinai shares why skills - which make agents programmable - were the turning point for Hyvä’s adoption of agentic development, and what that looks like in practice: AI-agnostic public skills for Hyvä development, a documentation optimization pipeline built with chained skills, and where Hyvä is headed next with curated skill repositories and agent-generated compatibility modules. You’ll walk away understanding why Magento’s conventions give AI agents more leverage than any greenfield framework, and what you can start doing today.",
+        "lang": "en",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "11h45",
+        "end": "12h15",
+        "tags": ["Technical", "IA", "Expertise"],
+        "speakers": [2623],
+        "eventUrl": null
+      },
+      {
+        "id": 7,
+        "title": "La Parfumerie Europe : Une nouvelle plateforme e-commerce Magento 2 pour réinventer son BtoBtoC",
+        "description": "Après 10 ans de sur-mesure, La Parfumerie Europe (leader beauté des CSE) a migré vers Magento 2 Open Source avec Synolia pour soutenir sa croissance. Décryptons ensemble comment une plateforme standard peut absorber des processus ultra-spécifiques. Co-animé par la Direction Générale et le département Marketing et E-commerce, ce retour d'expérience abordera le choix de la solution, le changement de paradigme technique, la réalité du Run et la roadmap d'avenir. ",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "13h30",
+        "end": "14h00",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2613,2614],
+        "eventUrl": null
+      },
+      {
+        "id": 8,
+        "title": "From PayPal Extension to Payment Services: The Migration Playbook",
+        "description": "Many Adobe Commerce merchants are still relying on legacy PayPal extensions built for a different era of commerce, creating support gaps and limiting access to modern payment capabilities. In this 30‑minute workshop, we’ll discuss why now is the right time to modernize your tech stack and how Payment Services supports innovation for agentic commerce. You’ll get a clear, realistic view of what the migration process looks like, key benefits, what changes (and what doesn’t).",
+        "lang": "en",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "13h30",
+        "end": "14h00",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [2618,2619],
+        "eventUrl": null
+      },
+      {
+        "id": 9,
+        "title": "Comment Lexon a géré ses drops et un nombre de connexions simultanées grâce à Adobe et Stripe",
+        "description": "La marque de design Lexon doit relever un défi technique et business majeur : gérer l'afflux massif de visiteurs et de transactions lors de \"drops\" de produits exclusifs. Ce retour d'expérience abordera :\n\n- Le défi de la performance : absorber un grand nombre de connexions simultanées tout en préservant l'expérience utilisateur.\n- L'alliance technologique : le rôle de l'architecture Adobe Commerce pour la stabilité et celui de Stripe pour un tunnel de paiement fluide et robuste.\n- Les résultats : retour chiffré sur les dernières opérations et bonnes pratiques pour réussir son modèle de drop.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "14h00",
+        "end": "14h30",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2627,2628],
+        "eventUrl": null
+      },
+      {
+        "id": 10,
+        "title": "Vous n'avez plus besoin de coder. Vous devez devenir un architecte de la vérification et prouver que ce code est correct.",
+        "description": "Vous avez passé des années à maîtriser l'artisanat du code, les bonnes abstractions et les tests qui ont du sens. Aujourd'hui, les agents de code font en 5 minutes ce qui vous prenait un après-midi. Terrifiant ? Seulement si vous pensez que votre valeur réside dans l'écriture de code. Cette conférence repense ce que signifie être un « développeur 10x » à l'ère des agents. Pas quelqu'un qui écrit 10 fois plus de code, mais quelqu'un qui définit, vérifie et livre 10 fois plus de périmètre. Le secret : être averse au risque devient un multiplicateur de vitesse, et non plus un frein. Je présenterai un nouveau concept de SDLC fondé sur des piliers de vérification. Un cadre concret pour déléguer en toute sécurité aux agents de code à grande échelle. Chaque pilier (du testing à la sécurité en passant par les standards) élargit ce que vous pouvez confier sans augmenter le risque. Combiné au développement piloté par les spécifications, où les tests et les définitions de types remplacent les prompts comme livrable principal, vous verrez comment un architecte associé à une infrastructure de vérification solide peut désormais égaler la production d'une petite équipe, sans introduire d'inconnues ni de problèmes dans les projets en entreprise. Repartez avec une checklist d'auto-évaluation, un workflow concret pour votre première fonctionnalité pilotée par les specs, et une nouvelle façon de penser : passer de « j'écris le code » à « je définis à quoi ressemble le correct ».",
+        "lang": "fr",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "14h00",
+        "end": "14h30",
+        "tags": ["Technical", "IA"],
+        "speakers": [2625],
+        "eventUrl": null
+      },
+      {
+        "id": 11,
+        "title": "L’IA en production : comment de petites équipes obtiennent désormais un impact disproportionné",
+        "description": "Pendant longtemps, la puissance d’une équipe tech se mesurait surtout à sa taille. Ce paradigme est en train de casser. L’IA ne sert plus juste à aller un peu plus vite : elle change le niveau d’autonomie, d’exécution et d’impact qu'une équipe tech peut avoir. À travers un retour terrain, cette présentation montre comment des équipes réduites mais augmentées par l’IA commencent à rivaliser avec des organisations beaucoup plus lourdes.",
+        "lang": "fr",
+        "track": "Technique",
+        "room": "main",
+        "start": "14h30",
+        "end": "15h00",
+        "tags": ["Technical", "IA", "Merchant"],
+        "speakers": [2609],
+        "eventUrl": null
+      },
+      {
+        "id": 12,
+        "title": "Mon copilote IA : comment l'intelligence artificielle devient l'assistant décisionnel du responsable e-commerce",
+        "description": "",
+        "lang": "fr",
+        "track": "Business",
+        "room": "breakout",
+        "start": "14h30",
+        "end": "15h00",
+        "tags": ["Business", "IA"],
+        "speakers": [2632],
+        "eventUrl": null
+      },
+      {
+        "id": 13,
+        "title": "Comment une entreprise familiale comme Neut a su repenser sa stratégie commerciale en intégrant le e-commerce ?",
+        "description": "La transformation d'un héritage centenaire vers une croissance digitale.\n\nSpécialisée dans la fabrication et la vente d’appareillages orthopédiques sur mesure et de série, Neut s’appuie sur une tradition solide et une expertise reconnue pour évoluer avec son marché. Dès les années 2000, l’entreprise amorce sa transition digitale avec la création d'un site vitrine. Cette dynamique s’est renforcée par une transformation numérique ambitieuse, avec le déploiement d’une plateforme e‑commerce B2B destinée à moderniser l’expérience client et assurer la pérennité de l’entreprise.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "15h00",
+        "end": "15h30",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2607,2608],
+        "eventUrl": null
+      },
+      {
+        "id": 14,
+        "title": "Comment WeConnect a fiabilisé ses prix B2B entre ERP, PIM et Magento",
+        "description": "En B2B, gérer les prix est un casse-tête : tarifs contractuels, remises, devises, promos, multi-marques… entre ERP, PIM et Magento. Ce talk explique comment une architecture basée sur des synchronisations fragiles (“sync & pray”) a été remplacée par une orchestration tarifaire pilotée par les événements. Un retour d’expérience concret : erreurs rencontrées, choix techniques et solutions robustes déployées en production sur 7 marques B2B.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "breakout",
+        "start": "15h00",
+        "end": "15h30",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2622,2620,2621],
+        "eventUrl": null
+      },
+      {
+        "id": 15,
+        "title": "Adapter sa stratégie e-commerce aux spécificités du marché africain : le cas Uniwax",
+        "description": "Pourquoi des stratégies e-commerce performantes en Europe échouent-elles en Afrique ?\nÀ travers le cas d’Uniwax, plongez au cœur des réalités du marché africain : social commerce omniprésent, enjeux de confiance, spécificités des paiements et contraintes logistiques.\nUn retour d’expérience concret pour comprendre ce qui fonctionne vraiment et comment transformer ces différences en leviers de croissance.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "16h00",
+        "end": "16h30",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2606],
+        "eventUrl": null
+      },
+      {
+        "id": 16,
+        "title": "Des mots-clés aux conversations : 50 ans d’évolution du searchandising",
+        "description": "Imaginez les débuts du search : des moteurs basés uniquement sur des mots-clés, sans compréhension du contexte. Aujourd’hui, l’IA permet des expériences conversationnelles capables de comprendre et guider les utilisateurs. Cette conférence retrace l’évolution du searchandising, de la recherche lexicale au machine learning, et montre, à travers des cas concrets e-commerce, comment chaque étape a transformé la mise en avant des produits et les stratégies des marchands.",
+        "lang": "fr",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "16h00",
+        "end": "16h30",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [2624],
+        "eventUrl": null
+      },
+      {
+        "id": 17,
+        "title": "\uD83D\uDC40",
+        "description": "",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "16h30",
+        "end": "17h00",
+        "tags": ["Business", "Merchant"],
+        "speakers": [],
+        "speakers_to_confirm": [2630],
+        "eventUrl": null
+      },
+      {
+        "id": 18,
+        "title": "Au-delà du catalogue : Gérer la complexité des prix et des matrices de droits en B2B",
+        "description": "Le B2B n'est pas du B2C avec une simple remise. Comment plier Adobe Commerce aux exigences extrêmes d'un grand compte ?\nCe REX technique dévoile une architecture hors norme : prix par client, stocks par agence, hiérarchies complexes et workflows d'approbation branchés sur plusieurs ERP. Le défi ? Performer en temps réel face à des données ultra-dynamiques. Enfin, cap sur le coup d'après : notre stack cible avec Adobe Commerce Optimizer, un ETL moderne et un MCP dédié B2B pour alimenter une IA prédictive.",
+        "lang": "fr",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "16h30",
+        "end": "17h00",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [2626],
+        "eventUrl": null
+      },
+      {
+        "id": 19,
+        "title": "Doubler son revenu en ligne en 4 ans : Lafreto Outdoor refond son e-commerce pour y parvenir",
+        "description": "Lafreto Outdoor*, pure player e-commerce historique multi-marques B2C spécialisé dans les sports outdoor, a engagé une refonte complète de son socle technologique pour soutenir une ambition forte de croissance. Après une phase de sélection rigoureuse entre plusieurs plateformes, Lafreto Outdoor a choisi Adobe Commerce. Frédéric Morel, Président du groupe Lafreto Outdoor, et Stéphane Dom, Product Sales Specialist chez Adobe, reviennent sur ce choix structurant : les critères décisifs, les arbitrages réalisés, et les premiers enseignements d'un projet en production dès juin 2026.\n* Lafreto Outdoor détient les enseignes Glisshop.com, monsieurgolf.com, glisse-proshop.com.",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "17h00",
+        "end": "17h30",
+        "tags": ["Business", "Merchant"],
+        "speakers": [2610,2611],
+        "eventUrl": null
+      },
+      {
+        "id": 20,
+        "title": "150ms Time to First Byte Without Cache ",
+        "description": " Over the years there were so many doubt in Magento being fast as a platform, but by fixing a small piece at a time it is possible optimize it without sacrificing any of the flexibility or functionality. In this talk you will learn all the techniques I use to optimize Magento catalog pages to have P95 of 150ms or less and ways how can we make it more common for every single Magento store out there.",
+        "lang": "en",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "17h00",
+        "end": "17h30",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [2615],
+        "eventUrl": null
+      },
+      {
+        "id": 21,
+        "title": "\uD83D\uDC40",
+        "description": "",
+        "lang": "fr",
+        "track": "Business",
+        "room": "main",
+        "start": "17h30",
+        "end": "18h00",
+        "tags": ["Business", "Merchant"],
+        "speakers": [],
+        "speakers_to_configm": [2631],
+        "eventUrl": null
+      },
+      {
+        "id": 22,
+        "title": "Adobe Commerce & Magento Open Source Update",
+        "description": "Expect In-Depth Insights:\n\n  - The current moment for Magento: Navigating economic shifts, rapid technology change, and why community matters more than ever.\n  - How collective contribution through code, content, and collaboration sustains real careers, businesses, and livelihoods.\n  - New board leadership bringing fresh energy, continuity, and action-driven momentum to the Association.\n  - Focus on open-source progress, better documentation, global Meet Magento expansion, and visible contributor recognition through the Ambassador program.\n  - A renewed call for participation as the community helps shape Magento’s future alongside Adobe’s evolving strategy.",
+        "lang": "en",
+        "track": "Technique",
+        "room": "breakout",
+        "start": "17h30",
+        "end": "18h00",
+        "tags": ["Technical", "Expertise"],
+        "speakers": [2629,2619],
+        "eventUrl": null
+      },
+      {
+        "id": 23,
+        "title": "Code Ownership. The key advantage of Magento in an age of AI",
+        "description": "How the e-commerce is evolving in an age of AI, and how this puts open source e-commerce at an advantage against locked down SaaS solutions. And how Hyva enables merchants and agencies to accelerate their development velocity and lower their cost of ownership and operations.",
+        "lang": "en",
+        "track": "Business",
+        "room": "main",
+        "start": "18h00",
+        "end": "18h30",
+        "tags": ["Business", "IA"],
+        "speakers": [2612],
+        "eventUrl": null
+      }
+    ]
   }
 }

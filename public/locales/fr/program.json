@@ -8,21 +8,28 @@
   "breaktimes": [
     {
       "title": "Petit-déjeuner & Networking",
-      "start": " 9h00",
-      "end": " 9h30",
+      "start": "09h00",
+      "end": "09h30",
       "sponsor": null,
       "background": "default"
     },
     {
+      "title": "Opening Note",
+      "start": "09h30",
+      "end": "09h35",
+      "sponsor": null,
+      "background": "variant3"
+    },
+    {
       "title": "Pause & Networking",
       "start": "10h45",
-      "end": "11h30",
+      "end": "11h15",
       "sponsor": null,
       "background": "variant1"
     },
     {
       "title": "Lunch & Networking",
-      "start": "12h30",
+      "start": "12h15",
       "end": "13h30",
       "sponsor": null,
       "background": "variant2"
@@ -36,15 +43,15 @@
     },
     {
       "title": "Closing Note",
-      "start": "17h30",
-      "end": "18h00",
+      "start": "18h30",
+      "end": "18h40",
       "sponsor": null,
       "background": "variant1"
     },
     {
       "title": "Cocktail & Networking",
-      "start": "18h00",
-      "end": "22h00",
+      "start": "18h40",
+      "end": "21h00",
       "sponsor": {
         "name": "Hyva x mollie",
         "logoSrc": "/images/sponsors/hyva-x-mollie.svg",
@@ -54,7 +61,7 @@
     },
     {
       "title": "After Party",
-      "start": "22h00",
+      "start": "21h00",
       "end": "",
       "sponsor": null,
       "background": "variant3"

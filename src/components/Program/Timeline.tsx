@@ -55,10 +55,7 @@ const Timeline = ({ activeFilters }: TimelineProps) => {
 
   const startHours = Object.keys(schedules).sort();
 
-  const renderSession = (hour: string, room: string) => {
-    const session = schedules[hour]?.[room];
-    if (!session) return <div />;
-
+  const renderSession = (session: SessionProps) => {
     return (
       <ProgramTile
         session={session}
@@ -79,10 +76,13 @@ const Timeline = ({ activeFilters }: TimelineProps) => {
     }
 
     return (
-      <div className="w-full grid grid-cols-1 lg:grid-cols-3 grid-rows-auto gap-4">
+      <div className="w-full grid grid-cols-1 lg:grid-cols-2 grid-rows-auto gap-4">
         {Object.keys(rooms).map((room) => (
+
           <Fragment key={`timeline-${hour}-${room}`}>
-            {renderSession(hour, room)}
+            {schedules[hour]?.[room] && (
+              renderSession(schedules[hour][room])
+            )}
           </Fragment>
         ))}
       </div>
