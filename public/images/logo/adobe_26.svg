@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="58.3 65.9 133.4 118.2" width="133.4px" height="118.2px">
+  <defs>
+    <style type="text/css">.r{fill:#eb1000;}.w{fill:#fff;}</style>
+  </defs>
+  <g>
+    <rect class="r" width="133.4" height="118.2" y="65.9" x="58.3"></rect>
+  </g>
+  <g>
+    <polygon class="w" points="142.4,65.9 191.7,65.9 191.7,184.1"></polygon>
+    <polygon class="w" points="107.6,65.9 58.3,65.9 58.3,184.1"></polygon>
+    <polygon class="w" points="125,109.5 156.4,184.1 135.8,184.1 126.4,160.3 103.4,160.3"></polygon>
+  </g>
+</svg>

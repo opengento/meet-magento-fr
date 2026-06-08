@@ -29,7 +29,7 @@
         "id": 2602,
         "name": "Régis Quintin",
         "company": "Adobe",
-        "companyLogo": "/images/logo/adobe.svg",
+        "companyLogo": "/images/logo/adobe_26.svg",
         "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
         "linkedin": "https://www.linkedin.com/in/regisquintin",
         "role": "Head of Adobe Commerce for EMEA",
@@ -117,7 +117,7 @@
         "id": 2610,
         "name": "Stéphane Dom",
         "company": "Adobe",
-        "companyLogo": "/images/logo/adobe.svg",
+        "companyLogo": "/images/logo/adobe_26.svg",
         "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
         "linkedin": "https://www.linkedin.com/in/stephanedom/",
         "role": "Product Sales Specialist",
@@ -205,7 +205,7 @@
         "id": 2618,
         "name": "Harrison Loveall",
         "company": "Adobe",
-        "companyLogo": "/images/logo/adobe.svg",
+        "companyLogo": "/images/logo/adobe_26.svg",
         "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
         "linkedin": "https://www.linkedin.com/in/harrisonloveall/",
         "role": "Manager, Payments Specialist Team",
@@ -216,7 +216,7 @@
         "id": 2619,
         "name": "Ritesh Somani",
         "company": "Adobe",
-        "companyLogo": "/images/logo/adobe.svg",
+        "companyLogo": "/images/logo/adobe_26.svg",
         "companyUrl": "https://business.adobe.com/fr/products/magento/magento-commerce.html",
         "linkedin": "https://www.linkedin.com/in/rksomani/",
         "role": "Product Manager, Commerce & Adobe Payments, Adobe | Member Board of Directors, Magento Association",
@@ -365,6 +365,17 @@
         "role": "Founder",
         "photo": "/images/speakers/christophe_denuziere_26.png",
         "biography": "Christophe est le co-fondateur de Sutunam, l'agence e-commerce spécialisée Magento, avec plus de 10 développeurs certifiés Magento experts et partenaire Hyva Silver.\n\nDepuis 2010, il accompagne avec ses équipes les e-commerçants dans la création, la maintenance et l'hébergement de leurs boutiques en ligne.\n\nCes dernières années, l’automatisation et l’intelligence artificielle ont pris une place centrale dans les développements de Sutunam.\nL’une des grandes forces de l’agence réside dans sa capacité à concevoir rapidement des prototypes fonctionnels, puis à les industrialiser."
+      },
+      {
+        "id": 2633,
+        "name": "Romain Coste",
+        "company": "Besson",
+        "companyLogo": "/images/logo/besson.png",
+        "companyUrl": "https://www.besson-shoes.com/",
+        "linkedin": "https://fr.linkedin.com/in/romaincoste/",
+        "role": "Chef de projet IT",
+        "photo": "/images/speakers/romain_coste.png",
+        "biography": "Romain Coste possède une vaste expérience dans la gestion de projets informatiques et l'ingénierie des données. Il occupe actuellement le poste de chef de projet informatique chez Besson Chaussures depuis décembre 2019, où il se consacre à la modernisation de l'infrastructure de données à l'aide d'outils tels que Talend, dbt, Power BI et PostgreSQL, ainsi qu'à la mise en œuvre de solutions de gestion des données en temps réel."
       }
     ],
     "rooms": {
@@ -585,7 +596,7 @@
       },
       {
         "id": 17,
-        "title": "\uD83D\uDC40",
+        "title": "Somfy Group",
         "description": "",
         "lang": "fr",
         "track": "Business",
@@ -593,8 +604,7 @@
         "start": "16h30",
         "end": "17h00",
         "tags": ["Business", "Merchant"],
-        "speakers": [],
-        "speakers_to_confirm": [2630],
+        "speakers": [2630],
         "eventUrl": null
       },
       {
@@ -638,7 +648,7 @@
       },
       {
         "id": 21,
-        "title": "\uD83D\uDC40",
+        "title": "Besson Chaussures",
         "description": "",
         "lang": "fr",
         "track": "Business",
@@ -646,8 +656,7 @@
         "start": "17h30",
         "end": "18h00",
         "tags": ["Business", "Merchant"],
-        "speakers": [],
-        "speakers_to_configm": [2631],
+        "speakers": [2631,2633],
         "eventUrl": null
       },
       {
