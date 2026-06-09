@@ -59,7 +59,8 @@ export default function Page() {
         </Typography>
         <Typography
           color="dark"
-          className="mb-8"
+          variant="subtitle1"
+          className="mt-8 mb-8"
         >
           {t('staff:subtitle')}
         </Typography>
