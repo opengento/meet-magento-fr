@@ -7,7 +7,7 @@ import ContentMedia from "@/components/ContentMedia/ContentMedia";
 import { useTranslation } from "react-i18next";
 
 const Push = () => {
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation(['common', 'edition']);
 
   return (
     <div className="my-4">
