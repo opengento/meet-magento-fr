@@ -37,13 +37,15 @@ const Hero = () => {
         <Container size="default" className="pt-[104px]">
           <div className="flex py-16 gap-12 items-center">
             <div className="flex flex-col gap-2">
-              <span className="w-fit font-alt text-4xl md:text-5xl lg:text-5xl text-white font-semibold">
-                {t('hero:title')}
-              </span>
-              <h1 className="relative w-fit font-alt text-2xl md:text-3xl lg:text-3xl text-white font-semibold">
-                <span className="relative z-10">{t('hero:subtitle', { year: t('edition:nextEditionYear') })}</span>
-                <span className="absolute inset-x-0 bottom-0 h-[50%] bg-primary-100"></span>
-              </h1>
+              <div className="flex flex-col-reverse gap-2">
+                <h1 className="relative w-fit font-alt text-2xl md:text-3xl lg:text-3xl text-white font-semibold">
+                  <span className="relative z-10">{t('hero:subtitle', { year: t('edition:nextEditionYear') })}</span>
+                  <span className="absolute inset-x-0 bottom-0 h-[50%] bg-primary-100"></span>
+                </h1>
+                <h2 className="w-fit font-alt text-4xl md:text-5xl lg:text-5xl text-white font-semibold">
+                  {t('hero:title')}
+                </h2>
+              </div>
               <Typography color="light" className="mt-4 font-alt whitespace-pre-wrap">
                 {t('hero:content')}
               </Typography>

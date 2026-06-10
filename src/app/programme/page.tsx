@@ -16,7 +16,7 @@ export default function Page() {
     <Container size="large" className="flex flex-col gap-8 my-8">
       <ContentMedia>
         <Typography
-          variant="h2"
+          variant="h1"
           color="dark"
           weight="semibold"
           className="mb-2"

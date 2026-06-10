@@ -24,7 +24,7 @@ const TopBanner = ({
   const bannerContent = (
     <ClientOnly>
       <div className="top-banner-content flex flex-wrap flex-row justify-between items-center gap-2">
-        <Typography variant="h4" className="text-white" weight="normal">
+        <Typography variant="h3" className="text-white" weight="normal">
           {title}
         </Typography>
         <div className="flex gap-2">
