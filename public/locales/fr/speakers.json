@@ -340,14 +340,14 @@
         "companyLogo": "/images/merchants/somfy.svg",
         "companyUrl": "https://www.somfy.fr/",
         "linkedin": "https://www.linkedin.com/in/frederic-truscello/",
-        "role": "Expert e-commerce Magento / Adobe Commerce",
+        "role": "E-commerce Platform Lead",
         "photo": "/images/speakers/frederic_truscello.png",
-        "biography": "Fort de plus de 20 ans d’expérience en e-commerce B2B et B2C à l’international, Frédéric Truscello est un expert en digital et spécialiste Magento / Adobe Commerce.\nPassionné par l’e-commerce, il accompagne des clients prestigieux dans leur transformation digitale, conjuguant ainsi ambition et innovation.\nAprès un Proof of Concept réussi en 2023 avec Hyvä pour le groupe SOMFY, il a piloté la refonte de l’ensemble des sites Somfy B2C, la création d’une plateforme B2B évolutive déployée dans plus de 18 pays et travaille actuellement sur le passage à Adobe Commerce Cloud qui permettra de réduire l’ infrastructure du groupe SOMFY de 14 à 4 environnements.\nVenez découvrir des insights précieux et des stratégies innovantes pour réussir votre transformation digitale lors de MeetMagento France !"
+        "biography": "Frédéric Truscello est E-commerce Platform Lead chez SOMFY. Depuis plus de 20 ans, il construit des trajectoires e-commerce B2B/B2C où l’innovation, l’open source et l’expertise technique servent la transformation digitale. Son parcours entrepreneurial, enrichi par la conception de solutions digitales et l’accompagnement de groupes internationaux, a forgé une approche pragmatique des plateformes. Elle vise des architectures justes, des coûts maîtrisés, une exécution sécurisée et des expériences client robustes, performantes et durables, à forte valeur business, dans des contextes multi-pays."
       },
       {
         "id": 2631,
         "name": "Sébastien Bonnet",
-        "company": "Besson",
+        "company": "Besson Chaussures",
         "companyLogo": "/images/logo/besson.png",
         "companyUrl": "https://www.besson-shoes.com/",
         "linkedin": "https://fr.linkedin.com/in/s%C3%A9bastien-bonnet-12413414/",
@@ -369,7 +369,7 @@
       {
         "id": 2633,
         "name": "Romain Coste",
-        "company": "Besson",
+        "company": "Besson Chaussures",
         "companyLogo": "/images/logo/besson.png",
         "companyUrl": "https://www.besson-shoes.com/",
         "linkedin": "https://fr.linkedin.com/in/romaincoste/",
@@ -596,14 +596,14 @@
       },
       {
         "id": 17,
-        "title": "Somfy Group",
-        "description": "",
+        "title": "Adobe Commerce Cloud & Hyvä au service de l’expérience e-commerce de Somfy Group",
+        "description": "En 2025, Frédéric Truscello partageait à Meet Magento France une trajectoire Adobe Commerce + Hyvä déjà engagée chez SOMFY : performances décisives du Proof Of Concept Hyvä Checkout, refonte B2C, plateforme B2B déployée dans plus de 18 pays et rationalisation de 14 instances à 4 environnements. En 2026, le passage à Adobe Commerce Cloud ouvre l’Acte II. Pensé pour des décideurs business et techniques, ce retour d’expérience montre comment cette étape transforme un socle performant en plateforme industrialisée, mieux maîtrisée, prête à porter l’expérience client, la donnée produit et les nouveaux usages liés à l’IA.",
         "lang": "fr",
         "track": "Business",
         "room": "main",
         "start": "16h30",
         "end": "17h00",
-        "tags": ["Business", "Merchant"],
+        "tags": ["Business", "Merchant", "IA"],
         "speakers": [2630],
         "eventUrl": null
       },
