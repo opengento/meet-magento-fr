@@ -75,17 +75,6 @@
     },
     {
       "id": 7,
-      "name": "Julien Didier",
-      "company": "Agence Dn'D",
-      "companyLogo": "/images/logo/dnd.svg",
-      "companyUrl": "https://www.dnd.fr/",
-      "linkedin": "https://www.linkedin.com/in/julien-didier-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-0306278",
-      "role": "Président & Co-fondateur",
-      "photo": "/images/staff/julien_didier.png",
-      "biography": ""
-    },
-    {
-      "id": 8,
       "name": "Cannelle Lemnos",
       "company": "Ati4 Group",
       "companyLogo": "/images/logo/ati4group.svg",
@@ -93,6 +82,17 @@
       "linkedin": "https://www.linkedin.com/in/cannelle-lemnos-consultante-communication",
       "role": "Chargée de communication",
       "photo": "/images/staff/cannelle_lemnos.png",
+      "biography": ""
+    },
+    {
+      "id": 8,
+      "name": "Julien Didier",
+      "company": "Agence Dn'D",
+      "companyLogo": "/images/logo/dnd.svg",
+      "companyUrl": "https://www.dnd.fr/",
+      "linkedin": "https://www.linkedin.com/in/julien-didier-%F0%9F%85%93%F0%9F%85%9D%F0%9F%85%93-0306278",
+      "role": "Président & Co-fondateur",
+      "photo": "/images/staff/julien_didier.png",
       "biography": ""
     },
     {
@@ -104,6 +104,17 @@
       "linkedin": "https://www.linkedin.com/in/thomas-klein/",
       "role": "Secrétaire",
       "photo": "/images/staff/thomas_klein.png",
+      "biography": ""
+    },
+    {
+      "id": 10,
+      "name": "Olivier Haesen",
+      "company": "Ati4 Group",
+      "companyLogo": "/images/logo/ati4group.svg",
+      "companyUrl": "https://ati4group.com/",
+      "linkedin": "https://www.linkedin.com/in/olivierhaesen",
+      "role": "Directeur Commercial",
+      "photo": "/images/staff/olivier_haesen.png",
       "biography": ""
     }
   ]
