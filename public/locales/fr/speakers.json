@@ -353,7 +353,7 @@
         "linkedin": "https://fr.linkedin.com/in/s%C3%A9bastien-bonnet-12413414/",
         "role": "Directeur des Systèmes d’Information",
         "photo": "/images/speakers/sebastien_bonnet.png",
-        "biography": "Après plus de 20 années dans les métiers des systèmes d’information. Ma vision de l’IT est globale tant stratégique qu’opérationnelle nécessaire à un projet de transformation digitale de l’entreprise."
+        "biography": "Directeur des systèmes d'information chez Besson Chaussures depuis 2023 et une expérience de plus de 25 dans les métiers IT pour de multiples secteurs d'activités. J’accompagne la stratégie de l'entreprise afin de répondre à ses enjeux business par le biais des outils numérique, digitaux et l'optimisation des processus. Le pilotage des projets d’innovation numérique dont l'intelligence artificielle font partis de mes attributions."
       },
       {
         "id": 2632,
@@ -375,7 +375,7 @@
         "linkedin": "https://fr.linkedin.com/in/romaincoste/",
         "role": "Chef de projet IT",
         "photo": "/images/speakers/romain_coste.png",
-        "biography": "Romain Coste possède une vaste expérience dans la gestion de projets informatiques et l'ingénierie des données. Il occupe actuellement le poste de chef de projet informatique chez Besson Chaussures depuis décembre 2019, où il se consacre à la modernisation de l'infrastructure de données à l'aide d'outils tels que Talend, dbt, Power BI et PostgreSQL, ainsi qu'à la mise en œuvre de solutions de gestion des données en temps réel."
+        "biography": "Venu du Data Engineering, je suis en poste chez Besson depuis fin 2019 en tant que Chef de Projet IT. \nJe pilote les évolutions de la plateforme e-commerce (Adobe Commerce / OneStock), du CRM et du service client, en assurant la coordination entre les équipes métier et techniques.\nJe supervise également la stack data/IA, l'architecture événementielle ainsi que la plateforme CRM interne."
       }
     ],
     "rooms": {
@@ -648,8 +648,8 @@
       },
       {
         "id": 21,
-        "title": "Besson Chaussures",
-        "description": "",
+        "title": "De la dépendance à l'omnicanalité maîtrisée : Besson fait le choix du best of breed",
+        "description": "Présentation de Besson Chaussures\nLe marché : Les défis lés au secteur de l’habillement\nQuels étaient les enjeux de Besson, comment avez-vous choisi la stack Adobe Commerce x Hyvä, quels résultats avez-vous pu déjà observer ?\nOmnicanalité magasins physique et web\nQuestions réponses avec l’audience",
         "lang": "fr",
         "track": "Business",
         "room": "main",
